@@ -1,0 +1,96 @@
+BLUESTOCK MF CAPSTONE — DAY 1 DATA QUALITY REPORT
+Generated: 2026-09-06 23:50:17
+============================================================
+
+PER-DATASET SUMMARY
+------------------------------------------------------------
+
+01_fund_master.csv
+  Rows    : 40
+  Columns : 15
+  Nulls   : 0
+  Dupes   : 0
+  Memory  : 0.03 MB
+
+02_nav_history.csv
+  Rows    : 46,000
+  Columns : 3
+  Nulls   : 0
+  Dupes   : 0
+  Memory  : 3.29 MB
+
+03_aum_by_fund_house.csv
+  Rows    : 90
+  Columns : 5
+  Nulls   : 0
+  Dupes   : 0
+  Memory  : 0.01 MB
+
+04_monthly_sip_inflows.csv
+  Rows    : 48
+  Columns : 6
+  Nulls   : 12
+  Dupes   : 0
+  Memory  : 0.00 MB
+
+05_category_inflows.csv
+  Rows    : 144
+  Columns : 3
+  Nulls   : 0
+  Dupes   : 0
+  Memory  : 0.02 MB
+
+06_industry_folio_count.csv
+  Rows    : 21
+  Columns : 6
+  Nulls   : 0
+  Dupes   : 0
+  Memory  : 0.00 MB
+
+07_scheme_performance.csv
+  Rows    : 40
+  Columns : 19
+  Nulls   : 0
+  Dupes   : 0
+  Memory  : 0.02 MB
+
+08_investor_transactions.csv
+  Rows    : 32,778
+  Columns : 13
+  Nulls   : 0
+  Dupes   : 0
+  Memory  : 18.19 MB
+
+09_portfolio_holdings.csv
+  Rows    : 322
+  Columns : 8
+  Nulls   : 0
+  Dupes   : 0
+  Memory  : 0.08 MB
+
+10_benchmark_indices.csv
+  Rows    : 8,050
+  Columns : 3
+  Nulls   : 0
+  Dupes   : 0
+  Memory  : 0.97 MB
+
+
+============================================================
+  DATA QUALITY SUMMARY — Day 1 Ingestion
+  Generated: 2026-09-06 23:50:17
+============================================================
+
+  Datasets Loaded           : 10 / 10
+  Total Records (all files) : (see per-file details below)
+
+  AMFI Code Integrity:
+    Master codes             : 40
+    NAV history codes        : 40
+    Match rate               : 100.0%
+    Unmatched (master→NAV)   : 0
+    Unmatched (NAV→master)   : 0
+
+  ✓ RESULT: All AMFI codes are consistent. Data integrity is GOOD.
+
+============================================================

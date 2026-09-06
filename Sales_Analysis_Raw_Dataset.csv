@@ -1,0 +1,1209 @@
+Order_ID,Order_Date,Customer_ID,Customer_Name,Region,State,City,Category,Sub_Category,Product,Quantity,Unit_Price,Discount,Sales,Profit,Payment_Mode
+ORD10001,2025-04-13,CUST1228,Customer 1228,West,Goa,Margao,Office Supplies,Stationery,Premium Notebook,3,328.54,0.15,837.77,96.03,Net Banking
+ORD10002,2025-12-15,CUST1114,Customer 1114,North,Punjab,Amritsar,Office Supplies,Stationery,Gel Pen Pack,3,169.32,0.2,406.36,12.34,UPI
+ORD10003,2025-09-28,CUST1237,Customer 1237,West,Goa,Margao,Electronics,Headphones,SoundMax Pro,3,4526.54,0.05,12900.63,1376.88,Net Banking
+ORD10004,2025-04-17,CUST1141,Customer 1141,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,1,4814.33,0.05,4573.61,834.18,Net Banking
+ORD10005,2025-03-13,CUST1174,Customer 1174,West,Maharashtra,Kolhapur,Electronics,Accessories,Wireless Mouse,1,1163.2,0.05,1105.04,37.27,Debit Card
+ORD10006,2025-07-08,CUST1210,Customer 1210,East,West Bengal,Durgapur,Furniture,Chairs,Ergo Chair,1,9002.58,0.1,8102.32,718.55,Credit Card
+ORD10007,2025-01-21,CUST1161,Customer 1161,West,Maharashtra,Mumbai,Office Supplies,Paper,A4 Paper Box,3,541.97,0.0,1625.92,69.4,Credit Card
+ORD10008,2025-04-13,CUST1021,Customer 1021,South,Tamil Nadu,Coimbatore,Electronics,Laptops,AeroBook 14,3,59498.3,0.1,160645.41,19693.34,UPI
+ORD10009,2025-05-02,CUST1208,Customer 1208,East,Odisha,Bhubaneswar,Furniture,Storage,Filing Cabinet,2,6295.54,0.0,12591.08,305.23,UPI
+ORD10010,2025-08-03,CUST1079,Customer 1079,North,Uttar Pradesh,Kanpur,Office Supplies,Stationery,Gel Pen Pack,4,168.53,0.0,674.13,149.86,Debit Card
+ORD10011,2025-11-27,CUST1246,Customer 1246,West,Maharashtra,Pune,Office Supplies,Stationery,Premium Notebook,5,362.8,0.05,1723.28,78.37,Credit Card
+ORD10012,2025-03-29,CUST1185,Customer 1185,North,Uttar Pradesh,Lucknow,Furniture,Chairs,Ergo Chair,1,8091.55,0.05,7686.97,153.74,UPI
+ORD10013,2025-04-10,CUST1069,Customer 1069,West,Gujarat,Vadodara,Appliances,Home,Air Purifier,3,15180.75,0.05,43265.14,4847.73,UPI
+ORD10014,2025-12-26,CUST1070,Customer 1070,South,Karnataka,Mysuru,Appliances,Home,Air Purifier,4,15504.21,0.05,58916.01,15157.77,Net Banking
+ORD10015,2025-06-01,CUST1230,Customer 1230,West,Maharashtra,Kolhapur,Electronics,Accessories,Wireless Mouse,2,1243.29,0.05,2362.25,442.41,Credit Card
+ORD10016,2025-05-11,CUST1067,Customer 1067,West,Gujarat,Vadodara,Appliances,Kitchen,Mixer Grinder,2,3940.09,0.0,7880.18,200.46,Net Banking
+ORD10017,2025-05-30,CUST1048,Customer 1048,West,Gujarat,Ahmedabad,Furniture,Storage,Filing Cabinet,3,6698.13,0.05,19089.66,830.04,UPI
+ORD10018,2025-11-05,CUST1204,Customer 1204,East,Odisha,Bhubaneswar,Furniture,Chairs,Ergo Chair,6,8479.7,0.2,40702.56,1722.04,Credit Card
+ORD10019,2025-09-15,CUST1228,Customer 1228,North,Punjab,Amritsar,Furniture,Storage,Filing Cabinet,5,6844.42,0.05,32510.99,9564.24,UPI
+ORD10020,2025-12-10,CUST1161,Customer 1161,West,Gujarat,Surat,Appliances,Kitchen,Mixer Grinder,3,4413.94,0.05,12579.72,902.89,Credit Card
+ORD10021,2025-10-21,CUST1036,Customer 1036,South,Karnataka,Bengaluru,Electronics,Laptops,AeroBook 14,4,58743.05,0.1,211474.97,10539.5,Debit Card
+ORD10022,2025-07-11,CUST1161,Customer 1161,East,Odisha,Bhubaneswar,Electronics,Laptops,AeroBook 14,2,65053.69,0.2,104085.9,18414.88,UPI
+ORD10023,2025-10-04,CUST1159,Customer 1159,East,West Bengal,Durgapur,Office Supplies,Paper,A4 Paper Box,4,536.05,0.0,2144.19,372.32,Credit Card
+ORD10024,2025-06-10,CUST1149,Customer 1149,East,West Bengal,Durgapur,Appliances,Home,Air Purifier,3,15638.56,0.1,42224.11,7968.11,Debit Card
+ORD10025,2025-11-10,CUST1027,Customer 1027,East,Odisha,Cuttack,Appliances,Kitchen,Electric Kettle,2,1857.46,0.1,3343.44,214.32,Debit Card
+ORD10026,2025-01-22,CUST1219,Customer 1219,North,Punjab,Amritsar,Electronics,Headphones,SoundMax Pro,4,4436.65,0.1,15971.95,1723.14,Debit Card
+ORD10027,2025-09-10,CUST1072,Customer 1072,West,Maharashtra,Mumbai,Appliances,Home,Air Purifier,3,14603.23,0.0,43809.68,11044.17,UPI
+ORD10028,2025-08-24,CUST1248,Customer 1248,West,Gujarat,,Office Supplies,Binders,Document Binder,2,266.9,0.1,480.41,50.38,Credit Card
+ORD10029,2025-12-11,CUST1101,Customer 1101,South,Tamil Nadu,Coimbatore,Electronics,Mobiles,Nova X5,6,28110.53,0.0,168663.19,40245.35,Net Banking
+ORD10030,2025-02-18,CUST1190,Customer 1190,South,Tamil Nadu,Chennai,Electronics,Mobiles,Nova X5,1,28624.4,0.1,25761.96,3661.0,Net Banking
+ORD10031,2025-02-28,CUST1096,Customer 1096,East,Jharkhand,Jamshedpur,Furniture,Storage,Filing Cabinet,2,6623.74,0.1,11922.74,503.45,Net Banking
+ORD10032,2025-06-19,CUST1128,Customer 1128,West,Maharashtra,Kolhapur,Appliances,Kitchen,Mixer Grinder,1,4473.41,0.0,4473.41,710.64,Credit Card
+ORD10033,2025-07-07,CUST1026,Customer 1026,North,Uttar Pradesh,Noida,Office Supplies,Paper,A4 Paper Box,5,527.27,0.15,2240.89,361.23,Cash
+ORD10034,2025-09-28,CUST1066,Customer 1066,East,Odisha,Bhubaneswar,Electronics,Mobiles,Nova X5,4,26142.6,0.0,104570.41,21631.34,Debit Card
+ORD10035,2025-07-09,CUST1140,Customer 1140,West,Goa,Panaji,Office Supplies,Binders,Document Binder,2,257.91,0.15,438.45,39.32,UPI
+ORD10036,2025-06-24,CUST1022,Customer 1022,West,Gujarat,Surat,Electronics,Accessories,Wireless Mouse,4,1249.22,0.05,4747.04,94.94,Cash
+ORD10037,2025-02-20,CUST1017,Customer 1017,North,Uttar Pradesh,Noida,Electronics,Mobiles,Nova X5,2,29317.72,0.0,58635.45,2010.06,Debit Card
+ORD10038,2025-12-30,CUST1007,Customer 1007,North,Punjab,Amritsar,Furniture,Tables,Office Table,4,12489.19,0.0,49956.78,2456.31,UPI
+ORD10039,2025-02-24,CUST1107,Customer 1107,West,Goa,Panaji,Office Supplies,Stationery,Premium Notebook,3,372.11,0.2,893.05,30.6,UPI
+ORD10040,2025-09-01,CUST1068,Customer 1068,West,Goa,Margao,Office Supplies,Paper,A4 Paper Box,2,500.67,0.0,1001.34,133.78,Cash
+ORD10041,2025-11-16,CUST1128,Customer 1128,West,Goa,Panaji,Electronics,Accessories,Wireless Mouse,7,1182.83,0.0,8279.84,469.64,UPI
+ORD10042,2025-05-11,CUST1037,Customer 1037,North,Delhi,New Delhi,Furniture,Chairs,Ergo Chair,2,9042.09,0.05,17179.97,3591.92,UPI
+ORD10043,2025-11-03,CUST1038,Customer 1038,West,Goa,Panaji,Electronics,Accessories,Wireless Mouse,1,1276.08,0.1,1148.47,30.48,
+ORD10044,2025-05-15,CUST1096,Customer 1096,West,Maharashtra,Kolhapur,Electronics,Headphones,SoundMax Pro,3,4633.71,0.1,12511.03,250.22,UPI
+ORD10045,2025-01-21,CUST1139,Customer 1139,South,Tamil Nadu,Coimbatore,Furniture,Chairs,Ergo Chair,7,8988.21,0.0,62917.49,10455.41,Net Banking
+ORD10046,2025-11-25,CUST1001,Customer 1001,West,Goa,Margao,Appliances,Home,Air Purifier,2,14480.16,0.05,27512.3,5658.55,Credit Card
+ORD10047,2025-06-16,CUST1153,Customer 1153,North,Punjab,Amritsar,Office Supplies,Stationery,Gel Pen Pack,1,190.51,0.0,190.51,57.89,Credit Card
+ORD10048,2025-10-01,CUST1042,Customer 1042,West,Gujarat,Ahmedabad,Office Supplies,Stationery,Premium Notebook,2,339.95,0.0,679.91,136.51,Net Banking
+ORD10049,2025-03-30,CUST1180,Customer 1180,West,Goa,Margao,Office Supplies,Stationery,Premium Notebook,3,331.99,0.05,946.16,234.73,Credit Card
+ORD10050,2025-11-12,CUST1152,Customer 1152,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Premium Notebook,1,335.4,0.1,301.86,9.1,Credit Card
+ORD10051,2025-01-14,CUST1181,Customer 1181,North,Uttar Pradesh,Kanpur,Appliances,Kitchen,Mixer Grinder,4,4144.87,0.0,16579.5,5159.24,Cash
+ORD10052,2025-08-30,CUST1235,Customer 1235,South,Tamil Nadu,Coimbatore,Office Supplies,Stationery,Premium Notebook,8,336.07,0.05,2554.11,51.08,Credit Card
+ORD10053,2025-09-22,CUST1184,Customer 1184,South,Tamil Nadu,Chennai,Furniture,Storage,Filing Cabinet,3,6604.78,0.05,18823.62,1924.36,UPI
+ORD10054,2025-12-12,CUST1063,Customer 1063,East,Jharkhand,Jamshedpur,Office Supplies,Stationery,Premium Notebook,2,329.56,0.2,527.29,57.6,Debit Card
+ORD10055,2025-02-22,CUST1081,Customer 1081,North,Delhi,Delhi,Office Supplies,Binders,Document Binder,2,251.52,0.2,402.43,8.05,Cash
+ORD10056,2025-12-06,CUST1008,Customer 1008,West,Maharashtra,Mumbai,Appliances,Home,Air Purifier,1,15679.26,0.15,13327.37,367.92,Cash
+ORD10057,2025-04-02,CUST1187,Customer 1187,West,Gujarat,Ahmedabad,Office Supplies,Stationery,Premium Notebook,6,346.74,0.0,2080.46,174.73,Net Banking
+ORD10058,2025-09-21,CUST1173,Customer 1173,South,Tamil Nadu,Coimbatore,Appliances,Kitchen,Electric Kettle,2,1755.86,0.0,3511.71,485.62,Cash
+ORD10059,2025-02-04,CUST1027,Customer 1027,West,Maharashtra,Mumbai,Appliances,Home,Air Purifier,2,16111.2,0.05,30611.28,7255.2,Debit Card
+ORD10060,2025-07-25,CUST1052,Customer 1052,West,Goa,Margao,Office Supplies,Stationery,Premium Notebook,4,372.04,0.0,1488.15,239.86,Cash
+ORD10061,2025-03-22,CUST1146,Customer 1146,West,Gujarat,Vadodara,Appliances,Kitchen,Mixer Grinder,3,4372.56,0.05,12461.8,1309.56,UPI
+ORD10062,2025-02-19,CUST1091,Customer 1091,West,Maharashtra,Kolhapur,Office Supplies,Paper,A4 Paper Box,4,506.02,0.1,1821.68,36.43,Credit Card
+ORD10063,2025-12-26,CUST1086,Customer 1086,West,Gujarat,Surat,Furniture,Storage,Filing Cabinet,1,7065.95,0.15,6006.06,751.8,Debit Card
+ORD10064,2025-01-02,CUST1016,Customer 1016,North,Uttar Pradesh,Kanpur,Appliances,Kitchen,Mixer Grinder,5,3966.13,0.15,16856.06,2491.34,Credit Card
+ORD10065,2025-02-23,CUST1066,Customer 1066,East,West Bengal,Kolkata,Electronics,Laptops,AeroBook 14,7,58332.75,0.05,387912.82,7758.26,UPI
+ORD10066,2025-04-16,CUST1005,Customer 1005,South,Tamil Nadu,Chennai,Electronics,Accessories,Wireless Mouse,4,1170.36,0.1,4213.3,464.78,UPI
+ORD10067,2025-09-17,CUST1082,Customer 1082,South,Telangana,Warangal,Appliances,Kitchen,Electric Kettle,7,1888.62,0.05,12559.31,1896.59,UPI
+ORD10068,2025-11-06,CUST1131,Customer 1131,East,Odisha,Cuttack,Appliances,Kitchen,Electric Kettle,1,1726.95,0.0,1726.95,392.92,Credit Card
+ORD10069,2025-07-10,CUST1219,Customer 1219,West,Goa,Panaji,Electronics,Accessories,Wireless Mouse,3,1116.14,0.1,3013.59,193.67,Cash
+ORD10070,2025-08-06,CUST1118,Customer 1118,East,Jharkhand,Ranchi,Furniture,Chairs,Ergo Chair,3,7999.12,0.0,23997.37,2369.14,Net Banking
+ORD10071,2025-02-13,CUST1081,Customer 1081,North,Delhi,New Delhi,Office Supplies,Paper,A4 Paper Box,3,549.85,0.05,1567.07,165.4,Debit Card
+ORD10072,2025-06-11,CUST1208,Customer 1208,West,Goa,Panaji,Furniture,Tables,Office Table,2,12767.57,0.05,24258.38,5516.61,Cash
+ORD10073,2025-07-21,CUST1070,Customer 1070,North,Punjab,Amritsar,Electronics,Accessories,Wireless Mouse,2,1152.61,0.1,2074.71,390.19,Credit Card
+ORD10074,2025-09-27,CUST1115,Customer 1115,East,Jharkhand,Ranchi,Electronics,Mobiles,Nova X5,1,28247.73,0.1,25422.95,2885.65,Credit Card
+ORD10075,2025-12-17,CUST1007,Customer 1007,North,Uttar Pradesh,Noida,Furniture,Tables,Office Table,2,12555.16,0.05,23854.8,4982.9,Credit Card
+ORD10076,2025-10-31,CUST1050,Customer 1050,East,West Bengal,Durgapur,Office Supplies,Stationery,Premium Notebook,1,358.7,0.15,304.9,6.1,
+ORD10077,2025-09-28,CUST1142,Customer 1142,West,Goa,Panaji,Office Supplies,Stationery,Premium Notebook,4,335.06,0.05,1273.22,245.62,UPI
+ORD10078,2025-08-03,CUST1166,Customer 1166,South,Telangana,Hyderabad,Furniture,Storage,Filing Cabinet,2,7196.47,0.05,13673.29,809.27,Credit Card
+ORD10079,2025-09-09,CUST1232,Customer 1232,North,Punjab,Ludhiana,Furniture,Tables,Office Table,1,12118.74,0.1,10906.86,2603.38,Debit Card
+ORD10080,2025-07-09,CUST1207,Customer 1207,West,Maharashtra,Pune,Electronics,Mobiles,Nova X5,3,28869.71,0.1,77948.22,3157.13,Credit Card
+ORD10081,2025-10-23,CUST1111,Customer 1111,South,Karnataka,Bengaluru,Furniture,Storage,Filing Cabinet,3,6273.54,0.2,15056.5,301.13,Net Banking
+ORD10082,2025-08-01,CUST1047,Customer 1047,East,West Bengal,Durgapur,Office Supplies,Binders,Document Binder,6,254.7,0.0,1528.22,304.68,Debit Card
+ORD10083,2025-07-27,CUST1112,Customer 1112,South,Telangana,,Appliances,Kitchen,Mixer Grinder,3,4100.35,0.1,11070.94,1783.83,UPI
+ORD10084,2025-08-25,CUST1161,Customer 1161,South,Karnataka,Mysuru,Appliances,Home,Air Purifier,2,15607.84,0.1,28094.11,2353.07,Credit Card
+ORD10085,2025-12-04,CUST1043,Customer 1043,East,Jharkhand,Jamshedpur,Appliances,Home,Air Purifier,5,14440.39,0.15,61371.64,7272.43,Debit Card
+ORD10086,2025-02-22,CUST1091,Customer 1091,West,Goa,Panaji,Furniture,Chairs,Ergo Chair,3,8894.58,0.0,26683.74,5194.7,UPI
+ORD10087,2025-10-07,CUST1029,Customer 1029,West,Gujarat,Surat,Furniture,Tables,Office Table,1,11935.56,0.1,10742.01,1530.93,UPI
+ORD10088,2025-08-05,CUST1128,Customer 1128,East,Odisha,Bhubaneswar,Office Supplies,Paper,A4 Paper Box,3,534.73,0.1,1443.77,125.15,Credit Card
+ORD10089,2025-09-09,CUST1185,Customer 1185,North,Punjab,Amritsar,Office Supplies,Stationery,Premium Notebook,6,366.98,0.0,2201.88,430.17,Net Banking
+ORD10090,2025-07-07,CUST1229,Customer 1229,West,Gujarat,Vadodara,Appliances,Home,Air Purifier,2,15653.45,0.05,29741.56,7017.4,Credit Card
+ORD10091,2025-02-10,CUST1133,Customer 1133,West,Gujarat,Ahmedabad,Office Supplies,Stationery,Premium Notebook,2,363.49,0.05,690.63,35.72,Net Banking
+ORD10092,2025-06-06,CUST1221,Customer 1221,South,Telangana,Warangal,Electronics,Headphones,SoundMax Pro,1,4616.54,0.1,4154.89,233.49,Cash
+ORD10093,2025-01-15,CUST1096,Customer 1096,South,Telangana,Warangal,Appliances,Kitchen,Mixer Grinder,1,4102.92,0.15,3487.48,329.25,UPI
+ORD10094,2025-10-28,CUST1188,Customer 1188,East,West Bengal,Kolkata,Appliances,Kitchen,Mixer Grinder,3,4407.55,0.1,11900.39,488.68,Debit Card
+ORD10095,2025-03-06,CUST1117,Customer 1117,West,Goa,Panaji,Appliances,Home,Air Purifier,3,14990.86,0.1,40475.32,809.51,Credit Card
+ORD10096,2025-12-11,CUST1070,Customer 1070,West,Goa,Panaji,Furniture,Storage,Filing Cabinet,1,6877.48,0.05,6533.61,1398.31,UPI
+ORD10097,2025-11-23,CUST1130,Customer 1130,West,Gujarat,Vadodara,Electronics,Laptops,AeroBook 14,7,64434.35,0.0,451040.42,9020.81,Debit Card
+ORD10098,2025-01-09,CUST1070,Customer 1070,South,Telangana,Warangal,Electronics,Laptops,AeroBook 14,4,60799.24,0.0,243196.97,32061.44,Debit Card
+ORD10099,2025-12-10,CUST1110,Customer 1110,West,Gujarat,Ahmedabad,Furniture,Storage,Filing Cabinet,3,6585.41,0.05,18768.42,3577.75,UPI
+ORD10100,2025-05-09,CUST1171,Customer 1171,North,Delhi,Delhi,Office Supplies,Paper,A4 Paper Box,5,516.62,0.05,2453.93,383.23,Net Banking
+ORD10101,2025-05-16,CUST1132,Customer 1132,West,Maharashtra,Mumbai,Office Supplies,Stationery,Gel Pen Pack,1,189.16,0.0,189.16,25.14,Debit Card
+ORD10102,2025-03-04,CUST1056,Customer 1056,North,Uttar Pradesh,Lucknow,Furniture,Storage,Filing Cabinet,3,7267.75,0.05,20713.1,1256.86,Net Banking
+ORD10103,2025-05-19,CUST1221,Customer 1221,North,Delhi,New Delhi,Office Supplies,Paper,A4 Paper Box,4,523.75,0.05,1990.25,321.57,UPI
+ORD10104,2025-03-22,CUST1187,Customer 1187,South,Telangana,Hyderabad,Furniture,Chairs,Ergo Chair,5,8719.59,0.0,43597.97,3959.24,Net Banking
+ORD10105,2025-06-12,CUST1089,Customer 1089,West,Maharashtra,Pune,Office Supplies,Stationery,Premium Notebook,5,372.58,0.05,1769.77,276.29,Credit Card
+ORD10106,2025-10-16,CUST1137,Customer 1137,West,Gujarat,Surat,Electronics,Mobiles,Nova X5,2,26201.49,0.0,52402.98,8901.39,UPI
+ORD10107,2025-09-18,CUST1248,Customer 1248,West,Gujarat,Ahmedabad,Office Supplies,Stationery,Gel Pen Pack,7,172.28,0.15,1025.09,105.66,Debit Card
+ORD10108,2025-08-19,CUST1131,Customer 1131,South,Tamil Nadu,Chennai,Furniture,Tables,Office Table,1,12917.8,0.15,10980.13,523.51,Debit Card
+ORD10109,2025-02-10,CUST1218,Customer 1218,South,Tamil Nadu,Coimbatore,Appliances,Kitchen,Electric Kettle,6,1893.24,0.1,10223.49,2632.04,Credit Card
+ORD10110,2025-01-28,CUST1176,Customer 1176,North,Uttar Pradesh,Noida,Office Supplies,Stationery,Gel Pen Pack,8,190.28,0.0,1522.26,281.73,Credit Card
+ORD10111,2025-05-15,CUST1171,Customer 1171,North,Delhi,New Delhi,Electronics,Mobiles,Nova X5,1,27619.68,0.1,24857.71,2373.67,UPI
+ORD10112,2025-07-20,CUST1219,Customer 1219,North,Uttar Pradesh,Kanpur,Electronics,Headphones,SoundMax Pro,4,4204.32,0.15,14294.7,1586.7,Debit Card
+ORD10113,2025-11-24,CUST1100,Customer 1100,West,Gujarat,Ahmedabad,Appliances,Kitchen,Mixer Grinder,1,4158.19,0.1,3742.37,227.49,Credit Card
+ORD10114,2025-09-25,CUST1224,Customer 1224,South,Telangana,Hyderabad,Office Supplies,Stationery,Premium Notebook,2,334.92,0.0,669.84,89.06,Credit Card
+ORD10115,2025-02-02,CUST1129,Customer 1129,East,West Bengal,Durgapur,Electronics,Laptops,AeroBook 14,3,59928.67,0.1,161807.41,45699.98,Credit Card
+ORD10116,2025-02-17,CUST1057,Customer 1057,East,Jharkhand,Ranchi,Office Supplies,Paper,A4 Paper Box,3,542.65,0.15,1383.76,53.67,Net Banking
+ORD10117,2025-03-03,CUST1181,Customer 1181,East,West Bengal,Durgapur,Furniture,Storage,Filing Cabinet,7,6338.17,0.1,39930.49,4374.62,Debit Card
+ORD10118,2025-08-04,CUST1246,Customer 1246,West,Goa,Panaji,Furniture,Storage,Filing Cabinet,4,7156.41,0.1,25763.07,2140.21,Debit Card
+ORD10119,2025-10-20,CUST1144,Customer 1144,West,Maharashtra,Pune,Appliances,Kitchen,Electric Kettle,3,1779.17,0.05,5070.63,328.2,Net Banking
+ORD10120,2025-04-09,CUST1051,Customer 1051,North,Delhi,New Delhi,Electronics,Laptops,AeroBook 14,5,62952.95,0.05,299026.53,49930.24,Credit Card
+ORD10121,2025-06-21,CUST1112,Customer 1112,West,Gujarat,Surat,Office Supplies,Stationery,Gel Pen Pack,7,168.18,0.0,1177.27,191.37,UPI
+ORD10122,2025-12-26,CUST1203,Customer 1203,North,Delhi,New Delhi,Office Supplies,Stationery,Premium Notebook,1,340.89,0.1,306.8,54.85,UPI
+ORD10123,2025-08-02,CUST1218,Customer 1218,West,Gujarat,Vadodara,Electronics,Accessories,Wireless Mouse,8,1121.22,0.0,8969.78,1944.11,Debit Card
+ORD10124,2025-02-04,CUST1104,Customer 1104,East,Odisha,Cuttack,Office Supplies,Paper,A4 Paper Box,1,558.4,0.05,530.48,106.39,UPI
+ORD10125,2025-08-15,CUST1127,Customer 1127,West,Gujarat,Vadodara,Office Supplies,Binders,Document Binder,5,272.78,0.05,1295.71,94.88,Credit Card
+ORD10126,2025-04-11,CUST1055,Customer 1055,East,Jharkhand,Ranchi,Furniture,Chairs,Ergo Chair,2,8445.1,0.1,15201.18,2430.17,UPI
+ORD10127,2025-05-11,CUST1001,Customer 1001,North,Uttar Pradesh,Lucknow,Electronics,Mobiles,Nova X5,1,26761.74,0.0,26761.74,5528.15,UPI
+ORD10128,2025-09-14,CUST1090,Customer 1090,West,Goa,Panaji,Appliances,Kitchen,Electric Kettle,3,1924.84,0.1,5197.05,226.2,Credit Card
+ORD10129,2025-01-05,CUST1156,Customer 1156,North,Uttar Pradesh,Noida,Office Supplies,Stationery,Gel Pen Pack,4,175.52,0.15,596.78,41.89,Net Banking
+ORD10130,2025-08-06,CUST1053,Customer 1053,East,West Bengal,Durgapur,Appliances,Kitchen,Mixer Grinder,2,3972.18,0.0,7944.36,461.35,Debit Card
+ORD10131,2025-09-12,CUST1186,Customer 1186,North,Delhi,Delhi,Appliances,Kitchen,Mixer Grinder,1,4242.45,0.0,4242.45,877.65,Net Banking
+ORD10132,2025-12-25,CUST1073,Customer 1073,South,Telangana,Warangal,Furniture,Tables,Office Table,3,13387.55,0.0,40162.64,8295.66,Net Banking
+ORD10133,2025-10-10,CUST1188,Customer 1188,North,Delhi,Delhi,Electronics,Headphones,SoundMax Pro,6,4142.76,0.15,21128.06,4069.8,UPI
+ORD10134,2025-07-26,CUST1187,Customer 1187,West,Maharashtra,Mumbai,Appliances,Kitchen,Mixer Grinder,2,4024.02,0.05,7645.64,928.82,UPI
+ORD10135,2025-01-15,CUST1108,Customer 1108,West,Gujarat,Ahmedabad,Furniture,Storage,Filing Cabinet,2,7277.03,0.05,13826.36,2338.08,Debit Card
+ORD10136,2025-12-12,CUST1150,Customer 1150,West,Gujarat,Vadodara,Office Supplies,Stationery,Gel Pen Pack,3,170.53,0.0,511.58,117.22,Net Banking
+ORD10137,2025-02-11,CUST1008,Customer 1008,North,Punjab,Amritsar,Electronics,Headphones,SoundMax Pro,1,4221.54,0.1,3799.38,236.43,Credit Card
+ORD10138,2025-06-28,CUST1250,Customer 1250,West,Gujarat,Surat,Electronics,Mobiles,Nova X5,5,28314.44,0.15,120336.36,3499.68,Net Banking
+ORD10139,2025-03-04,CUST1177,Customer 1177,East,West Bengal,Kolkata,Furniture,Storage,Filing Cabinet,5,7193.69,0.15,30573.17,1280.96,UPI
+ORD10140,2025-12-18,CUST1042,Customer 1042,North,Uttar Pradesh,Kanpur,Furniture,Storage,Filing Cabinet,3,6775.1,0.1,18292.76,1656.4,UPI
+ORD10141,2025-08-19,CUST1155,Customer 1155,East,West Bengal,Durgapur,Electronics,Accessories,Wireless Mouse,2,1294.96,0.0,2589.91,256.56,Debit Card
+ORD10142,2025-08-29,CUST1167,Customer 1167,South,Karnataka,Bengaluru,Office Supplies,Binders,Document Binder,5,267.45,0.0,1337.27,150.33,Credit Card
+ORD10143,2025-02-21,CUST1211,Customer 1211,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Gel Pen Pack,3,167.73,0.0,503.2,111.54,UPI
+ORD10144,2025-04-06,CUST1025,Customer 1025,West,Gujarat,Surat,Appliances,Home,Air Purifier,5,16722.22,0.0,83611.12,12813.88,Credit Card
+ORD10145,2025-08-10,CUST1038,Customer 1038,North,Punjab,Ludhiana,Office Supplies,Stationery,Premium Notebook,4,344.84,0.0,1379.37,250.31,UPI
+ORD10146,2025-08-19,CUST1085,Customer 1085,East,Odisha,Bhubaneswar,Appliances,Kitchen,Electric Kettle,5,1738.77,0.0,8693.86,1055.87,Debit Card
+ORD10147,2025-08-25,CUST1152,Customer 1152,North,Uttar Pradesh,Kanpur,Appliances,Kitchen,Electric Kettle,3,1816.67,0.05,5177.51,488.52,Net Banking
+ORD10148,2025-05-23,CUST1024,Customer 1024,East,West Bengal,Kolkata,Electronics,Laptops,AeroBook 14,2,60058.73,0.15,102099.84,11485.1,Net Banking
+ORD10149,2025-06-20,CUST1060,Customer 1060,West,Goa,Margao,Electronics,Laptops,AeroBook 14,7,57897.66,0.1,364755.25,45165.59,Debit Card
+ORD10150,2025-01-29,CUST1211,Customer 1211,South,Tamil Nadu,Chennai,Furniture,Chairs,Ergo Chair,3,7821.94,0.15,19945.95,2931.24,Credit Card
+ORD10151,2025-02-05,CUST1178,Customer 1178,South,Telangana,Warangal,Furniture,Tables,Office Table,3,12399.17,0.1,33477.75,6900.15,Credit Card
+ORD10152,2025-01-13,CUST1111,Customer 1111,North,Delhi,New Delhi,Electronics,Headphones,SoundMax Pro,2,4742.54,0.0,9485.08,1058.55,UPI
+ORD10153,2025-06-09,CUST1066,Customer 1066,West,Maharashtra,Kolhapur,Appliances,Kitchen,Electric Kettle,4,1820.83,0.1,6554.98,1148.98,UPI
+ORD10154,2025-11-23,CUST1142,Customer 1142,North,Punjab,Amritsar,Office Supplies,Stationery,Gel Pen Pack,3,194.38,0.0,583.13,49.22,UPI
+ORD10155,2025-07-06,CUST1053,Customer 1053,East,Odisha,Bhubaneswar,Appliances,Kitchen,Mixer Grinder,2,4056.76,0.1,7302.17,1899.77,Cash
+ORD10156,2025-08-31,CUST1160,Customer 1160,West,Goa,Margao,Office Supplies,Paper,A4 Paper Box,1,501.73,0.05,476.65,39.3,Net Banking
+ORD10157,2025-03-27,CUST1106,Customer 1106,South,Tamil Nadu,Coimbatore,Appliances,Home,Air Purifier,3,14656.18,0.2,35174.83,4162.73,Credit Card
+ORD10158,2025-10-11,CUST1096,Customer 1096,West,Gujarat,Vadodara,Furniture,Tables,Office Table,5,11828.13,0.0,59140.64,4961.5,Debit Card
+ORD10159,2025-03-07,CUST1220,Customer 1220,South,Karnataka,Mysuru,Electronics,Accessories,Wireless Mouse,3,1158.76,0.0,3476.27,519.19,UPI
+ORD10160,2025-06-19,CUST1176,Customer 1176,East,Odisha,Bhubaneswar,Appliances,Kitchen,Mixer Grinder,2,4396.79,0.15,7474.54,1500.15,Debit Card
+ORD10161,2025-02-14,CUST1039,Customer 1039,West,Gujarat,Surat,Furniture,Storage,Filing Cabinet,4,7241.46,0.0,28965.85,2976.55,Debit Card
+ORD10162,2025-03-03,CUST1168,Customer 1168,East,West Bengal,Kolkata,Office Supplies,Stationery,Premium Notebook,1,376.6,0.1,338.94,91.28,Credit Card
+ORD10163,2025-05-14,CUST1042,Customer 1042,South,Karnataka,Bengaluru,Office Supplies,Stationery,Gel Pen Pack,3,172.29,0.1,465.18,53.32,UPI
+ORD10164,2025-10-11,CUST1111,Customer 1111,North,Uttar Pradesh,Noida,Appliances,Kitchen,Electric Kettle,1,1909.81,0.15,1623.34,261.03,Net Banking
+ORD10165,2025-01-28,CUST1104,Customer 1104,South,Tamil Nadu,Coimbatore,Office Supplies,Binders,Document Binder,2,252.86,0.2,404.57,39.73,Debit Card
+ORD10166,2025-04-18,CUST1077,Customer 1077,North,Delhi,Delhi,Furniture,Tables,Office Table,2,11725.68,0.2,18761.09,1913.5,Net Banking
+ORD10167,2025-02-13,CUST1204,Customer 1204,North,Uttar Pradesh,Kanpur,Furniture,Tables,Office Table,2,13240.05,0.0,26480.1,1593.36,Cash
+ORD10168,2025-12-06,CUST1008,Customer 1008,South,Telangana,Hyderabad,Office Supplies,Stationery,Premium Notebook,1,357.62,0.15,303.98,18.06,Net Banking
+ORD10169,2025-10-13,CUST1207,Customer 1207,West,Gujarat,Ahmedabad,Appliances,Kitchen,Mixer Grinder,2,3974.7,0.1,7154.46,1421.72,UPI
+ORD10170,2025-11-27,CUST1026,Customer 1026,East,Odisha,Cuttack,Furniture,Chairs,Ergo Chair,3,8404.57,0.1,22692.34,2062.68,UPI
+ORD10171,2025-05-08,CUST1140,Customer 1140,West,Goa,Margao,Appliances,Home,Air Purifier,3,14972.4,0.0,44917.2,7623.27,UPI
+ORD10172,2025-12-14,CUST1043,Customer 1043,South,Karnataka,Mysuru,Electronics,Headphones,SoundMax Pro,2,4670.49,0.1,8406.89,168.14,UPI
+ORD10173,2025-08-19,CUST1179,Customer 1179,South,Telangana,Hyderabad,Appliances,Kitchen,Mixer Grinder,5,4168.7,0.2,16674.78,539.76,Credit Card
+ORD10174,2025-07-09,CUST1110,Customer 1110,West,Gujarat,Ahmedabad,Electronics,Headphones,SoundMax Pro,1,4852.28,0.15,4124.44,705.74,Debit Card
+ORD10175,2025-08-13,CUST1219,Customer 1219,North,Delhi,New Delhi,Appliances,Kitchen,Electric Kettle,3,1671.77,0.05,4764.53,227.34,Credit Card
+ORD10176,2025-10-10,CUST1210,Customer 1210,South,Karnataka,Bengaluru,Furniture,Tables,Office Table,1,12210.03,0.0,12210.03,2566.49,UPI
+ORD10177,2025-05-01,CUST1237,Customer 1237,West,Goa,Panaji,Electronics,Mobiles,Nova X5,1,27918.91,0.05,26522.97,3976.97,Net Banking
+ORD10178,2025-04-26,CUST1100,Customer 1100,North,Punjab,Ludhiana,Furniture,Tables,Office Table,3,12506.27,0.15,31890.98,2423.18,UPI
+ORD10179,2025-08-21,CUST1063,Customer 1063,South,Telangana,Hyderabad,Appliances,Kitchen,Electric Kettle,3,1746.99,0.1,4716.87,450.01,UPI
+ORD10180,2025-09-16,CUST1049,Customer 1049,West,Goa,Panaji,Furniture,Tables,Office Table,6,12958.48,0.05,73863.34,7617.37,Debit Card
+ORD10181,2025-12-25,CUST1115,Customer 1115,North,Uttar Pradesh,Noida,Office Supplies,Stationery,Premium Notebook,3,370.99,0.0,1112.96,146.76,Debit Card
+ORD10182,2025-07-17,CUST1155,Customer 1155,West,Maharashtra,Mumbai,Furniture,Storage,Filing Cabinet,7,7277.33,0.05,48394.22,9803.79,Credit Card
+ORD10183,2025-05-17,CUST1137,Customer 1137,South,Karnataka,Bengaluru,Office Supplies,Stationery,Premium Notebook,1,367.09,0.05,348.73,37.4,UPI
+ORD10184,2025-11-14,CUST1247,Customer 1247,South,Tamil Nadu,Coimbatore,Appliances,Home,Air Purifier,1,16369.44,0.15,13914.02,3047.61,Debit Card
+ORD10185,2025-06-14,CUST1167,Customer 1167,South,Tamil Nadu,Chennai,Office Supplies,Stationery,Gel Pen Pack,1,181.46,0.1,163.31,22.2,UPI
+ORD10186,2025-08-13,CUST1065,Customer 1065,East,Jharkhand,Ranchi,Furniture,Tables,Office Table,2,13151.78,0.05,24988.38,2427.91,UPI
+ORD10187,2025-11-03,CUST1199,Customer 1199,South,Telangana,Hyderabad,Appliances,Home,Air Purifier,3,15012.69,0.05,42786.17,8798.36,Debit Card
+ORD10188,2025-08-22,CUST1218,Customer 1218,South,Telangana,Warangal,Electronics,Headphones,SoundMax Pro,4,4426.9,0.0,17707.62,3606.56,UPI
+ORD10189,2025-06-21,CUST1071,Customer 1071,East,Odisha,Cuttack,Office Supplies,Paper,A4 Paper Box,1,504.77,0.2,403.81,8.08,UPI
+ORD10190,2025-06-01,CUST1244,Customer 1244,South,Karnataka,Mysuru,Electronics,Headphones,SoundMax Pro,7,4476.52,0.05,29768.85,1937.57,Credit Card
+ORD10191,2025-11-11,CUST1007,Customer 1007,West,Maharashtra,Kolhapur,Office Supplies,Binders,Document Binder,5,251.08,0.05,1192.63,154.35,Net Banking
+ORD10192,2025-06-09,CUST1200,Customer 1200,North,Uttar Pradesh,Noida,Appliances,Kitchen,Mixer Grinder,2,4510.2,0.05,8569.39,228.35,Net Banking
+ORD10193,2025-04-06,CUST1080,Customer 1080,West,Goa,Panaji,Electronics,Laptops,AeroBook 14,1,60143.42,0.1,54129.08,14145.94,Credit Card
+ORD10194,2025-08-21,CUST1067,Customer 1067,West,Goa,Margao,Office Supplies,Binders,Document Binder,1,243.28,0.1,218.95,37.78,UPI
+ORD10195,2025-06-29,CUST1237,Customer 1237,West,Goa,Panaji,Appliances,Kitchen,Electric Kettle,1,1807.72,0.1,1626.95,185.58,UPI
+ORD10196,2025-04-23,CUST1138,Customer 1138,North,Punjab,Amritsar,Furniture,Chairs,Ergo Chair,1,7897.65,0.0,7897.65,1074.16,UPI
+ORD10197,2025-11-14,CUST1242,Customer 1242,East,West Bengal,Kolkata,Appliances,Home,Air Purifier,3,14534.15,0.05,41422.32,3956.81,Credit Card
+ORD10198,2025-02-21,CUST1199,Customer 1199,North,Uttar Pradesh,Kanpur,Electronics,Accessories,Wireless Mouse,2,1146.12,0.0,2292.25,51.62,Debit Card
+ORD10199,2025-09-25,CUST1213,Customer 1213,West,Gujarat,Vadodara,Office Supplies,Stationery,Gel Pen Pack,2,178.97,0.1,322.15,6.44,Credit Card
+ORD10200,2025-10-22,CUST1181,Customer 1181,East,Jharkhand,Ranchi,Office Supplies,Stationery,Gel Pen Pack,8,178.08,0.0,1424.62,417.53,Credit Card
+ORD10201,2025-04-23,CUST1101,Customer 1101,East,Jharkhand,Jamshedpur,Appliances,Home,Air Purifier,4,16243.24,0.1,58475.65,13165.91,UPI
+ORD10202,2025-04-11,CUST1095,Customer 1095,South,Karnataka,Bengaluru,Furniture,Chairs,Ergo Chair,7,8825.69,0.15,52512.83,2740.94,Credit Card
+ORD10203,2025-04-23,CUST1087,Customer 1087,East,Jharkhand,Ranchi,Office Supplies,Paper,A4 Paper Box,1,513.87,0.15,436.79,68.17,UPI
+ORD10204,2025-03-22,CUST1185,Customer 1185,North,Delhi,Delhi,Electronics,Accessories,Wireless Mouse,2,1168.07,0.05,2219.34,383.83,Credit Card
+ORD10205,2025-07-06,CUST1091,Customer 1091,South,Karnataka,Bengaluru,Furniture,Storage,Filing Cabinet,3,6600.32,0.05,18810.91,3408.54,Debit Card
+ORD10206,2025-04-23,CUST1248,Customer 1248,North,Delhi,New Delhi,Furniture,Tables,Office Table,1,13047.99,0.0,13047.99,785.98,Debit Card
+ORD10207,2025-01-02,CUST1214,Customer 1214,West,Gujarat,Ahmedabad,Electronics,Accessories,Wireless Mouse,1,1114.0,0.1,1002.6,20.05,Credit Card
+ORD10208,2025-05-10,CUST1103,Customer 1103,West,Gujarat,Ahmedabad,Appliances,Kitchen,Electric Kettle,4,1659.69,0.15,5642.95,989.11,Credit Card
+ORD10209,2025-08-08,CUST1249,Customer 1249,South,Karnataka,Bengaluru,Appliances,Kitchen,Electric Kettle,4,1885.12,0.0,7540.47,161.74,UPI
+ORD10210,2025-02-23,CUST1126,Customer 1126,West,Goa,Margao,Office Supplies,Paper,A4 Paper Box,2,518.1,0.05,984.39,125.14,UPI
+ORD10211,2025-12-09,CUST1155,Customer 1155,South,Karnataka,Mysuru,Electronics,Mobiles,Nova X5,3,26346.35,0.15,67183.19,4485.21,Debit Card
+ORD10212,2025-08-12,CUST1182,Customer 1182,East,Jharkhand,Jamshedpur,Electronics,Laptops,AeroBook 14,2,59376.81,0.15,100940.58,6085.65,UPI
+ORD10213,2025-08-13,CUST1113,Customer 1113,South,Karnataka,Mysuru,Electronics,Accessories,Wireless Mouse,1,1283.04,0.0,1283.04,233.53,Debit Card
+ORD10214,2025-05-06,CUST1004,Customer 1004,South,Telangana,Hyderabad,Electronics,Accessories,Wireless Mouse,2,1269.02,0.1,2284.24,154.34,Debit Card
+ORD10215,2025-05-10,CUST1088,Customer 1088,South,Tamil Nadu,Chennai,Appliances,Kitchen,Electric Kettle,1,1860.42,0.0,1860.42,349.2,Net Banking
+ORD10216,2025-02-22,CUST1151,Customer 1151,East,Jharkhand,Ranchi,Electronics,Laptops,AeroBook 14,1,61823.67,0.0,61823.67,10502.66,Net Banking
+ORD10217,2025-06-21,CUST1176,Customer 1176,North,Delhi,New Delhi,Furniture,Tables,Office Table,7,12540.65,0.15,74616.85,17864.11,UPI
+ORD10218,2025-08-06,CUST1211,Customer 1211,East,Odisha,Bhubaneswar,Electronics,Accessories,Wireless Mouse,3,1291.25,0.15,3292.68,65.85,Net Banking
+ORD10219,2025-06-09,CUST1170,Customer 1170,East,Jharkhand,Jamshedpur,Electronics,Laptops,AeroBook 14,4,66620.44,0.1,239833.59,28072.24,Debit Card
+ORD10220,2025-07-17,CUST1003,Customer 1003,North,Uttar Pradesh,Noida,Electronics,Laptops,AeroBook 14,2,59175.47,0.0,118350.94,22509.66,Debit Card
+ORD10221,2025-09-04,CUST1091,Customer 1091,South,Telangana,Hyderabad,Appliances,Kitchen,Electric Kettle,2,1889.6,0.15,3212.32,239.48,UPI
+ORD10222,2025-11-20,CUST1003,Customer 1003,South,Telangana,Hyderabad,Electronics,Laptops,AeroBook 14,2,58996.65,0.05,112093.63,4921.44,Net Banking
+ORD10223,2025-07-22,CUST1156,Customer 1156,North,Uttar Pradesh,Lucknow,Office Supplies,Stationery,Premium Notebook,1,333.96,0.05,317.26,71.54,UPI
+ORD10224,2025-07-03,CUST1191,Customer 1191,East,Odisha,Bhubaneswar,Office Supplies,Paper,A4 Paper Box,1,534.65,0.1,481.19,66.69,Cash
+ORD10225,2025-05-03,CUST1081,Customer 1081,East,Odisha,Bhubaneswar,Office Supplies,Stationery,Premium Notebook,5,344.68,0.0,1723.4,122.91,UPI
+ORD10226,2025-09-12,CUST1159,Customer 1159,North,Punjab,Ludhiana,Electronics,Mobiles,Nova X5,4,29933.32,0.1,107759.95,15701.35,Debit Card
+ORD10227,2025-10-21,CUST1138,Customer 1138,West,Gujarat,Vadodara,Office Supplies,Binders,Document Binder,3,242.9,0.1,655.84,153.54,Credit Card
+ORD10228,2025-10-07,CUST1177,Customer 1177,West,Maharashtra,Pune,Appliances,Kitchen,Electric Kettle,3,1803.32,0.0,5409.96,851.84,UPI
+ORD10229,2025-11-21,CUST1214,Customer 1214,East,Odisha,Bhubaneswar,Furniture,Storage,Filing Cabinet,6,7255.35,0.0,43532.11,6958.39,UPI
+ORD10230,2025-04-08,CUST1094,Customer 1094,West,Goa,Panaji,Appliances,Home,Air Purifier,1,16502.2,0.0,16502.2,4451.64,Credit Card
+ORD10231,2025-07-17,CUST1126,Customer 1126,West,Goa,Panaji,Office Supplies,Stationery,Premium Notebook,2,330.77,0.0,661.53,60.91,UPI
+ORD10232,2025-08-28,CUST1113,Customer 1113,West,Gujarat,Vadodara,Office Supplies,Stationery,Premium Notebook,2,342.53,0.1,616.56,145.46,Credit Card
+ORD10233,2025-05-24,CUST1149,Customer 1149,West,Goa,Margao,Office Supplies,Binders,Document Binder,5,264.96,0.15,1126.06,180.85,Debit Card
+ORD10234,2025-04-07,CUST1100,Customer 1100,West,Gujarat,Surat,Office Supplies,Paper,A4 Paper Box,8,491.66,0.0,3933.29,374.86,Cash
+ORD10235,2025-07-20,CUST1053,Customer 1053,South,Telangana,Warangal,Office Supplies,Binders,Document Binder,2,279.47,0.0,558.94,63.28,Debit Card
+ORD10236,2025-05-04,CUST1087,Customer 1087,East,West Bengal,Kolkata,Appliances,Kitchen,Electric Kettle,6,1919.45,0.1,10365.02,811.2,UPI
+ORD10237,2025-07-06,CUST1230,Customer 1230,East,West Bengal,Durgapur,Furniture,Storage,Filing Cabinet,5,6437.64,0.15,27359.98,547.2,UPI
+ORD10238,2025-11-22,CUST1204,Customer 1204,North,Punjab,Ludhiana,Furniture,Chairs,Ergo Chair,2,7984.77,0.05,15171.07,2362.64,UPI
+ORD10239,2025-12-15,CUST1089,Customer 1089,West,Gujarat,Ahmedabad,Electronics,Laptops,AeroBook 14,2,57887.25,0.05,109985.78,8356.03,Net Banking
+ORD10240,2025-09-16,CUST1054,Customer 1054,South,Tamil Nadu,Chennai,Appliances,Kitchen,Mixer Grinder,2,4475.15,0.1,8055.26,1093.57,Net Banking
+ORD10241,2025-05-28,CUST1185,Customer 1185,South,Telangana,Warangal,Office Supplies,Stationery,Gel Pen Pack,8,171.18,0.0,1369.41,95.36,Credit Card
+ORD10242,2025-09-09,CUST1020,Customer 1020,West,Gujarat,Vadodara,Appliances,Kitchen,Electric Kettle,2,1775.89,0.0,3551.78,797.77,UPI
+ORD10243,2025-12-12,CUST1113,Customer 1113,East,West Bengal,Kolkata,Furniture,Storage,Filing Cabinet,5,6744.35,0.1,30349.58,5057.27,Net Banking
+ORD10244,2025-05-27,CUST1049,Customer 1049,South,Telangana,Hyderabad,Electronics,Mobiles,Nova X5,2,28443.57,0.1,51198.43,3358.03,Net Banking
+ORD10245,2025-05-28,CUST1234,Customer 1234,South,Tamil Nadu,Coimbatore,Furniture,Tables,Office Table,4,11643.47,0.1,41916.49,5875.66,Cash
+ORD10246,2025-12-18,CUST1135,Customer 1135,East,Jharkhand,Ranchi,Electronics,Mobiles,Nova X5,3,26775.88,0.1,72294.87,8733.54,Cash
+ORD10247,2025-07-18,CUST1029,Customer 1029,North,Uttar Pradesh,Lucknow,Electronics,Laptops,AeroBook 14,3,66280.38,0.1,178957.04,39148.81,Credit Card
+ORD10248,2025-11-04,CUST1048,Customer 1048,West,Gujarat,Ahmedabad,Appliances,Home,Air Purifier,5,16512.86,0.0,82564.29,7243.07,UPI
+ORD10249,2025-05-08,CUST1221,Customer 1221,South,Telangana,Warangal,Furniture,Storage,Filing Cabinet,5,7106.04,0.05,33753.71,4281.29,Credit Card
+ORD10250,2025-02-08,CUST1013,Customer 1013,West,Maharashtra,Kolhapur,Appliances,Kitchen,Electric Kettle,6,1661.59,0.0,9969.53,1148.01,Credit Card
+ORD10251,2025-12-04,CUST1003,Customer 1003,South,Karnataka,Bengaluru,Electronics,Mobiles,Nova X5,1,27224.99,0.0,27224.99,4441.41,Credit Card
+ORD10252,2025-12-26,CUST1002,Customer 1002,North,Uttar Pradesh,Lucknow,Appliances,Kitchen,Electric Kettle,4,1836.85,0.1,6612.67,1007.3,Credit Card
+ORD10253,2025-05-09,CUST1016,Customer 1016,North,Punjab,Amritsar,Appliances,Home,Air Purifier,1,14942.47,0.15,12701.1,595.34,UPI
+ORD10254,2025-09-24,CUST1094,Customer 1094,East,Jharkhand,Ranchi,Appliances,Home,Air Purifier,2,16515.78,0.2,26425.24,1176.26,Credit Card
+ORD10255,2025-05-31,CUST1102,Customer 1102,West,Maharashtra,Pune,Electronics,Mobiles,Nova X5,3,28599.82,0.1,77219.53,14102.05,Credit Card
+ORD10256,2025-10-25,CUST1134,Customer 1134,West,Goa,Margao,Appliances,Kitchen,Electric Kettle,2,1676.71,0.0,3353.42,855.16,UPI
+ORD10257,2025-04-09,CUST1045,Customer 1045,West,Goa,Panaji,Office Supplies,Binders,Document Binder,3,277.01,0.0,831.04,161.68,Credit Card
+ORD10258,2025-09-20,CUST1071,Customer 1071,West,Maharashtra,Pune,Furniture,Chairs,Ergo Chair,8,9122.56,0.15,62033.43,5139.01,Cash
+ORD10259,2025-09-09,CUST1133,Customer 1133,South,Telangana,Hyderabad,Appliances,Home,Air Purifier,1,14452.73,0.1,13007.45,1283.62,Cash
+ORD10260,2025-05-24,CUST1056,Customer 1056,East,Jharkhand,Ranchi,Furniture,Chairs,Ergo Chair,4,8544.01,0.1,30758.44,4717.39,Credit Card
+ORD10261,2025-12-12,CUST1199,Customer 1199,West,Gujarat,Vadodara,Furniture,Storage,Filing Cabinet,2,6586.06,0.15,11196.3,1214.17,Credit Card
+ORD10262,2025-04-22,CUST1226,Customer 1226,South,Tamil Nadu,Chennai,Electronics,Laptops,AeroBook 14,1,60936.96,0.1,54843.27,1096.87,UPI
+ORD10263,2025-03-01,CUST1127,Customer 1127,South,Karnataka,Mysuru,Office Supplies,Stationery,Premium Notebook,1,332.06,0.15,282.25,37.42,Debit Card
+ORD10264,2025-01-02,CUST1032,Customer 1032,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,7,4556.21,0.0,31893.48,3181.7,Credit Card
+ORD10265,2025-10-31,CUST1049,Customer 1049,South,Karnataka,Mysuru,Electronics,Accessories,Wireless Mouse,6,1287.93,0.1,6954.83,139.1,Credit Card
+ORD10266,2025-09-11,CUST1013,Customer 1013,West,Gujarat,Vadodara,Office Supplies,Stationery,Gel Pen Pack,6,180.09,0.15,918.45,18.37,Net Banking
+ORD10267,2025-05-20,CUST1158,Customer 1158,East,West Bengal,Durgapur,Electronics,Accessories,Wireless Mouse,8,1119.92,0.05,8511.39,1041.56,Credit Card
+ORD10268,2025-02-06,CUST1025,Customer 1025,North,Delhi,Delhi,Office Supplies,Paper,A4 Paper Box,2,529.98,0.1,953.97,41.83,UPI
+ORD10269,2025-06-09,CUST1213,Customer 1213,North,Delhi,New Delhi,Appliances,Kitchen,Mixer Grinder,2,4092.63,0.05,7776.0,155.52,UPI
+ORD10270,2025-01-09,CUST1060,Customer 1060,West,Gujarat,Surat,Furniture,Chairs,Ergo Chair,4,8984.06,0.2,28748.99,1291.06,Credit Card
+ORD10271,2025-08-21,CUST1059,Customer 1059,South,Telangana,Warangal,Furniture,Storage,Filing Cabinet,3,6728.93,0.0,20186.79,2536.67,Credit Card
+ORD10272,2025-04-09,CUST1213,Customer 1213,West,Maharashtra,Pune,Electronics,Accessories,Wireless Mouse,2,1141.03,0.1,2053.85,214.64,Net Banking
+ORD10273,2025-05-27,CUST1156,Customer 1156,West,Goa,Panaji,Appliances,Home,Air Purifier,2,14733.94,0.0,29467.88,3417.6,Credit Card
+ORD10274,2025-10-31,CUST1240,Customer 1240,East,West Bengal,Kolkata,Electronics,Laptops,AeroBook 14,3,64666.14,0.1,174598.58,42436.72,Debit Card
+ORD10275,2025-07-27,CUST1058,Customer 1058,North,Uttar Pradesh,Lucknow,Office Supplies,Stationery,Gel Pen Pack,3,173.25,0.0,519.75,101.98,Credit Card
+ORD10276,2025-05-11,CUST1020,Customer 1020,North,Punjab,Ludhiana,Electronics,Accessories,Wireless Mouse,1,1251.31,0.0,1251.31,156.45,Credit Card
+ORD10277,2025-06-01,CUST1162,Customer 1162,West,Gujarat,Vadodara,Office Supplies,Stationery,Gel Pen Pack,3,171.53,0.05,488.86,65.04,Credit Card
+ORD10278,2025-02-23,CUST1133,Customer 1133,South,Karnataka,Mysuru,Furniture,Tables,Office Table,3,12143.37,0.15,30965.6,5930.69,Credit Card
+ORD10279,2025-04-30,CUST1210,Customer 1210,West,Goa,Margao,Electronics,Laptops,AeroBook 14,3,61657.63,0.0,184972.89,41982.11,Credit Card
+ORD10280,2025-06-10,CUST1188,Customer 1188,West,Gujarat,Vadodara,Appliances,Kitchen,Mixer Grinder,2,4497.83,0.0,8995.66,560.12,UPI
+ORD10281,2025-04-26,CUST1231,Customer 1231,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,4,4810.85,0.1,17319.05,810.53,Net Banking
+ORD10282,2025-03-16,CUST1171,Customer 1171,South,Karnataka,Mysuru,Office Supplies,Binders,Document Binder,1,247.81,0.05,235.42,19.49,UPI
+ORD10283,2025-04-23,CUST1057,Customer 1057,South,Tamil Nadu,Coimbatore,Electronics,Mobiles,Nova X5,2,27364.82,0.15,46520.2,2871.27,UPI
+ORD10284,2025-04-14,CUST1185,Customer 1185,South,Tamil Nadu,Chennai,Office Supplies,Stationery,Gel Pen Pack,5,169.9,0.0,849.51,100.51,UPI
+ORD10285,2025-12-06,CUST1203,Customer 1203,North,Delhi,New Delhi,Appliances,Kitchen,Mixer Grinder,3,4206.71,0.1,11358.12,1333.22,UPI
+ORD10286,2025-09-11,CUST1054,Customer 1054,North,Uttar Pradesh,Noida,Electronics,Laptops,AeroBook 14,2,61608.98,0.0,123217.96,26060.66,Credit Card
+ORD10287,2025-08-15,CUST1209,Customer 1209,West,Goa,Margao,Appliances,Kitchen,Electric Kettle,4,1915.42,0.0,7661.68,1709.98,UPI
+ORD10288,2025-04-22,CUST1112,Customer 1112,East,Jharkhand,Jamshedpur,Appliances,Home,Air Purifier,3,16566.41,0.1,44729.32,4120.65,UPI
+ORD10289,2025-04-09,CUST1173,Customer 1173,East,West Bengal,Durgapur,Office Supplies,Stationery,Gel Pen Pack,5,176.65,0.1,794.91,15.9,Credit Card
+ORD10290,2025-06-02,CUST1086,Customer 1086,West,Gujarat,Ahmedabad,Office Supplies,Stationery,Gel Pen Pack,4,179.76,0.1,647.14,27.29,Debit Card
+ORD10291,2025-12-15,CUST1037,Customer 1037,North,Delhi,New Delhi,Office Supplies,Stationery,Premium Notebook,3,372.19,0.05,1060.74,107.26,UPI
+ORD10292,2025-12-04,CUST1084,Customer 1084,East,Odisha,Cuttack,Office Supplies,Stationery,Premium Notebook,3,367.18,0.05,1046.45,52.69,Credit Card
+ORD10293,2025-07-13,CUST1048,Customer 1048,West,Goa,Margao,Office Supplies,Binders,Document Binder,1,239.35,0.05,227.38,49.42,Debit Card
+ORD10294,2025-11-06,CUST1118,Customer 1118,West,Goa,Panaji,Appliances,Home,Air Purifier,2,15053.75,0.2,24086.0,481.72,Net Banking
+ORD10295,2025-06-12,CUST1182,Customer 1182,North,Punjab,Amritsar,Appliances,Kitchen,Mixer Grinder,2,4147.43,0.05,7880.12,1423.89,Debit Card
+ORD10296,2025-07-27,CUST1048,Customer 1048,West,Gujarat,Ahmedabad,Electronics,Laptops,AeroBook 14,3,59318.79,0.05,169058.54,3381.17,UPI
+ORD10297,2025-06-18,CUST1112,Customer 1112,South,Karnataka,Bengaluru,Office Supplies,Binders,Document Binder,3,247.5,0.05,705.38,129.44,Debit Card
+ORD10298,2025-06-10,CUST1110,Customer 1110,East,Jharkhand,Jamshedpur,Office Supplies,Stationery,Premium Notebook,2,324.12,0.1,583.41,61.4,Credit Card
+ORD10299,2025-03-09,CUST1006,Customer 1006,East,West Bengal,Kolkata,Office Supplies,Paper,A4 Paper Box,1,531.93,0.0,531.93,141.43,UPI
+ORD10300,2025-10-16,CUST1162,Customer 1162,North,Delhi,Delhi,Appliances,Home,Air Purifier,3,14911.03,0.15,38023.12,760.46,Cash
+ORD10301,2025-10-04,CUST1191,Customer 1191,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,2,4177.69,0.0,8355.38,1006.92,Credit Card
+ORD10302,2025-10-31,CUST1078,Customer 1078,East,Jharkhand,Ranchi,Office Supplies,Binders,Document Binder,4,248.81,0.15,845.95,56.31,Net Banking
+ORD10303,2025-05-15,CUST1176,Customer 1176,North,Delhi,New Delhi,Furniture,Storage,Filing Cabinet,1,7128.48,0.0,7128.48,1064.46,Debit Card
+ORD10304,2025-07-14,CUST1023,Customer 1023,North,Delhi,Delhi,Office Supplies,Binders,Document Binder,3,274.62,0.1,741.48,67.31,Debit Card
+ORD10305,2025-05-08,CUST1126,Customer 1126,West,Maharashtra,Pune,Electronics,Laptops,AeroBook 14,7,61832.02,0.15,367900.5,25617.83,Debit Card
+ORD10306,2025-02-02,CUST1084,Customer 1084,South,Karnataka,Bengaluru,Electronics,Laptops,AeroBook 14,1,61167.42,0.0,61167.42,8317.89,Credit Card
+ORD10307,2025-06-25,CUST1013,Customer 1013,South,Karnataka,Mysuru,Office Supplies,Paper,A4 Paper Box,3,559.76,0.2,1343.42,26.87,Credit Card
+ORD10308,2025-01-22,CUST1047,Customer 1047,North,Delhi,Delhi,Appliances,Kitchen,Electric Kettle,1,1713.76,0.05,1628.07,337.07,Cash
+ORD10309,2025-08-26,CUST1044,Customer 1044,South,Telangana,Hyderabad,Furniture,Chairs,Ergo Chair,4,8112.89,0.15,27583.82,8075.98,Debit Card
+ORD10310,2025-06-07,CUST1105,Customer 1105,South,Karnataka,Bengaluru,Furniture,Chairs,Ergo Chair,3,8216.94,0.1,22185.74,3014.58,Net Banking
+ORD10311,2025-02-07,CUST1160,Customer 1160,North,Punjab,Ludhiana,Office Supplies,Stationery,Premium Notebook,2,331.67,0.05,630.18,36.55,Net Banking
+ORD10312,2025-08-18,CUST1154,Customer 1154,South,Karnataka,Mysuru,Furniture,Storage,Filing Cabinet,3,6668.75,0.0,20006.25,1752.19,Net Banking
+ORD10313,2025-12-31,CUST1242,Customer 1242,North,Delhi,Delhi,Office Supplies,Stationery,Premium Notebook,6,373.01,0.05,2126.14,383.6,Debit Card
+ORD10314,2025-02-20,CUST1181,Customer 1181,North,Uttar Pradesh,Lucknow,Furniture,Tables,Office Table,2,12730.7,0.0,25461.39,4760.84,Credit Card
+ORD10315,2025-09-21,CUST1014,Customer 1014,North,Uttar Pradesh,Noida,Furniture,Tables,Office Table,1,12323.89,0.0,12323.89,1726.57,UPI
+ORD10316,2025-10-10,CUST1180,Customer 1180,North,Punjab,Ludhiana,Electronics,Mobiles,Nova X5,6,29946.16,0.0,179676.96,38224.17,Debit Card
+ORD10317,2025-01-27,CUST1121,Customer 1121,West,Gujarat,Ahmedabad,Furniture,Tables,Office Table,3,11596.93,0.05,33051.25,661.02,UPI
+ORD10318,2025-08-14,CUST1036,Customer 1036,South,Telangana,Hyderabad,Furniture,Chairs,Ergo Chair,6,8105.98,0.15,41340.48,6006.12,UPI
+ORD10319,2025-10-04,CUST1008,Customer 1008,South,Telangana,Warangal,Appliances,Kitchen,Electric Kettle,3,1818.98,0.0,5456.93,963.93,UPI
+ORD10320,2025-10-13,CUST1168,Customer 1168,West,Maharashtra,Pune,Electronics,Headphones,SoundMax Pro,5,4583.2,0.0,22915.99,2068.94,Net Banking
+ORD10321,2025-04-07,CUST1214,Customer 1214,South,Telangana,Hyderabad,Furniture,Tables,Office Table,3,11579.12,0.1,31263.61,625.27,Net Banking
+ORD10322,2025-10-11,CUST1150,Customer 1150,West,Gujarat,Vadodara,Office Supplies,Stationery,Premium Notebook,4,344.57,0.0,1378.28,232.23,Debit Card
+ORD10323,2025-11-13,CUST1016,Customer 1016,East,West Bengal,Durgapur,Office Supplies,Stationery,Gel Pen Pack,6,184.3,0.0,1105.77,285.85,Credit Card
+ORD10324,2025-10-31,CUST1091,Customer 1091,North,Punjab,Amritsar,Electronics,Laptops,AeroBook 14,3,63964.86,0.0,191894.58,27639.24,Debit Card
+ORD10325,2025-05-27,CUST1120,Customer 1120,West,Maharashtra,Mumbai,Electronics,Headphones,SoundMax Pro,2,4599.46,0.15,7819.08,256.56,Debit Card
+ORD10326,2025-01-04,CUST1188,Customer 1188,South,Telangana,Warangal,Electronics,Headphones,SoundMax Pro,2,4370.81,0.15,7430.37,786.8,Credit Card
+ORD10327,2025-02-04,CUST1060,Customer 1060,South,Tamil Nadu,Coimbatore,Office Supplies,Binders,Document Binder,2,243.09,0.05,461.87,122.38,Credit Card
+ORD10328,2025-07-11,CUST1010,Customer 1010,East,West Bengal,Kolkata,Office Supplies,Stationery,Premium Notebook,2,345.92,0.1,622.65,90.4,Credit Card
+ORD10329,2025-02-18,CUST1153,Customer 1153,West,Maharashtra,Kolhapur,Electronics,Laptops,AeroBook 14,2,58317.24,0.1,104971.04,16035.18,Credit Card
+ORD10330,2025-01-17,CUST1031,Customer 1031,West,Goa,Panaji,Furniture,Chairs,Ergo Chair,3,9108.77,0.1,24593.67,4933.39,Debit Card
+ORD10331,2025-06-21,CUST1021,Customer 1021,North,Uttar Pradesh,Kanpur,Electronics,Headphones,SoundMax Pro,3,4482.12,0.1,12101.73,1792.01,Credit Card
+ORD10332,2025-08-08,CUST1219,Customer 1219,South,Telangana,Hyderabad,Electronics,Mobiles,Nova X5,3,27181.32,0.1,73389.57,4427.75,Net Banking
+ORD10333,2025-06-07,CUST1081,Customer 1081,North,Punjab,Amritsar,Office Supplies,Stationery,Premium Notebook,3,364.91,0.0,1094.74,41.47,UPI
+ORD10334,2025-02-15,CUST1033,Customer 1033,West,Maharashtra,Pune,Electronics,Headphones,SoundMax Pro,1,4498.52,0.0,4498.52,429.54,UPI
+ORD10335,2025-01-06,CUST1031,Customer 1031,North,Uttar Pradesh,Lucknow,Furniture,Storage,Filing Cabinet,1,6593.32,0.05,6263.65,376.88,Credit Card
+ORD10336,2025-04-09,CUST1242,Customer 1242,East,Odisha,Cuttack,Appliances,Kitchen,Mixer Grinder,1,4409.64,0.15,3748.2,519.69,UPI
+ORD10337,2025-08-21,CUST1234,Customer 1234,South,Tamil Nadu,Coimbatore,Office Supplies,Binders,Document Binder,3,275.27,0.1,743.24,127.01,Credit Card
+ORD10338,2025-02-06,CUST1218,Customer 1218,West,Gujarat,Ahmedabad,Electronics,Laptops,AeroBook 14,2,63716.24,0.15,108317.61,11350.61,UPI
+ORD10339,2025-10-07,CUST1149,Customer 1149,North,Uttar Pradesh,Kanpur,Furniture,Tables,Office Table,2,11593.93,0.2,18550.29,371.01,Credit Card
+ORD10340,2025-12-15,CUST1036,Customer 1036,East,Jharkhand,Ranchi,Electronics,Headphones,SoundMax Pro,2,4547.75,0.0,9095.5,2592.78,UPI
+ORD10341,2025-10-29,CUST1193,Customer 1193,South,Karnataka,Mysuru,Office Supplies,Stationery,Premium Notebook,5,364.74,0.1,1641.35,140.94,Debit Card
+ORD10342,2025-06-30,CUST1132,Customer 1132,East,West Bengal,Kolkata,Furniture,Tables,Office Table,1,11773.01,0.1,10595.71,1666.11,Credit Card
+ORD10343,2025-04-05,CUST1068,Customer 1068,North,Uttar Pradesh,Lucknow,Appliances,Kitchen,Mixer Grinder,4,4017.67,0.2,12856.53,944.35,UPI
+ORD10344,2025-04-09,CUST1090,Customer 1090,South,Tamil Nadu,Coimbatore,Electronics,Mobiles,Nova X5,4,29713.58,0.2,95083.45,8044.67,Debit Card
+ORD10345,2025-07-07,CUST1132,Customer 1132,West,Gujarat,Surat,Furniture,Tables,Office Table,5,11540.24,0.1,51931.1,8037.53,UPI
+ORD10346,2025-04-26,CUST1241,Customer 1241,South,Tamil Nadu,Coimbatore,Furniture,Storage,Filing Cabinet,7,7074.97,0.0,49524.77,5511.05,Cash
+ORD10347,2025-07-10,CUST1009,Customer 1009,North,Delhi,New Delhi,Furniture,Chairs,Ergo Chair,1,8464.33,0.15,7194.68,1322.94,Net Banking
+ORD10348,2025-09-10,CUST1030,Customer 1030,West,Gujarat,Surat,Electronics,Headphones,SoundMax Pro,1,4461.68,0.0,4461.68,220.56,UPI
+ORD10349,2025-06-10,CUST1115,Customer 1115,East,West Bengal,Kolkata,Electronics,Accessories,Wireless Mouse,6,1105.36,0.15,5637.35,112.75,Net Banking
+ORD10350,2025-09-13,CUST1045,Customer 1045,North,Delhi,Delhi,Electronics,Accessories,Wireless Mouse,3,1261.32,0.15,3216.38,588.5,Cash
+ORD10351,2025-11-19,CUST1004,Customer 1004,West,Gujarat,Surat,Furniture,Tables,Office Table,3,12219.65,0.05,34826.0,6226.9,Net Banking
+ORD10352,2025-05-08,CUST1069,Customer 1069,North,Punjab,Ludhiana,Office Supplies,Paper,A4 Paper Box,4,523.39,0.1,1884.21,551.75,Debit Card
+ORD10353,2025-01-18,CUST1237,Customer 1237,East,Jharkhand,Ranchi,Electronics,Laptops,AeroBook 14,4,63758.82,0.05,242283.53,34473.2,UPI
+ORD10354,2025-10-08,CUST1023,Customer 1023,North,Uttar Pradesh,Kanpur,Office Supplies,Binders,Document Binder,7,268.43,0.05,1785.06,457.92,Net Banking
+ORD10355,2025-08-11,CUST1016,Customer 1016,West,Gujarat,Ahmedabad,Electronics,Accessories,Wireless Mouse,8,1287.55,0.05,9785.37,195.71,UPI
+ORD10356,2025-02-23,CUST1022,Customer 1022,South,Karnataka,Bengaluru,Office Supplies,Paper,A4 Paper Box,4,522.61,0.1,1881.39,37.63,UPI
+ORD10357,2025-02-27,CUST1229,Customer 1229,South,Karnataka,Mysuru,Appliances,Kitchen,Electric Kettle,2,1771.12,0.15,3010.9,467.25,UPI
+ORD10358,2025-11-19,CUST1072,Customer 1072,South,Karnataka,Mysuru,Electronics,Accessories,Wireless Mouse,6,1287.11,0.15,6564.27,131.29,UPI
+ORD10359,2025-12-26,CUST1048,Customer 1048,North,Delhi,Delhi,Office Supplies,Paper,A4 Paper Box,1,531.82,0.0,531.82,77.74,Credit Card
+ORD10360,2025-06-23,CUST1190,Customer 1190,West,Maharashtra,Mumbai,Electronics,Laptops,AeroBook 14,2,59997.65,0.15,101996.01,17768.18,Debit Card
+ORD10361,2025-10-07,CUST1225,Customer 1225,North,Uttar Pradesh,Lucknow,Office Supplies,Stationery,Gel Pen Pack,6,169.24,0.1,913.91,137.16,Net Banking
+ORD10362,2025-04-24,CUST1247,Customer 1247,West,Gujarat,Vadodara,Electronics,Accessories,Wireless Mouse,2,1265.77,0.0,2531.54,407.01,UPI
+ORD10363,2025-10-15,CUST1188,Customer 1188,West,Goa,Panaji,Furniture,Storage,Filing Cabinet,2,6650.05,0.0,13300.11,1709.89,Net Banking
+ORD10364,2025-12-08,CUST1230,Customer 1230,East,West Bengal,Durgapur,Appliances,Kitchen,Mixer Grinder,1,4307.84,0.0,4307.84,750.23,Net Banking
+ORD10365,2025-05-31,CUST1107,Customer 1107,East,West Bengal,Kolkata,Appliances,Home,Air Purifier,5,15427.62,0.15,65567.41,8714.39,UPI
+ORD10366,2025-05-07,CUST1208,Customer 1208,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,3,4283.23,0.1,11564.72,794.93,Credit Card
+ORD10367,2025-06-04,CUST1133,Customer 1133,North,Delhi,New Delhi,Office Supplies,Paper,A4 Paper Box,4,528.46,0.1,1902.46,268.29,Cash
+ORD10368,2025-09-30,CUST1208,Customer 1208,East,Odisha,Cuttack,Appliances,Kitchen,Mixer Grinder,2,3904.78,0.0,7809.56,1839.07,Debit Card
+ORD10369,2025-04-14,CUST1007,Customer 1007,West,Maharashtra,Pune,Electronics,Headphones,SoundMax Pro,4,4437.61,0.1,15975.38,1588.38,Debit Card
+ORD10370,2025-10-26,CUST1051,Customer 1051,South,Tamil Nadu,Chennai,Appliances,Home,Air Purifier,5,15615.61,0.0,78078.03,12864.81,Debit Card
+ORD10371,2025-09-03,CUST1065,Customer 1065,East,West Bengal,Kolkata,Office Supplies,Stationery,Premium Notebook,2,346.42,0.05,658.2,112.79,Credit Card
+ORD10372,2025-06-25,CUST1009,Customer 1009,East,Odisha,Cuttack,Office Supplies,Stationery,Premium Notebook,2,363.93,0.1,655.07,100.61,UPI
+ORD10373,2025-02-08,CUST1082,Customer 1082,West,Goa,Margao,Office Supplies,Binders,Document Binder,2,273.64,0.0,547.28,121.22,Credit Card
+ORD10374,2025-06-19,CUST1045,Customer 1045,South,Karnataka,Mysuru,Appliances,Kitchen,Mixer Grinder,8,4382.28,0.15,29799.47,640.5,UPI
+ORD10375,2025-09-04,CUST1122,Customer 1122,North,Punjab,Ludhiana,Electronics,Laptops,AeroBook 14,4,57425.02,0.0,229700.1,28247.47,Debit Card
+ORD10376,2025-01-26,CUST1175,Customer 1175,West,Goa,Margao,Office Supplies,Paper,A4 Paper Box,7,494.55,0.1,3115.67,251.03,Cash
+ORD10377,2025-12-21,CUST1195,Customer 1195,West,Maharashtra,Pune,Electronics,Mobiles,Nova X5,2,28164.0,0.05,53511.6,3971.96,Credit Card
+ORD10378,2025-11-02,CUST1152,Customer 1152,North,Delhi,Delhi,Office Supplies,Stationery,Premium Notebook,5,374.35,0.1,1684.58,33.69,Net Banking
+ORD10379,2025-01-13,CUST1220,Customer 1220,North,Delhi,Delhi,Electronics,Laptops,AeroBook 14,5,65322.77,0.0,326613.86,6532.28,Credit Card
+ORD10380,2025-11-12,CUST1010,Customer 1010,West,Gujarat,Vadodara,Appliances,Kitchen,Mixer Grinder,4,4430.18,0.0,17720.73,4318.22,Debit Card
+ORD10381,2025-11-09,CUST1073,Customer 1073,South,Tamil Nadu,Chennai,Office Supplies,Stationery,Premium Notebook,7,338.98,0.15,2016.93,40.34,Debit Card
+ORD10382,2025-02-05,CUST1205,Customer 1205,West,Goa,Panaji,Office Supplies,Stationery,Premium Notebook,2,346.05,0.0,692.1,186.63,Net Banking
+ORD10383,2025-06-22,CUST1048,Customer 1048,East,Odisha,Bhubaneswar,Electronics,Mobiles,Nova X5,1,27868.76,0.15,23688.45,3417.26,Debit Card
+ORD10384,2025-01-20,CUST1163,Customer 1163,South,Tamil Nadu,Chennai,Electronics,Accessories,Wireless Mouse,4,1134.22,0.2,3629.49,150.99,UPI
+ORD10385,2025-11-17,CUST1182,Customer 1182,East,West Bengal,Kolkata,Furniture,Tables,Office Table,4,11562.14,0.0,46248.55,9395.37,Net Banking
+ORD10386,2025-09-21,CUST1087,Customer 1087,North,Delhi,Delhi,Appliances,Kitchen,Mixer Grinder,3,4500.32,0.0,13500.96,2561.93,Debit Card
+ORD10387,2025-05-22,CUST1111,Customer 1111,East,West Bengal,Durgapur,Office Supplies,Binders,Document Binder,2,249.21,0.1,448.58,16.99,UPI
+ORD10388,2025-05-23,CUST1209,Customer 1209,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Gel Pen Pack,3,172.51,0.2,414.03,28.55,Debit Card
+ORD10389,2025-04-02,CUST1238,Customer 1238,South,Karnataka,Bengaluru,Office Supplies,Stationery,Premium Notebook,2,326.67,0.15,555.34,13.28,Net Banking
+ORD10390,2025-12-20,CUST1199,Customer 1199,East,West Bengal,Durgapur,Appliances,Kitchen,Mixer Grinder,3,4487.96,0.05,12790.68,2344.39,Credit Card
+ORD10391,2025-11-18,CUST1244,Customer 1244,South,Karnataka,Mysuru,Office Supplies,Stationery,Premium Notebook,4,354.47,0.15,1205.18,51.14,Credit Card
+ORD10392,2025-10-15,CUST1016,Customer 1016,West,Goa,Margao,Furniture,Storage,Filing Cabinet,4,6981.74,0.0,27926.94,4279.41,Cash
+ORD10393,2025-08-03,CUST1053,Customer 1053,West,Goa,Panaji,Appliances,Home,Air Purifier,2,16520.71,0.2,26433.14,1591.65,Cash
+ORD10394,2025-12-08,CUST1040,Customer 1040,West,Goa,Margao,Appliances,Kitchen,Electric Kettle,2,1755.54,0.2,2808.86,220.53,Credit Card
+ORD10395,2025-02-20,CUST1100,Customer 1100,North,Uttar Pradesh,Noida,Office Supplies,Stationery,Gel Pen Pack,2,183.5,0.0,367.0,101.43,UPI
+ORD10396,2025-06-02,CUST1020,Customer 1020,East,West Bengal,Kolkata,Electronics,Mobiles,Nova X5,2,25933.82,0.05,49274.26,5944.09,UPI
+ORD10397,2025-07-05,CUST1216,Customer 1216,South,Telangana,Warangal,Electronics,Headphones,SoundMax Pro,5,4274.48,0.0,21372.38,5241.68,Debit Card
+ORD10398,2025-03-04,CUST1239,Customer 1239,East,West Bengal,Durgapur,Office Supplies,Paper,A4 Paper Box,6,547.56,0.0,3285.36,636.04,Cash
+ORD10399,2025-07-09,CUST1069,Customer 1069,South,Telangana,Hyderabad,Office Supplies,Stationery,Premium Notebook,2,364.94,0.15,620.4,118.98,UPI
+ORD10400,2025-05-05,CUST1045,Customer 1045,West,Gujarat,Surat,Appliances,Home,Air Purifier,4,15129.59,0.05,57492.46,6543.19,Credit Card
+ORD10401,2025-05-30,CUST1006,Customer 1006,South,Telangana,Warangal,Furniture,Tables,Office Table,6,12253.62,0.0,73521.73,15346.16,UPI
+ORD10402,2025-11-10,CUST1220,Customer 1220,South,Telangana,Hyderabad,Office Supplies,Paper,A4 Paper Box,5,522.79,0.05,2483.26,331.15,Debit Card
+ORD10403,2025-02-27,CUST1197,Customer 1197,South,Karnataka,Mysuru,Office Supplies,Stationery,Gel Pen Pack,2,165.61,0.2,264.97,5.3,UPI
+ORD10404,2025-12-08,CUST1177,Customer 1177,South,Telangana,Hyderabad,Office Supplies,Paper,A4 Paper Box,7,498.47,0.1,3140.37,121.57,UPI
+ORD10405,2025-11-01,CUST1039,Customer 1039,North,Punjab,Amritsar,Electronics,Accessories,Wireless Mouse,2,1143.98,0.05,2173.56,387.47,UPI
+ORD10406,2025-06-29,CUST1102,Customer 1102,North,Delhi,Delhi,Office Supplies,Stationery,Premium Notebook,2,336.03,0.0,672.05,131.82,Debit Card
+ORD10407,2025-06-19,CUST1130,Customer 1130,West,Maharashtra,Mumbai,Office Supplies,Paper,A4 Paper Box,1,545.45,0.2,436.36,8.73,Credit Card
+ORD10408,2025-11-22,CUST1107,Customer 1107,West,Goa,Panaji,Electronics,Headphones,SoundMax Pro,3,4341.37,0.15,11070.48,1194.79,UPI
+ORD10409,2025-09-28,CUST1039,Customer 1039,South,Karnataka,Mysuru,Electronics,Headphones,SoundMax Pro,1,4277.9,0.05,4064.0,701.97,Net Banking
+ORD10410,2025-02-23,CUST1118,Customer 1118,North,Delhi,Delhi,Office Supplies,Stationery,Premium Notebook,2,350.24,0.0,700.48,110.38,UPI
+ORD10411,2025-04-11,CUST1149,Customer 1149,South,Karnataka,Mysuru,Furniture,Chairs,Ergo Chair,2,8997.28,0.0,17994.55,3797.16,Credit Card
+ORD10412,2025-09-21,CUST1168,Customer 1168,East,West Bengal,Kolkata,Electronics,Headphones,SoundMax Pro,5,4313.77,0.0,21568.86,4345.67,Net Banking
+ORD10413,2025-02-22,CUST1229,Customer 1229,West,Maharashtra,Kolhapur,Office Supplies,Paper,A4 Paper Box,6,484.93,0.1,2618.64,294.7,Credit Card
+ORD10414,2025-03-01,CUST1082,Customer 1082,West,Maharashtra,Kolhapur,Office Supplies,Binders,Document Binder,2,254.03,0.15,431.84,24.5,Credit Card
+ORD10415,2025-04-18,CUST1054,Customer 1054,North,Punjab,Ludhiana,Electronics,Laptops,AeroBook 14,5,64456.71,0.05,306169.35,64441.89,UPI
+ORD10416,2025-01-05,CUST1240,Customer 1240,East,Jharkhand,Jamshedpur,Electronics,Headphones,SoundMax Pro,5,4536.5,0.15,19280.11,2408.5,Cash
+ORD10417,2025-04-13,CUST1110,Customer 1110,West,Gujarat,Ahmedabad,Appliances,Kitchen,Mixer Grinder,5,4412.89,0.05,20961.2,855.21,Credit Card
+ORD10418,2025-07-15,CUST1012,Customer 1012,East,West Bengal,Durgapur,Office Supplies,Stationery,Gel Pen Pack,1,193.24,0.1,173.91,22.69,Cash
+ORD10419,2025-09-19,CUST1209,Customer 1209,West,Maharashtra,Mumbai,Furniture,Chairs,Ergo Chair,4,8898.02,0.1,32032.88,1102.84,UPI
+ORD10420,2025-12-31,CUST1165,Customer 1165,North,Uttar Pradesh,Noida,Appliances,Kitchen,Mixer Grinder,7,4269.76,0.0,29888.29,2764.08,Credit Card
+ORD10421,2025-12-16,CUST1110,Customer 1110,West,Gujarat,Surat,Office Supplies,Paper,A4 Paper Box,4,519.45,0.05,1973.89,181.33,Cash
+ORD10422,2025-02-16,CUST1038,Customer 1038,South,Telangana,Hyderabad,Electronics,Mobiles,Nova X5,2,25939.51,0.1,46691.12,5516.14,Net Banking
+ORD10423,2025-12-21,CUST1143,Customer 1143,East,Odisha,Cuttack,Furniture,Storage,Filing Cabinet,3,7326.94,0.0,21980.83,4093.14,UPI
+ORD10424,2025-11-07,CUST1007,Customer 1007,East,West Bengal,Kolkata,Electronics,Mobiles,Nova X5,4,27478.0,0.05,104416.38,11368.24,Cash
+ORD10425,2025-11-04,CUST1078,Customer 1078,West,Goa,Panaji,Electronics,Accessories,Wireless Mouse,3,1133.23,0.1,3059.72,273.65,UPI
+ORD10426,2025-05-24,CUST1178,Customer 1178,West,Goa,Panaji,Appliances,Kitchen,Mixer Grinder,1,4312.03,0.2,3449.62,119.95,Credit Card
+ORD10427,2025-09-26,CUST1065,Customer 1065,East,West Bengal,Durgapur,Furniture,Storage,Filing Cabinet,2,6565.31,0.05,12474.08,2629.86,UPI
+ORD10428,2025-05-04,CUST1102,Customer 1102,East,Jharkhand,Ranchi,Electronics,Accessories,Wireless Mouse,5,1216.47,0.15,5170.0,103.4,Debit Card
+ORD10429,2025-04-16,CUST1195,Customer 1195,North,Punjab,Ludhiana,Furniture,Storage,Filing Cabinet,6,6894.4,0.05,39298.1,4554.36,Credit Card
+ORD10430,2025-06-07,CUST1101,Customer 1101,West,Gujarat,Ahmedabad,Furniture,Storage,Filing Cabinet,1,6740.95,0.15,5729.81,1149.68,UPI
+ORD10431,2025-05-27,CUST1044,Customer 1044,North,Punjab,Amritsar,Electronics,Laptops,AeroBook 14,7,65334.3,0.1,411606.07,62237.35,UPI
+ORD10432,2025-05-25,CUST1031,Customer 1031,South,Tamil Nadu,Coimbatore,Furniture,Tables,Office Table,2,12029.93,0.15,20450.89,3705.28,UPI
+ORD10433,2025-04-30,CUST1171,Customer 1171,South,Karnataka,Mysuru,Office Supplies,Stationery,Gel Pen Pack,4,178.52,0.05,678.38,13.57,Net Banking
+ORD10434,2025-11-15,CUST1077,Customer 1077,West,Goa,Margao,Electronics,Mobiles,Nova X5,4,28168.86,0.1,101407.9,2843.74,Net Banking
+ORD10435,2025-10-02,CUST1048,Customer 1048,East,Odisha,Cuttack,Appliances,Home,Air Purifier,5,15905.79,0.1,71576.05,10806.79,Cash
+ORD10436,2025-04-02,CUST1082,Customer 1082,West,Maharashtra,Pune,Electronics,Headphones,SoundMax Pro,7,4704.46,0.05,31284.66,7697.41,UPI
+ORD10437,2025-02-27,CUST1127,Customer 1127,West,Goa,Panaji,Office Supplies,Paper,A4 Paper Box,2,511.25,0.0,1022.5,81.92,Credit Card
+ORD10438,2025-12-12,CUST1209,Customer 1209,South,Telangana,Hyderabad,Furniture,Chairs,Ergo Chair,5,8698.62,0.0,43493.12,5778.35,Debit Card
+ORD10439,2025-08-17,CUST1209,Customer 1209,West,Maharashtra,Mumbai,Office Supplies,Stationery,Gel Pen Pack,1,169.94,0.0,169.94,31.97,Net Banking
+ORD10440,2025-04-27,CUST1189,Customer 1189,East,West Bengal,Kolkata,Electronics,Accessories,Wireless Mouse,4,1283.07,0.15,4362.43,87.25,Credit Card
+ORD10441,2025-11-14,CUST1203,Customer 1203,North,Punjab,Amritsar,Electronics,Laptops,AeroBook 14,4,60839.94,0.0,243359.77,47824.67,Cash
+ORD10442,2025-10-06,CUST1084,Customer 1084,North,Uttar Pradesh,Noida,Electronics,Accessories,Wireless Mouse,4,1244.07,0.0,4976.27,99.53,Net Banking
+ORD10443,2025-05-07,CUST1010,Customer 1010,North,Uttar Pradesh,Lucknow,Furniture,Tables,Office Table,2,11540.68,0.1,20773.23,3104.7,Net Banking
+ORD10444,2025-05-09,CUST1029,Customer 1029,West,Maharashtra,Mumbai,Furniture,Chairs,Ergo Chair,6,8099.05,0.05,46164.61,3131.99,UPI
+ORD10445,2025-02-27,CUST1048,Customer 1048,East,Jharkhand,Jamshedpur,Appliances,Home,Air Purifier,1,15467.96,0.05,14694.57,1560.1,UPI
+ORD10446,2025-05-02,CUST1226,Customer 1226,East,Odisha,Bhubaneswar,Appliances,Kitchen,Electric Kettle,1,1908.94,0.0,1908.94,392.54,Credit Card
+ORD10447,2025-01-01,CUST1209,Customer 1209,West,Goa,Panaji,Electronics,Laptops,AeroBook 14,4,62270.37,0.2,199265.19,20187.09,Credit Card
+ORD10448,2025-08-27,CUST1246,Customer 1246,East,West Bengal,Durgapur,Electronics,Accessories,Wireless Mouse,3,1282.54,0.15,3270.46,300.69,UPI
+ORD10449,2025-10-17,CUST1190,Customer 1190,West,Maharashtra,Mumbai,Furniture,Tables,Office Table,5,12467.59,0.15,52987.27,8495.6,UPI
+ORD10450,2025-04-06,CUST1116,Customer 1116,West,Gujarat,Ahmedabad,Appliances,Kitchen,Electric Kettle,2,1797.25,0.05,3414.77,68.3,Debit Card
+ORD10451,2025-05-06,CUST1234,Customer 1234,East,Odisha,Cuttack,Office Supplies,Paper,A4 Paper Box,1,488.36,0.1,439.53,56.83,Credit Card
+ORD10452,2025-04-28,CUST1013,Customer 1013,West,Goa,Margao,Office Supplies,Paper,A4 Paper Box,5,545.18,0.0,2725.9,285.37,UPI
+ORD10453,2025-02-17,CUST1172,Customer 1172,North,Uttar Pradesh,Kanpur,Appliances,Home,Air Purifier,3,14872.47,0.0,44617.42,10006.0,Debit Card
+ORD10454,2025-03-30,CUST1047,Customer 1047,North,Delhi,Delhi,Electronics,Accessories,Wireless Mouse,2,1276.73,0.0,2553.45,531.36,Debit Card
+ORD10455,2025-08-25,CUST1103,Customer 1103,South,Tamil Nadu,Coimbatore,Appliances,Home,Air Purifier,4,16518.84,0.1,59467.84,9849.92,Debit Card
+ORD10456,2025-09-29,CUST1192,Customer 1192,West,Gujarat,Ahmedabad,Office Supplies,Stationery,Gel Pen Pack,3,192.77,0.05,549.39,138.82,UPI
+ORD10457,2025-07-08,CUST1091,Customer 1091,West,Gujarat,Surat,Furniture,Chairs,Ergo Chair,3,8527.51,0.05,24303.41,5257.91,Debit Card
+ORD10458,2025-07-11,CUST1246,Customer 1246,West,Goa,Margao,Office Supplies,Stationery,Premium Notebook,3,359.92,0.0,1079.75,160.86,Credit Card
+ORD10459,2025-03-10,CUST1053,Customer 1053,North,Punjab,Amritsar,Office Supplies,Stationery,Gel Pen Pack,5,188.02,0.05,893.1,122.72,UPI
+ORD10460,2025-10-05,CUST1218,Customer 1218,North,Delhi,Delhi,Office Supplies,Paper,A4 Paper Box,5,489.3,0.1,2201.85,345.84,Debit Card
+ORD10461,2025-12-15,CUST1092,Customer 1092,West,Maharashtra,Pune,Furniture,Chairs,Ergo Chair,4,8637.3,0.05,32821.75,4825.85,Credit Card
+ORD10462,2025-09-04,CUST1077,Customer 1077,South,Telangana,Hyderabad,Furniture,Tables,Office Table,1,11568.6,0.1,10411.74,1711.3,UPI
+ORD10463,2025-03-17,CUST1204,Customer 1204,West,Goa,Margao,Electronics,Laptops,AeroBook 14,5,61975.86,0.0,309879.28,6197.59,Credit Card
+ORD10464,2025-06-03,CUST1044,Customer 1044,East,Odisha,Bhubaneswar,Office Supplies,Binders,Document Binder,4,245.64,0.15,835.18,187.21,UPI
+ORD10465,2025-05-24,CUST1156,Customer 1156,North,Uttar Pradesh,Lucknow,Appliances,Kitchen,Mixer Grinder,4,3986.92,0.1,14352.93,1711.9,UPI
+ORD10466,2025-03-27,CUST1002,Customer 1002,South,Karnataka,Bengaluru,Furniture,Storage,Filing Cabinet,2,6653.17,0.0,13306.34,617.78,Cash
+ORD10467,2025-07-04,CUST1101,Customer 1101,North,Punjab,Amritsar,Electronics,Accessories,Wireless Mouse,6,1187.03,0.0,7122.17,683.97,UPI
+ORD10468,2025-10-12,CUST1057,Customer 1057,South,Karnataka,Mysuru,Office Supplies,Binders,Document Binder,4,265.12,0.1,954.45,19.09,Net Banking
+ORD10469,2025-08-08,CUST1057,Customer 1057,East,Odisha,Bhubaneswar,Electronics,Mobiles,Nova X5,1,26093.44,0.15,22179.42,443.59,Credit Card
+ORD10470,2025-03-10,CUST1034,Customer 1034,South,Telangana,Hyderabad,Furniture,Chairs,Ergo Chair,2,8505.02,0.05,16159.54,2061.03,UPI
+ORD10471,2025-02-16,CUST1215,Customer 1215,West,Gujarat,Ahmedabad,Appliances,Kitchen,Mixer Grinder,6,3986.72,0.0,23920.34,6363.53,UPI
+ORD10472,2025-04-04,CUST1058,Customer 1058,South,Tamil Nadu,Chennai,Electronics,Headphones,SoundMax Pro,1,4553.26,0.15,3870.27,469.26,Credit Card
+ORD10473,2025-08-26,CUST1180,Customer 1180,East,West Bengal,Kolkata,Furniture,Tables,Office Table,7,12774.81,0.1,80481.3,10567.21,Debit Card
+ORD10474,2025-07-23,CUST1237,Customer 1237,South,Karnataka,Bengaluru,Office Supplies,Stationery,Premium Notebook,4,353.18,0.05,1342.07,77.9,UPI
+ORD10475,2025-08-06,CUST1157,Customer 1157,East,Odisha,Cuttack,Furniture,Storage,Filing Cabinet,4,7059.27,0.05,26825.21,2140.28,UPI
+ORD10476,2025-12-07,CUST1035,Customer 1035,North,Uttar Pradesh,Noida,Electronics,Headphones,SoundMax Pro,2,4381.64,0.0,8763.28,943.94,Cash
+ORD10477,2025-02-08,CUST1075,Customer 1075,East,Jharkhand,Jamshedpur,Office Supplies,Stationery,Premium Notebook,2,364.85,0.1,656.72,43.06,UPI
+ORD10478,2025-04-10,CUST1176,Customer 1176,North,Delhi,Delhi,Electronics,Mobiles,Nova X5,7,27698.8,0.05,184197.0,20794.44,Cash
+ORD10479,2025-10-16,CUST1033,Customer 1033,West,Goa,Panaji,Office Supplies,Paper,A4 Paper Box,2,518.68,0.2,829.89,42.06,Debit Card
+ORD10480,2025-09-11,CUST1115,Customer 1115,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Gel Pen Pack,5,184.27,0.05,875.26,99.57,Credit Card
+ORD10481,2025-08-10,CUST1075,Customer 1075,West,Goa,Panaji,Electronics,Accessories,Wireless Mouse,2,1107.52,0.05,2104.3,190.45,UPI
+ORD10482,2025-12-23,CUST1073,Customer 1073,West,Gujarat,Ahmedabad,Electronics,Laptops,AeroBook 14,1,63527.62,0.1,57174.86,7115.62,UPI
+ORD10483,2025-01-23,CUST1078,Customer 1078,South,Karnataka,Mysuru,Office Supplies,Stationery,Premium Notebook,1,356.64,0.15,303.14,21.37,Cash
+ORD10484,2025-09-07,CUST1009,Customer 1009,West,Maharashtra,Pune,Furniture,Storage,Filing Cabinet,3,6593.11,0.15,16812.44,336.25,UPI
+ORD10485,2025-01-10,CUST1231,Customer 1231,South,Tamil Nadu,Coimbatore,Office Supplies,Binders,Document Binder,8,242.77,0.05,1845.04,258.13,UPI
+ORD10486,2025-09-03,CUST1048,Customer 1048,East,West Bengal,Kolkata,Appliances,Kitchen,Electric Kettle,2,1682.19,0.1,3027.94,323.46,Credit Card
+ORD10487,2025-11-21,CUST1067,Customer 1067,West,Goa,Margao,Furniture,Chairs,Ergo Chair,2,9075.58,0.1,16336.05,326.72,UPI
+ORD10488,2025-04-10,CUST1221,Customer 1221,South,Telangana,Hyderabad,Office Supplies,Paper,A4 Paper Box,2,535.75,0.05,1017.92,97.83,Credit Card
+ORD10489,2025-10-17,CUST1211,Customer 1211,North,Delhi,New Delhi,Appliances,Kitchen,Electric Kettle,3,1692.61,0.0,5077.82,1024.68,Cash
+ORD10490,2025-06-29,CUST1164,Customer 1164,East,Jharkhand,Ranchi,Furniture,Chairs,Ergo Chair,3,8305.14,0.05,23669.66,1371.62,Credit Card
+ORD10491,2025-08-11,CUST1224,Customer 1224,North,Delhi,New Delhi,Furniture,Storage,Filing Cabinet,6,6900.62,0.0,41403.73,3024.44,Net Banking
+ORD10492,2025-09-07,CUST1199,Customer 1199,North,Punjab,Amritsar,Furniture,Chairs,Ergo Chair,3,8956.38,0.15,22838.76,1593.19,Cash
+ORD10493,2025-05-27,CUST1119,Customer 1119,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Premium Notebook,3,324.45,0.05,924.67,167.46,UPI
+ORD10494,2025-04-06,CUST1220,Customer 1220,South,Tamil Nadu,Coimbatore,Office Supplies,Binders,Document Binder,1,249.04,0.2,199.24,39.19,Credit Card
+ORD10495,2025-09-14,CUST1172,Customer 1172,South,Telangana,Hyderabad,Appliances,Kitchen,Electric Kettle,8,1912.25,0.1,13768.18,2218.41,Credit Card
+ORD10496,2025-11-21,CUST1210,Customer 1210,North,Punjab,Amritsar,Furniture,Tables,Office Table,2,11518.33,0.1,20733.0,3958.72,Debit Card
+ORD10497,2025-01-04,CUST1188,Customer 1188,West,Goa,Panaji,Appliances,Kitchen,Electric Kettle,1,1714.0,0.1,1542.6,214.84,UPI
+ORD10498,2025-01-16,CUST1191,Customer 1191,North,Delhi,Delhi,Furniture,Chairs,Ergo Chair,4,9124.27,0.0,36497.09,4089.2,Net Banking
+ORD10499,2025-10-07,CUST1133,Customer 1133,West,Goa,Panaji,Office Supplies,Stationery,Gel Pen Pack,3,183.27,0.05,522.31,95.64,Debit Card
+ORD10500,2025-12-02,CUST1215,Customer 1215,West,Maharashtra,Kolhapur,Office Supplies,Binders,Document Binder,2,250.09,0.0,500.17,77.03,Credit Card
+ORD10501,2025-09-04,CUST1119,Customer 1119,West,Maharashtra,Pune,Electronics,Mobiles,Nova X5,3,26060.12,0.1,70362.32,9948.7,Debit Card
+ORD10502,2025-09-15,CUST1086,Customer 1086,East,Odisha,Cuttack,Electronics,Laptops,AeroBook 14,5,57319.66,0.05,272268.38,19406.72,Credit Card
+ORD10503,2025-06-09,CUST1218,Customer 1218,South,Tamil Nadu,Chennai,Office Supplies,Stationery,Premium Notebook,2,335.71,0.1,604.27,89.22,Cash
+ORD10504,2025-12-06,CUST1106,Customer 1106,North,Punjab,Amritsar,Appliances,Kitchen,Mixer Grinder,5,4456.36,0.0,22281.79,3377.13,Credit Card
+ORD10505,2025-06-01,CUST1076,Customer 1076,North,Punjab,Ludhiana,Electronics,Headphones,SoundMax Pro,4,4439.46,0.0,17757.83,3128.72,UPI
+ORD10506,2025-06-27,CUST1040,Customer 1040,East,Jharkhand,Ranchi,Appliances,Home,Air Purifier,2,16046.43,0.05,30488.21,4010.57,UPI
+ORD10507,2025-06-12,CUST1019,Customer 1019,East,Jharkhand,Jamshedpur,Office Supplies,Binders,Document Binder,3,277.4,0.15,707.37,51.71,Net Banking
+ORD10508,2025-02-02,CUST1047,Customer 1047,East,Jharkhand,Jamshedpur,Appliances,Kitchen,Mixer Grinder,2,4138.2,0.1,7448.77,1109.33,Credit Card
+ORD10509,2025-06-28,CUST1065,Customer 1065,South,Karnataka,Bengaluru,Appliances,Kitchen,Mixer Grinder,4,3992.54,0.05,15171.65,1654.83,Net Banking
+ORD10510,2025-04-11,CUST1195,Customer 1195,West,Goa,Panaji,Appliances,Kitchen,Mixer Grinder,3,4211.5,0.05,12002.78,315.58,UPI
+ORD10511,2025-09-25,CUST1219,Customer 1219,South,Telangana,Warangal,Furniture,Storage,Filing Cabinet,2,7244.0,0.0,14487.99,417.57,UPI
+ORD10512,2025-11-19,CUST1146,Customer 1146,North,Uttar Pradesh,Kanpur,Office Supplies,Paper,A4 Paper Box,3,545.32,0.2,1308.78,108.51,UPI
+ORD10513,2025-03-06,CUST1178,Customer 1178,East,Odisha,Cuttack,Appliances,Kitchen,Electric Kettle,8,1674.96,0.1,12059.7,1009.33,Credit Card
+ORD10514,2025-06-17,CUST1030,Customer 1030,North,Uttar Pradesh,Noida,Office Supplies,Binders,Document Binder,3,268.01,0.05,763.83,15.28,Credit Card
+ORD10515,2025-11-26,CUST1126,Customer 1126,East,West Bengal,Durgapur,Office Supplies,Stationery,Premium Notebook,6,354.03,0.1,1911.74,234.11,UPI
+ORD10516,2025-02-12,CUST1066,Customer 1066,South,Tamil Nadu,Coimbatore,Appliances,Kitchen,Electric Kettle,2,1917.35,0.0,3834.7,588.35,Debit Card
+ORD10517,2025-02-13,CUST1005,Customer 1005,South,Karnataka,Mysuru,Appliances,Kitchen,Electric Kettle,1,1691.27,0.2,1353.02,47.39,Credit Card
+ORD10518,2025-10-12,CUST1093,Customer 1093,East,Jharkhand,Ranchi,Furniture,Tables,Office Table,2,12568.07,0.0,25136.14,4456.05,UPI
+ORD10519,2025-01-12,CUST1097,Customer 1097,West,Gujarat,Vadodara,Appliances,Kitchen,Mixer Grinder,2,4455.0,0.1,8019.0,1660.39,Credit Card
+ORD10520,2025-04-05,CUST1170,Customer 1170,North,Delhi,Delhi,Office Supplies,Paper,A4 Paper Box,2,512.51,0.0,1025.03,256.18,Debit Card
+ORD10521,2025-10-29,CUST1212,Customer 1212,South,Telangana,Hyderabad,Appliances,Home,Air Purifier,1,15455.35,0.1,13909.81,1739.61,UPI
+ORD10522,2025-09-10,CUST1094,Customer 1094,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Gel Pen Pack,6,167.63,0.1,905.2,98.73,UPI
+ORD10523,2025-08-30,CUST1106,Customer 1106,North,Delhi,New Delhi,Furniture,Storage,Filing Cabinet,5,6558.62,0.1,29513.79,3719.96,UPI
+ORD10524,2025-02-04,CUST1133,Customer 1133,North,Delhi,Delhi,Office Supplies,Paper,A4 Paper Box,4,505.4,0.1,1819.44,248.59,Debit Card
+ORD10525,2025-08-03,CUST1178,Customer 1178,North,Uttar Pradesh,Kanpur,Furniture,Chairs,Ergo Chair,1,9105.37,0.15,7739.56,570.55,Cash
+ORD10526,2025-12-03,CUST1085,Customer 1085,West,Goa,Panaji,Office Supplies,Stationery,Premium Notebook,1,337.83,0.0,337.83,58.18,Credit Card
+ORD10527,2025-03-31,CUST1058,Customer 1058,North,Delhi,Delhi,Electronics,Mobiles,Nova X5,1,27824.69,0.05,26433.46,722.85,UPI
+ORD10528,2025-09-21,CUST1079,Customer 1079,South,Tamil Nadu,Coimbatore,Furniture,Storage,Filing Cabinet,4,6986.38,0.0,27945.52,4630.42,Net Banking
+ORD10529,2025-04-03,CUST1212,Customer 1212,West,Gujarat,Ahmedabad,Electronics,Accessories,Wireless Mouse,6,1135.14,0.2,5448.67,563.27,Net Banking
+ORD10530,2025-03-31,CUST1008,Customer 1008,West,Goa,Panaji,Office Supplies,Stationery,Gel Pen Pack,3,179.61,0.05,511.89,52.83,Debit Card
+ORD10531,2025-04-25,CUST1241,Customer 1241,South,Telangana,Warangal,Appliances,Kitchen,Mixer Grinder,1,4360.3,0.1,3924.27,425.06,Net Banking
+ORD10532,2025-04-15,CUST1159,Customer 1159,West,Goa,Panaji,Electronics,Laptops,AeroBook 14,3,65639.2,0.1,177225.85,6591.85,Debit Card
+ORD10533,2025-07-15,CUST1012,Customer 1012,South,Telangana,Warangal,Furniture,Storage,Filing Cabinet,2,6937.37,0.0,13874.74,1005.61,Debit Card
+ORD10534,2025-11-10,CUST1149,Customer 1149,East,Jharkhand,Jamshedpur,Furniture,Tables,Office Table,2,12838.11,0.0,25676.21,4487.1,Credit Card
+ORD10535,2025-04-24,CUST1094,Customer 1094,West,Gujarat,Vadodara,Office Supplies,Stationery,Premium Notebook,4,329.07,0.05,1250.47,108.08,Credit Card
+ORD10536,2025-03-16,CUST1190,Customer 1190,South,Telangana,Warangal,Furniture,Chairs,Ergo Chair,4,9106.26,0.05,34603.77,692.08,UPI
+ORD10537,2025-08-05,CUST1091,Customer 1091,East,West Bengal,Durgapur,Electronics,Laptops,AeroBook 14,1,58355.13,0.0,58355.13,4795.36,Cash
+ORD10538,2025-10-04,CUST1236,Customer 1236,East,West Bengal,Kolkata,Electronics,Laptops,AeroBook 14,1,64724.76,0.0,64724.76,5977.56,Net Banking
+ORD10539,2025-09-06,CUST1218,Customer 1218,East,Odisha,Bhubaneswar,Office Supplies,Stationery,Gel Pen Pack,8,173.23,0.15,1177.94,172.83,Debit Card
+ORD10540,2025-06-13,CUST1033,Customer 1033,North,Delhi,New Delhi,Office Supplies,Paper,A4 Paper Box,2,556.07,0.2,889.72,73.44,UPI
+ORD10541,2025-12-23,CUST1154,Customer 1154,West,Gujarat,Surat,Furniture,Tables,Office Table,1,12939.92,0.05,12292.92,940.26,UPI
+ORD10542,2025-07-11,CUST1218,Customer 1218,East,Odisha,Bhubaneswar,Office Supplies,Paper,A4 Paper Box,2,541.12,0.05,1028.12,99.07,UPI
+ORD10543,2025-08-15,CUST1100,Customer 1100,South,Karnataka,Bengaluru,Furniture,Chairs,Ergo Chair,1,8117.92,0.0,8117.92,2044.47,UPI
+ORD10544,2025-06-26,CUST1168,Customer 1168,West,Goa,Panaji,Electronics,Laptops,AeroBook 14,2,61434.96,0.1,110582.92,19963.22,Debit Card
+ORD10545,2025-04-09,CUST1193,Customer 1193,North,Delhi,New Delhi,Furniture,Tables,Office Table,5,12735.63,0.15,54126.41,1082.53,Net Banking
+ORD10546,2025-02-05,CUST1187,Customer 1187,East,West Bengal,Durgapur,Furniture,Tables,Office Table,2,13039.95,0.0,26079.89,6296.91,UPI
+ORD10547,2025-04-06,CUST1015,Customer 1015,South,Tamil Nadu,Coimbatore,Electronics,Headphones,SoundMax Pro,3,4214.85,0.0,12644.55,1951.76,UPI
+ORD10548,2025-06-01,CUST1114,Customer 1114,West,Maharashtra,Mumbai,Appliances,Kitchen,Electric Kettle,4,1933.16,0.15,6572.75,975.87,Debit Card
+ORD10549,2025-05-31,CUST1129,Customer 1129,South,Tamil Nadu,Coimbatore,Office Supplies,Stationery,Premium Notebook,3,371.85,0.1,1004.0,103.98,UPI
+ORD10550,2025-07-09,CUST1011,Customer 1011,East,Jharkhand,Ranchi,Appliances,Home,Air Purifier,6,14930.46,0.0,89582.79,21769.34,Net Banking
+ORD10551,2025-08-12,CUST1055,Customer 1055,West,Goa,Panaji,Electronics,Laptops,AeroBook 14,6,65201.78,0.1,352089.62,11909.98,UPI
+ORD10552,2025-02-06,CUST1002,Customer 1002,West,Goa,Margao,Electronics,Laptops,AeroBook 14,1,62181.77,0.05,59072.68,7066.18,UPI
+ORD10553,2025-09-25,CUST1065,Customer 1065,West,Maharashtra,Kolhapur,Furniture,Tables,Office Table,5,12423.61,0.05,59012.16,13139.19,UPI
+ORD10554,2025-07-02,CUST1223,Customer 1223,East,Odisha,Bhubaneswar,Office Supplies,Paper,A4 Paper Box,3,504.56,0.1,1362.31,27.25,UPI
+ORD10555,2025-01-13,CUST1172,Customer 1172,East,Jharkhand,Jamshedpur,Appliances,Kitchen,Electric Kettle,8,1823.32,0.15,12398.57,1106.89,Credit Card
+ORD10556,2025-10-06,CUST1016,Customer 1016,South,Tamil Nadu,Chennai,Electronics,Laptops,AeroBook 14,3,64280.5,0.05,183199.43,20143.1,UPI
+ORD10557,2025-08-05,CUST1246,Customer 1246,East,Odisha,Cuttack,Furniture,Tables,Office Table,8,12321.87,0.15,83788.69,11766.13,Credit Card
+ORD10558,2025-12-21,CUST1150,Customer 1150,West,Goa,Panaji,Electronics,Laptops,AeroBook 14,4,63281.85,0.05,240471.05,51074.59,Credit Card
+ORD10559,2025-12-27,CUST1106,Customer 1106,North,Uttar Pradesh,Noida,Appliances,Home,Air Purifier,2,15994.3,0.1,28789.73,4782.55,UPI
+ORD10560,2025-10-13,CUST1146,Customer 1146,North,Punjab,Ludhiana,Appliances,Kitchen,Electric Kettle,3,1860.8,0.05,5303.29,818.67,UPI
+ORD10561,2025-09-30,CUST1175,Customer 1175,West,Goa,Margao,Furniture,Tables,Office Table,8,11603.93,0.15,78906.74,7522.93,Credit Card
+ORD10562,2025-03-03,CUST1209,Customer 1209,West,Gujarat,Surat,Electronics,Headphones,SoundMax Pro,5,4759.02,0.15,20225.83,1385.68,Debit Card
+ORD10563,2025-03-25,CUST1030,Customer 1030,West,Gujarat,Surat,Appliances,Home,Air Purifier,1,15396.47,0.0,15396.47,2689.73,Net Banking
+ORD10564,2025-08-05,CUST1010,Customer 1010,North,Uttar Pradesh,Noida,Appliances,Home,Air Purifier,4,14910.79,0.15,50696.69,9869.42,UPI
+ORD10565,2025-12-08,CUST1227,Customer 1227,North,Delhi,New Delhi,Office Supplies,Stationery,Premium Notebook,2,335.54,0.15,570.42,19.6,UPI
+ORD10566,2025-07-06,CUST1186,Customer 1186,East,Jharkhand,Ranchi,Appliances,Kitchen,Electric Kettle,1,1795.11,0.15,1525.84,98.19,UPI
+ORD10567,2025-01-19,CUST1062,Customer 1062,South,Karnataka,Mysuru,Furniture,Tables,Office Table,2,13273.66,0.0,26547.33,4107.25,Credit Card
+ORD10568,2025-06-26,CUST1085,Customer 1085,South,Tamil Nadu,Coimbatore,Appliances,Kitchen,Electric Kettle,2,1764.96,0.15,3000.44,487.77,Debit Card
+ORD10569,2025-04-10,CUST1208,Customer 1208,North,Punjab,Ludhiana,Office Supplies,Binders,Document Binder,5,270.39,0.15,1149.15,124.26,Cash
+ORD10570,2025-08-21,CUST1134,Customer 1134,South,Karnataka,Bengaluru,Appliances,Kitchen,Electric Kettle,2,1683.88,0.05,3199.38,660.17,Debit Card
+ORD10571,2025-03-17,CUST1067,Customer 1067,West,Gujarat,Surat,Electronics,Laptops,AeroBook 14,5,61762.48,0.2,247049.93,35176.87,UPI
+ORD10572,2025-09-22,CUST1041,Customer 1041,West,Maharashtra,Kolhapur,Furniture,Chairs,Ergo Chair,1,9168.69,0.0,9168.69,1846.97,Credit Card
+ORD10573,2025-10-11,CUST1171,Customer 1171,West,Maharashtra,Pune,Office Supplies,Stationery,Premium Notebook,2,365.14,0.0,730.29,62.45,Net Banking
+ORD10574,2025-07-25,CUST1213,Customer 1213,West,Gujarat,Ahmedabad,Electronics,Headphones,SoundMax Pro,2,4291.58,0.1,7724.84,1786.58,UPI
+ORD10575,2025-08-11,CUST1205,Customer 1205,East,West Bengal,Kolkata,Appliances,Kitchen,Mixer Grinder,2,4200.97,0.1,7561.74,1617.2,Credit Card
+ORD10576,2025-02-21,CUST1018,Customer 1018,South,Telangana,Warangal,Furniture,Tables,Office Table,1,11967.25,0.1,10770.52,1286.52,Net Banking
+ORD10577,2025-12-05,CUST1058,Customer 1058,West,Goa,Margao,Furniture,Chairs,Ergo Chair,2,8377.0,0.0,16754.01,1060.13,Debit Card
+ORD10578,2025-05-24,CUST1246,Customer 1246,West,Gujarat,Vadodara,Furniture,Tables,Office Table,3,13060.17,0.2,31344.4,626.89,Debit Card
+ORD10579,2025-03-10,CUST1060,Customer 1060,East,Odisha,Bhubaneswar,Office Supplies,Paper,A4 Paper Box,2,542.57,0.0,1085.13,192.94,UPI
+ORD10580,2025-04-09,CUST1088,Customer 1088,South,Karnataka,Bengaluru,Electronics,Laptops,AeroBook 14,2,59302.76,0.0,118605.51,13150.68,Credit Card
+ORD10581,2025-01-25,CUST1027,Customer 1027,East,West Bengal,Durgapur,Furniture,Storage,Filing Cabinet,2,7259.38,0.0,14518.76,577.8,UPI
+ORD10582,2025-02-22,CUST1246,Customer 1246,East,West Bengal,Durgapur,Office Supplies,Stationery,Gel Pen Pack,6,182.67,0.1,986.4,19.73,Debit Card
+ORD10583,2025-05-31,CUST1068,Customer 1068,West,Maharashtra,Kolhapur,Electronics,Mobiles,Nova X5,6,27462.06,0.15,140056.51,8347.54,UPI
+ORD10584,2025-05-24,CUST1022,Customer 1022,West,Goa,Panaji,Office Supplies,Paper,A4 Paper Box,3,520.16,0.1,1404.43,180.67,Cash
+ORD10585,2025-02-26,CUST1152,Customer 1152,South,Telangana,Hyderabad,Furniture,Chairs,Ergo Chair,2,8642.9,0.15,14692.92,2804.88,Cash
+ORD10586,2025-02-08,CUST1040,Customer 1040,South,Tamil Nadu,Chennai,Office Supplies,Paper,A4 Paper Box,1,524.98,0.0,524.98,101.79,Credit Card
+ORD10587,2025-04-19,CUST1109,Customer 1109,West,Maharashtra,Pune,Electronics,Accessories,Wireless Mouse,7,1197.39,0.1,7543.56,666.11,UPI
+ORD10588,2025-06-30,CUST1074,Customer 1074,South,Karnataka,Mysuru,Furniture,Tables,Office Table,1,12509.87,0.05,11884.37,1950.18,UPI
+ORD10589,2025-02-11,CUST1066,Customer 1066,North,Punjab,Ludhiana,Furniture,Tables,Office Table,2,11852.82,0.05,22520.37,3554.61,Cash
+ORD10590,2025-07-05,CUST1168,Customer 1168,South,Karnataka,Bengaluru,Office Supplies,Binders,Document Binder,2,273.01,0.0,546.02,115.63,Debit Card
+ORD10591,2025-08-11,CUST1006,Customer 1006,East,West Bengal,Kolkata,Electronics,Mobiles,Nova X5,2,28187.09,0.1,50736.76,5692.87,Debit Card
+ORD10592,2025-05-02,CUST1112,Customer 1112,East,West Bengal,Durgapur,Electronics,Mobiles,Nova X5,1,26347.24,0.05,25029.88,5257.12,UPI
+ORD10593,2025-05-13,CUST1018,Customer 1018,East,West Bengal,Durgapur,Electronics,Accessories,Wireless Mouse,5,1251.1,0.1,5629.96,972.36,Credit Card
+ORD10594,2025-06-12,CUST1081,Customer 1081,North,Delhi,New Delhi,Electronics,Laptops,AeroBook 14,1,66289.84,0.05,62975.35,9023.68,Debit Card
+ORD10595,2025-08-03,CUST1102,Customer 1102,West,Gujarat,Ahmedabad,Office Supplies,Stationery,Gel Pen Pack,4,192.88,0.0,771.53,117.01,Credit Card
+ORD10596,2025-08-09,CUST1237,Customer 1237,West,Maharashtra,Mumbai,Appliances,Home,Air Purifier,1,15175.16,0.1,13657.65,2449.94,Debit Card
+ORD10597,2025-08-23,CUST1215,Customer 1215,East,Odisha,Bhubaneswar,Appliances,Home,Air Purifier,1,14596.08,0.0,14596.08,1606.4,Cash
+ORD10598,2025-11-27,CUST1110,Customer 1110,North,Delhi,Delhi,Appliances,Kitchen,Electric Kettle,6,1805.3,0.15,9207.03,184.14,UPI
+ORD10599,2025-05-26,CUST1030,Customer 1030,West,Goa,Margao,Furniture,Storage,Filing Cabinet,2,6378.52,0.1,11481.33,229.63,UPI
+ORD10600,2025-08-27,CUST1122,Customer 1122,North,Uttar Pradesh,Lucknow,Appliances,Kitchen,Mixer Grinder,5,4491.64,0.0,22458.2,2341.35,Credit Card
+ORD10601,2025-03-17,CUST1149,Customer 1149,South,Telangana,Warangal,Furniture,Storage,Filing Cabinet,3,6455.73,0.2,15493.76,1800.0,UPI
+ORD10602,2025-01-09,CUST1062,Customer 1062,West,Goa,Panaji,Electronics,Headphones,SoundMax Pro,1,4321.99,0.05,4105.89,443.04,Debit Card
+ORD10603,2025-03-15,CUST1138,Customer 1138,North,Punjab,Amritsar,Office Supplies,Binders,Document Binder,7,256.12,0.0,1792.81,312.52,Debit Card
+ORD10604,2025-09-10,CUST1120,Customer 1120,East,Odisha,Bhubaneswar,Appliances,Kitchen,Mixer Grinder,2,4121.49,0.1,7418.68,595.94,Net Banking
+ORD10605,2025-08-18,CUST1107,Customer 1107,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,5,4712.16,0.0,23560.79,2965.95,Debit Card
+ORD10606,2025-01-07,CUST1141,Customer 1141,West,Goa,Margao,Electronics,Laptops,AeroBook 14,1,61566.66,0.15,52331.66,1084.18,UPI
+ORD10607,2025-06-23,CUST1076,Customer 1076,North,Punjab,Amritsar,Electronics,Headphones,SoundMax Pro,5,4262.95,0.15,18117.55,1559.33,UPI
+ORD10608,2025-05-21,CUST1009,Customer 1009,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,1,4332.39,0.2,3465.91,200.12,Cash
+ORD10609,2025-06-17,CUST1196,Customer 1196,South,Karnataka,Mysuru,Electronics,Accessories,Wireless Mouse,3,1201.75,0.05,3424.99,569.87,UPI
+ORD10610,2025-06-19,CUST1039,Customer 1039,North,Punjab,Amritsar,Electronics,Accessories,Wireless Mouse,5,1132.31,0.05,5378.48,847.86,Debit Card
+ORD10611,2025-10-10,CUST1024,Customer 1024,East,Jharkhand,Ranchi,Electronics,Headphones,SoundMax Pro,7,4580.39,0.1,28856.47,2920.27,Cash
+ORD10612,2025-05-02,CUST1125,Customer 1125,North,Delhi,Delhi,Office Supplies,Paper,A4 Paper Box,6,525.47,0.0,3152.82,172.06,UPI
+ORD10613,2025-07-13,CUST1118,Customer 1118,South,Telangana,Warangal,Appliances,Kitchen,Mixer Grinder,5,4344.28,0.1,19549.26,3713.2,UPI
+ORD10614,2025-01-05,CUST1034,Customer 1034,North,Uttar Pradesh,Noida,Office Supplies,Stationery,Premium Notebook,6,374.51,0.1,2022.36,220.53,Credit Card
+ORD10615,2025-01-29,CUST1231,Customer 1231,West,Goa,Margao,Office Supplies,Stationery,Premium Notebook,2,373.09,0.0,746.17,123.55,Net Banking
+ORD10616,2025-06-14,CUST1061,Customer 1061,South,Karnataka,Mysuru,Appliances,Kitchen,Electric Kettle,2,1928.47,0.05,3664.09,914.32,UPI
+ORD10617,2025-12-05,CUST1169,Customer 1169,North,Uttar Pradesh,Noida,Appliances,Kitchen,Electric Kettle,2,1726.48,0.15,2935.01,458.08,Net Banking
+ORD10618,2025-05-16,CUST1133,Customer 1133,North,Delhi,New Delhi,Electronics,Laptops,AeroBook 14,2,58345.13,0.15,99186.72,12274.5,Credit Card
+ORD10619,2025-12-31,CUST1079,Customer 1079,West,Goa,Panaji,Furniture,Storage,Filing Cabinet,2,6584.88,0.0,13169.75,2105.03,Net Banking
+ORD10620,2025-11-17,CUST1050,Customer 1050,North,Delhi,New Delhi,Office Supplies,Binders,Document Binder,3,276.44,0.0,829.31,132.01,UPI
+ORD10621,2025-12-08,CUST1132,Customer 1132,East,Jharkhand,Ranchi,Electronics,Mobiles,Nova X5,1,30114.8,0.0,30114.8,5324.54,UPI
+ORD10622,2025-05-25,CUST1051,Customer 1051,North,Punjab,Ludhiana,Electronics,Laptops,AeroBook 14,4,65564.5,0.15,222919.31,26969.55,Cash
+ORD10623,2025-11-23,CUST1052,Customer 1052,West,Goa,Margao,Electronics,Headphones,SoundMax Pro,1,4219.21,0.0,4219.21,1180.53,Net Banking
+ORD10624,2025-08-05,CUST1122,Customer 1122,North,Uttar Pradesh,Lucknow,Electronics,Accessories,Wireless Mouse,2,1285.91,0.1,2314.63,666.91,Credit Card
+ORD10625,2025-10-28,CUST1167,Customer 1167,South,Karnataka,Bengaluru,Appliances,Kitchen,Electric Kettle,3,1777.93,0.0,5333.78,961.78,Debit Card
+ORD10626,2025-05-12,CUST1250,Customer 1250,West,Maharashtra,Kolhapur,Furniture,Tables,Office Table,5,11518.62,0.1,51833.79,1036.68,Net Banking
+ORD10627,2025-10-19,CUST1008,Customer 1008,South,Telangana,Warangal,Office Supplies,Paper,A4 Paper Box,4,515.21,0.05,1957.79,138.76,UPI
+ORD10628,2025-03-11,CUST1113,Customer 1113,East,Odisha,Cuttack,Appliances,Home,Air Purifier,4,14374.25,0.15,48872.46,10717.96,Credit Card
+ORD10629,2025-09-09,CUST1045,Customer 1045,South,Tamil Nadu,Chennai,Furniture,Chairs,Ergo Chair,1,8559.67,0.0,8559.67,1800.15,Cash
+ORD10630,2025-10-02,CUST1088,Customer 1088,South,Karnataka,Mysuru,Appliances,Home,Air Purifier,3,15099.61,0.1,40768.96,5904.29,Credit Card
+ORD10631,2025-12-30,CUST1245,Customer 1245,North,Punjab,Amritsar,Electronics,Accessories,Wireless Mouse,1,1194.9,0.0,1194.9,177.23,UPI
+ORD10632,2025-07-01,CUST1028,Customer 1028,North,Uttar Pradesh,Kanpur,Office Supplies,Stationery,Premium Notebook,2,356.34,0.1,641.41,20.38,Cash
+ORD10633,2025-06-16,CUST1119,Customer 1119,South,Karnataka,Mysuru,Office Supplies,Binders,Document Binder,2,275.34,0.15,468.08,98.27,UPI
+ORD10634,2025-04-01,CUST1107,Customer 1107,East,Jharkhand,Ranchi,Appliances,Kitchen,Mixer Grinder,1,4308.8,0.0,4308.8,441.11,UPI
+ORD10635,2025-07-21,CUST1027,Customer 1027,East,West Bengal,Durgapur,Appliances,Home,Air Purifier,2,15336.44,0.15,26071.95,3742.68,Net Banking
+ORD10636,2025-12-12,CUST1193,Customer 1193,North,Delhi,Delhi,Electronics,Accessories,Wireless Mouse,7,1261.33,0.1,7946.38,190.32,Credit Card
+ORD10637,2025-01-19,CUST1162,Customer 1162,South,Karnataka,Bengaluru,Appliances,Kitchen,Electric Kettle,7,1916.81,0.0,13417.65,1944.56,Cash
+ORD10638,2025-02-08,CUST1081,Customer 1081,North,Delhi,Delhi,Office Supplies,Paper,A4 Paper Box,2,488.36,0.05,927.89,192.08,Cash
+ORD10639,2025-05-06,CUST1101,Customer 1101,South,Tamil Nadu,Chennai,Appliances,Kitchen,Mixer Grinder,1,4221.46,0.0,4221.46,601.65,UPI
+ORD10640,2025-06-22,CUST1062,Customer 1062,East,Jharkhand,Ranchi,Appliances,Kitchen,Electric Kettle,1,1737.94,0.1,1564.15,139.54,UPI
+ORD10641,2025-05-21,CUST1062,Customer 1062,South,Telangana,Hyderabad,Electronics,Mobiles,Nova X5,2,25970.83,0.1,46747.5,5410.77,UPI
+ORD10642,2025-08-30,CUST1166,Customer 1166,West,Goa,Panaji,Electronics,Headphones,SoundMax Pro,7,4621.35,0.0,32349.48,2150.59,UPI
+ORD10643,2025-08-08,CUST1026,Customer 1026,East,West Bengal,Kolkata,Furniture,Tables,Office Table,1,13225.54,0.05,12564.26,387.1,Debit Card
+ORD10644,2025-05-06,CUST1121,Customer 1121,West,Gujarat,Surat,Office Supplies,Stationery,Premium Notebook,5,331.12,0.15,1407.27,200.53,Debit Card
+ORD10645,2025-02-27,CUST1024,Customer 1024,East,Jharkhand,Ranchi,Office Supplies,Stationery,Premium Notebook,1,367.5,0.15,312.37,19.66,Credit Card
+ORD10646,2025-05-28,CUST1039,Customer 1039,East,Odisha,Bhubaneswar,Office Supplies,Binders,Document Binder,8,274.7,0.05,2087.73,390.31,UPI
+ORD10647,2025-11-13,CUST1124,Customer 1124,East,West Bengal,Kolkata,Office Supplies,Stationery,Gel Pen Pack,2,191.93,0.2,307.09,45.53,Credit Card
+ORD10648,2025-12-27,CUST1021,Customer 1021,North,Uttar Pradesh,Noida,Furniture,Storage,Filing Cabinet,5,6544.63,0.1,29450.84,5857.92,Credit Card
+ORD10649,2025-01-01,CUST1094,Customer 1094,East,Odisha,Cuttack,Appliances,Kitchen,Electric Kettle,2,1916.34,0.05,3641.04,87.49,Credit Card
+ORD10650,2025-12-14,CUST1175,Customer 1175,East,West Bengal,Kolkata,Electronics,Mobiles,Nova X5,4,27196.57,0.15,92468.34,4036.42,UPI
+ORD10651,2025-07-09,CUST1115,Customer 1115,West,Gujarat,Surat,Office Supplies,Stationery,Premium Notebook,2,352.93,0.05,670.57,117.44,Debit Card
+ORD10652,2025-07-10,CUST1176,Customer 1176,East,Jharkhand,Ranchi,Furniture,Storage,Filing Cabinet,1,6310.95,0.05,5995.4,1056.45,UPI
+ORD10653,2025-11-08,CUST1121,Customer 1121,West,Goa,Margao,Office Supplies,Stationery,Premium Notebook,7,324.46,0.05,2157.64,636.42,Credit Card
+ORD10654,2025-04-27,CUST1013,Customer 1013,West,Maharashtra,Kolhapur,Appliances,Kitchen,Mixer Grinder,6,4348.09,0.15,22175.26,642.35,Debit Card
+ORD10655,2025-05-14,CUST1229,Customer 1229,North,Delhi,New Delhi,Electronics,Headphones,SoundMax Pro,6,4460.03,0.15,22746.13,3964.01,UPI
+ORD10656,2025-02-27,CUST1131,Customer 1131,North,Delhi,Delhi,Furniture,Storage,Filing Cabinet,4,6534.85,0.05,24832.42,4061.57,Credit Card
+ORD10657,2025-02-13,CUST1160,Customer 1160,North,Punjab,Amritsar,Office Supplies,Paper,A4 Paper Box,5,494.24,0.05,2347.65,53.25,UPI
+ORD10658,2025-06-22,CUST1163,Customer 1163,East,Odisha,Cuttack,Appliances,Kitchen,Electric Kettle,1,1848.95,0.05,1756.5,174.16,UPI
+ORD10659,2025-06-09,CUST1019,Customer 1019,East,Odisha,Bhubaneswar,Office Supplies,Stationery,Gel Pen Pack,2,165.61,0.1,298.1,39.76,UPI
+ORD10660,2025-06-22,CUST1142,Customer 1142,South,Karnataka,Mysuru,Electronics,Headphones,SoundMax Pro,2,4720.24,0.0,9440.48,384.17,Net Banking
+ORD10661,2025-11-13,CUST1176,Customer 1176,East,Jharkhand,Ranchi,Appliances,Home,Air Purifier,4,14456.54,0.15,49152.23,983.04,Credit Card
+ORD10662,2025-10-30,CUST1214,Customer 1214,East,Jharkhand,Ranchi,Office Supplies,Paper,A4 Paper Box,2,494.33,0.05,939.23,18.78,Net Banking
+ORD10663,2025-05-29,CUST1081,Customer 1081,West,Gujarat,Surat,Furniture,Tables,Office Table,1,12272.47,0.05,11658.85,1814.58,Credit Card
+ORD10664,2025-03-21,CUST1123,Customer 1123,East,Odisha,Bhubaneswar,Electronics,Mobiles,Nova X5,3,27932.17,0.0,83796.5,10564.5,Credit Card
+ORD10665,2025-08-01,CUST1068,Customer 1068,East,Jharkhand,Ranchi,Electronics,Mobiles,Nova X5,5,27350.38,0.0,136751.89,15945.69,Credit Card
+ORD10666,2025-07-22,CUST1173,Customer 1173,East,Jharkhand,Ranchi,Furniture,Chairs,Ergo Chair,2,8256.17,0.15,14035.49,722.92,
+ORD10667,2025-09-09,CUST1232,Customer 1232,North,Punjab,Amritsar,Furniture,Chairs,Ergo Chair,1,9130.93,0.05,8674.38,327.99,UPI
+ORD10668,2025-08-17,CUST1019,Customer 1019,East,Odisha,Bhubaneswar,Appliances,Kitchen,Electric Kettle,2,1840.77,0.0,3681.55,471.43,UPI
+ORD10669,2025-06-13,CUST1064,Customer 1064,North,Uttar Pradesh,Lucknow,Furniture,Storage,Filing Cabinet,2,6281.5,0.05,11934.84,238.7,Credit Card
+ORD10670,2025-08-15,CUST1101,Customer 1101,North,Delhi,Delhi,Appliances,Kitchen,Mixer Grinder,2,4153.08,0.05,7890.85,1741.0,UPI
+ORD10671,2025-05-27,CUST1066,Customer 1066,South,Tamil Nadu,Coimbatore,Electronics,Mobiles,Nova X5,4,29680.04,0.0,118720.16,33059.18,UPI
+ORD10672,2025-01-20,CUST1207,Customer 1207,North,Uttar Pradesh,Noida,Office Supplies,Binders,Document Binder,3,251.74,0.05,717.46,14.35,UPI
+ORD10673,2025-02-16,CUST1066,Customer 1066,South,Telangana,Warangal,Appliances,Home,Air Purifier,4,14494.5,0.1,52180.2,4287.17,Credit Card
+ORD10674,2025-08-21,CUST1075,Customer 1075,West,Goa,Panaji,Appliances,Kitchen,Electric Kettle,2,1874.41,0.1,3373.95,292.59,Debit Card
+ORD10675,2025-11-01,CUST1045,Customer 1045,West,Goa,Panaji,Furniture,Storage,Filing Cabinet,5,6915.34,0.05,32847.88,4115.38,Cash
+ORD10676,2025-01-14,CUST1087,Customer 1087,West,Maharashtra,Mumbai,Furniture,Chairs,Ergo Chair,2,8595.63,0.05,16331.69,3390.57,UPI
+ORD10677,2025-05-23,CUST1202,Customer 1202,North,Uttar Pradesh,Noida,Appliances,Home,Air Purifier,3,14392.87,0.2,34542.89,1290.7,UPI
+ORD10678,2025-01-01,CUST1067,Customer 1067,South,Tamil Nadu,Coimbatore,Furniture,Tables,Office Table,5,11781.0,0.05,55959.74,7348.77,Credit Card
+ORD10679,2025-02-23,CUST1197,Customer 1197,West,Maharashtra,Mumbai,Office Supplies,Stationery,Premium Notebook,2,356.86,0.0,713.73,249.8,Net Banking
+ORD10680,2025-09-16,CUST1003,Customer 1003,South,Telangana,Warangal,Office Supplies,Paper,A4 Paper Box,1,495.69,0.0,495.69,75.45,UPI
+ORD10681,2025-05-24,CUST1166,Customer 1166,West,Maharashtra,Mumbai,Appliances,Kitchen,Electric Kettle,6,1801.17,0.05,10266.68,2681.01,Debit Card
+ORD10682,2025-01-12,CUST1205,Customer 1205,South,Tamil Nadu,Coimbatore,Appliances,Home,Air Purifier,2,15611.31,0.1,28100.35,4218.96,Credit Card
+ORD10683,2025-11-26,CUST1170,Customer 1170,East,Jharkhand,Jamshedpur,Appliances,Kitchen,Mixer Grinder,4,4054.52,0.0,16218.07,1966.28,UPI
+ORD10684,2025-08-12,CUST1211,Customer 1211,West,Gujarat,Surat,Electronics,Accessories,Wireless Mouse,1,1286.1,0.1,1157.49,74.71,UPI
+ORD10685,2025-09-29,CUST1168,Customer 1168,East,Jharkhand,Jamshedpur,Appliances,Kitchen,Electric Kettle,4,1898.63,0.0,7594.52,1211.26,UPI
+ORD10686,2025-12-24,CUST1178,Customer 1178,West,Goa,Margao,Furniture,Storage,Filing Cabinet,2,7041.94,0.05,13379.69,784.68,Net Banking
+ORD10687,2025-06-05,CUST1163,Customer 1163,West,Goa,Margao,Furniture,Tables,Office Table,1,11655.99,0.1,10490.39,572.03,Credit Card
+ORD10688,2025-01-08,CUST1024,Customer 1024,East,Jharkhand,Ranchi,Office Supplies,Paper,A4 Paper Box,3,487.23,0.05,1388.61,149.81,Credit Card
+ORD10689,2025-05-02,CUST1088,Customer 1088,South,Telangana,Warangal,Electronics,Mobiles,Nova X5,2,27967.66,0.1,50341.79,6823.03,Credit Card
+ORD10690,2025-12-14,CUST1017,Customer 1017,East,West Bengal,Kolkata,Office Supplies,Stationery,Premium Notebook,2,331.0,0.0,662.0,190.54,Debit Card
+ORD10691,2025-06-13,CUST1040,Customer 1040,East,Jharkhand,Jamshedpur,Office Supplies,Paper,A4 Paper Box,1,559.79,0.1,503.81,40.84,Credit Card
+ORD10692,2025-03-31,CUST1202,Customer 1202,North,Uttar Pradesh,Noida,Office Supplies,Stationery,Gel Pen Pack,1,170.17,0.0,170.17,32.72,UPI
+ORD10693,2025-05-16,CUST1194,Customer 1194,North,Delhi,Delhi,Furniture,Chairs,Ergo Chair,2,8482.96,0.15,14421.03,288.42,UPI
+ORD10694,2025-07-05,CUST1172,Customer 1172,West,Maharashtra,Pune,Office Supplies,Paper,A4 Paper Box,1,508.69,0.0,508.69,119.15,UPI
+ORD10695,2025-11-12,CUST1151,Customer 1151,East,West Bengal,Kolkata,Electronics,Accessories,Wireless Mouse,6,1226.76,0.15,6256.49,125.13,Debit Card
+ORD10696,2025-06-27,CUST1006,Customer 1006,West,Maharashtra,Pune,Furniture,Tables,Office Table,1,11758.07,0.05,11170.17,2160.17,UPI
+ORD10697,2025-01-28,CUST1194,Customer 1194,West,Maharashtra,Pune,Office Supplies,Stationery,Premium Notebook,3,346.1,0.1,934.46,102.17,Credit Card
+ORD10698,2025-08-08,CUST1149,Customer 1149,North,Delhi,Delhi,Office Supplies,Binders,Document Binder,1,250.63,0.05,238.1,30.73,UPI
+ORD10699,2025-12-23,CUST1119,Customer 1119,West,Goa,Panaji,Electronics,Headphones,SoundMax Pro,2,4779.18,0.15,8124.61,580.76,Net Banking
+ORD10700,2025-02-10,CUST1120,Customer 1120,East,Jharkhand,Jamshedpur,Office Supplies,Paper,A4 Paper Box,6,481.78,0.0,2890.66,199.2,UPI
+ORD10701,2025-08-16,CUST1035,Customer 1035,North,Punjab,Amritsar,Office Supplies,Binders,Document Binder,1,277.21,0.0,277.21,20.13,UPI
+ORD10702,2025-07-11,CUST1113,Customer 1113,West,Goa,Margao,Office Supplies,Binders,Document Binder,7,273.85,0.05,1821.12,357.04,Net Banking
+ORD10703,2025-05-25,CUST1029,Customer 1029,North,Uttar Pradesh,Kanpur,Electronics,Laptops,AeroBook 14,2,59991.9,0.0,119983.8,19297.66,Credit Card
+ORD10704,2025-07-20,CUST1007,Customer 1007,West,Maharashtra,Mumbai,Electronics,Accessories,Wireless Mouse,4,1255.54,0.0,5022.18,695.43,Net Banking
+ORD10705,2025-07-31,CUST1221,Customer 1221,South,Karnataka,Mysuru,Electronics,Accessories,Wireless Mouse,3,1109.99,0.15,2830.48,349.67,UPI
+ORD10706,2025-08-08,CUST1053,Customer 1053,East,Jharkhand,Jamshedpur,Electronics,Laptops,AeroBook 14,6,66631.31,0.2,319830.27,24656.27,UPI
+ORD10707,2025-08-28,CUST1165,Customer 1165,South,Tamil Nadu,Chennai,Office Supplies,Stationery,Gel Pen Pack,3,180.77,0.05,515.18,42.24,Debit Card
+ORD10708,2025-02-15,CUST1023,Customer 1023,North,Delhi,Delhi,Electronics,Headphones,SoundMax Pro,3,4358.36,0.15,11113.82,2942.6,Net Banking
+ORD10709,2025-02-04,CUST1097,Customer 1097,West,Goa,Panaji,Furniture,Chairs,Ergo Chair,2,8313.11,0.1,14963.6,2496.72,UPI
+ORD10710,2025-09-10,CUST1136,Customer 1136,North,Uttar Pradesh,Noida,Furniture,Tables,Office Table,1,11632.81,0.0,11632.81,1964.72,Net Banking
+ORD10711,2025-03-23,CUST1076,Customer 1076,South,Tamil Nadu,Chennai,Office Supplies,Stationery,Premium Notebook,6,377.4,0.1,2037.98,161.1,Credit Card
+ORD10712,2025-09-13,CUST1238,Customer 1238,North,Punjab,Ludhiana,Furniture,Tables,Office Table,2,11578.58,0.1,20841.45,3786.75,Cash
+ORD10713,2025-07-16,CUST1176,Customer 1176,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,2,4611.53,0.2,7378.45,147.57,Credit Card
+ORD10714,2025-10-30,CUST1010,Customer 1010,South,Tamil Nadu,Chennai,Furniture,Tables,Office Table,4,12385.47,0.0,49541.89,4903.45,UPI
+ORD10715,2025-01-10,CUST1207,Customer 1207,West,Goa,Margao,Electronics,Laptops,AeroBook 14,2,66453.25,0.1,119615.85,27934.22,Net Banking
+ORD10716,2025-11-08,CUST1117,Customer 1117,West,Goa,Panaji,Electronics,Accessories,Wireless Mouse,7,1151.23,0.0,8058.62,1306.68,Net Banking
+ORD10717,2025-10-13,CUST1024,Customer 1024,North,Punjab,Ludhiana,Furniture,Tables,Office Table,4,12564.17,0.0,50256.69,5355.63,Credit Card
+ORD10718,2025-08-30,CUST1218,Customer 1218,East,Odisha,Cuttack,Furniture,Storage,Filing Cabinet,3,6780.8,0.0,20342.41,3262.88,UPI
+ORD10719,2025-09-08,CUST1175,Customer 1175,South,Tamil Nadu,Coimbatore,Office Supplies,Binders,Document Binder,6,268.44,0.2,1288.51,166.88,UPI
+ORD10720,2025-12-31,CUST1234,Customer 1234,South,Tamil Nadu,Coimbatore,Appliances,Kitchen,Electric Kettle,1,1675.59,0.15,1424.25,193.68,Credit Card
+ORD10721,2025-01-05,CUST1181,Customer 1181,East,West Bengal,Kolkata,Office Supplies,Binders,Document Binder,2,247.26,0.15,420.34,67.55,UPI
+ORD10722,2025-04-29,CUST1039,Customer 1039,West,Gujarat,Ahmedabad,Office Supplies,Paper,A4 Paper Box,3,496.25,0.05,1414.32,70.76,Credit Card
+ORD10723,2025-10-16,CUST1250,Customer 1250,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,2,4671.47,0.05,8875.79,1810.13,UPI
+ORD10724,2025-03-06,CUST1195,Customer 1195,West,Goa,Panaji,Office Supplies,Stationery,Gel Pen Pack,4,171.05,0.0,684.19,100.89,Debit Card
+ORD10725,2025-05-26,CUST1066,Customer 1066,South,Tamil Nadu,Chennai,Appliances,Kitchen,Mixer Grinder,6,4249.39,0.05,24221.5,3481.53,UPI
+ORD10726,2025-08-12,CUST1006,Customer 1006,East,West Bengal,Durgapur,Appliances,Kitchen,Mixer Grinder,3,4008.64,0.05,11424.63,2538.15,Credit Card
+ORD10727,2025-08-27,CUST1021,Customer 1021,North,Punjab,Amritsar,Furniture,Storage,Filing Cabinet,2,7193.45,0.1,12948.21,2125.98,Credit Card
+ORD10728,2025-06-26,CUST1073,Customer 1073,West,Goa,Panaji,Appliances,Home,Air Purifier,7,16596.62,0.1,104558.71,14593.64,Debit Card
+ORD10729,2025-09-24,CUST1074,Customer 1074,North,Uttar Pradesh,Noida,Electronics,Laptops,AeroBook 14,3,62183.45,0.0,186550.35,3939.99,Credit Card
+ORD10730,2025-12-07,CUST1036,Customer 1036,East,Jharkhand,Jamshedpur,Electronics,Mobiles,Nova X5,3,27338.34,0.0,82015.03,12861.18,UPI
+ORD10731,2025-10-09,CUST1131,Customer 1131,North,Punjab,Ludhiana,Electronics,Laptops,AeroBook 14,2,59361.85,0.0,118723.71,12474.62,Debit Card
+ORD10732,2025-03-04,CUST1233,Customer 1233,West,Gujarat,Vadodara,Office Supplies,Binders,Document Binder,6,241.27,0.05,1375.24,257.55,Cash
+ORD10733,2025-08-05,CUST1216,Customer 1216,North,Delhi,Delhi,Office Supplies,Stationery,Gel Pen Pack,3,173.33,0.15,442.0,71.55,Debit Card
+ORD10734,2025-12-08,CUST1214,Customer 1214,South,Telangana,Hyderabad,Office Supplies,Stationery,Gel Pen Pack,5,184.44,0.1,829.99,77.9,Net Banking
+ORD10735,2025-11-11,CUST1241,Customer 1241,West,Gujarat,Ahmedabad,Furniture,Storage,Filing Cabinet,5,6836.58,0.15,29055.44,1330.95,Debit Card
+ORD10736,2025-10-10,CUST1206,Customer 1206,West,Goa,Margao,Office Supplies,Paper,A4 Paper Box,2,556.94,0.05,1058.19,260.78,Debit Card
+ORD10737,2025-06-26,CUST1170,Customer 1170,West,Goa,Margao,Electronics,Headphones,SoundMax Pro,3,4425.32,0.05,12612.16,1201.68,UPI
+ORD10738,2025-04-08,CUST1173,Customer 1173,North,Delhi,New Delhi,Appliances,Kitchen,Electric Kettle,5,1855.83,0.0,9279.16,708.76,Credit Card
+ORD10739,2025-04-15,CUST1044,Customer 1044,North,Delhi,New Delhi,Furniture,Chairs,Ergo Chair,2,8485.48,0.15,14425.31,493.53,Credit Card
+ORD10740,2025-04-09,CUST1091,Customer 1091,East,West Bengal,Durgapur,Electronics,Accessories,Wireless Mouse,5,1202.41,0.15,5110.26,274.17,UPI
+ORD10741,2025-11-07,CUST1161,Customer 1161,West,Maharashtra,Mumbai,Furniture,Storage,Filing Cabinet,7,6547.34,0.0,45831.37,4569.6,Credit Card
+ORD10742,2025-01-06,CUST1060,Customer 1060,East,Jharkhand,Jamshedpur,Appliances,Home,Air Purifier,4,15388.28,0.05,58475.46,11500.8,UPI
+ORD10743,2025-07-16,CUST1214,Customer 1214,North,Delhi,New Delhi,Office Supplies,Stationery,Gel Pen Pack,4,179.16,0.05,680.8,13.62,Debit Card
+ORD10744,2025-12-17,CUST1093,Customer 1093,East,West Bengal,Durgapur,Appliances,Kitchen,Mixer Grinder,5,4338.86,0.1,19524.89,1039.13,Credit Card
+ORD10745,2025-05-13,CUST1211,Customer 1211,South,Karnataka,Bengaluru,Electronics,Mobiles,Nova X5,5,29974.07,0.15,127389.79,11360.01,Credit Card
+ORD10746,2025-12-24,CUST1083,Customer 1083,West,Maharashtra,Mumbai,Appliances,Kitchen,Electric Kettle,2,1750.84,0.1,3151.52,408.81,Net Banking
+ORD10747,2025-09-16,CUST1198,Customer 1198,North,Uttar Pradesh,Lucknow,Office Supplies,Stationery,Premium Notebook,1,324.36,0.1,291.93,68.14,Credit Card
+ORD10748,2025-01-23,CUST1237,Customer 1237,East,West Bengal,Kolkata,Office Supplies,Stationery,Gel Pen Pack,2,179.89,0.0,359.79,96.48,Credit Card
+ORD10749,2025-02-22,CUST1083,Customer 1083,East,Jharkhand,Jamshedpur,Office Supplies,Paper,A4 Paper Box,4,523.7,0.0,2094.8,100.44,UPI
+ORD10750,2025-06-14,CUST1077,Customer 1077,North,Punjab,Amritsar,Appliances,Home,Air Purifier,3,14677.73,0.0,44033.2,1164.09,Net Banking
+ORD10751,2025-07-21,CUST1026,Customer 1026,North,Uttar Pradesh,Lucknow,Office Supplies,Paper,A4 Paper Box,4,541.67,0.0,2166.68,350.46,Credit Card
+ORD10752,2025-03-24,CUST1214,Customer 1214,South,Telangana,Hyderabad,Office Supplies,Stationery,Gel Pen Pack,2,193.97,0.1,349.14,23.7,Debit Card
+ORD10753,2025-05-25,CUST1021,Customer 1021,West,Maharashtra,Pune,Appliances,Home,Air Purifier,4,16605.52,0.1,59779.88,1886.54,UPI
+ORD10754,2025-03-26,CUST1228,Customer 1228,West,Gujarat,Ahmedabad,Office Supplies,Paper,A4 Paper Box,2,494.8,0.0,989.6,159.45,Credit Card
+ORD10755,2025-03-19,CUST1120,Customer 1120,North,Punjab,,Appliances,Home,Air Purifier,4,16430.9,0.15,55865.06,6069.67,UPI
+ORD10756,2025-01-01,CUST1130,Customer 1130,North,Punjab,Amritsar,Furniture,Storage,Filing Cabinet,3,7022.49,0.0,21067.47,2133.55,Debit Card
+ORD10757,2025-02-20,CUST1175,Customer 1175,West,Gujarat,Ahmedabad,Office Supplies,Stationery,Gel Pen Pack,2,178.67,0.05,339.47,31.85,Cash
+ORD10758,2025-06-22,CUST1108,Customer 1108,West,Goa,Margao,Office Supplies,Stationery,Gel Pen Pack,2,181.17,0.0,362.34,38.65,Debit Card
+ORD10759,2025-07-24,CUST1158,Customer 1158,West,Gujarat,Ahmedabad,Appliances,Home,Air Purifier,4,16367.01,0.05,62194.63,6760.28,Debit Card
+ORD10760,2025-09-17,CUST1027,Customer 1027,South,Telangana,Hyderabad,Electronics,Headphones,SoundMax Pro,3,4485.7,0.0,13457.09,2663.17,Credit Card
+ORD10761,2025-10-15,CUST1071,Customer 1071,West,Goa,Panaji,Electronics,Accessories,Wireless Mouse,2,1175.66,0.05,2233.75,138.6,Debit Card
+ORD10762,2025-02-03,CUST1148,Customer 1148,East,Jharkhand,Jamshedpur,Electronics,Mobiles,Nova X5,7,27969.75,0.05,185998.83,17233.17,Credit Card
+ORD10763,2025-12-14,CUST1050,Customer 1050,West,Gujarat,Ahmedabad,Office Supplies,Paper,A4 Paper Box,4,526.58,0.2,1685.07,70.86,Debit Card
+ORD10764,2025-04-05,CUST1095,Customer 1095,East,West Bengal,Kolkata,Electronics,Headphones,SoundMax Pro,7,4276.14,0.0,29932.95,4775.12,UPI
+ORD10765,2025-03-13,CUST1023,Customer 1023,West,Maharashtra,Mumbai,Office Supplies,Binders,Document Binder,3,276.68,0.0,830.03,148.84,UPI
+ORD10766,2025-02-08,CUST1141,Customer 1141,East,Odisha,Bhubaneswar,Office Supplies,Binders,Document Binder,3,267.25,0.0,801.74,242.89,Credit Card
+ORD10767,2025-06-03,CUST1081,Customer 1081,West,Maharashtra,Mumbai,Furniture,Chairs,Ergo Chair,6,8681.25,0.1,46878.73,7268.49,Credit Card
+ORD10768,2025-09-07,CUST1132,Customer 1132,South,Karnataka,Mysuru,Furniture,Chairs,Ergo Chair,3,7955.31,0.0,23865.94,4814.12,UPI
+ORD10769,2025-06-11,CUST1249,Customer 1249,West,Goa,Panaji,Furniture,Tables,Office Table,4,12708.35,0.15,43208.38,3190.38,Debit Card
+ORD10770,2025-04-28,CUST1142,Customer 1142,East,Jharkhand,Ranchi,Appliances,Kitchen,Electric Kettle,2,1690.84,0.05,3212.59,221.38,UPI
+ORD10771,2025-09-16,CUST1020,Customer 1020,South,Tamil Nadu,Chennai,Furniture,Storage,Filing Cabinet,3,6341.62,0.05,18073.63,1816.85,UPI
+ORD10772,2025-11-02,CUST1124,Customer 1124,North,Punjab,Amritsar,Furniture,Storage,Filing Cabinet,1,6829.71,0.1,6146.74,401.24,Debit Card
+ORD10773,2025-09-25,CUST1013,Customer 1013,East,West Bengal,Kolkata,Electronics,Laptops,AeroBook 14,2,61035.63,0.0,122071.26,22883.01,Credit Card
+ORD10774,2025-02-23,CUST1003,Customer 1003,East,Jharkhand,Ranchi,Appliances,Home,Air Purifier,1,15720.25,0.0,15720.25,698.14,Debit Card
+ORD10775,2025-08-24,CUST1218,Customer 1218,East,Odisha,Bhubaneswar,Electronics,Mobiles,Nova X5,1,26159.72,0.05,24851.73,4447.9,Credit Card
+ORD10776,2025-08-10,CUST1218,Customer 1218,North,Punjab,Amritsar,Appliances,Kitchen,Mixer Grinder,8,4153.62,0.1,29906.07,3193.77,Net Banking
+ORD10777,2025-09-08,CUST1210,Customer 1210,South,Tamil Nadu,Chennai,Office Supplies,Stationery,Gel Pen Pack,2,170.63,0.0,341.27,72.12,Credit Card
+ORD10778,2025-11-09,CUST1224,Customer 1224,North,Punjab,Amritsar,Office Supplies,Paper,A4 Paper Box,4,560.53,0.0,2242.11,245.12,UPI
+ORD10779,2025-04-22,CUST1206,Customer 1206,North,Punjab,Ludhiana,Electronics,Mobiles,Nova X5,5,28273.95,0.2,113095.81,2261.92,Credit Card
+ORD10780,2025-09-12,CUST1175,Customer 1175,North,Punjab,Ludhiana,Furniture,Tables,Office Table,3,12874.87,0.0,38624.62,5080.42,UPI
+ORD10781,2025-10-30,CUST1131,Customer 1131,East,West Bengal,,Office Supplies,Binders,Document Binder,1,252.74,0.15,214.83,13.4,Net Banking
+ORD10782,2025-07-26,CUST1129,Customer 1129,West,Goa,Margao,Office Supplies,Binders,Document Binder,4,243.14,0.15,826.68,123.13,UPI
+ORD10783,2025-08-17,CUST1090,Customer 1090,North,Uttar Pradesh,Lucknow,Electronics,Laptops,AeroBook 14,3,66720.64,0.05,190153.82,36752.23,Credit Card
+ORD10784,2025-12-07,CUST1152,Customer 1152,South,Tamil Nadu,Coimbatore,Electronics,Headphones,SoundMax Pro,4,4346.11,0.0,17384.43,5099.75,UPI
+ORD10785,2025-03-07,CUST1241,Customer 1241,West,Goa,Margao,Electronics,Mobiles,Nova X5,5,27658.66,0.0,138293.3,17330.3,Cash
+ORD10786,2025-03-16,CUST1035,Customer 1035,North,Uttar Pradesh,Lucknow,Electronics,Headphones,SoundMax Pro,8,4607.9,0.1,33176.89,663.54,UPI
+ORD10787,2025-04-13,CUST1014,Customer 1014,West,Goa,Margao,Furniture,Chairs,Ergo Chair,3,7853.59,0.1,21204.69,1830.82,Net Banking
+ORD10788,2025-07-11,CUST1195,Customer 1195,East,Odisha,Cuttack,Office Supplies,Binders,Document Binder,2,272.91,0.15,463.94,50.41,UPI
+ORD10789,2025-09-09,CUST1141,Customer 1141,West,Gujarat,Ahmedabad,Office Supplies,Paper,A4 Paper Box,4,523.04,0.15,1778.35,253.44,UPI
+ORD10790,2025-08-14,CUST1175,Customer 1175,East,Jharkhand,Ranchi,Furniture,Tables,Office Table,1,12056.43,0.1,10850.79,1478.45,UPI
+ORD10791,2025-10-21,CUST1050,Customer 1050,North,Uttar Pradesh,Lucknow,Office Supplies,Stationery,Gel Pen Pack,6,167.37,0.0,1004.25,125.79,Cash
+ORD10792,2025-11-02,CUST1078,Customer 1078,East,Odisha,Cuttack,Appliances,Kitchen,Mixer Grinder,1,3973.2,0.0,3973.2,1112.46,Net Banking
+ORD10793,2025-04-08,CUST1213,Customer 1213,North,Delhi,Delhi,Office Supplies,Binders,Document Binder,2,276.43,0.15,469.94,9.46,UPI
+ORD10794,2025-12-04,CUST1154,Customer 1154,South,Telangana,Hyderabad,Office Supplies,Paper,A4 Paper Box,5,535.48,0.0,2677.39,376.91,UPI
+ORD10795,2025-10-13,CUST1003,Customer 1003,South,Karnataka,Bengaluru,Appliances,Kitchen,Mixer Grinder,3,4031.93,0.0,12095.8,1020.96,Debit Card
+ORD10796,2025-12-01,CUST1179,Customer 1179,West,Goa,Margao,Appliances,Kitchen,Mixer Grinder,2,3908.08,0.1,7034.55,818.61,UPI
+ORD10797,2025-12-13,CUST1040,Customer 1040,East,West Bengal,Kolkata,Appliances,Kitchen,Electric Kettle,3,1854.9,0.05,5286.46,1314.9,UPI
+ORD10798,2025-11-04,CUST1196,Customer 1196,West,Maharashtra,Pune,Electronics,Accessories,Wireless Mouse,5,1213.9,0.15,5159.08,426.32,UPI
+ORD10799,2025-09-06,CUST1164,Customer 1164,South,Karnataka,Bengaluru,Furniture,Storage,Filing Cabinet,2,6696.12,0.1,12053.01,1272.36,UPI
+ORD10800,2025-06-15,CUST1051,Customer 1051,South,Tamil Nadu,Chennai,Furniture,Tables,Office Table,6,12227.22,0.0,73363.34,3028.63,UPI
+ORD10801,2025-12-01,CUST1235,Customer 1235,East,West Bengal,Durgapur,Electronics,Mobiles,Nova X5,1,26731.33,0.15,22721.63,1645.29,UPI
+ORD10802,2025-01-30,CUST1001,Customer 1001,South,Karnataka,Bengaluru,Office Supplies,Paper,A4 Paper Box,5,534.11,0.0,2670.56,642.36,Credit Card
+ORD10803,2025-09-04,CUST1104,Customer 1104,East,West Bengal,Kolkata,Office Supplies,Binders,Document Binder,5,279.58,0.05,1328.0,159.34,Cash
+ORD10804,2025-04-16,CUST1239,Customer 1239,North,Uttar Pradesh,Noida,Office Supplies,Binders,Document Binder,2,246.51,0.05,468.37,53.98,UPI
+ORD10805,2025-02-20,CUST1161,Customer 1161,West,Maharashtra,Pune,Office Supplies,Binders,Document Binder,3,264.04,0.0,792.12,188.05,Debit Card
+ORD10806,2025-03-22,CUST1135,Customer 1135,North,Uttar Pradesh,Lucknow,Office Supplies,Stationery,Premium Notebook,1,345.75,0.05,328.47,37.95,UPI
+ORD10807,2025-05-13,CUST1117,Customer 1117,West,Maharashtra,Mumbai,Furniture,Storage,Filing Cabinet,4,6742.0,0.0,26967.99,6753.96,Debit Card
+ORD10808,2025-10-12,CUST1116,Customer 1116,South,Karnataka,Bengaluru,Furniture,Storage,Filing Cabinet,3,6532.51,0.05,18617.66,885.74,UPI
+ORD10809,2025-05-18,CUST1052,Customer 1052,South,Tamil Nadu,Chennai,Appliances,Home,Air Purifier,4,16306.33,0.05,61964.07,11460.24,Debit Card
+ORD10810,2025-07-03,CUST1120,Customer 1120,North,Uttar Pradesh,Noida,Office Supplies,Stationery,Premium Notebook,2,349.17,0.1,628.51,144.71,UPI
+ORD10811,2025-11-26,CUST1139,Customer 1139,West,Maharashtra,Mumbai,Appliances,Kitchen,Mixer Grinder,2,4229.17,0.15,7189.59,1172.26,Net Banking
+ORD10812,2025-09-30,CUST1155,Customer 1155,East,Jharkhand,Jamshedpur,Appliances,Kitchen,Mixer Grinder,1,4068.8,0.0,4068.8,119.18,UPI
+ORD10813,2025-12-06,CUST1142,Customer 1142,West,Goa,Margao,Appliances,Kitchen,Electric Kettle,2,1708.36,0.05,3245.89,301.28,Credit Card
+ORD10814,2025-03-10,CUST1086,Customer 1086,East,Odisha,Bhubaneswar,Appliances,Home,Air Purifier,3,14473.06,0.05,41248.21,4973.02,Net Banking
+ORD10815,2025-02-03,CUST1208,Customer 1208,West,Gujarat,Surat,Office Supplies,Binders,Document Binder,5,268.91,0.0,1344.54,310.18,Credit Card
+ORD10816,2025-09-19,CUST1046,Customer 1046,South,Tamil Nadu,Chennai,Electronics,Laptops,AeroBook 14,4,58986.64,0.15,200554.59,4011.09,Credit Card
+ORD10817,2025-02-22,CUST1076,Customer 1076,North,Punjab,Ludhiana,Appliances,Kitchen,Electric Kettle,3,1854.74,0.1,5007.8,218.71,Net Banking
+ORD10818,2025-07-24,CUST1241,Customer 1241,East,Odisha,Cuttack,Electronics,Laptops,AeroBook 14,7,60912.53,0.0,426387.74,20312.86,UPI
+ORD10819,2025-05-06,CUST1238,Customer 1238,East,Odisha,Cuttack,Office Supplies,Stationery,Premium Notebook,4,345.28,0.05,1312.08,104.56,UPI
+ORD10820,2025-08-23,CUST1010,Customer 1010,East,Odisha,Cuttack,Electronics,Accessories,Wireless Mouse,7,1194.08,0.0,8358.57,605.06,Net Banking
+ORD10821,2025-02-12,CUST1152,Customer 1152,North,Punjab,Ludhiana,Furniture,Chairs,Ergo Chair,3,8320.08,0.1,22464.23,5096.09,UPI
+ORD10822,2025-08-28,CUST1061,Customer 1061,East,West Bengal,Durgapur,Office Supplies,Stationery,Premium Notebook,2,327.63,0.0,655.27,75.15,Cash
+ORD10823,2025-04-21,CUST1238,Customer 1238,South,Telangana,Warangal,Furniture,Chairs,Ergo Chair,1,8241.1,0.2,6592.88,780.36,UPI
+ORD10824,2025-09-06,CUST1018,Customer 1018,East,Odisha,Cuttack,Office Supplies,Paper,A4 Paper Box,4,533.62,0.15,1814.32,170.11,Debit Card
+ORD10825,2025-05-31,CUST1086,Customer 1086,South,Tamil Nadu,Chennai,Electronics,Accessories,Wireless Mouse,1,1231.83,0.05,1170.24,161.23,Credit Card
+ORD10826,2025-07-02,CUST1137,Customer 1137,South,Telangana,Hyderabad,Appliances,Kitchen,Mixer Grinder,2,4056.34,0.1,7301.42,537.38,Net Banking
+ORD10827,2025-12-02,CUST1145,Customer 1145,West,Maharashtra,Kolhapur,Furniture,Tables,Office Table,3,12420.21,0.15,31671.52,4636.76,Credit Card
+ORD10828,2025-04-05,CUST1230,Customer 1230,South,Telangana,Warangal,Appliances,Kitchen,Electric Kettle,3,1711.71,0.1,4621.62,581.42,UPI
+ORD10829,2025-01-08,CUST1128,Customer 1128,West,Goa,Margao,Appliances,Kitchen,Mixer Grinder,3,4005.37,0.0,12016.11,2003.95,Debit Card
+ORD10830,2025-12-26,CUST1104,Customer 1104,South,Tamil Nadu,Chennai,Furniture,Chairs,Ergo Chair,1,7851.34,0.05,7458.78,715.75,UPI
+ORD10831,2025-07-03,CUST1186,Customer 1186,East,Jharkhand,Ranchi,Appliances,Home,Air Purifier,2,16483.93,0.15,28022.68,1749.05,Cash
+ORD10832,2025-10-08,CUST1141,Customer 1141,South,Telangana,Hyderabad,Furniture,Storage,Filing Cabinet,3,6485.25,0.1,17510.17,2735.51,Cash
+ORD10833,2025-07-14,CUST1178,Customer 1178,South,Tamil Nadu,Coimbatore,Appliances,Home,Air Purifier,7,14824.28,0.1,93392.99,12244.18,Credit Card
+ORD10834,2025-12-18,CUST1101,Customer 1101,South,Tamil Nadu,Coimbatore,Office Supplies,Paper,A4 Paper Box,4,501.66,0.15,1705.65,172.52,Cash
+ORD10835,2025-07-14,CUST1006,Customer 1006,South,Tamil Nadu,Chennai,Furniture,Storage,Filing Cabinet,6,6394.62,0.15,32612.56,1295.27,UPI
+ORD10836,2025-06-04,CUST1085,Customer 1085,East,Odisha,Bhubaneswar,Appliances,Kitchen,Electric Kettle,5,1840.11,0.15,7820.46,1787.66,Credit Card
+ORD10837,2025-04-03,CUST1051,Customer 1051,West,Goa,Margao,Electronics,Accessories,Wireless Mouse,3,1118.43,0.0,3355.28,424.18,Credit Card
+ORD10838,2025-06-09,CUST1036,Customer 1036,East,Jharkhand,Ranchi,Appliances,Kitchen,Mixer Grinder,2,3954.18,0.1,7117.53,803.44,Debit Card
+ORD10839,2025-03-02,CUST1071,Customer 1071,West,Maharashtra,Mumbai,Appliances,Kitchen,Electric Kettle,4,1841.69,0.1,6630.08,675.66,UPI
+ORD10840,2025-05-02,CUST1100,Customer 1100,North,Delhi,New Delhi,Furniture,Chairs,Ergo Chair,4,8281.94,0.1,29814.98,7508.3,Debit Card
+ORD10841,2025-02-20,CUST1025,Customer 1025,East,Jharkhand,Jamshedpur,Appliances,Kitchen,Electric Kettle,3,1859.89,0.1,5021.7,475.27,UPI
+ORD10842,2025-10-04,CUST1139,Customer 1139,South,Karnataka,Bengaluru,Electronics,Headphones,SoundMax Pro,3,4541.35,0.0,13624.04,1815.21,Debit Card
+ORD10843,2025-01-05,CUST1044,Customer 1044,North,Uttar Pradesh,Noida,Electronics,Accessories,Wireless Mouse,3,1153.16,0.15,2940.55,296.35,UPI
+ORD10844,2025-04-02,CUST1014,Customer 1014,South,Karnataka,Bengaluru,Appliances,Home,Air Purifier,2,15874.05,0.1,28573.3,1898.76,Cash
+ORD10845,2025-06-19,CUST1237,Customer 1237,West,Gujarat,Vadodara,Electronics,Accessories,Wireless Mouse,3,1126.32,0.0,3378.97,567.03,UPI
+ORD10846,2025-11-13,CUST1029,Customer 1029,South,Karnataka,Mysuru,Electronics,Headphones,SoundMax Pro,2,4526.22,0.05,8599.81,2610.15,Credit Card
+ORD10847,2025-01-22,CUST1074,Customer 1074,South,Tamil Nadu,Coimbatore,Appliances,Kitchen,Electric Kettle,5,1781.9,0.0,8909.49,1612.43,UPI
+ORD10848,2025-11-22,CUST1050,Customer 1050,East,Odisha,Cuttack,Office Supplies,Paper,A4 Paper Box,2,500.69,0.05,951.31,148.33,Debit Card
+ORD10849,2025-01-01,CUST1240,Customer 1240,North,Punjab,Ludhiana,Furniture,Chairs,Ergo Chair,1,8641.45,0.0,8641.45,948.37,UPI
+ORD10850,2025-05-13,CUST1005,Customer 1005,North,Punjab,Amritsar,Furniture,Chairs,Ergo Chair,3,9005.01,0.05,25664.29,6599.43,Debit Card
+ORD10851,2025-08-21,CUST1200,Customer 1200,West,Maharashtra,Kolhapur,Office Supplies,Binders,Document Binder,4,280.75,0.1,1010.72,253.42,UPI
+ORD10852,2025-01-12,CUST1110,Customer 1110,East,Jharkhand,Jamshedpur,Furniture,Storage,Filing Cabinet,3,6917.25,0.1,18676.56,3262.56,Debit Card
+ORD10853,2025-12-12,CUST1197,Customer 1197,East,Odisha,Cuttack,Electronics,Accessories,Wireless Mouse,2,1181.7,0.1,2127.07,341.96,UPI
+ORD10854,2025-02-15,CUST1122,Customer 1122,West,Maharashtra,Kolhapur,Appliances,Kitchen,Electric Kettle,3,1720.86,0.15,4388.19,333.79,UPI
+ORD10855,2025-02-03,CUST1088,Customer 1088,East,Odisha,Cuttack,Electronics,Accessories,Wireless Mouse,2,1153.36,0.0,2306.72,432.27,Credit Card
+ORD10856,2025-03-19,CUST1232,Customer 1232,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Gel Pen Pack,7,179.41,0.0,1255.86,127.52,UPI
+ORD10857,2025-08-06,CUST1057,Customer 1057,West,Maharashtra,Pune,Furniture,Tables,Office Table,6,12234.56,0.15,62396.23,1247.92,UPI
+ORD10858,2025-10-28,CUST1026,Customer 1026,West,Maharashtra,Kolhapur,Electronics,Accessories,Wireless Mouse,3,1279.45,0.0,3838.36,214.51,Net Banking
+ORD10859,2025-03-14,CUST1006,Customer 1006,South,Telangana,Hyderabad,Electronics,Mobiles,Nova X5,2,27409.96,0.2,43855.94,4330.65,Net Banking
+ORD10860,2025-10-09,CUST1144,Customer 1144,East,West Bengal,Durgapur,Furniture,Tables,Office Table,4,12246.89,0.15,41639.42,832.79,Debit Card
+ORD10861,2025-09-06,CUST1060,Customer 1060,South,Karnataka,Bengaluru,Electronics,Mobiles,Nova X5,1,27478.23,0.05,26104.32,2676.36,UPI
+ORD10862,2025-02-16,CUST1100,Customer 1100,East,Jharkhand,Jamshedpur,Furniture,Chairs,Ergo Chair,3,8957.8,0.2,21498.73,1412.77,UPI
+ORD10863,2025-05-01,CUST1012,Customer 1012,East,Jharkhand,Ranchi,Furniture,Tables,Office Table,2,12801.58,0.0,25603.15,5880.28,Debit Card
+ORD10864,2025-08-02,CUST1075,Customer 1075,East,West Bengal,Durgapur,Electronics,Accessories,Wireless Mouse,6,1221.92,0.05,6964.95,675.77,UPI
+ORD10865,2025-08-27,CUST1003,Customer 1003,East,Jharkhand,Jamshedpur,Appliances,Home,Air Purifier,1,15088.67,0.1,13579.81,2619.94,Net Banking
+ORD10866,2025-02-25,CUST1063,Customer 1063,West,Gujarat,Ahmedabad,Appliances,Kitchen,Electric Kettle,3,1891.56,0.05,5390.94,1095.66,UPI
+ORD10867,2025-12-16,CUST1236,Customer 1236,North,Punjab,Amritsar,Electronics,Headphones,SoundMax Pro,4,4167.62,0.15,14169.91,283.4,Net Banking
+ORD10868,2025-04-17,CUST1192,Customer 1192,West,Goa,Margao,Furniture,Storage,Filing Cabinet,3,7203.43,0.0,21610.28,5156.17,Credit Card
+ORD10869,2025-11-15,CUST1190,Customer 1190,North,Uttar Pradesh,Noida,Electronics,Mobiles,Nova X5,1,28057.12,0.1,25251.41,2402.65,Debit Card
+ORD10870,2025-02-17,CUST1229,Customer 1229,North,Delhi,Delhi,Appliances,Kitchen,Electric Kettle,8,1770.7,0.1,12749.01,1020.86,UPI
+ORD10871,2025-03-02,CUST1134,Customer 1134,West,Goa,Margao,Office Supplies,Binders,Document Binder,3,259.88,0.1,701.68,66.97,Net Banking
+ORD10872,2025-12-03,CUST1019,Customer 1019,West,Maharashtra,Mumbai,Appliances,Home,Air Purifier,3,15915.19,0.0,47745.57,7627.57,UPI
+ORD10873,2025-01-26,CUST1018,Customer 1018,South,Tamil Nadu,Coimbatore,Furniture,Tables,Office Table,2,11525.53,0.05,21898.51,2374.82,Debit Card
+ORD10874,2025-10-19,CUST1080,Customer 1080,East,Jharkhand,Ranchi,Appliances,Kitchen,Electric Kettle,3,1907.01,0.15,4862.87,163.98,Cash
+ORD10875,2025-09-14,CUST1215,Customer 1215,West,Maharashtra,Mumbai,Electronics,Accessories,Wireless Mouse,3,1189.77,0.0,3569.32,383.39,UPI
+ORD10876,2025-01-08,CUST1171,Customer 1171,South,Karnataka,Mysuru,Furniture,Tables,Office Table,1,12185.93,0.15,10358.04,1058.86,Credit Card
+ORD10877,2025-04-23,CUST1229,Customer 1229,West,Gujarat,Ahmedabad,Electronics,Accessories,Wireless Mouse,1,1130.54,0.1,1017.49,105.58,Credit Card
+ORD10878,2025-12-21,CUST1073,Customer 1073,North,Uttar Pradesh,Kanpur,Electronics,Accessories,Wireless Mouse,5,1188.38,0.1,5347.7,812.38,UPI
+ORD10879,2025-09-10,CUST1131,Customer 1131,South,Tamil Nadu,Coimbatore,Electronics,Accessories,Wireless Mouse,2,1199.29,0.1,2158.73,256.17,Credit Card
+ORD10880,2025-06-29,CUST1126,Customer 1126,West,Maharashtra,Mumbai,Office Supplies,Stationery,Gel Pen Pack,2,177.23,0.0,354.45,58.62,UPI
+ORD10881,2025-07-26,CUST1072,Customer 1072,West,Maharashtra,Mumbai,Furniture,Storage,Filing Cabinet,3,6994.38,0.1,18884.83,2955.42,Credit Card
+ORD10882,2025-10-30,CUST1038,Customer 1038,West,Goa,Margao,Electronics,Headphones,SoundMax Pro,5,4443.05,0.15,18882.94,3622.21,Debit Card
+ORD10883,2025-05-07,CUST1068,Customer 1068,East,West Bengal,Kolkata,Electronics,Headphones,SoundMax Pro,1,4832.22,0.05,4590.61,1100.05,Debit Card
+ORD10884,2025-02-25,CUST1204,Customer 1204,West,Goa,Margao,Furniture,Tables,Office Table,3,12698.56,0.2,30476.53,4992.92,UPI
+ORD10885,2025-08-02,CUST1172,Customer 1172,North,Punjab,Ludhiana,Furniture,Tables,Office Table,1,13114.96,0.05,12459.21,2472.3,Net Banking
+ORD10886,2025-01-14,CUST1223,Customer 1223,West,Goa,Margao,Electronics,Accessories,Wireless Mouse,1,1125.0,0.0,1125.0,344.22,Net Banking
+ORD10887,2025-01-28,CUST1217,Customer 1217,East,Jharkhand,Ranchi,Office Supplies,Stationery,Gel Pen Pack,1,177.04,0.05,168.19,28.28,Credit Card
+ORD10888,2025-03-19,CUST1245,Customer 1245,South,Karnataka,Bengaluru,Electronics,Accessories,Wireless Mouse,5,1168.67,0.2,4674.7,433.76,Credit Card
+ORD10889,2025-08-04,CUST1080,Customer 1080,South,Karnataka,Bengaluru,Office Supplies,Stationery,Gel Pen Pack,1,182.0,0.05,172.9,50.93,Credit Card
+ORD10890,2025-12-31,CUST1191,Customer 1191,North,Uttar Pradesh,Noida,Electronics,Accessories,Wireless Mouse,1,1269.33,0.15,1078.93,21.58,Debit Card
+ORD10891,2025-06-03,CUST1042,Customer 1042,East,West Bengal,Durgapur,Electronics,Mobiles,Nova X5,3,26110.96,0.15,66582.94,5161.99,Debit Card
+ORD10892,2025-01-14,CUST1064,Customer 1064,North,Delhi,Delhi,Electronics,Mobiles,Nova X5,5,26085.14,0.05,123904.39,27900.13,UPI
+ORD10893,2025-07-06,CUST1182,Customer 1182,East,West Bengal,Kolkata,Furniture,Chairs,Ergo Chair,2,8976.43,0.0,17952.86,4104.36,Debit Card
+ORD10894,2025-11-08,CUST1078,Customer 1078,East,Jharkhand,Ranchi,Electronics,Accessories,Wireless Mouse,3,1144.87,0.1,3091.14,910.64,UPI
+ORD10895,2025-01-07,CUST1127,Customer 1127,West,Maharashtra,Kolhapur,Furniture,Storage,Filing Cabinet,1,6983.6,0.05,6634.42,962.15,UPI
+ORD10896,2025-01-03,CUST1205,Customer 1205,South,Telangana,Warangal,Appliances,Home,Air Purifier,3,15606.34,0.15,39796.16,2481.0,Debit Card
+ORD10897,2025-04-21,CUST1105,Customer 1105,East,West Bengal,Kolkata,Office Supplies,Binders,Document Binder,3,273.85,0.05,780.47,89.17,Debit Card
+ORD10898,2025-08-26,CUST1199,Customer 1199,West,Gujarat,Vadodara,Furniture,Chairs,Ergo Chair,3,7990.12,0.05,22771.84,3638.14,Credit Card
+ORD10899,2025-12-29,CUST1076,Customer 1076,East,West Bengal,Durgapur,Furniture,Tables,Office Table,2,11759.57,0.1,21167.22,4837.03,Credit Card
+ORD10900,2025-08-27,CUST1165,Customer 1165,East,West Bengal,Durgapur,Office Supplies,Paper,A4 Paper Box,2,524.73,0.05,996.98,251.13,Net Banking
+ORD10901,2025-10-01,CUST1242,Customer 1242,South,Telangana,Hyderabad,Electronics,Accessories,Wireless Mouse,1,1285.7,0.05,1221.42,163.16,Credit Card
+ORD10902,2025-10-21,CUST1132,Customer 1132,North,Uttar Pradesh,Kanpur,Appliances,Kitchen,Electric Kettle,2,1775.52,0.05,3373.49,523.6,Debit Card
+ORD10903,2025-08-15,CUST1130,Customer 1130,North,Delhi,New Delhi,Appliances,Kitchen,Mixer Grinder,1,4083.71,0.05,3879.52,367.34,UPI
+ORD10904,2025-01-15,CUST1227,Customer 1227,West,Gujarat,Vadodara,Electronics,Mobiles,Nova X5,5,28477.97,0.05,135270.35,13796.89,UPI
+ORD10905,2025-07-11,CUST1122,Customer 1122,East,West Bengal,Kolkata,Appliances,Kitchen,Electric Kettle,7,1923.97,0.15,11447.62,1897.31,UPI
+ORD10906,2025-04-29,CUST1044,Customer 1044,East,West Bengal,Kolkata,Office Supplies,Paper,A4 Paper Box,8,548.03,0.05,4165.05,1039.82,Credit Card
+ORD10907,2025-01-28,CUST1195,Customer 1195,West,Gujarat,Ahmedabad,Office Supplies,Stationery,Gel Pen Pack,6,194.27,0.05,1107.34,98.21,Debit Card
+ORD10908,2025-07-21,CUST1196,Customer 1196,West,Goa,Margao,Office Supplies,Paper,A4 Paper Box,3,480.28,0.1,1296.75,171.18,UPI
+ORD10909,2025-02-08,CUST1102,Customer 1102,North,Delhi,Delhi,Furniture,Storage,Filing Cabinet,4,6378.79,0.0,25515.16,3648.27,Credit Card
+ORD10910,2025-09-30,CUST1204,Customer 1204,West,Goa,Margao,Electronics,Accessories,Wireless Mouse,2,1221.02,0.0,2442.04,538.4,UPI
+ORD10911,2025-08-19,CUST1211,Customer 1211,East,Jharkhand,,Electronics,Headphones,SoundMax Pro,4,4730.82,0.15,16084.77,1050.4,UPI
+ORD10912,2025-03-27,CUST1202,Customer 1202,West,Gujarat,Ahmedabad,Office Supplies,Paper,A4 Paper Box,3,502.13,0.1,1355.76,27.12,Net Banking
+ORD10913,2025-05-06,CUST1062,Customer 1062,West,Gujarat,Ahmedabad,Appliances,Home,Air Purifier,3,14853.24,0.1,40103.76,7429.56,Debit Card
+ORD10914,2025-10-27,CUST1001,Customer 1001,West,Goa,Margao,Electronics,Headphones,SoundMax Pro,4,4706.62,0.1,16943.84,1588.59,UPI
+ORD10915,2025-01-25,CUST1017,Customer 1017,South,Karnataka,Mysuru,Office Supplies,Stationery,Gel Pen Pack,2,167.22,0.0,334.45,48.84,Debit Card
+ORD10916,2025-05-25,CUST1016,Customer 1016,South,Telangana,Warangal,Furniture,Chairs,Ergo Chair,2,8322.36,0.1,14980.25,2179.49,Debit Card
+ORD10917,2025-01-13,CUST1009,Customer 1009,South,Karnataka,Mysuru,Appliances,Kitchen,Electric Kettle,6,1801.67,0.05,10269.54,1665.7,Debit Card
+ORD10918,2025-07-31,CUST1249,Customer 1249,East,West Bengal,Durgapur,Electronics,Headphones,SoundMax Pro,1,4543.45,0.1,4089.11,600.81,UPI
+ORD10919,2025-01-25,CUST1181,Customer 1181,West,Gujarat,Ahmedabad,Furniture,Chairs,Ergo Chair,3,8810.92,0.05,25111.11,588.07,Credit Card
+ORD10920,2025-03-09,CUST1201,Customer 1201,East,West Bengal,Kolkata,Electronics,Mobiles,Nova X5,6,27349.71,0.0,164098.25,32645.97,UPI
+ORD10921,2025-03-08,CUST1059,Customer 1059,East,West Bengal,Kolkata,Office Supplies,Binders,Document Binder,3,264.69,0.0,794.06,20.94,Cash
+ORD10922,2025-08-21,CUST1119,Customer 1119,South,Telangana,Warangal,Electronics,Accessories,Wireless Mouse,3,1216.39,0.2,2919.34,361.62,Debit Card
+ORD10923,2025-04-19,CUST1137,Customer 1137,West,Gujarat,Vadodara,Office Supplies,Paper,A4 Paper Box,2,523.96,0.05,995.53,214.82,Credit Card
+ORD10924,2025-05-26,CUST1140,Customer 1140,East,West Bengal,Kolkata,Electronics,Mobiles,Nova X5,2,28629.37,0.05,54395.79,2268.5,UPI
+ORD10925,2025-04-21,CUST1119,Customer 1119,West,Maharashtra,Mumbai,Electronics,Mobiles,Nova X5,5,26922.33,0.0,134611.66,24632.63,UPI
+ORD10926,2025-08-16,CUST1041,Customer 1041,East,Odisha,Bhubaneswar,Appliances,Kitchen,Mixer Grinder,3,3920.88,0.0,11762.65,2752.49,UPI
+ORD10927,2025-04-21,CUST1143,Customer 1143,North,Uttar Pradesh,Kanpur,Office Supplies,Stationery,Premium Notebook,3,328.68,0.1,887.43,74.16,Net Banking
+ORD10928,2025-02-03,CUST1066,Customer 1066,East,Odisha,Cuttack,Electronics,Laptops,AeroBook 14,1,59267.86,0.1,53341.07,8649.5,UPI
+ORD10929,2025-04-21,CUST1075,Customer 1075,East,Odisha,Cuttack,Appliances,Home,Air Purifier,1,15500.49,0.05,14725.47,294.51,UPI
+ORD10930,2025-09-21,CUST1011,Customer 1011,East,West Bengal,Durgapur,Furniture,Storage,Filing Cabinet,7,7170.4,0.0,50192.81,11889.36,Net Banking
+ORD10931,2025-08-24,CUST1008,Customer 1008,East,West Bengal,Durgapur,Furniture,Chairs,Ergo Chair,2,8773.76,0.1,15792.77,1849.33,Credit Card
+ORD10932,2025-03-24,CUST1183,Customer 1183,South,Telangana,Warangal,Office Supplies,Binders,Document Binder,3,272.02,0.0,816.07,115.84,Cash
+ORD10933,2025-02-11,CUST1224,Customer 1224,South,Karnataka,Bengaluru,Office Supplies,Stationery,Premium Notebook,1,341.65,0.0,341.65,78.2,UPI
+ORD10934,2025-04-11,CUST1134,Customer 1134,South,Karnataka,Bengaluru,Electronics,Laptops,AeroBook 14,4,61054.17,0.05,232005.83,59985.17,Credit Card
+ORD10935,2025-01-06,CUST1181,Customer 1181,South,Tamil Nadu,Coimbatore,Office Supplies,Binders,Document Binder,7,255.58,0.05,1699.59,291.48,Credit Card
+ORD10936,2025-06-29,CUST1148,Customer 1148,East,West Bengal,Kolkata,Furniture,Storage,Filing Cabinet,3,6464.76,0.0,19394.27,5287.07,Debit Card
+ORD10937,2025-10-09,CUST1167,Customer 1167,North,Uttar Pradesh,Kanpur,Furniture,Chairs,Ergo Chair,1,7903.25,0.1,7112.93,142.26,UPI
+ORD10938,2025-11-16,CUST1099,,East,Odisha,Cuttack,Electronics,Accessories,Wireless Mouse,3,1217.46,0.1,3287.13,531.25,Credit Card
+ORD10939,2025-08-14,CUST1072,Customer 1072,West,Goa,Margao,Furniture,Storage,Filing Cabinet,5,7332.27,0.15,31162.14,2594.55,Cash
+ORD10940,2025-11-11,CUST1242,Customer 1242,South,Tamil Nadu,Coimbatore,Office Supplies,Paper,A4 Paper Box,2,492.28,0.05,935.33,77.0,Credit Card
+ORD10941,2025-12-31,CUST1113,Customer 1113,West,Maharashtra,Kolhapur,Electronics,Mobiles,Nova X5,6,25969.15,0.0,155814.89,3894.17,Credit Card
+ORD10942,2025-08-17,CUST1107,Customer 1107,South,Tamil Nadu,Coimbatore,Appliances,Kitchen,Mixer Grinder,4,4387.85,0.0,17551.38,3559.86,UPI
+ORD10943,2025-10-16,CUST1034,Customer 1034,East,Odisha,Bhubaneswar,Electronics,Laptops,AeroBook 14,6,59545.65,0.2,285819.14,37519.56,UPI
+ORD10944,2025-05-30,CUST1057,Customer 1057,North,Delhi,Delhi,Electronics,Laptops,AeroBook 14,4,65270.07,0.1,234972.24,49095.47,Debit Card
+ORD10945,2025-10-04,CUST1117,Customer 1117,North,Delhi,Delhi,Office Supplies,Binders,Document Binder,1,268.48,0.1,241.64,47.69,Debit Card
+ORD10946,2025-07-17,CUST1120,Customer 1120,South,Telangana,Warangal,Appliances,Kitchen,Mixer Grinder,2,4499.49,0.0,8998.99,953.72,Net Banking
+ORD10947,2025-03-11,CUST1147,Customer 1147,North,Uttar Pradesh,Lucknow,Electronics,Laptops,AeroBook 14,2,61096.56,0.05,116083.46,26449.55,Debit Card
+ORD10948,2025-04-22,CUST1071,Customer 1071,North,Delhi,Delhi,Appliances,Kitchen,Mixer Grinder,6,4308.84,0.0,25853.06,6663.48,Credit Card
+ORD10949,2025-01-04,CUST1159,Customer 1159,West,Maharashtra,Pune,Furniture,Chairs,Ergo Chair,5,8452.2,0.1,38034.91,3681.82,Cash
+ORD10950,2025-12-16,CUST1210,Customer 1210,East,West Bengal,Durgapur,Office Supplies,Paper,A4 Paper Box,4,530.86,0.15,1804.94,170.55,UPI
+ORD10951,2025-11-27,CUST1040,Customer 1040,West,Gujarat,Ahmedabad,Furniture,Storage,Filing Cabinet,2,6745.16,0.2,10792.26,215.85,Credit Card
+ORD10952,2025-11-14,CUST1142,Customer 1142,North,Punjab,Amritsar,Electronics,Mobiles,Nova X5,2,26605.07,0.1,47889.13,10471.53,UPI
+ORD10953,2025-12-16,CUST1103,Customer 1103,East,Odisha,Bhubaneswar,Office Supplies,Paper,A4 Paper Box,4,520.66,0.05,1978.5,62.67,UPI
+ORD10954,2025-04-05,CUST1124,Customer 1124,North,Delhi,Delhi,Office Supplies,Stationery,Premium Notebook,3,351.6,0.15,896.58,116.51,Debit Card
+ORD10955,2025-06-01,CUST1245,Customer 1245,West,Goa,Panaji,Electronics,Accessories,Wireless Mouse,2,1259.64,0.1,2267.34,166.02,Credit Card
+ORD10956,2025-11-07,CUST1123,Customer 1123,West,Maharashtra,Pune,Appliances,Kitchen,Mixer Grinder,3,4358.27,0.0,13074.81,1078.02,Credit Card
+ORD10957,2025-05-17,CUST1100,Customer 1100,North,Punjab,Amritsar,Electronics,Headphones,SoundMax Pro,1,4617.93,0.05,4387.03,87.74,Credit Card
+ORD10958,2025-09-04,CUST1209,Customer 1209,West,Gujarat,Ahmedabad,Office Supplies,Paper,A4 Paper Box,2,487.83,0.0,975.67,141.4,Credit Card
+ORD10959,2025-08-31,CUST1165,Customer 1165,West,Maharashtra,Pune,Office Supplies,Binders,Document Binder,3,269.18,0.05,767.16,37.57,UPI
+ORD10960,2025-01-31,CUST1172,Customer 1172,West,Maharashtra,Mumbai,Office Supplies,Stationery,Premium Notebook,1,350.02,0.05,332.52,47.03,Debit Card
+ORD10961,2025-02-09,CUST1137,Customer 1137,South,Tamil Nadu,Coimbatore,Electronics,Mobiles,Nova X5,8,29765.57,0.1,214312.07,51189.21,Credit Card
+ORD10962,2025-08-17,CUST1058,Customer 1058,North,Punjab,Ludhiana,Office Supplies,Binders,Document Binder,2,277.47,0.05,527.19,79.85,Cash
+ORD10963,2025-02-05,CUST1148,Customer 1148,East,Odisha,Bhubaneswar,Office Supplies,Binders,Document Binder,1,241.49,0.0,241.49,72.4,UPI
+ORD10964,2025-08-11,CUST1109,Customer 1109,West,Maharashtra,Pune,Appliances,Kitchen,Electric Kettle,2,1892.34,0.05,3595.46,247.15,UPI
+ORD10965,2025-01-06,CUST1121,Customer 1121,East,Odisha,Cuttack,Electronics,Headphones,SoundMax Pro,5,4167.14,0.15,17710.35,354.21,Debit Card
+ORD10966,2025-11-18,CUST1092,Customer 1092,South,Tamil Nadu,Chennai,Appliances,Kitchen,Mixer Grinder,3,4110.74,0.1,11098.99,478.47,Cash
+ORD10967,2025-08-08,CUST1050,Customer 1050,North,Uttar Pradesh,Noida,Electronics,Headphones,SoundMax Pro,3,4530.46,0.05,12911.8,1716.53,Credit Card
+ORD10968,2025-03-16,CUST1148,Customer 1148,West,Maharashtra,Kolhapur,Office Supplies,Paper,A4 Paper Box,1,490.72,0.15,417.11,118.09,Debit Card
+ORD10969,2025-01-04,CUST1105,Customer 1105,West,Goa,Margao,Office Supplies,Binders,Document Binder,1,270.25,0.15,229.71,4.59,Net Banking
+ORD10970,2025-12-01,CUST1164,Customer 1164,West,Goa,Margao,Electronics,Laptops,AeroBook 14,3,57122.88,0.0,171368.64,34852.34,Net Banking
+ORD10971,2025-05-14,CUST1117,Customer 1117,North,Punjab,Amritsar,Furniture,Tables,Office Table,5,11837.2,0.0,59185.99,6569.79,Debit Card
+ORD10972,2025-04-28,CUST1027,Customer 1027,North,Delhi,New Delhi,Electronics,Mobiles,Nova X5,6,28361.97,0.1,153154.64,15213.43,Debit Card
+ORD10973,2025-04-04,CUST1200,Customer 1200,West,Gujarat,Vadodara,Electronics,Laptops,AeroBook 14,1,64126.72,0.15,54507.72,1090.15,UPI
+ORD10974,2025-03-03,CUST1032,Customer 1032,West,Maharashtra,Kolhapur,Electronics,Mobiles,Nova X5,3,29866.56,0.2,71679.75,9428.73,Cash
+ORD10975,2025-07-13,CUST1001,Customer 1001,West,Goa,Margao,Appliances,Kitchen,Mixer Grinder,6,4338.09,0.15,22124.28,1978.47,Credit Card
+ORD10976,2025-12-01,CUST1017,Customer 1017,South,Karnataka,Mysuru,Furniture,Tables,Office Table,2,12843.56,0.1,23118.41,4418.43,Net Banking
+ORD10977,2025-07-22,CUST1249,Customer 1249,West,Gujarat,Vadodara,Appliances,Home,Air Purifier,5,15237.97,0.1,68570.85,8726.82,UPI
+ORD10978,2025-01-26,CUST1137,Customer 1137,North,Punjab,Amritsar,Electronics,Accessories,Wireless Mouse,1,1104.25,0.0,1104.25,27.37,Credit Card
+ORD10979,2025-06-22,CUST1084,Customer 1084,North,Punjab,Ludhiana,Furniture,Tables,Office Table,7,11740.32,0.0,82182.23,19457.3,Credit Card
+ORD10980,2025-10-27,CUST1045,Customer 1045,East,West Bengal,Durgapur,Appliances,Kitchen,Mixer Grinder,4,4223.22,0.05,16048.24,320.96,Credit Card
+ORD10981,2025-05-13,CUST1224,Customer 1224,West,Goa,Margao,Office Supplies,Stationery,Gel Pen Pack,7,185.04,0.1,1165.78,23.32,UPI
+ORD10982,2025-11-22,CUST1066,Customer 1066,West,Goa,Margao,Appliances,Kitchen,Electric Kettle,4,1776.23,0.1,6394.41,324.81,Credit Card
+ORD10983,2025-04-28,CUST1032,Customer 1032,North,Delhi,New Delhi,Office Supplies,Paper,A4 Paper Box,2,539.19,0.1,970.55,50.21,Debit Card
+ORD10984,2025-11-20,CUST1045,Customer 1045,South,Tamil Nadu,Coimbatore,Appliances,Kitchen,Mixer Grinder,7,4214.69,0.0,29502.84,7603.52,Debit Card
+ORD10985,2025-10-02,CUST1009,Customer 1009,North,Uttar Pradesh,Lucknow,Office Supplies,Paper,A4 Paper Box,2,484.57,0.1,872.23,89.86,UPI
+ORD10986,2025-07-31,CUST1030,Customer 1030,East,Odisha,Cuttack,Office Supplies,Stationery,Premium Notebook,2,332.75,0.0,665.51,164.59,Debit Card
+ORD10987,2025-08-13,CUST1084,Customer 1084,West,Maharashtra,Mumbai,Electronics,Laptops,AeroBook 14,4,65372.78,0.05,248416.57,24281.67,UPI
+ORD10988,2025-01-20,CUST1166,Customer 1166,South,Tamil Nadu,Chennai,Appliances,Kitchen,Electric Kettle,5,1864.77,0.1,8391.49,1151.61,UPI
+ORD10989,2025-04-23,CUST1060,Customer 1060,South,Telangana,Hyderabad,Office Supplies,Stationery,Premium Notebook,6,372.11,0.1,2009.38,297.76,Debit Card
+ORD10990,2025-05-20,CUST1001,Customer 1001,West,Goa,Margao,Office Supplies,Stationery,Gel Pen Pack,2,168.99,0.2,270.38,32.1,Cash
+ORD10991,2025-02-16,CUST1249,Customer 1249,South,Tamil Nadu,Coimbatore,Furniture,Tables,Office Table,5,13480.45,0.0,67402.23,8590.76,Credit Card
+ORD10992,2025-01-01,CUST1005,Customer 1005,North,Delhi,New Delhi,Office Supplies,Paper,A4 Paper Box,4,495.82,0.05,1884.13,209.23,Credit Card
+ORD10993,2025-03-31,CUST1063,Customer 1063,North,Punjab,Amritsar,Furniture,Chairs,Ergo Chair,1,7836.02,0.05,7444.22,868.23,UPI
+ORD10994,2025-05-22,CUST1227,Customer 1227,North,Delhi,Delhi,Furniture,Tables,Office Table,2,13494.85,0.05,25640.21,559.75,Credit Card
+ORD10995,2025-11-16,CUST1164,Customer 1164,South,Tamil Nadu,Chennai,Appliances,Kitchen,Electric Kettle,2,1736.95,0.15,2952.81,255.79,UPI
+ORD10996,2025-02-07,CUST1065,Customer 1065,North,Uttar Pradesh,Noida,Furniture,Tables,Office Table,2,12836.04,0.1,23104.87,2036.51,Net Banking
+ORD10997,2025-10-20,CUST1078,Customer 1078,West,Maharashtra,Mumbai,Office Supplies,Stationery,Gel Pen Pack,8,170.69,0.15,1160.68,154.49,Cash
+ORD10998,2025-05-19,CUST1201,Customer 1201,East,West Bengal,Durgapur,Electronics,Accessories,Wireless Mouse,4,1215.4,0.0,4861.62,808.93,Debit Card
+ORD10999,2025-12-22,CUST1222,Customer 1222,South,Karnataka,Mysuru,Electronics,Mobiles,Nova X5,4,29810.08,0.15,101354.26,18856.63,Credit Card
+ORD11000,2025-11-29,CUST1152,Customer 1152,West,Goa,Margao,Office Supplies,Binders,Document Binder,8,252.52,0.0,2020.16,333.14,Cash
+ORD11001,2025-09-16,CUST1132,Customer 1132,East,Odisha,Cuttack,Office Supplies,Binders,Document Binder,2,267.08,0.15,454.04,24.13,Credit Card
+ORD11002,2025-06-10,CUST1114,Customer 1114,East,Jharkhand,Jamshedpur,Office Supplies,Stationery,Gel Pen Pack,5,171.01,0.05,812.31,114.97,UPI
+ORD11003,2025-06-27,CUST1206,Customer 1206,East,West Bengal,Durgapur,Electronics,Mobiles,Nova X5,3,28559.08,0.05,81393.39,15317.56,UPI
+ORD11004,2025-01-10,CUST1217,Customer 1217,North,Punjab,Amritsar,Office Supplies,Paper,A4 Paper Box,6,506.39,0.05,2886.44,57.73,Debit Card
+ORD11005,2025-09-18,CUST1196,Customer 1196,South,Telangana,Warangal,Office Supplies,Stationery,Gel Pen Pack,2,171.68,0.15,291.86,12.38,Net Banking
+ORD11006,2025-05-18,CUST1025,Customer 1025,West,Maharashtra,Pune,Electronics,Mobiles,Nova X5,7,27163.06,0.0,190141.39,21183.2,UPI
+ORD11007,2025-06-21,CUST1202,Customer 1202,West,Maharashtra,Kolhapur,Appliances,Kitchen,Mixer Grinder,2,3984.18,0.05,7569.94,1258.65,UPI
+ORD11008,2025-01-13,CUST1227,Customer 1227,West,Goa,Margao,Office Supplies,Stationery,Premium Notebook,2,372.51,0.15,633.26,81.95,Credit Card
+ORD11009,2025-06-17,CUST1247,Customer 1247,South,Telangana,Warangal,Office Supplies,Stationery,Gel Pen Pack,4,177.04,0.05,672.75,97.27,Cash
+ORD11010,2025-05-10,CUST1135,Customer 1135,North,Uttar Pradesh,Noida,Appliances,Kitchen,Mixer Grinder,2,4028.83,0.0,8057.66,161.15,UPI
+ORD11011,2025-03-25,CUST1234,Customer 1234,West,Maharashtra,Mumbai,Office Supplies,Paper,A4 Paper Box,3,515.71,0.05,1469.77,32.14,UPI
+ORD11012,2025-11-17,CUST1141,Customer 1141,South,Telangana,Hyderabad,Office Supplies,Stationery,Gel Pen Pack,3,174.83,0.05,498.27,60.18,Debit Card
+ORD11013,2025-11-15,CUST1196,Customer 1196,South,Karnataka,Mysuru,Office Supplies,Paper,A4 Paper Box,4,540.34,0.15,1837.14,105.45,Credit Card
+ORD11014,2025-04-11,CUST1242,Customer 1242,South,Telangana,Hyderabad,Office Supplies,Stationery,Gel Pen Pack,2,193.57,0.1,348.43,40.2,UPI
+ORD11015,2025-11-25,CUST1043,Customer 1043,South,Karnataka,Mysuru,Electronics,Mobiles,Nova X5,1,27722.39,0.05,26336.27,2755.88,UPI
+ORD11016,2025-09-30,CUST1057,Customer 1057,West,Maharashtra,Pune,Electronics,Accessories,Wireless Mouse,2,1269.32,0.2,2030.91,359.91,Debit Card
+ORD11017,2025-09-22,CUST1164,Customer 1164,North,Punjab,Ludhiana,Furniture,Storage,Filing Cabinet,3,6871.66,0.05,19584.23,391.68,Credit Card
+ORD11018,2025-02-07,CUST1248,Customer 1248,East,Jharkhand,Jamshedpur,Appliances,Kitchen,Mixer Grinder,1,3969.66,0.0,3969.66,719.24,Net Banking
+ORD11019,2025-04-04,CUST1142,Customer 1142,South,Telangana,Hyderabad,Electronics,Mobiles,Nova X5,2,28853.99,0.0,57707.98,12578.07,Debit Card
+ORD11020,2025-04-05,CUST1210,Customer 1210,North,Delhi,New Delhi,Electronics,Laptops,AeroBook 14,2,62133.27,0.05,118053.21,22029.64,UPI
+ORD11021,2025-11-01,CUST1072,Customer 1072,South,Karnataka,Mysuru,Electronics,Headphones,SoundMax Pro,1,4608.44,0.0,4608.44,991.32,Credit Card
+ORD11022,2025-03-10,CUST1224,Customer 1224,North,Delhi,New Delhi,Appliances,Kitchen,Mixer Grinder,3,4461.87,0.15,11377.77,1794.03,Credit Card
+ORD11023,2025-11-14,CUST1027,Customer 1027,West,Gujarat,Surat,Electronics,Accessories,Wireless Mouse,6,1188.56,0.1,6418.24,466.74,UPI
+ORD11024,2025-08-24,CUST1128,Customer 1128,East,Odisha,Cuttack,Office Supplies,Stationery,Premium Notebook,1,372.47,0.0,372.47,30.88,Net Banking
+ORD11025,2025-11-30,CUST1106,Customer 1106,South,Karnataka,Bengaluru,Furniture,Tables,Office Table,3,13001.34,0.1,35103.61,702.07,Cash
+ORD11026,2025-05-17,CUST1165,Customer 1165,South,Telangana,Warangal,Office Supplies,Binders,Document Binder,4,259.53,0.1,934.29,83.73,UPI
+ORD11027,2025-03-17,CUST1215,Customer 1215,West,Goa,Margao,Electronics,Mobiles,Nova X5,2,28462.44,0.15,48386.14,1842.19,UPI
+ORD11028,2025-02-04,CUST1071,Customer 1071,West,Gujarat,Vadodara,Office Supplies,Stationery,Gel Pen Pack,4,174.98,0.15,594.92,103.4,UPI
+ORD11029,2025-01-01,CUST1204,Customer 1204,West,Gujarat,Ahmedabad,Appliances,Home,Air Purifier,2,16699.32,0.05,31728.71,3724.03,UPI
+ORD11030,2025-10-23,CUST1153,Customer 1153,North,Delhi,New Delhi,Electronics,Mobiles,Nova X5,3,28749.73,0.1,77624.28,3327.88,Credit Card
+ORD11031,2025-11-16,CUST1067,Customer 1067,South,Telangana,Hyderabad,Appliances,Kitchen,Electric Kettle,1,1668.63,0.1,1501.77,47.76,Credit Card
+ORD11032,2025-03-01,CUST1090,Customer 1090,West,Maharashtra,Mumbai,Appliances,Kitchen,Mixer Grinder,4,4083.49,0.1,14700.56,3737.14,Net Banking
+ORD11033,2025-11-16,CUST1004,Customer 1004,East,Odisha,Cuttack,Furniture,Chairs,Ergo Chair,4,8667.71,0.0,34670.83,5493.73,UPI
+ORD11034,2025-12-15,CUST1106,Customer 1106,South,Telangana,Hyderabad,Appliances,Kitchen,Mixer Grinder,1,3901.86,0.0,3901.86,410.84,Credit Card
+ORD11035,2025-11-24,CUST1228,Customer 1228,North,Uttar Pradesh,Lucknow,Electronics,Accessories,Wireless Mouse,2,1108.59,0.05,2106.31,307.91,Cash
+ORD11036,2025-09-24,CUST1079,Customer 1079,East,Odisha,Bhubaneswar,Appliances,Kitchen,Electric Kettle,8,1785.61,0.0,14284.86,4182.35,Credit Card
+ORD11037,2025-12-27,CUST1096,Customer 1096,North,Delhi,New Delhi,Furniture,Storage,Filing Cabinet,3,6617.97,0.0,19853.9,2635.06,UPI
+ORD11038,2025-08-17,CUST1093,Customer 1093,East,West Bengal,Kolkata,Office Supplies,Stationery,Premium Notebook,3,346.54,0.1,935.67,152.6,UPI
+ORD11039,2025-09-27,CUST1074,Customer 1074,West,Goa,Panaji,Furniture,Chairs,Ergo Chair,6,8177.26,0.0,49063.58,11925.01,UPI
+ORD11040,2025-11-12,CUST1213,Customer 1213,North,Punjab,Ludhiana,Office Supplies,Paper,A4 Paper Box,4,492.1,0.1,1771.58,35.43,Net Banking
+ORD11041,2025-10-13,CUST1126,Customer 1126,North,Uttar Pradesh,Lucknow,Appliances,Home,Air Purifier,3,15969.08,0.1,43116.5,3031.57,Net Banking
+ORD11042,2025-10-18,CUST1246,Customer 1246,South,Tamil Nadu,Chennai,Appliances,Home,Air Purifier,5,15536.14,0.2,62144.55,8965.97,Net Banking
+ORD11043,2025-08-01,CUST1016,Customer 1016,North,Delhi,New Delhi,Furniture,Chairs,Ergo Chair,6,8092.21,0.05,46125.6,4084.36,Cash
+ORD11044,2025-06-14,CUST1239,Customer 1239,North,Punjab,Amritsar,Electronics,Mobiles,Nova X5,3,27191.76,0.0,81575.28,15419.67,Credit Card
+ORD11045,2025-01-05,CUST1147,Customer 1147,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Premium Notebook,3,355.14,0.1,958.88,59.36,Net Banking
+ORD11046,2025-12-05,CUST1157,Customer 1157,East,Odisha,Bhubaneswar,Appliances,Home,Air Purifier,2,14439.13,0.15,24546.52,1504.98,Net Banking
+ORD11047,2025-03-19,CUST1116,Customer 1116,West,Goa,Panaji,Electronics,Mobiles,Nova X5,7,26420.59,0.2,147955.3,4480.76,Credit Card
+ORD11048,2025-03-03,CUST1179,Customer 1179,West,Maharashtra,Kolhapur,Office Supplies,Paper,A4 Paper Box,4,484.49,0.05,1841.08,335.2,UPI
+ORD11049,2025-05-12,CUST1018,Customer 1018,North,Uttar Pradesh,Kanpur,Appliances,Kitchen,Mixer Grinder,1,4409.88,0.05,4189.38,635.15,Credit Card
+ORD11050,2025-03-30,CUST1186,Customer 1186,South,Telangana,Hyderabad,Furniture,Tables,Office Table,6,13004.82,0.15,66324.57,6594.0,UPI
+ORD11051,2025-08-25,CUST1172,Customer 1172,West,Maharashtra,Pune,Office Supplies,Stationery,Premium Notebook,3,364.19,0.0,1092.56,366.58,UPI
+ORD11052,2025-02-11,CUST1249,,East,West Bengal,Kolkata,Furniture,Tables,Office Table,1,12932.65,0.1,11639.39,2755.96,Net Banking
+ORD11053,2025-03-30,CUST1016,Customer 1016,South,Telangana,Warangal,Electronics,Accessories,Wireless Mouse,3,1232.52,0.05,3512.69,70.25,Net Banking
+ORD11054,2025-10-23,CUST1193,Customer 1193,West,Goa,Margao,Appliances,Kitchen,Electric Kettle,2,1793.37,0.0,3586.75,462.55,UPI
+ORD11055,2025-11-24,CUST1240,Customer 1240,North,Uttar Pradesh,Lucknow,Electronics,Accessories,Wireless Mouse,6,1227.32,0.05,6995.71,2150.15,Credit Card
+ORD11056,2025-10-22,CUST1130,Customer 1130,North,Uttar Pradesh,Noida,Furniture,Tables,Office Table,2,11576.72,0.0,23153.45,2773.29,Cash
+ORD11057,2025-04-14,CUST1056,Customer 1056,North,Delhi,Delhi,Appliances,Home,Air Purifier,5,15801.23,0.1,71105.54,18568.66,Debit Card
+ORD11058,2025-01-14,CUST1079,Customer 1079,West,Maharashtra,Pune,Appliances,Kitchen,Electric Kettle,3,1880.03,0.15,4794.07,300.38,Credit Card
+ORD11059,2025-10-15,CUST1103,Customer 1103,East,Jharkhand,Ranchi,Electronics,Accessories,Wireless Mouse,1,1200.07,0.0,1200.07,172.35,Debit Card
+ORD11060,2025-06-28,CUST1028,Customer 1028,South,Tamil Nadu,Coimbatore,Office Supplies,Stationery,Premium Notebook,8,342.02,0.15,2325.74,355.72,Net Banking
+ORD11061,2025-05-05,CUST1193,Customer 1193,North,Punjab,Ludhiana,Office Supplies,Stationery,Gel Pen Pack,3,173.59,0.0,520.77,80.03,Net Banking
+ORD11062,2025-12-19,CUST1005,Customer 1005,West,Maharashtra,Pune,Electronics,Laptops,AeroBook 14,2,63416.6,0.1,114149.87,17079.53,Credit Card
+ORD11063,2025-01-23,CUST1106,Customer 1106,North,Uttar Pradesh,Lucknow,Appliances,Kitchen,Electric Kettle,3,1855.53,0.0,5566.58,1504.35,UPI
+ORD11064,2025-03-04,CUST1022,Customer 1022,West,Goa,Margao,Electronics,Accessories,Wireless Mouse,5,1271.23,0.15,5402.71,786.72,Net Banking
+ORD11065,2025-05-23,CUST1117,Customer 1117,North,Delhi,Delhi,Electronics,Accessories,Wireless Mouse,2,1169.73,0.1,2105.51,262.99,UPI
+ORD11066,2025-06-02,CUST1100,Customer 1100,West,Gujarat,Vadodara,Electronics,Mobiles,Nova X5,2,29208.58,0.1,52575.44,12205.23,Debit Card
+ORD11067,2025-05-25,CUST1238,Customer 1238,South,Tamil Nadu,Chennai,Furniture,Tables,Office Table,1,12622.71,0.15,10729.3,1650.9,UPI
+ORD11068,2025-08-13,CUST1013,Customer 1013,East,Odisha,Cuttack,Electronics,Headphones,SoundMax Pro,2,4775.64,0.1,8596.16,547.16,Credit Card
+ORD11069,2025-11-05,CUST1065,Customer 1065,East,West Bengal,Kolkata,Furniture,Storage,Filing Cabinet,5,6830.26,0.2,27321.04,5699.31,Credit Card
+ORD11070,2025-04-14,CUST1144,Customer 1144,West,Gujarat,Surat,Appliances,Kitchen,Electric Kettle,3,1805.08,0.1,4873.71,779.63,UPI
+ORD11071,2025-04-14,CUST1247,Customer 1247,East,West Bengal,Kolkata,Office Supplies,Binders,Document Binder,2,263.24,0.15,447.51,34.7,Net Banking
+ORD11072,2025-02-08,CUST1233,Customer 1233,South,Karnataka,Bengaluru,Office Supplies,Binders,Document Binder,1,270.37,0.05,256.85,5.14,UPI
+ORD11073,2025-07-17,CUST1086,Customer 1086,South,Telangana,Warangal,Furniture,Chairs,Ergo Chair,2,9131.98,0.0,18263.96,1161.03,Net Banking
+ORD11074,2025-05-14,CUST1064,Customer 1064,East,Odisha,Bhubaneswar,Electronics,Accessories,Wireless Mouse,7,1118.12,0.05,7435.53,1907.28,Net Banking
+ORD11075,2025-03-08,CUST1032,Customer 1032,East,West Bengal,Kolkata,Furniture,Chairs,Ergo Chair,2,7892.67,0.0,15785.34,4447.94,UPI
+ORD11076,2025-06-28,CUST1080,Customer 1080,North,Punjab,Amritsar,Office Supplies,Stationery,Premium Notebook,8,374.5,0.1,2696.42,326.19,Debit Card
+ORD11077,2025-02-11,CUST1051,Customer 1051,South,Tamil Nadu,Coimbatore,Electronics,Headphones,SoundMax Pro,3,4521.51,0.05,12886.3,257.73,UPI
+ORD11078,2025-01-15,CUST1079,Customer 1079,North,Uttar Pradesh,Noida,Appliances,Home,Air Purifier,1,15784.96,0.1,14206.46,552.8,Debit Card
+ORD11079,2025-04-21,CUST1186,Customer 1186,East,Odisha,Bhubaneswar,Furniture,Storage,Filing Cabinet,6,6780.88,0.0,40685.26,1885.2,Credit Card
+ORD11080,2025-06-06,CUST1174,Customer 1174,East,Jharkhand,Jamshedpur,Appliances,Home,Air Purifier,3,14492.27,0.0,43476.81,1903.95,UPI
+ORD11081,2025-10-16,CUST1180,Customer 1180,North,Delhi,New Delhi,Furniture,Tables,Office Table,4,13036.18,0.05,49537.48,13839.59,Credit Card
+ORD11082,2025-08-19,CUST1106,Customer 1106,West,Gujarat,Ahmedabad,Appliances,Kitchen,Mixer Grinder,8,4366.13,0.2,27943.26,5985.29,Debit Card
+ORD11083,2025-06-06,CUST1245,Customer 1245,North,Delhi,New Delhi,Electronics,Laptops,AeroBook 14,1,60132.1,0.05,57125.49,3372.73,Net Banking
+ORD11084,2025-02-07,CUST1063,Customer 1063,East,Odisha,Bhubaneswar,Appliances,Kitchen,Electric Kettle,1,1744.2,0.05,1656.99,226.82,UPI
+ORD11085,2025-04-07,CUST1076,Customer 1076,South,Karnataka,Bengaluru,Furniture,Storage,Filing Cabinet,4,7167.57,0.1,25803.26,646.74,Credit Card
+ORD11086,2025-10-16,CUST1060,Customer 1060,West,Gujarat,Surat,Appliances,Home,Air Purifier,2,14439.45,0.1,25991.0,2961.24,UPI
+ORD11087,2025-09-11,CUST1065,Customer 1065,North,Punjab,Ludhiana,Appliances,Kitchen,Electric Kettle,2,1909.76,0.05,3628.54,915.3,Cash
+ORD11088,2025-07-15,CUST1117,Customer 1117,East,Odisha,Bhubaneswar,Furniture,Storage,Filing Cabinet,1,6535.25,0.05,6208.49,1322.47,UPI
+ORD11089,2025-03-27,CUST1081,Customer 1081,North,Punjab,Amritsar,Appliances,Home,Air Purifier,1,15730.6,0.0,15730.6,3407.35,Debit Card
+ORD11090,2025-11-18,CUST1105,Customer 1105,West,Gujarat,Ahmedabad,Appliances,Kitchen,Mixer Grinder,5,4492.99,0.2,17971.95,1013.75,UPI
+ORD11091,2025-01-10,CUST1128,Customer 1128,North,Punjab,Ludhiana,Electronics,Laptops,AeroBook 14,1,63766.98,0.0,63766.98,15835.74,Credit Card
+ORD11092,2025-01-05,CUST1183,Customer 1183,North,Punjab,Ludhiana,Office Supplies,Stationery,Gel Pen Pack,3,177.54,0.05,505.98,92.48,Cash
+ORD11093,2025-05-03,CUST1243,Customer 1243,North,Punjab,Amritsar,Furniture,Tables,Office Table,3,12879.07,0.0,38637.21,7274.38,Debit Card
+ORD11094,2025-11-26,CUST1185,Customer 1185,North,Punjab,Amritsar,Appliances,Kitchen,Mixer Grinder,3,4095.15,0.0,12285.46,1866.42,Debit Card
+ORD11095,2025-12-19,CUST1242,Customer 1242,North,Delhi,Delhi,Electronics,Mobiles,Nova X5,1,27002.12,0.15,22951.8,2634.55,Credit Card
+ORD11096,2025-04-28,CUST1220,Customer 1220,South,Telangana,Hyderabad,Furniture,Chairs,Ergo Chair,5,9175.49,0.0,45877.45,8266.09,Net Banking
+ORD11097,2025-10-21,CUST1071,Customer 1071,West,Gujarat,Surat,Appliances,Kitchen,Electric Kettle,1,1872.23,0.0,1872.23,228.6,Credit Card
+ORD11098,2025-06-08,CUST1201,Customer 1201,South,Telangana,Warangal,Office Supplies,Binders,Document Binder,5,266.02,0.05,1263.6,105.2,Net Banking
+ORD11099,2025-10-30,CUST1086,Customer 1086,East,Odisha,Bhubaneswar,Electronics,Accessories,Wireless Mouse,6,1172.22,0.0,7033.29,634.52,Credit Card
+ORD11100,2025-08-16,CUST1154,Customer 1154,West,Gujarat,Ahmedabad,Furniture,Storage,Filing Cabinet,3,6309.49,0.0,18928.46,1792.52,Credit Card
+ORD11101,2025-12-31,CUST1245,Customer 1245,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Premium Notebook,3,323.74,0.15,825.53,65.49,UPI
+ORD11102,2025-08-04,CUST1140,Customer 1140,East,West Bengal,Kolkata,Office Supplies,Binders,Document Binder,3,262.25,0.1,708.09,63.95,Credit Card
+ORD11103,2025-07-03,CUST1071,Customer 1071,South,Telangana,Hyderabad,Appliances,Home,Air Purifier,2,16149.84,0.15,27454.73,1346.62,UPI
+ORD11104,2025-01-15,CUST1046,Customer 1046,North,Delhi,New Delhi,Office Supplies,Binders,Document Binder,6,261.55,0.15,1333.93,58.51,Net Banking
+ORD11105,2025-06-06,CUST1047,Customer 1047,South,Karnataka,Bengaluru,Electronics,Laptops,AeroBook 14,6,65380.59,0.1,353055.17,47814.83,Debit Card
+ORD11106,2025-05-16,CUST1079,Customer 1079,East,Jharkhand,Jamshedpur,Furniture,Chairs,Ergo Chair,2,7865.46,0.0,15730.92,4033.92,Net Banking
+ORD11107,2025-09-18,CUST1166,Customer 1166,East,West Bengal,Durgapur,Electronics,Headphones,SoundMax Pro,3,4404.06,0.15,11230.36,1030.23,UPI
+ORD11108,2025-06-06,CUST1149,Customer 1149,West,Gujarat,Surat,Electronics,Laptops,AeroBook 14,6,59391.74,0.15,302897.87,26399.62,UPI
+ORD11109,2025-02-16,CUST1142,Customer 1142,East,Jharkhand,Ranchi,Appliances,Kitchen,Mixer Grinder,7,4164.57,0.15,24779.18,670.47,Net Banking
+ORD11110,2025-11-20,CUST1130,Customer 1130,East,Jharkhand,Jamshedpur,Electronics,Headphones,SoundMax Pro,3,4192.11,0.05,11947.52,1456.22,Credit Card
+ORD11111,2025-11-28,CUST1200,Customer 1200,West,Gujarat,Surat,Appliances,Home,Air Purifier,3,16626.25,0.0,49878.74,12136.67,Credit Card
+ORD11112,2025-06-22,CUST1127,Customer 1127,West,Maharashtra,Mumbai,Furniture,Tables,Office Table,2,11946.51,0.15,20309.07,3353.48,Net Banking
+ORD11113,2025-05-10,CUST1109,Customer 1109,North,Uttar Pradesh,Kanpur,Appliances,Home,Air Purifier,7,16547.32,0.1,104248.14,19052.2,Credit Card
+ORD11114,2025-04-05,CUST1119,Customer 1119,North,Uttar Pradesh,Noida,Furniture,Storage,Filing Cabinet,1,6719.37,0.2,5375.5,728.44,UPI
+ORD11115,2025-04-25,CUST1198,Customer 1198,South,Tamil Nadu,Coimbatore,Office Supplies,Stationery,Premium Notebook,3,377.19,0.0,1131.57,215.64,Net Banking
+ORD11116,2025-08-31,CUST1229,Customer 1229,South,Tamil Nadu,Chennai,Appliances,Kitchen,Electric Kettle,2,1815.57,0.0,3631.14,682.96,UPI
+ORD11117,2025-10-19,CUST1101,Customer 1101,North,Delhi,New Delhi,Office Supplies,Binders,Document Binder,2,277.92,0.0,555.85,98.46,Net Banking
+ORD11118,2025-10-09,CUST1249,Customer 1249,East,Jharkhand,Jamshedpur,Electronics,Accessories,Wireless Mouse,2,1105.03,0.15,1878.55,118.95,UPI
+ORD11119,2025-10-26,CUST1161,Customer 1161,North,Delhi,New Delhi,Electronics,Headphones,SoundMax Pro,8,4678.73,0.0,37429.86,6208.08,Debit Card
+ORD11120,2025-10-10,CUST1233,Customer 1233,South,Karnataka,Bengaluru,Furniture,Chairs,Ergo Chair,1,9048.15,0.0,9048.15,1584.26,UPI
+ORD11121,2025-03-10,CUST1006,Customer 1006,West,Gujarat,Surat,Office Supplies,Stationery,Gel Pen Pack,3,169.62,0.2,407.1,46.54,Debit Card
+ORD11122,2025-05-28,CUST1244,Customer 1244,East,Jharkhand,Jamshedpur,Appliances,Kitchen,Electric Kettle,1,1683.68,0.0,1683.68,281.21,UPI
+ORD11123,2025-01-11,CUST1218,Customer 1218,South,Telangana,Warangal,Furniture,Tables,Office Table,1,12349.15,0.15,10496.77,2517.77,Cash
+ORD11124,2025-09-11,CUST1126,Customer 1126,East,Jharkhand,Ranchi,Office Supplies,Stationery,Gel Pen Pack,3,192.49,0.05,548.6,28.97,Credit Card
+ORD11125,2025-11-26,CUST1103,Customer 1103,North,Punjab,Amritsar,Furniture,Tables,Office Table,3,12584.77,0.15,32091.17,4663.27,UPI
+ORD11126,2025-12-26,CUST1233,Customer 1233,North,Punjab,Amritsar,Electronics,Mobiles,Nova X5,2,28123.0,0.1,50621.41,5675.32,Debit Card
+ORD11127,2025-02-07,CUST1037,Customer 1037,West,Gujarat,Ahmedabad,Appliances,Kitchen,Electric Kettle,2,1696.64,0.15,2884.3,267.23,
+ORD11128,2025-05-14,CUST1142,Customer 1142,East,Odisha,Bhubaneswar,Furniture,Chairs,Ergo Chair,1,7821.07,0.15,6647.91,236.8,UPI
+ORD11129,2025-07-19,CUST1037,Customer 1037,East,Odisha,Bhubaneswar,Appliances,Kitchen,Mixer Grinder,2,4408.41,0.0,8816.83,2039.81,UPI
+ORD11130,2025-01-23,CUST1008,Customer 1008,West,Goa,Panaji,Office Supplies,Binders,Document Binder,7,242.84,0.0,1699.9,349.67,Credit Card
+ORD11131,2025-10-30,CUST1231,Customer 1231,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Gel Pen Pack,7,183.85,0.0,1286.98,281.02,UPI
+ORD11132,2025-12-12,CUST1077,Customer 1077,South,Telangana,Hyderabad,Office Supplies,Stationery,Premium Notebook,2,373.22,0.1,671.79,85.22,UPI
+ORD11133,2025-10-29,CUST1141,Customer 1141,West,Maharashtra,Mumbai,Furniture,Storage,Filing Cabinet,3,6483.01,0.15,16531.68,1153.21,UPI
+ORD11134,2025-12-29,CUST1040,Customer 1040,East,Odisha,Cuttack,Electronics,Laptops,AeroBook 14,6,63639.51,0.05,362745.19,48187.32,Debit Card
+ORD11135,2025-08-06,CUST1107,Customer 1107,West,Maharashtra,Pune,Electronics,Accessories,Wireless Mouse,1,1119.11,0.1,1007.2,146.39,Credit Card
+ORD11136,2025-05-21,CUST1092,Customer 1092,South,Telangana,Warangal,Appliances,Kitchen,Mixer Grinder,5,4269.72,0.0,21348.62,426.97,UPI
+ORD11137,2025-04-14,CUST1186,Customer 1186,West,Goa,Panaji,Furniture,Storage,Filing Cabinet,7,6434.36,0.15,38284.43,5880.69,Net Banking
+ORD11138,2025-07-29,CUST1018,Customer 1018,East,West Bengal,Kolkata,Office Supplies,Binders,Document Binder,1,269.82,0.2,215.85,51.77,Net Banking
+ORD11139,2025-04-21,CUST1057,Customer 1057,South,Tamil Nadu,Coimbatore,Furniture,Storage,Filing Cabinet,1,6583.74,0.0,6583.74,1274.77,UPI
+ORD11140,2025-04-14,CUST1083,Customer 1083,South,Tamil Nadu,Chennai,Furniture,Tables,Office Table,7,12426.78,0.05,82638.1,9737.67,UPI
+ORD11141,2025-11-12,CUST1166,Customer 1166,West,Goa,Margao,Office Supplies,Stationery,Premium Notebook,3,355.57,0.0,1066.7,158.63,Net Banking
+ORD11142,2025-06-20,CUST1032,Customer 1032,South,Karnataka,Bengaluru,Office Supplies,Binders,Document Binder,1,246.32,0.1,221.69,36.47,Credit Card
+ORD11143,2025-12-22,CUST1214,Customer 1214,East,Odisha,Bhubaneswar,Appliances,Kitchen,Electric Kettle,2,1869.59,0.05,3552.22,424.21,UPI
+ORD11144,2025-11-20,CUST1194,Customer 1194,East,Odisha,Cuttack,Furniture,Tables,Office Table,3,12105.28,0.0,36315.84,8018.8,Credit Card
+ORD11145,2025-05-13,CUST1205,Customer 1205,West,Goa,Margao,Office Supplies,Paper,A4 Paper Box,4,533.51,0.05,2027.34,254.05,Debit Card
+ORD11146,2025-10-20,CUST1215,Customer 1215,West,Gujarat,Surat,Electronics,Headphones,SoundMax Pro,4,4253.96,0.05,16165.06,4162.39,UPI
+ORD11147,2025-11-24,CUST1025,Customer 1025,North,Delhi,Delhi,Electronics,Accessories,Wireless Mouse,8,1236.12,0.05,9394.5,2400.87,Debit Card
+ORD11148,2025-05-07,CUST1220,Customer 1220,East,Jharkhand,Jamshedpur,Appliances,Home,Air Purifier,2,14577.91,0.1,26240.23,2411.17,Debit Card
+ORD11149,2025-04-16,CUST1186,Customer 1186,East,Jharkhand,Ranchi,Electronics,Headphones,SoundMax Pro,3,4446.26,0.0,13338.77,2058.55,Credit Card
+ORD11150,2025-04-02,CUST1203,Customer 1203,North,Delhi,New Delhi,Electronics,Laptops,AeroBook 14,3,59492.28,0.1,160629.17,18220.84,Net Banking
+ORD11151,2025-10-14,CUST1033,Customer 1033,North,Uttar Pradesh,Lucknow,Office Supplies,Paper,A4 Paper Box,2,540.66,0.1,973.2,111.31,UPI
+ORD11152,2025-02-20,CUST1088,Customer 1088,West,Gujarat,Surat,Furniture,Chairs,Ergo Chair,1,8176.37,0.05,7767.55,552.89,Credit Card
+ORD11153,2025-01-29,CUST1194,Customer 1194,North,Punjab,Ludhiana,Electronics,Laptops,AeroBook 14,8,65786.64,0.0,526293.09,44151.65,Credit Card
+ORD11154,2025-10-23,CUST1158,Customer 1158,West,Maharashtra,Pune,Electronics,Laptops,AeroBook 14,5,65886.86,0.1,296490.85,60034.37,Credit Card
+ORD11155,2025-10-24,CUST1209,Customer 1209,North,Punjab,Ludhiana,Electronics,Mobiles,Nova X5,3,26640.06,0.2,63936.14,9352.9,UPI
+ORD11156,2025-08-02,CUST1104,Customer 1104,North,Delhi,Delhi,Appliances,Kitchen,Electric Kettle,3,1832.79,0.0,5498.36,1292.54,Credit Card
+ORD11157,2025-09-24,CUST1034,Customer 1034,South,Karnataka,Mysuru,Electronics,Accessories,Wireless Mouse,2,1120.84,0.05,2129.6,282.48,UPI
+ORD11158,2025-09-14,CUST1102,Customer 1102,West,Gujarat,Ahmedabad,Furniture,Tables,Office Table,3,12283.07,0.0,36849.22,10776.22,UPI
+ORD11159,2025-10-29,CUST1127,Customer 1127,West,Maharashtra,Kolhapur,Office Supplies,Stationery,Premium Notebook,4,361.95,0.1,1303.01,147.8,UPI
+ORD11160,2025-04-11,CUST1214,Customer 1214,West,Gujarat,Vadodara,Appliances,Kitchen,Electric Kettle,3,1845.91,0.0,5537.74,1220.53,Debit Card
+ORD11161,2025-12-12,CUST1069,Customer 1069,West,Goa,Panaji,Electronics,Headphones,SoundMax Pro,8,4589.78,0.05,34882.36,1405.64,UPI
+ORD11162,2025-04-20,CUST1176,Customer 1176,West,Goa,Panaji,Electronics,Laptops,AeroBook 14,3,59842.81,0.1,161575.57,15982.82,Debit Card
+ORD11163,2025-07-01,CUST1040,Customer 1040,South,Karnataka,Mysuru,Electronics,Headphones,SoundMax Pro,2,4412.18,0.1,7941.92,826.69,UPI
+ORD11164,2025-11-09,CUST1179,,West,Gujarat,Surat,Appliances,Kitchen,Mixer Grinder,5,3933.18,0.05,18682.6,2483.21,UPI
+ORD11165,2025-01-01,CUST1080,Customer 1080,West,Gujarat,Surat,Electronics,Headphones,SoundMax Pro,1,4657.7,0.05,4424.81,197.86,UPI
+ORD11166,2025-11-15,CUST1141,Customer 1141,North,Uttar Pradesh,Kanpur,Furniture,Chairs,Ergo Chair,2,8505.29,0.1,15309.52,2514.92,UPI
+ORD11167,2025-02-24,CUST1218,Customer 1218,East,Jharkhand,Ranchi,Office Supplies,Binders,Document Binder,2,268.68,0.0,537.37,124.67,Credit Card
+ORD11168,2025-05-29,CUST1031,Customer 1031,South,Tamil Nadu,Coimbatore,Appliances,Kitchen,Mixer Grinder,3,4031.29,0.0,12093.87,1305.29,Credit Card
+ORD11169,2025-11-05,CUST1116,Customer 1116,West,Maharashtra,Pune,Appliances,Kitchen,Mixer Grinder,5,4082.02,0.15,17348.6,346.97,Net Banking
+ORD11170,2025-05-17,CUST1167,Customer 1167,East,Jharkhand,Jamshedpur,Electronics,Accessories,Wireless Mouse,3,1168.17,0.0,3504.51,372.09,Net Banking
+ORD11171,2025-07-21,CUST1063,Customer 1063,West,Maharashtra,Mumbai,Appliances,Kitchen,Electric Kettle,5,1663.41,0.1,7485.36,1120.45,Credit Card
+ORD11172,2025-11-09,CUST1048,Customer 1048,West,Maharashtra,Mumbai,Electronics,Accessories,Wireless Mouse,3,1169.48,0.15,2982.18,151.31,Cash
+ORD11173,2025-04-27,CUST1087,Customer 1087,South,Telangana,Warangal,Office Supplies,Stationery,Gel Pen Pack,2,188.74,0.0,377.47,56.85,UPI
+ORD11174,2025-06-03,CUST1048,Customer 1048,West,Maharashtra,Mumbai,Furniture,Storage,Filing Cabinet,5,7232.26,0.05,34353.24,2142.19,Credit Card
+ORD11175,2025-10-18,CUST1061,Customer 1061,East,West Bengal,Kolkata,Electronics,Accessories,Wireless Mouse,2,1203.5,0.1,2166.3,549.26,Debit Card
+ORD11176,2025-03-04,CUST1140,Customer 1140,East,Odisha,Cuttack,Electronics,Headphones,SoundMax Pro,2,4467.96,0.15,7595.53,741.51,UPI
+ORD11177,2025-09-01,CUST1078,Customer 1078,East,West Bengal,Durgapur,Furniture,Tables,Office Table,3,11561.65,0.15,29482.21,5099.83,UPI
+ORD11178,2025-01-25,CUST1184,Customer 1184,South,Tamil Nadu,Coimbatore,Electronics,Headphones,SoundMax Pro,2,4773.03,0.1,8591.45,1284.61,UPI
+ORD11179,2025-03-31,CUST1018,Customer 1018,West,Goa,Margao,Furniture,Tables,Office Table,1,11526.02,0.0,11526.02,1810.37,Credit Card
+ORD11180,2025-03-16,CUST1155,Customer 1155,North,Uttar Pradesh,Kanpur,Office Supplies,Binders,Document Binder,4,278.5,0.1,1002.61,108.73,Credit Card
+ORD11181,2025-10-21,CUST1028,Customer 1028,South,Tamil Nadu,Chennai,Appliances,Kitchen,Electric Kettle,3,1796.89,0.05,5121.15,444.17,Credit Card
+ORD11182,2025-07-29,CUST1210,Customer 1210,North,Uttar Pradesh,Noida,Office Supplies,Binders,Document Binder,3,253.42,0.05,722.26,76.54,Credit Card
+ORD11183,2025-12-13,CUST1080,Customer 1080,South,Karnataka,Mysuru,Appliances,Kitchen,Electric Kettle,7,1922.17,0.0,13455.22,1203.62,Credit Card
+ORD11184,2025-01-17,CUST1180,Customer 1180,West,Maharashtra,Mumbai,Appliances,Kitchen,Electric Kettle,3,1663.02,0.0,4989.07,408.2,Debit Card
+ORD11185,2025-05-08,CUST1016,Customer 1016,East,West Bengal,Durgapur,Appliances,Kitchen,Mixer Grinder,6,4254.72,0.15,21699.06,5176.23,UPI
+ORD11186,2025-12-30,CUST1077,Customer 1077,West,Goa,Margao,Office Supplies,Stationery,Gel Pen Pack,1,181.41,0.05,172.34,27.06,Debit Card
+ORD11187,2025-09-08,CUST1186,Customer 1186,North,Delhi,Delhi,Furniture,Tables,Office Table,3,11938.64,0.05,34025.13,8169.44,Debit Card
+ORD11188,2025-06-28,CUST1221,Customer 1221,South,Telangana,Hyderabad,Appliances,Kitchen,Mixer Grinder,6,4152.21,0.05,23667.61,1938.75,Debit Card
+ORD11189,2025-07-01,CUST1137,Customer 1137,West,Maharashtra,Kolhapur,Electronics,Accessories,Wireless Mouse,3,1229.23,0.15,3134.55,62.69,Debit Card
+ORD11190,2025-06-01,CUST1026,Customer 1026,North,Punjab,Ludhiana,Furniture,Chairs,Ergo Chair,4,8808.9,0.1,31712.03,1476.37,Credit Card
+ORD11191,2025-01-25,CUST1028,Customer 1028,West,Goa,Margao,Appliances,Kitchen,Electric Kettle,2,1656.21,0.0,3312.41,432.12,UPI
+ORD11192,2025-06-29,CUST1105,Customer 1105,North,Uttar Pradesh,Kanpur,Furniture,Tables,Office Table,1,13373.71,0.0,13373.71,2173.96,Credit Card
+ORD11193,2025-07-17,CUST1077,Customer 1077,East,West Bengal,Kolkata,Office Supplies,Binders,Document Binder,3,246.04,0.0,738.13,110.3,Net Banking
+ORD11194,2025-12-10,CUST1164,Customer 1164,South,Telangana,Hyderabad,Electronics,Headphones,SoundMax Pro,2,4308.18,0.15,7323.9,281.07,Credit Card
+ORD11195,2025-06-10,CUST1009,Customer 1009,North,Uttar Pradesh,Lucknow,Office Supplies,Stationery,Premium Notebook,6,336.75,0.1,1818.47,220.29,UPI
+ORD11196,2025-06-26,CUST1175,Customer 1175,East,Odisha,Bhubaneswar,Electronics,Accessories,Wireless Mouse,2,1111.26,0.1,2000.27,254.59,UPI
+ORD11197,2025-10-12,CUST1206,Customer 1206,West,Gujarat,Vadodara,Office Supplies,Stationery,Premium Notebook,7,328.89,0.1,2072.01,340.14,Net Banking
+ORD11198,2025-03-04,CUST1051,Customer 1051,West,Maharashtra,Kolhapur,Office Supplies,Paper,A4 Paper Box,7,560.46,0.05,3727.09,896.1,UPI
+ORD11199,2025-05-30,CUST1076,Customer 1076,West,Gujarat,Ahmedabad,Office Supplies,Paper,A4 Paper Box,2,504.63,0.15,857.86,57.5,UPI
+ORD11200,2025-06-03,CUST1245,Customer 1245,West,Maharashtra,Kolhapur,Electronics,Headphones,SoundMax Pro,2,4223.02,0.05,8023.73,1785.95,Credit Card
+ORD10460,2025-10-05,CUST1218,Customer 1218,North,Delhi,Delhi,Office Supplies,Paper,A4 Paper Box,0,489.3,0.1,2201.85,345.84,Debit Card
+ORD10458,2025-07-11,CUST1246,Customer 1246,West,Goa,Margao,Office Supplies,Stationery,Premium Notebook,3,359.92,0.0,1079.75,160.86,Credit Card
+ORD11023,2025-11-14,CUST1027,Customer 1027,West,Gujarat,Surat,Electronics,Accessories,Wireless Mouse,6,1188.56,0.1,6418.24,466.74,UPI
+ORD10142,2025-08-29,CUST1167,Customer 1167,South,Karnataka,Bengaluru,Office Supplies,Binders,Document Binder,5,267.45,0.0,1337.27,150.33,Credit Card
+ORD10669,2025-06-13,CUST1064,Customer 1064,North,Uttar Pradesh,Lucknow,Furniture,Storage,Filing Cabinet,2,6281.5,0.05,11934.84,238.7,Credit Card
+ORD11012,2025-11-17,CUST1141,Customer 1141,South,Telangana,Hyderabad,Office Supplies,Stationery,Gel Pen Pack,3,174.83,0.05,498.27,60.18,Debit Card
+ORD10152,2025-01-13,CUST1111,Customer 1111,North,Delhi,New Delhi,Electronics,Headphones,SoundMax Pro,2,4742.54,0.0,9485.08,1058.55,UPI
+ORD10831,2025-07-03,CUST1186,Customer 1186,East,Jharkhand,Ranchi,Appliances,Home,Air Purifier,2,16483.93,0.15,28022.68,1749.05,Cash

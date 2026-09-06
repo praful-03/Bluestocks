@@ -1,0 +1,866 @@
+OrderID,OrderDate,CustomerID,CustomerName,Region,Segment,ProductID,ProductName,Category,Quantity,UnitPrice,Discount,Revenue
+ORD5643,2024-10-25,C1023,Zara Rao,East,Small Business,P008,Desk Lamp,Furniture,5,24.99,0.0,124.95
+ORD5783,2024-04-30,C1093,Neha Iyer,NORTH,Corporate,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5822,2024-02-16,C1076,Nikhil Chatterjee,Central,Consumer,P003,USB-C Hub,Electronics,2,34.99,0.0,69.98
+ORD5569,2024-01-19,C1041,Zara Chatterjee,South,Small Business,P015,Ergonomic Footrest,Accessories,3,22.99,0.0,68.97
+ORD5290,2024-04-26,C1009,Rohan Mehta,East,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5245,2024-09-08,C1033,Yash Pillai,North,Small Business,P010,Pen Pack (12ct),Stationery,10,6.49,0.1,58.41
+ORD5141,2024-10-15,C1078,Ananya Pillai,North,Small Business,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5598,2024-11-16,C1069,Priya Pillai,East,Consumer,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5493,2024-01-15,C1117,Uday Gupta,Central,Consumer,P007,Standing Desk,Furniture,100,349.99,0.0,34999.0
+ORD5769,2024-11-21,C1077,Zara Reddy,North,Consumer,P005,Laptop Stand,Accessories,2,29.99,0.0,59.98
+ORD5210,2024-08-18,C1005,Zara Gupta,South,Corporate,P001,Wireless Mouse,Electronics,2,19.99,0.0,39.98
+ORD5109,2024-07-13,C1011,Om Das,Central,Corporate,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5793,2024-10-27,C1072,Uday Mehta,Central,Consumer,P011,Whiteboard,Stationery,2,44.99,0.0,89.98
+ORD5721,2024-03-08,C1098,Zara Nair,North,Consumer,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5603,2024-02-05,C1015,Rohan Iyer,East,Corporate,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5465,2024-05-09,C1038,Aditya Verma,West,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.2,27.99
+ORD5479,2024-11-14,C1056,Ananya Sharma,Central,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5631,2024-10-16,C1049,Kiran Singh,SOUTH,Corporate,P007,Standing Desk,Furniture,2,349.99,0.0,699.98
+ORD5557,2024-04-29,C1007,Priya Reddy,South,Consumer,P005,Laptop Stand,Accessories,2,29.99,0.2,47.98
+ORD5098,2024-10-15,C1111,Kiran Mehta,East,Corporate,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5778,2024-01-20,C1086,Zara Sharma,East,Small Business,P002,Mechanical Keyboard,Electronics,5,59.99,0.0,299.95
+ORD5099,2024-12-05,C1029,Neha Rao,North,Small Business,P002,Mechanical Keyboard,Electronics,1,59.99,0.05,56.99
+ORD5172,2024-03-02,C1058,Kabir Das,West,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5728,2024-05-11,C1058,Kabir Das,West,Consumer,P004,27in Monitor,Electronics,5,219.99,0.0,1099.95
+ORD5460,2024-10-08,C1049,Kiran Singh,SOUTH,Corporate,P010,Pen Pack (12ct),Stationery,100,6.49,0.0,649.0
+ORD5494,2024-11-18,C1086,Zara Sharma,,Small Business,P013,Bluetooth Speaker,Electronics,6,39.99,0.2,191.95
+ORD5505,2024-04-25,C1016,Neha Joshi,North,Small Business,P003,USB-C Hub,Electronics,1,34.99,,34.99
+ORD5109,2024-07-13,C1011,Om Das,Central,Corporate,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5506,2024-02-28,C1095,Om Das,South,Consumer,P002,Mechanical Keyboard,Electronics,2,59.99,0.05,113.98
+ORD5447,2024-07-28,C1023,Zara Rao,East,Small Business,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5516,2024-07-31,C1004,Aarav Rao,South,Small Business,P005,Laptop Stand,Accessories,1,29.99,0.0,29.99
+ORD5062,2024-08-03,C1115,Om Patel,South,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5135,2024-03-19,C1067,Kiran Mehta,North,Small Business,P004,27in Monitor,Electronics,3,219.99,0.0,659.97
+ORD5849,2024-05-08,C1101,Tara Mehta,Central,Consumer,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5205,2024-05-17,C1012,Kabir Joshi,North,Consumer,P015,Ergonomic Footrest,Accessories,5,22.99,0.05,109.2
+ORD5058,2024-08-26,C1118,Varun Gupta,South,Consumer,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5782,2024-02-19,C1036,Priya Singh,NORTH,Consumer,P005,Laptop Stand,Accessories,3,29.99,0.0,89.97
+ORD5351,2024-01-31,C1005,Zara Gupta,South,Corporate,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5597,2024-06-11,C1088,Rohan Pillai,North,Corporate,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5061,2024-04-15,C1059,Saanvi Sharma,West,Corporate,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5692,2024-04-27,C1112,Uday Kulkarni,South,Small Business,P003,USB-C Hub,Electronics,3,34.99,,99.72
+ORD5400,2024-10-31,C1054,Uday Iyer,West,Consumer,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5014,2024-10-13,C1064,Yash Iyer,North,Small Business,P004,27in Monitor,Electronics,1,219.99,0.2,175.99
+ORD5035,2024-08-13,C1025,Meera Iyer,Central,Corporate,P005,Laptop Stand,Accessories,1,29.99,0.0,29.99
+ORD5352,2024-11-08,C1080,Priya Patel,East,Small Business,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5615,2024-08-15,C1052,Ananya Sharma,West,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5412,2024-10-03,C1115,Om Patel,South,Consumer,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5054,2024-07-31,C1040,Neha Rao,Central,Corporate,P014,External SSD 1TB,Electronics,6,89.99,0.0,539.94
+ORD5455,2024-12-21,C1113,Ishaan Kulkarni,North,Corporate,P012,Webcam HD,Electronics,1,42.99,0.05,40.84
+ORD5095,2024-01-14,C1098,Zara Nair,North,Consumer,P013,Bluetooth Speaker,Electronics,4,39.99,0.0,159.96
+ORD5539,2024-12-03,C1052,Ananya Sharma,West,Small Business,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5160,2024-07-22,C1005,Zara Gupta,South,Corporate,P011,Whiteboard,Stationery,2,44.99,0.15,76.48
+ORD5149,2024-11-06,C1079,Diya Reddy,East,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5064,2024-10-26,C1013,Meera Chatterjee,EAST,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.2,18.39
+ORD5687,2024-12-17,C1020,Neha Verma,South,Small Business,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5328,2024-03-18,C1083,Priya Chatterjee,South,Small Business,P006,Office Chair,Furniture,4,149.99,0.0,599.96
+ORD5798,2024-09-07,C1086,Zara Sharma,East,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.05,6.17
+ORD5295,2024-12-28,C1118,Varun Gupta,South,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5826,2024-11-23,C1085,Zara Sharma,North,Consumer,P005,Laptop Stand,Accessories,3,29.99,0.0,89.97
+ORD5047,2024-04-28,C1083,Priya Chatterjee,South,Small Business,P007,Standing Desk,Furniture,4,349.99,0.0,1399.96
+ORD5548,2024-10-05,C1058,Kabir Das,West,Consumer,P009,Notebook Set,Stationery,1,8.99,0.05,8.54
+ORD5845,2024-05-21,C1119,Aarav Pillai,North,Corporate,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5243,2024-11-26,C1008,Ananya Verma,West,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5519,2024-05-04,C1027,Ishaan Chatterjee,West,Small Business,P014,External SSD 1TB,Electronics,3,89.99,0.0,269.97
+ORD5011,2024-08-25,C1051,Rohan Gupta,West,Corporate,P011,Whiteboard,Stationery,3,44.99,0.0,134.97
+ORD5397,2024-01-31,C1069,Priya Pillai,East,Consumer,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5126,2024-11-28,C1004,Aarav Rao,South,Small Business,P012,Webcam HD,Electronics,5,42.99,0.0,214.95
+ORD5223,2024-04-18,C1114,Nikhil Nair,North,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.05,21.84
+ORD5555,2024-10-19,C1020, Neha Verma  ,SOUTH,Small Business,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5337,2024-11-06,C1006,Neha Chatterjee,North,Consumer,P012,Webcam HD,Electronics,3,42.99,0.0,128.97
+ORD5841,2024-06-17,C1034,Yash Mehta,South,Consumer,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5595,2024-09-30,C1060,Om Gupta,Central,Small Business,P003,USB-C Hub,Electronics,2,34.99,0.1,62.98
+ORD5165,2024-11-17,C1119,Aarav Pillai,North,Corporate,P013,Bluetooth Speaker,Electronics,1,39.99,0.1,35.99
+ORD5467,2024-02-29,C1053,Ananya Patel,South,Consumer,P006,Office Chair,Furniture,4,149.99,0.05,569.96
+ORD5431,2024-10-22,C1082,Tara Das,East,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.2,18.39
+ORD5787,2024-08-20,C1005, Zara Gupta  ,South,Corporate,P008,Desk Lamp,Furniture,1,24.99,0.0,24.99
+ORD5353,2024-02-20,C1049,Kiran Singh,South,Corporate,P003,USB-C Hub,Electronics,4,34.99,0.15,118.97
+ORD5552,2024-04-06,C1091,Ishaan Pillai,West,Consumer,P009,Notebook Set,Stationery,5,8.99,0.15,38.21
+ORD5279,2024-04-08,C1028,Saanvi Gupta,Central,Corporate,P011,Whiteboard,Stationery,1,44.99,0.1,40.49
+ORD5566,2024-11-29,C1021,Kabir Kulkarni,West,Corporate,P002,Mechanical Keyboard,Electronics,3,59.99,0.05,170.97
+ORD5271,2024-04-28,C1052,Ananya Sharma,WEST,Small Business,P008,Desk Lamp,Furniture,4,24.99,0.0,99.96
+ORD5419,2024-06-14,C1102,Kiran Patel,East,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5609,2024-02-16,C1110,Aarav Reddy,East,Consumer,P006,Office Chair,Furniture,4,149.99,0.0,599.96
+ORD5564,2024-07-16,C1087,Diya Gupta,South,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5436,2024-11-29,C1034,Yash Mehta,South,Consumer,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5800,2024-07-27,C1014,Ananya Gupta,East,Corporate,P001,Wireless Mouse,Electronics,4,19.99,0.0,79.96
+ORD5154,2024-10-23,C1019,Vivaan Patel,North,Corporate,P013,Bluetooth Speaker,Electronics,3,39.99,0.0,119.97
+ORD5499,2024-06-08,C1023,Zara Rao,East,Small Business,P004,27in Monitor,Electronics,1,219.99,0.05,208.99
+ORD5827,2024-11-01,C1092,Priya Chatterjee,West,Small Business,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5718,2024-07-31,C1112,Uday Kulkarni,South,Small Business,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5544,2024-09-04,C1074,Rohan Pillai,North,Consumer,P015,Ergonomic Footrest,Accessories,3,22.99,0.0,68.97
+ORD5780,2024-09-09,C1068,Tara Kulkarni,Central,Small Business,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5579,2024-01-08,C1013,Meera Chatterjee,East,Consumer,P002,Mechanical Keyboard,Electronics,4,59.99,0.0,239.96
+ORD5844,2024-01-02,C1088,Rohan Pillai,North,Corporate,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5827,2024-11-01,C1092,Priya Chatterjee,West,Small Business,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5835,2024-02-05,C1094,Varun Patel,South,Corporate,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5147,2024-03-26,C1089,Meera Kulkarni,North,Corporate,P004,27in Monitor,Electronics,4,219.99,0.0,879.96
+ORD5423,2024-02-16,C1042,Saanvi Kulkarni,East,Corporate,P001,Wireless Mouse,Electronics,1,19.99,0.05,18.99
+ORD5424,2024-04-27,C1059,Saanvi Sharma,West,Corporate,P010,Pen Pack (12ct),Stationery,2,6.49,0.1,11.68
+ORD5789,2024-12-09,C1101,Tara Mehta,Central,Consumer,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5501,2024-01-08,C1073,Zara Patel,Central,Corporate,P011,Whiteboard,Stationery,2,44.99,0.0,89.98
+ORD5359,2024-02-11,C1115,Om Patel,South,Consumer,P001,Wireless Mouse,Electronics,2,19.99,0.05,37.98
+ORD5624,2024-07-02,C1043,Uday Verma,South,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5376,2024-12-27,C1059,Saanvi Sharma,West,Corporate,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5306,2024-09-08,C1115,Om Patel,South,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.05,18.99
+ORD5553,2024-12-23,C1032,Aarav Joshi,East,Small Business,P014,External SSD 1TB,Electronics,2,89.99,0.1,161.98
+ORD5262,2024-08-05,C1087, Diya Gupta  ,South,Consumer,P015,Ergonomic Footrest,Accessories,3,22.99,0.0,68.97
+ORD5382,2024-04-29,C1018,Saanvi Reddy,Central,Consumer,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5481,2024-11-16,C1023,Zara Rao,East,Small Business,P004,27in Monitor,Electronics,3,219.99,0.0,659.97
+ORD5169,2024-06-03,C1014,Ananya Gupta,East,Corporate,P007,Standing Desk,Furniture,3,349.99,0.05,997.47
+ORD5611,2024-02-20,C1063,Vivaan Sharma,Central,Corporate,P012,Webcam HD,Electronics,2,42.99,0.1,77.38
+ORD5233,2024-09-21,C1054,Uday Iyer,West,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.1,31.49
+ORD5111,2024-04-18,C1009,Rohan Mehta,East,Consumer,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5677,2024-10-21,C1081,Neha Pillai,North,Consumer,P012,Webcam HD,Electronics,2,42.99,0.1,77.38
+ORD5418,2024-08-09,C1022,Uday Iyer,East,Consumer,P001,Wireless Mouse,Electronics,6,19.99,0.05,113.94
+ORD5726,2024-05-19,C1064,Yash Iyer,North,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5811,2024-12-17,C1066,Meera Gupta,NORTH,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5588,2024-11-15,C1108,Kabir Gupta,West,Small Business,P008,Desk Lamp,Furniture,4,24.99,0.0,99.96
+ORD5711,2024-01-18,C1036,Priya Singh,North,Consumer,P001,Wireless Mouse,Electronics,10,19.99,0.05,189.9
+ORD5509,2024-11-27,C1023,Zara Rao,East,Small Business,P010,Pen Pack (12ct),Stationery,5,6.49,0.0,32.45
+ORD5646,2024-08-24,C1037,Om Patel,North,Consumer,P006,Office Chair,Furniture,4,149.99,0.0,599.96
+ORD5703,2024-03-11,C1113,Ishaan Kulkarni,North,Corporate,P012,Webcam HD,Electronics,2,42.99,0.0,85.98
+ORD5128,2024-11-29,C1041,Zara Chatterjee,SOUTH,Small Business,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5404,2024-03-04,C1040,Neha Rao,Central,Corporate,P005,Laptop Stand,Accessories,4,29.99,0.0,119.96
+ORD5693,2024-11-06,C1073,Zara Patel,Central,Corporate,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5427,2024-10-27,C1003,Aditya Patel,,Small Business,P008,Desk Lamp,Furniture,1,24.99,0.05,23.74
+ORD5049,2024-12-21,C1004,Aarav Rao,South,Small Business,P015,Ergonomic Footrest,Accessories,1,22.99,0.1,20.69
+ORD5221,2024-04-03,C1069,Priya Pillai,East,Consumer,P012,Webcam HD,Electronics,1,42.99,0.1,38.69
+ORD5272,2024-03-02,C1040,Neha Rao,Central,Corporate,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5836,2024-10-10,C1061,Diya Patel,,Consumer,P012,Webcam HD,Electronics,2,42.99,0.0,85.98
+ORD5563,2024-07-14,C1079,Diya Reddy,East,Small Business,P002,Mechanical Keyboard,Electronics,1,59.99,0.1,53.99
+ORD5389,2024-02-28,C1038,Aditya Verma,West,Consumer,P009,Notebook Set,Stationery,3,8.99,0.05,25.62
+ORD5809,2024-07-04,C1069,Priya Pillai,East,Consumer,P006,Office Chair,Furniture,1,149.99,0.1,134.99
+ORD5016,2024-06-11,C1029,Neha Rao,North,Small Business,P001,Wireless Mouse,Electronics,5,19.99,0.1,89.96
+ORD5654,2024-05-27,C1078,Ananya Pillai,North,Small Business,P009,Notebook Set,Stationery,5,8.99,0.0,44.95
+ORD5388,2024-08-05,C1090,Tara Mehta,South,Consumer,P011,Whiteboard,Stationery,2,44.99,0.2,71.98
+ORD5686,2024-10-16,C1082,Tara Das,East,Consumer,P002,Mechanical Keyboard,Electronics,1,59.99,0.1,53.99
+ORD5736,2024-04-25,C1109,Nikhil Mehta,East,Corporate,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5673,2024-05-01,C1048,Varun Patel,Central,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.05,33.24
+ORD5592,2024-02-11,C1027,Ishaan Chatterjee,West,Small Business,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5398,2024-03-25,C1090,Tara Mehta,SOUTH,Consumer,P014,External SSD 1TB,Electronics,3,89.99,0.0,269.97
+ORD5260,2024-09-28,C1097,Neha Nair,Central,Corporate,P001,Wireless Mouse,Electronics,2,19.99,0.0,39.98
+ORD5785,2024-03-10,C1114,Nikhil Nair,North,Consumer,P013,Bluetooth Speaker,Electronics,2,39.99,0.1,71.98
+ORD5257,2024-07-07,C1070,Priya Patel,East,Corporate,P009,Notebook Set,Stationery,2,8.99,0.05,17.08
+ORD5139,2024-12-08,C1040,Neha Rao,CENTRAL,Corporate,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5055,2024-07-27,C1090,Tara Mehta,South,Consumer,P007,Standing Desk,Furniture,4,349.99,0.0,1399.96
+ORD5206,2024-06-14,C1077,Zara Reddy,North,Consumer,P003,USB-C Hub,Electronics,4,34.99,0.0,139.96
+ORD5443,2024-09-08,C1007,Priya Reddy,South,Consumer,P014,External SSD 1TB,Electronics,4,89.99,0.1,323.96
+ORD5254,2024-06-05,C1019,Vivaan Patel,North,Corporate,P008,Desk Lamp,Furniture,4,24.99,0.0,99.96
+ORD5238,2024-09-07,C1088,Rohan Pillai,North,Corporate,P007,Standing Desk,Furniture,1,349.99,0.15,297.49
+ORD5023,2024-03-22,C1029,Neha Rao,North,Small Business,P011,Whiteboard,Stationery,10,44.99,0.1,404.91
+ORD5784,2024-10-02,C1014,Ananya Gupta,East,Corporate,P005,Laptop Stand,Accessories,2,29.99,0.05,56.98
+ORD5361,2024-05-02,C1029,Neha Rao,North,Small Business,P012,Webcam HD,Electronics,20,42.99,0.05,816.81
+ORD5240,2024-05-03,C1003,Aditya Patel,SOUTH,Small Business,P004,27in Monitor,Electronics,6,219.99,0.0,1319.94
+ORD5744,2024-01-08,C1025,Meera Iyer,Central,Corporate,P014,External SSD 1TB,Electronics,4,89.99,0.2,287.97
+ORD5675,2024-10-19,C1052,Ananya Sharma,West,Small Business,P008,Desk Lamp,Furniture,3,24.99,0.0,74.97
+ORD5348,2024-06-05,C1098, Zara Nair  ,North,Consumer,P007,Standing Desk,Furniture,2,349.99,0.2,559.98
+ORD5368,2024-08-18,C1081,Neha Pillai,North,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,0.15,39.08
+ORD5847,2024-03-07,C1060,Om Gupta,,Small Business,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5180,2024-02-05,C1077,Zara Reddy,NORTH,Consumer,P012,Webcam HD,Electronics,3,42.99,0.0,128.97
+ORD5143,2024-08-26,C1105,Priya Mehta,East,Small Business,P009,Notebook Set,Stationery,10,8.99,0.05,85.4
+ORD5051,2024-12-27,C1083,Priya Chatterjee,South,Small Business,P008,Desk Lamp,Furniture,1,24.99,0.0,24.99
+ORD5683,2024-07-21,C1061,Diya Patel,East,Consumer,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5559,2024-01-23,C1087,Diya Gupta,South,Consumer,P011,Whiteboard,Stationery,2,44.99,0.0,89.98
+ORD5723,2024-07-06,C1018,Saanvi Reddy,Central,Consumer,P012,Webcam HD,Electronics,1,42.99,0.1,38.69
+ORD5082,2024-08-11,C1034,Yash Mehta,South,Consumer,P002,Mechanical Keyboard,Electronics,2,59.99,0.05,113.98
+ORD5570,2024-03-05,C1015,Rohan Iyer,East,Corporate,P011,Whiteboard,Stationery,2,44.99,0.05,85.48
+ORD5594,2024-12-11,C1082,Tara Das,East,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5614,2024-02-21,C1020,Neha Verma,SOUTH,Small Business,P004,27in Monitor,Electronics,6,219.99,0.05,1253.94
+ORD5067,2024-10-21,C1006,Neha Chatterjee,NORTH,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5659,2024-08-14,C1042,Saanvi Kulkarni,East,Corporate,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5010,2024-03-09,C1008,Ananya Verma,West,Consumer,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5619,2024-01-15,C1020,Neha Verma,South,Small Business,P009,Notebook Set,Stationery,2,8.99,0.1,16.18
+ORD5158,2024-12-12,C1098,Zara Nair,North,Consumer,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5356,2024-04-18,C1082, Tara Das  ,East,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5639,2024-11-13,C1081,Neha Pillai,North,Consumer,P015,Ergonomic Footrest,Accessories,4,22.99,0.2,73.57
+ORD5504,2024-02-17,C1041, Zara Chatterjee  ,South,Small Business,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5707,2024-11-26,C1066,Meera Gupta,North,Small Business,P003,USB-C Hub,Electronics,3,34.99,0.0,104.97
+ORD5474,2024-07-30,C1115,Om Patel,SOUTH,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.15,29.74
+ORD5712,2024-10-23,C1053,Ananya Patel,South,Consumer,P012,Webcam HD,Electronics,2,42.99,0.0,85.98
+ORD5626,2024-08-08,C1086,Zara Sharma,East,Small Business,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5453,2024-06-17,C1062,Kiran Joshi,Central,Consumer,P007,Standing Desk,Furniture,2,349.99,0.0,699.98
+ORD5065,2024-12-22,C1111,Kiran Mehta,East,Corporate,P004,27in Monitor,Electronics,4,219.99,0.0,879.96
+ORD5761,2024-01-13,C1036,Priya Singh,North,Consumer,P002,Mechanical Keyboard,Electronics,4,59.99,0.0,239.96
+ORD5410,2024-05-19,C1100,Nikhil Gupta,East,Small Business,P014,External SSD 1TB,Electronics,3,89.99,0.05,256.47
+ORD5591,2024-11-28,C1095,Om Das,South,Consumer,P001,Wireless Mouse,Electronics,4,19.99,0.0,79.96
+ORD5828,2024-01-11,C1027,Ishaan Chatterjee,West,Small Business,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5839,2024-04-20,C1023,Zara Rao,East,Small Business,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5674,2024-07-14,C1016,Neha Joshi,,Small Business,P008,Desk Lamp,Furniture,4,24.99,,94.96
+ORD5473,2024-08-24,C1048, Varun Patel  ,Central,Consumer,P005,Laptop Stand,Accessories,5,29.99,0.0,149.95
+ORD5273,2024-04-08,C1086,Zara Sharma,East,Small Business,P010,Pen Pack (12ct),Stationery,3,6.49,0.0,19.47
+ORD5661,2024-10-27,C1084,Ishaan Joshi,West,Small Business,P005,Laptop Stand,Accessories,1,29.99,0.2,23.99
+ORD5297,2024-03-05,C1072,Uday Mehta,Central,Consumer,P005,Laptop Stand,Accessories,2,29.99,0.0,59.98
+ORD5587,2024-06-22,C1047,Aditya Rao,South,Corporate,P013,Bluetooth Speaker,Electronics,5,39.99,0.0,199.95
+ORD5810,2024-02-20,C1079,Diya Reddy,East,Small Business,P013,Bluetooth Speaker,Electronics,2,39.99,0.0,79.98
+ORD5358,2024-12-04,C1078,Ananya Pillai,North,Small Business,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5815,2024-07-02,C1031,Ananya Reddy,West,Consumer,P005,Laptop Stand,Accessories,2,29.99,0.15,50.98
+ORD5471,2024-12-02,C1023,Zara Rao,East,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.1,5.84
+ORD5300,2024-01-28,C1070,Priya Patel,East,Corporate,P009,Notebook Set,Stationery,1,8.99,0.05,8.54
+ORD5710,2024-08-13,C1117,Uday Gupta,Central,Consumer,P005,Laptop Stand,Accessories,1,29.99,0.05,28.49
+ORD5052,2024-04-19,C1076,Nikhil Chatterjee,Central,Consumer,P011,Whiteboard,Stationery,1,44.99,0.1,40.49
+ORD5187,2024-02-24,C1078,Ananya Pillai,North,Small Business,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5573,2024-06-18,C1031,Ananya Reddy,West,Consumer,P008,Desk Lamp,Furniture,2,24.99,0.1,44.98
+ORD5229,2024-12-25,C1057,Meera Iyer,West,Corporate,P003,USB-C Hub,Electronics,5,34.99,0.0,174.95
+ORD5628,2024-05-05,C1050,Kabir Verma,North,Small Business,P012,Webcam HD,Electronics,1,42.99,0.15,36.54
+ORD5303,2024-12-23,C1109, Nikhil Mehta  ,East,Corporate,P013,Bluetooth Speaker,Electronics,4,39.99,0.0,159.96
+ORD5695,2024-04-22,C1035,Ishaan Rao,Central,Consumer,P015,Ergonomic Footrest,Accessories,5,22.99,0.0,114.95
+ORD5189,2024-07-04,C1077,Zara Reddy,North,Consumer,P003,USB-C Hub,Electronics,4,34.99,0.1,125.96
+ORD5508,2024-03-01,C1012,Kabir Joshi,North,Consumer,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5420,2024-11-05,C1025, Meera Iyer  ,CENTRAL,Corporate,P002,Mechanical Keyboard,Electronics,2,59.99,0.05,113.98
+ORD5805,2024-04-21,C1059,Saanvi Sharma,West,Corporate,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5752,2024-05-14,C1113,Ishaan Kulkarni,North,Corporate,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5317,2024-05-09,C1042,Saanvi Kulkarni,East,Corporate,P015,Ergonomic Footrest,Accessories,4,22.99,0.0,91.96
+ORD5586,2024-05-15,C1035,Ishaan Rao,Central,Consumer,P013,Bluetooth Speaker,Electronics,1,39.99,0.05,37.99
+ORD5466,2024-06-14,C1071,Om Singh,East,Consumer,P014,External SSD 1TB,Electronics,4,89.99,0.0,359.96
+ORD5500,2024-10-09,C1038,Aditya Verma,West,Consumer,P003,USB-C Hub,Electronics,3,34.99,0.0,104.97
+ORD5442,2024-11-21,C1072,Uday Mehta,Central,Consumer,P003,USB-C Hub,Electronics,2,34.99,0.0,69.98
+ORD5627,2024-03-15,C1022, Uday Iyer  ,East,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.05,33.24
+ORD5252,2024-12-20,C1016,Neha Joshi,North,Small Business,P003,USB-C Hub,Electronics,2,34.99,0.1,62.98
+ORD5803,2024-12-19,C1096,Kabir Gupta,East,Corporate,P002,Mechanical Keyboard,Electronics,5,59.99,0.2,239.96
+ORD5758,2024-12-11,C1090,Tara Mehta,South,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5075,2024-10-02,C1064,Yash Iyer,North,Small Business,P014,External SSD 1TB,Electronics,3,89.99,0.05,256.47
+ORD5664,2024-08-05,C1004,Aarav Rao,,Small Business,P014,External SSD 1TB,Electronics,4,89.99,0.05,341.96
+ORD5602,2024-11-12,C1049,Kiran Singh,South,Corporate,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5129,2024-01-21,C1097,Neha Nair,Central,Corporate,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5694,2024-06-29,C1098,Zara Nair,North,Consumer,P011,Whiteboard,Stationery,1,44.99,0.15,38.24
+ORD5490,2024-12-23,C1038,Aditya Verma,West,Consumer,P002,Mechanical Keyboard,Electronics,10,59.99,0.1,539.91
+ORD5110,2024-06-16,C1044,Priya Sharma,Central,Small Business,P011,Whiteboard,Stationery,3,44.99,0.2,107.98
+ORD5026,2024-05-12,C1004,Aarav Rao,South,Small Business,P013,Bluetooth Speaker,Electronics,2,39.99,0.05,75.98
+ORD5701,2024-12-03,C1099,Ishaan Mehta,EAST,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.05,33.24
+ORD5324,2024-10-22,C1118,Varun Gupta,South,Consumer,P004,27in Monitor,Electronics,3,219.99,0.0,659.97
+ORD5657,2024-03-21,C1090,Tara Mehta,South,Consumer,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5284,2024-09-25,C1038,Aditya Verma,West,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5309,2024-10-20,C1009,Rohan Mehta,East,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.05,33.24
+ORD5409,2024-07-25,C1033,Yash Pillai,NORTH,Small Business,P008,Desk Lamp,Furniture,1,24.99,0.15,21.24
+ORD5621,2024-06-15,C1020,Neha Verma,South,Small Business,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5286,2024-05-24,C1069,Priya Pillai,East,Consumer,P001,Wireless Mouse,Electronics,2,19.99,0.15,33.98
+ORD5456,2024-09-10,C1118,Varun Gupta,South,Consumer,P014,External SSD 1TB,Electronics,1,89.99,0.05,85.49
+ORD5354,2024-04-16,C1099,Ishaan Mehta,East,Consumer,P011,Whiteboard,Stationery,3,44.99,0.05,128.22
+ORD5319,2024-02-28,C1115,Om Patel,South,Consumer,P013,Bluetooth Speaker,Electronics,3,39.99,0.0,119.97
+ORD5219,2024-09-10,C1027,Ishaan Chatterjee,West,Small Business,P002,Mechanical Keyboard,Electronics,2,59.99,0.05,113.98
+ORD5240,2024-05-03,C1003,Aditya Patel,South,Small Business,P004,27in Monitor,Electronics,6,219.99,0.0,1319.94
+ORD5386,2024-12-04,C1070,Priya Patel,East,Corporate,P003,USB-C Hub,Electronics,5,34.99,0.2,139.96
+ORD5100,2024-01-14,C1015,Rohan Iyer,East,Corporate,P015,Ergonomic Footrest,Accessories,20,22.99,0.1,413.82
+ORD5770,2024-08-25,C1068,Tara Kulkarni,Central,Small Business,P006,Office Chair,Furniture,1,149.99,0.05,142.49
+ORD5193,2024-03-19,C1035,Ishaan Rao,Central,Consumer,P008,Desk Lamp,Furniture,2,24.99,,49.98
+ORD5025,2024-08-18,C1048,Varun Patel,Central,Consumer,P002,Mechanical Keyboard,Electronics,5,59.99,0.0,299.95
+ORD5192,2024-12-28,C1000,Ananya Sharma,East,Consumer,P012,Webcam HD,Electronics,2,42.99,0.0,85.98
+ORD5278,2024-04-04,C1105,Priya Mehta,East,Small Business,P002,Mechanical Keyboard,Electronics,4,59.99,0.1,215.96
+ORD5565,2024-12-05,C1108,Kabir Gupta,West,Small Business,P013,Bluetooth Speaker,Electronics,5,39.99,0.0,199.95
+ORD5543,2024-10-02,C1013,Meera Chatterjee,East,Consumer,P013,Bluetooth Speaker,Electronics,4,39.99,0.0,159.96
+ORD5535,2024-05-24,C1004,Aarav Rao,South,Small Business,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5133,2024-01-11,C1110,Aarav Reddy,East,Consumer,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5478,2024-07-04,C1077,Zara Reddy,North,Consumer,P003,USB-C Hub,Electronics,5,34.99,0.0,174.95
+ORD5265,2024-06-29,C1063,Vivaan Sharma,Central,Corporate,P007,Standing Desk,Furniture,2,349.99,0.0,699.98
+ORD5253,2024-05-04,C1071,Om Singh,East,Consumer,P013,Bluetooth Speaker,Electronics,2,39.99,0.05,75.98
+ORD5578,2024-08-21,C1020,Neha Verma,South,Small Business,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5071,2024-06-29,C1078,Ananya Pillai,NORTH,Small Business,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5372,2024-05-29,C1076,Nikhil Chatterjee,Central,Consumer,P005,Laptop Stand,Accessories,2,29.99,0.0,59.98
+ORD5116,2024-05-22,C1117,Uday Gupta,Central,Consumer,P008,Desk Lamp,Furniture,1,24.99,0.0,24.99
+ORD5264,2024-06-18,C1003,Aditya Patel,South,Small Business,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5533,2024-05-16,C1003,Aditya Patel,South,Small Business,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5772,2024-06-03,C1016,Neha Joshi,North,Small Business,P002,Mechanical Keyboard,Electronics,2,59.99,0.0,119.98
+ORD5450,2024-12-09,C1064,Yash Iyer,North,Small Business,P003,USB-C Hub,Electronics,2,34.99,0.1,62.98
+ORD5003,2024-09-22,C1056,Ananya Sharma,Central,Consumer,P002,Mechanical Keyboard,Electronics,2,59.99,0.0,119.98
+ORD5230,2024-05-21,C1007,Priya Reddy,South,Consumer,P013,Bluetooth Speaker,Electronics,3,39.99,0.05,113.97
+ORD5767,2024-11-27,C1019,Vivaan Patel,North,Corporate,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5329,2024-03-17,C1061,Diya Patel,EAST,Consumer,P015,Ergonomic Footrest,Accessories,4,22.99,,91.96
+ORD5740,2024-10-12,C1081,Neha Pillai,North,Consumer,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5200,2024-10-02,C1119,Aarav Pillai,North,Corporate,P003,USB-C Hub,Electronics,2,34.99,0.2,55.98
+ORD5391,2024-04-25,C1117,Uday Gupta,Central,Consumer,P005,Laptop Stand,Accessories,1,29.99,0.0,29.99
+ORD5380,2024-02-06,C1035,Ishaan Rao,CENTRAL,Consumer,P007,Standing Desk,Furniture,10,349.99,0.0,3499.9
+ORD5066,2024-01-11,C1106,Om Rao,East,Small Business,P003,USB-C Hub,Electronics,2,34.99,0.05,66.48
+ORD5554,2024-05-02,C1025,Meera Iyer,Central,Corporate,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5502,2024-10-09,C1071,Om Singh,East,Consumer,P005,Laptop Stand,Accessories,3,29.99,0.0,89.97
+ORD5202,2024-08-26,C1025,Meera Iyer,Central,Corporate,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5612,2024-11-20,C1030,Zara Chatterjee,East,Small Business,P009,Notebook Set,Stationery,2,8.99,0.05,17.08
+ORD5363,2024-10-09,C1081,Neha Pillai,North,Consumer,P001,Wireless Mouse,Electronics,4,19.99,0.0,79.96
+ORD5709,2024-06-07,C1064,Yash Iyer,North,Small Business,P010,Pen Pack (12ct),Stationery,2,6.49,0.1,11.68
+ORD5274,2024-06-10,C1084,Ishaan Joshi,West,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5652,2024-01-05,C1025,Meera Iyer,Central,Corporate,P003,USB-C Hub,Electronics,5,34.99,0.0,174.95
+ORD5178,2024-12-04,C1049,Kiran Singh,South,Corporate,P005,Laptop Stand,Accessories,1,29.99,0.0,29.99
+ORD5038,2024-05-26,C1044,Priya Sharma,Central,Small Business,P004,27in Monitor,Electronics,3,219.99,0.0,659.97
+ORD5203,2024-08-11,C1119,Aarav Pillai,North,Corporate,P005,Laptop Stand,Accessories,6,29.99,0.0,179.94
+ORD5237,2024-07-27,C1119, Aarav Pillai  ,North,Corporate,P008,Desk Lamp,Furniture,2,24.99,0.05,47.48
+ORD5150,2024-02-28,C1045,Kiran Patel,North,Consumer,P002,Mechanical Keyboard,Electronics,2,59.99,0.0,119.98
+ORD5218,2024-01-15,C1100,Nikhil Gupta,East,Small Business,P015,Ergonomic Footrest,Accessories,20,22.99,0.1,413.82
+ORD5779,2024-06-04,C1104,Kabir Nair,West,Consumer,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5669,2024-04-11,C1082,Tara Das,East,Consumer,P005,Laptop Stand,Accessories,4,29.99,0.0,119.96
+ORD5747,2024-03-04,C1004, Aarav Rao  ,South,Small Business,P003,USB-C Hub,Electronics,3,34.99,0.0,104.97
+ORD5660,2024-06-25,C1052,Ananya Sharma,,Small Business,P013,Bluetooth Speaker,Electronics,1,39.99,0.05,37.99
+ORD5739,2024-07-22,C1118, Varun Gupta  ,South,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5791,2024-10-03,C1031,Ananya Reddy,West,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5488,2024-05-27,C1021,Kabir Kulkarni,West,Corporate,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5795,2024-07-31,C1000,Ananya Sharma,East,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5301,2024-10-10,C1012,Kabir Joshi,North,Consumer,P002,Mechanical Keyboard,Electronics,5,59.99,0.05,284.95
+ORD5599,2024-09-06,C1107,Priya Gupta,East,Small Business,P007,Standing Desk,Furniture,3,349.99,0.0,1049.97
+ORD5194,2024-08-10,C1014,Ananya Gupta,East,Corporate,P002,Mechanical Keyboard,Electronics,2,59.99,,119.98
+ORD5236,2024-05-03,C1076,Nikhil Chatterjee,Central,Consumer,P009,Notebook Set,Stationery,1,8.99,0.05,8.54
+ORD5720,2024-04-12,C1101,Tara Mehta,Central,Consumer,P014,External SSD 1TB,Electronics,2,89.99,0.15,152.98
+ORD5056,2024-06-18,C1038,Aditya Verma,West,Consumer,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5792,2024-08-02,C1012,Kabir Joshi,North,Consumer,P011,Whiteboard,Stationery,2,44.99,0.0,89.98
+ORD5097,2024-10-30,C1017,Ishaan Rao,South,Consumer,P009,Notebook Set,Stationery,10,8.99,0.05,85.4
+ORD5142,2024-04-21,C1113,Ishaan Kulkarni,North,Corporate,P011,Whiteboard,Stationery,1,44.99,,40.49
+ORD5717,2024-06-16,C1060,Om Gupta,Central,Small Business,P004,27in Monitor,Electronics,3,219.99,0.0,659.97
+ORD5743,2024-07-21,C1085,Zara Sharma,North,Consumer,P010,Pen Pack (12ct),Stationery,3,6.49,0.0,19.47
+ORD5620,2024-01-24,C1061,Diya Patel,East,Consumer,P001,Wireless Mouse,Electronics,4,19.99,0.0,79.96
+ORD5458,2024-12-05,C1007,Priya Reddy,South,Consumer,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5121,2024-01-10,C1067,Kiran Mehta,North,Small Business,P002,Mechanical Keyboard,Electronics,5,59.99,0.15,254.96
+ORD5514,2024-12-27,C1034,Yash Mehta,South,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5063,2024-07-18,C1119,Aarav Pillai,North,Corporate,P011,Whiteboard,Stationery,3,44.99,0.0,134.97
+ORD5651,2024-12-07,C1009,Rohan Mehta,East,Consumer,P004,27in Monitor,Electronics,4,219.99,0.0,879.96
+ORD5327,2024-01-28,C1051,Rohan Gupta,West,Corporate,P013,Bluetooth Speaker,Electronics,3,39.99,0.0,119.97
+ORD5004,2024-08-25,C1093,Neha Iyer,North,Corporate,P008,Desk Lamp,Furniture,4,24.99,0.0,99.96
+ORD5059,2024-07-31,C1018,Saanvi Reddy,Central,Consumer,P008,Desk Lamp,Furniture,1,24.99,0.0,24.99
+ORD5224,2024-06-30,C1062,Kiran Joshi,Central,Consumer,P010,Pen Pack (12ct),Stationery,6,6.49,0.0,38.94
+ORD5415,2024-02-11,C1027,Ishaan Chatterjee,West,Small Business,P007,Standing Desk,Furniture,2,349.99,0.15,594.98
+ORD5102,2024-11-25,C1083,Priya Chatterjee,South,Small Business,P002,Mechanical Keyboard,Electronics,4,59.99,0.0,239.96
+ORD5222,2024-09-06,C1002,Aditya Mehta,West,Consumer,P003,USB-C Hub,Electronics,3,34.99,0.2,83.98
+ORD5335,2024-10-12,C1005,Zara Gupta,South,Corporate,P001,Wireless Mouse,Electronics,3,19.99,0.05,56.97
+ORD5706,2024-11-17,C1011,Om Das,Central,Corporate,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5053,2024-02-02,C1024,Tara Pillai,Central,Corporate,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5018,2024-11-09,C1094,Varun Patel,South,Corporate,P003,USB-C Hub,Electronics,50,34.99,0.0,1749.5
+ORD5307,2024-02-22,C1086,Zara Sharma,East,Small Business,P011,Whiteboard,Stationery,1,44.99,0.1,40.49
+ORD5156,2024-06-08,C1108,Kabir Gupta,West,Small Business,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5581,2024-07-28,C1108,Kabir Gupta,West,Small Business,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5249,2024-05-30,C1046,Vivaan Patel,North,Consumer,P006,Office Chair,Furniture,1,149.99,0.15,127.49
+ORD5250,2024-04-23,C1118,Varun Gupta,South,Consumer,P011,Whiteboard,Stationery,2,44.99,0.0,89.98
+ORD5702,2024-12-14,C1107,Priya Gupta,East,Small Business,P009,Notebook Set,Stationery,1,8.99,0.1,8.09
+ORD5732,2024-02-28,C1101,Tara Mehta,Central,Consumer,P002,Mechanical Keyboard,Electronics,5,59.99,0.1,269.96
+ORD5031,2024-09-05,C1030,Zara Chatterjee,East,Small Business,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5383,2024-05-15,C1051,Rohan Gupta,West,Corporate,P003,USB-C Hub,Electronics,2,34.99,0.0,69.98
+ORD5830,2024-06-19,C1038,Aditya Verma,West,Consumer,P009,Notebook Set,Stationery,4,8.99,0.1,32.36
+ORD5118,2024-05-09,C1046,Vivaan Patel,North,Consumer,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5390,2024-10-05,C1072,Uday Mehta,Central,Consumer,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5117,2024-08-03,C1076,Nikhil Chatterjee,Central,Consumer,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5697,2024-04-07,C1067,Kiran Mehta,North,Small Business,P004,27in Monitor,Electronics,5,219.99,0.0,1099.95
+ORD5571,2024-09-14,C1043,Uday Verma,South,Consumer,P014,External SSD 1TB,Electronics,1,89.99,0.1,80.99
+ORD5446,2024-06-27,C1053, Ananya Patel  ,South,Consumer,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5028,2024-11-22,C1082,Tara Das,East,Consumer,P006,Office Chair,Furniture,5,149.99,0.0,749.95
+ORD5308,2024-01-07,C1084,Ishaan Joshi,,Small Business,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5366,2024-01-02,C1111,Kiran Mehta,East,Corporate,P015,Ergonomic Footrest,Accessories,1,22.99,0.15,19.54
+ORD5201,2024-09-04,C1069,Priya Pillai,East,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5529,2024-05-21,C1038,Aditya Verma,West,Consumer,P005,Laptop Stand,Accessories,5,29.99,0.0,149.95
+ORD5753,2024-10-26,C1054,Uday Iyer,,Consumer,P008,Desk Lamp,Furniture,1,24.99,0.0,24.99
+ORD5777,2024-01-24,C1010,Zara Verma,,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5685,2024-01-05,C1034,Yash Mehta,South,Consumer,P009,Notebook Set,Stationery,6,8.99,0.1,48.55
+ORD5408,2024-12-24,C1057,Meera Iyer,West,Corporate,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5510,2024-03-19,C1010,Zara Verma,West,Consumer,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5373,2024-01-17,C1105,Priya Mehta,East,Small Business,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5281,2024-09-04,C1088,Rohan Pillai,North,Corporate,P001,Wireless Mouse,Electronics,1,19.99,0.05,18.99
+ORD5818,2024-05-21,C1085,Zara Sharma,North,Consumer,P012,Webcam HD,Electronics,2,42.99,0.1,77.38
+ORD5568,2024-09-10,C1043,Uday Verma,South,Consumer,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5208,2024-02-14,C1076, Nikhil Chatterjee  ,Central,Consumer,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5656,2024-10-06,C1107,Priya Gupta,East,Small Business,P001,Wireless Mouse,Electronics,2,19.99,0.05,37.98
+ORD5682,2024-12-03,C1117,Uday Gupta,Central,Consumer,P008,Desk Lamp,Furniture,20,24.99,0.0,499.8
+ORD5024,2024-08-31,C1009,Rohan Mehta,East,Consumer,P006,Office Chair,Furniture,1,149.99,0.05,142.49
+ORD5341,2024-09-24,C1028,Saanvi Gupta,Central,Corporate,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5596,2024-07-13,C1019,Vivaan Patel,North,Corporate,P008,Desk Lamp,Furniture,4,24.99,0.0,99.96
+ORD5545,2024-06-25,C1068,Tara Kulkarni,Central,Small Business,P011,Whiteboard,Stationery,2,44.99,0.0,89.98
+ORD5155,2024-01-14,C1071,Om Singh,East,Consumer,P008,Desk Lamp,Furniture,1,24.99,0.2,19.99
+ORD5741,2024-07-06,C1007,Priya Reddy,South,Consumer,P007,Standing Desk,Furniture,4,349.99,0.05,1329.96
+ORD5625,2024-07-10,C1040,Neha Rao,Central,Corporate,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5676,2024-07-02,C1068,Tara Kulkarni,Central,Small Business,P010,Pen Pack (12ct),Stationery,10,6.49,0.0,64.9
+ORD5432,2024-01-21,C1039,Diya Iyer,West,Small Business,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5756,2024-07-09,C1097,Neha Nair,,Corporate,P002,Mechanical Keyboard,Electronics,1,59.99,0.05,56.99
+ORD5511,2024-09-12,C1034,Yash Mehta,South,Consumer,P013,Bluetooth Speaker,Electronics,4,39.99,0.0,159.96
+ORD5483,2024-01-27,C1058,Kabir Das,West,Consumer,P013,Bluetooth Speaker,Electronics,20,39.99,0.2,639.84
+ORD5263,2024-10-08,C1110,Aarav Reddy,East,Consumer,P014,External SSD 1TB,Electronics,4,89.99,0.15,305.97
+ORD5083,2024-09-05,C1018,Saanvi Reddy,Central,Consumer,P006,Office Chair,Furniture,1,149.99,0.15,127.49
+ORD5454,2024-07-29,C1031,Ananya Reddy,West,Consumer,P002,Mechanical Keyboard,Electronics,3,59.99,,179.97
+ORD5821,2024-08-20,C1032,Aarav Joshi,East,Small Business,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5524,2024-04-07,C1052,Ananya Sharma,West,Small Business,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5039,2024-04-30,C1098,Zara Nair,North,Consumer,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5582,2024-12-01,C1066,Meera Gupta,North,Small Business,P010,Pen Pack (12ct),Stationery,6,6.49,0.1,35.05
+ORD5334,2024-03-01,C1039,Diya Iyer,West,Small Business,P008,Desk Lamp,Furniture,1,24.99,0.1,22.49
+ORD5011,2024-08-25,C1051,Rohan Gupta,West,Corporate,P011,Whiteboard,Stationery,3,44.99,0.0,134.97
+ORD5452,2024-03-23,C1048,Varun Patel,Central,Consumer,P001,Wireless Mouse,Electronics,10,19.99,0.0,199.9
+ORD5320,2024-02-03,C1004,Aarav Rao,South,Small Business,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5033,2024-05-02,C1044,Priya Sharma,Central,Small Business,P008,Desk Lamp,Furniture,1,24.99,0.0,24.99
+ORD5464,2024-06-10,C1058,Kabir Das,West,Consumer,P015,Ergonomic Footrest,Accessories,5,22.99,0.0,114.95
+ORD5147,2024-03-26,C1089,Meera Kulkarni,North,Corporate,P004,27in Monitor,Electronics,4,219.99,0.0,879.96
+ORD5282,2024-05-21,C1094,Varun Patel,South,Corporate,P010,Pen Pack (12ct),Stationery,2,6.49,0.0,12.98
+ORD5515,2024-05-19,C1021,Kabir Kulkarni,West,Corporate,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5438,2024-05-22,C1055,Uday Patel,North,Corporate,P005,Laptop Stand,Accessories,5,29.99,0.1,134.95
+ORD5774,2024-07-28,C1017,Ishaan Rao,South,Consumer,P004,27in Monitor,Electronics,10,219.99,0.0,2199.9
+ORD5583,2024-03-20,C1119,Aarav Pillai,North,Corporate,P008,Desk Lamp,Furniture,3,24.99,0.1,67.47
+ORD5781,2024-02-29,C1053,Ananya Patel,South,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5379,2024-08-20,C1110,Aarav Reddy,East,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5807,2024-08-15,C1020,Neha Verma,,Small Business,P010,Pen Pack (12ct),Stationery,2,6.49,0.0,12.98
+ORD5763,2024-10-14,C1115,Om Patel,South,Consumer,P011,Whiteboard,Stationery,5,44.99,0.0,224.95
+ORD5090,2024-03-25,C1026,Vivaan Das,North,Consumer,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5214,2024-11-08,C1105,Priya Mehta,East,Small Business,P015,Ergonomic Footrest,Accessories,5,22.99,0.0,114.95
+ORD5322,2024-09-08,C1084,Ishaan Joshi,West,Small Business,P013,Bluetooth Speaker,Electronics,4,39.99,0.0,159.96
+ORD5843,2024-11-01,C1027,Ishaan Chatterjee,,Small Business,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5134,2024-11-14,C1044,Priya Sharma,Central,Small Business,P011,Whiteboard,Stationery,1,44.99,0.1,40.49
+ORD5347,2024-08-07,C1025,Meera Iyer,Central,Corporate,P012,Webcam HD,Electronics,3,42.99,0.0,128.97
+ORD5044,2024-02-11,C1084,Ishaan Joshi,West,Small Business,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5008,2024-03-03,C1064,Yash Iyer,North,Small Business,P005,Laptop Stand,Accessories,3,29.99,0.0,89.97
+ORD5526,2024-09-17,C1029,Neha Rao,North,Small Business,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5755,2024-11-22,C1087,Diya Gupta,South,Consumer,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5670,2024-07-15,C1019,Vivaan Patel,North,Corporate,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5188,2024-08-09,C1099,Ishaan Mehta,East,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5123,2024-01-27,C1095,Om Das,South,Consumer,P011,Whiteboard,Stationery,2,44.99,0.15,76.48
+ORD5041,2024-06-20,C1006,Neha Chatterjee,North,Consumer,P009,Notebook Set,Stationery,4,8.99,0.1,32.36
+ORD5305,2024-11-22,C1091,Ishaan Pillai,West,Consumer,P005,Laptop Stand,Accessories,2,29.99,0.0,59.98
+ORD5622,2024-01-29,C1091,Ishaan Pillai,West,Consumer,P013,Bluetooth Speaker,Electronics,2,39.99,0.1,71.98
+ORD5636,2024-02-10,C1108,Kabir Gupta,West,Small Business,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5173,2024-10-16,C1094,Varun Patel,South,Corporate,P007,Standing Desk,Furniture,1,349.99,,349.99
+ORD5285,2024-11-01,C1031,Ananya Reddy,West,Consumer,P009,Notebook Set,Stationery,3,8.99,0.0,26.97
+ORD5801,2024-05-23,C1105,Priya Mehta,East,Small Business,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5241,2024-12-19,C1038,Aditya Verma,West,Consumer,P002,Mechanical Keyboard,Electronics,3,59.99,0.0,179.97
+ORD5850,2024-03-30,C1082,Tara Das,EAST,Consumer,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5512,2024-05-29,C1110,Aarav Reddy,East,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.1,17.99
+ORD5527,2024-03-10,C1093,Neha Iyer,North,Corporate,P011,Whiteboard,Stationery,4,44.99,0.0,179.96
+ORD5601,2024-01-19,C1106,Om Rao,East,Small Business,P008,Desk Lamp,Furniture,2,24.99,0.1,44.98
+ORD5246,2024-08-17,C1056,Ananya Sharma,Central,Consumer,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5057,2024-10-04,C1069,Priya Pillai,East,Consumer,P002,Mechanical Keyboard,Electronics,2,59.99,0.1,107.98
+ORD5650,2024-05-10,C1025,Meera Iyer,Central,Corporate,P014,External SSD 1TB,Electronics,3,89.99,0.1,242.97
+ORD5072,2024-06-01,C1094,Varun Patel,South,Corporate,P015,Ergonomic Footrest,Accessories,3,22.99,0.1,62.07
+ORD5642,2024-09-11,C1043,Uday Verma,SOUTH,Consumer,P014,External SSD 1TB,Electronics,3,89.99,0.0,269.97
+ORD5146,2024-07-07,C1089,Meera Kulkarni,North,Corporate,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5091,2024-08-27,C1001,Diya Joshi,North,Small Business,P002,Mechanical Keyboard,Electronics,3,59.99,0.0,179.97
+ORD5167,2024-02-22,C1042,Saanvi Kulkarni,East,Corporate,P003,USB-C Hub,Electronics,1,34.99,0.05,33.24
+ORD5393,2024-03-17,C1058,Kabir Das,West,Consumer,P014,External SSD 1TB,Electronics,2,89.99,0.1,161.98
+ORD5842,2024-03-16,C1082,Tara Das,,Consumer,P008,Desk Lamp,Furniture,1,24.99,0.0,24.99
+ORD5171,2024-11-03,C1042,Saanvi Kulkarni,East,Corporate,P005,Laptop Stand,Accessories,2,29.99,0.0,59.98
+ORD5311,2024-08-28,C1073,Zara Patel,Central,Corporate,P005,Laptop Stand,Accessories,1,29.99,0.0,29.99
+ORD5362,2024-03-29,C1048,Varun Patel,Central,Consumer,P007,Standing Desk,Furniture,2,349.99,0.0,699.98
+ORD5360,2024-03-21,C1091,Ishaan Pillai,West,Consumer,P003,USB-C Hub,Electronics,2,34.99,0.05,66.48
+ORD5094,2024-09-30,C1073,Zara Patel,Central,Corporate,P012,Webcam HD,Electronics,5,42.99,0.1,193.46
+ORD5323,2024-02-07,C1055,Uday Patel,North,Corporate,P004,27in Monitor,Electronics,4,219.99,0.1,791.96
+ORD5421,2024-05-08,C1015, Rohan Iyer  ,East,Corporate,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5413,2024-09-09,C1013,Meera Chatterjee,East,Consumer,P003,USB-C Hub,Electronics,4,34.99,0.05,132.96
+ORD5593,2024-06-17,C1041,Zara Chatterjee,South,Small Business,P007,Standing Desk,Furniture,1,349.99,0.05,332.49
+ORD5751,2024-12-10,C1063,Vivaan Sharma,Central,Corporate,P003,USB-C Hub,Electronics,1,34.99,0.05,33.24
+ORD5653,2024-08-26,C1065,Ishaan Verma,Central,Consumer,P013,Bluetooth Speaker,Electronics,3,39.99,0.05,113.97
+ORD5377,2024-05-24,C1101,Tara Mehta,Central,Consumer,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5396,2024-02-06,C1018,Saanvi Reddy,Central,Consumer,P005,Laptop Stand,Accessories,4,29.99,0.0,119.96
+ORD5244,2024-12-30,C1020,Neha Verma,South,Small Business,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5088,2024-12-13,C1028,Saanvi Gupta,Central,Corporate,P008,Desk Lamp,Furniture,1,24.99,0.05,23.74
+ORD5215,2024-12-08,C1018,Saanvi Reddy,Central,Consumer,P008,Desk Lamp,Furniture,1,24.99,0.05,23.74
+ORD5345,2024-06-01,C1109,Nikhil Mehta,East,Corporate,P011,Whiteboard,Stationery,2,44.99,0.0,89.98
+ORD5174,2024-01-22,C1072,Uday Mehta,Central,Consumer,P012,Webcam HD,Electronics,1,42.99,0.2,34.39
+ORD5678,2024-05-31,C1107,Priya Gupta,East,Small Business,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5292,2024-04-01,C1067,Kiran Mehta,North,Small Business,P002,Mechanical Keyboard,Electronics,3,59.99,0.05,170.97
+ORD5426,2024-10-21,C1116,Vivaan Patel,West,Small Business,P007,Standing Desk,Furniture,3,349.99,0.0,1049.97
+ORD5716,2024-05-31,C1001,Diya Joshi,North,Small Business,P009,Notebook Set,Stationery,3,8.99,0.0,26.97
+ORD5119,2024-02-11,C1043,Uday Verma,South,Consumer,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5120,2024-08-28,C1071,Om Singh,East,Consumer,P011,Whiteboard,Stationery,3,44.99,0.05,128.22
+ORD5164,2024-12-19,C1082,Tara Das,East,Consumer,P005,Laptop Stand,Accessories,4,29.99,0.0,119.96
+ORD5542,2024-08-16,C1107,Priya Gupta,East,Small Business,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5385,2024-10-28,C1056,Ananya Sharma,Central,Consumer,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5719,2024-03-30,C1025,Meera Iyer,Central,Corporate,P004,27in Monitor,Electronics,5,219.99,0.0,1099.95
+ORD5395,2024-03-13,C1066,Meera Gupta,North,Small Business,P001,Wireless Mouse,Electronics,1,19.99,0.05,18.99
+ORD5402,2024-05-27,C1018,Saanvi Reddy,CENTRAL,Consumer,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5405,2024-08-27,C1015,Rohan Iyer,East,Corporate,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5776,2024-03-12,C1040,Neha Rao,,Corporate,P014,External SSD 1TB,Electronics,1,89.99,0.05,85.49
+ORD5532,2024-09-16,C1116,Vivaan Patel,West,Small Business,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5163,2024-10-30,C1029,Neha Rao,North,Small Business,P001,Wireless Mouse,Electronics,1,19.99,0.05,18.99
+ORD5321,2024-07-24,C1047,Aditya Rao,South,Corporate,P004,27in Monitor,Electronics,4,219.99,0.05,835.96
+ORD5115,2024-07-13,C1107,Priya Gupta,East,Small Business,P002,Mechanical Keyboard,Electronics,1,59.99,0.05,56.99
+ORD5159,2024-07-11,C1040,Neha Rao,Central,Corporate,P003,USB-C Hub,Electronics,300,34.99,0.0,10497.0
+ORD5151,2024-03-24,C1065,Ishaan Verma,Central,Consumer,P004,27in Monitor,Electronics,1,219.99,0.15,186.99
+ORD5486,2024-10-08,C1016, Neha Joshi  ,North,Small Business,P014,External SSD 1TB,Electronics,6,89.99,0.0,539.94
+ORD5468,2024-07-25,C1113,Ishaan Kulkarni,North,Corporate,P005,Laptop Stand,Accessories,4,29.99,0.0,119.96
+ORD5635,2024-03-30,C1088,Rohan Pillai,North,Corporate,P009,Notebook Set,Stationery,4,8.99,0.15,30.57
+ORD5369,2024-12-18,C1063,Vivaan Sharma,Central,Corporate,P009,Notebook Set,Stationery,4,8.99,0.05,34.16
+ORD5032,2024-11-16,C1053,Ananya Patel,South,Consumer,P002,Mechanical Keyboard,Electronics,4,59.99,0.0,239.96
+ORD5378,2024-12-25,C1118,Varun Gupta,South,Consumer,P013,Bluetooth Speaker,Electronics,2,39.99,0.0,79.98
+ORD5663,2024-11-23,C1116,Vivaan Patel,West,Small Business,P014,External SSD 1TB,Electronics,20,89.99,0.1,1619.82
+ORD5021,2024-10-07,C1027,Ishaan Chatterjee,West,Small Business,P001,Wireless Mouse,Electronics,2,19.99,0.05,37.98
+ORD5472,2024-10-04,C1069,Priya Pillai,East,Consumer,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5114,2024-06-21,C1045,Kiran Patel,North,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.1,20.69
+ORD5786,2024-07-17,C1111,Kiran Mehta,East,Corporate,P001,Wireless Mouse,Electronics,4,19.99,0.1,71.96
+ORD5001,2024-03-31,C1044,Priya Sharma,Central,Small Business,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5734,2024-02-08,C1045,Kiran Patel,North,Consumer,P001,Wireless Mouse,Electronics,5,19.99,0.1,89.96
+ORD5729,2024-09-03,C1107,Priya Gupta,East,Small Business,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5819,2024-04-07,C1011, Om Das  ,Central,Corporate,P011,Whiteboard,Stationery,3,44.99,0.0,134.97
+ORD5492,2024-03-03,C1058,Kabir Das,West,Consumer,P007,Standing Desk,Furniture,4,349.99,0.1,1259.96
+ORD5735,2024-03-13,C1023,Zara Rao,East,Small Business,P002,Mechanical Keyboard,Electronics,6,59.99,0.05,341.94
+ORD5572,2024-10-29,C1042,Saanvi Kulkarni,East,Corporate,P011,Whiteboard,Stationery,1,44.99,0.05,42.74
+ORD5259,2024-10-10,C1106, Om Rao  ,East,Small Business,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5832,2024-03-05,C1039,Diya Iyer,West,Small Business,P001,Wireless Mouse,Electronics,5,19.99,0.0,99.95
+ORD5315,2024-04-04,C1106,Om Rao,East,Small Business,P015,Ergonomic Footrest,Accessories,1,22.99,0.1,20.69
+ORD5737,2024-12-12,C1083,Priya Chatterjee,South,Small Business,P002,Mechanical Keyboard,Electronics,2,59.99,0.1,107.98
+ORD5136,2024-05-02,C1034,Yash Mehta,South,Consumer,P013,Bluetooth Speaker,Electronics,3,39.99,0.05,113.97
+ORD5575,2024-08-13,C1101,Tara Mehta,Central,Consumer,P005,Laptop Stand,Accessories,1,29.99,0.0,29.99
+ORD5005,2024-01-26,C1050,Kabir Verma,North,Small Business,P003,USB-C Hub,Electronics,2,34.99,0.0,69.98
+ORD5541,2024-03-17,C1004,Aarav Rao,South,Small Business,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5325,2024-11-18,C1046,Vivaan Patel,NORTH,Consumer,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5331,2024-06-04,C1117,Uday Gupta,Central,Consumer,P006,Office Chair,Furniture,2,149.99,0.1,269.98
+ORD5448,2024-06-19,C1119,Aarav Pillai,North,Corporate,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5672,2024-02-24,C1042,Saanvi Kulkarni,East,Corporate,P007,Standing Desk,Furniture,4,349.99,0.15,1189.97
+ORD5340,2024-04-25,C1050,Kabir Verma,North,Small Business,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5298,2024-05-20,C1102,Kiran Patel,East,Consumer,P001,Wireless Mouse,Electronics,6,19.99,0.05,113.94
+ORD5081,2024-05-19,C1072,Uday Mehta,Central,Consumer,P005,Laptop Stand,Accessories,3,29.99,0.0,89.97
+ORD5684,2024-05-20,C1107,Priya Gupta,East,Small Business,P006,Office Chair,Furniture,5,149.99,0.05,712.45
+ORD5027,2024-05-06,C1116,Vivaan Patel,West,Small Business,P002,Mechanical Keyboard,Electronics,2,59.99,0.1,107.98
+ORD5558,2024-07-29,C1044,Priya Sharma,Central,Small Business,P005,Laptop Stand,Accessories,1,29.99,0.0,29.99
+ORD5217,2024-06-21,C1033,Yash Pillai,,Small Business,P011,Whiteboard,Stationery,2,44.99,0.05,85.48
+ORD5638,2024-07-14,C1077,Zara Reddy,North,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5344,2024-08-14,C1030,Zara Chatterjee,East,Small Business,P009,Notebook Set,Stationery,20,8.99,0.0,179.8
+ORD5668,2024-06-03,C1104,Kabir Nair,West,Consumer,P004,27in Monitor,Electronics,1,219.99,0.05,208.99
+ORD5531,2024-06-23,C1052,Ananya Sharma,West,Small Business,P014,External SSD 1TB,Electronics,4,89.99,0.0,359.96
+ORD5294,2024-01-08,C1048,Varun Patel,Central,Consumer,P004,27in Monitor,Electronics,3,219.99,0.0,659.97
+ORD5365,2024-03-21,C1116,Vivaan Patel,West,Small Business,P002,Mechanical Keyboard,Electronics,3,59.99,0.2,143.98
+ORD5563,2024-07-14,C1079,Diya Reddy,East,Small Business,P002,Mechanical Keyboard,Electronics,1,59.99,0.1,53.99
+ORD5148,2024-11-06,C1094,Varun Patel,South,Corporate,P003,USB-C Hub,Electronics,3,34.99,0.0,104.97
+ORD5485,2024-05-16,C1069,Priya Pillai,East,Consumer,P007,Standing Desk,Furniture,1,349.99,0.1,314.99
+ORD5015,2024-10-31,C1064,Yash Iyer,North,Small Business,P005,Laptop Stand,Accessories,1,29.99,0.05,28.49
+ORD5175,2024-06-26,C1033,Yash Pillai,North,Small Business,P013,Bluetooth Speaker,Electronics,3,39.99,0.05,113.97
+ORD5087,2024-12-08,C1069,Priya Pillai,East,Consumer,P005,Laptop Stand,Accessories,2,29.99,0.0,59.98
+ORD5371,2024-08-28,C1113,Ishaan Kulkarni,North,Corporate,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5166,2024-05-04,C1058,Kabir Das,West,Consumer,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5757,2024-02-25,C1065,Ishaan Verma,Central,Consumer,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5336,2024-08-01,C1100,Nikhil Gupta,East,Small Business,P005,Laptop Stand,Accessories,1,29.99,0.2,23.99
+ORD5060,2024-02-01,C1097,Neha Nair,Central,Corporate,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5355,2024-11-16,C1112,Uday Kulkarni,South,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5425,2024-12-11,C1105,Priya Mehta,East,Small Business,P010,Pen Pack (12ct),Stationery,3,6.49,0.0,19.47
+ORD5293,2024-06-03,C1023,Zara Rao,East,Small Business,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5042,2024-06-12,C1028,Saanvi Gupta,Central,Corporate,P009,Notebook Set,Stationery,1,8.99,0.1,8.09
+ORD5330,2024-10-15,C1027,Ishaan Chatterjee,West,Small Business,P009,Notebook Set,Stationery,4,8.99,0.1,32.36
+ORD5430,2024-05-17,C1081,Neha Pillai,North,Consumer,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5080,2024-04-22,C1117,Uday Gupta,Central,Consumer,P010,Pen Pack (12ct),Stationery,3,6.49,0.0,19.47
+ORD5029,2024-05-21,C1083,Priya Chatterjee,South,Small Business,P003,USB-C Hub,Electronics,6,34.99,0.0,209.94
+ORD5255,2024-12-05,C1119,Aarav Pillai,North,Corporate,P001,Wireless Mouse,Electronics,2,19.99,0.15,33.98
+ORD5645,2024-04-28,C1012,Kabir Joshi,North,Consumer,P009,Notebook Set,Stationery,1,8.99,0.2,7.19
+ORD5459,2024-07-24,C1003,Aditya Patel,South,Small Business,P014,External SSD 1TB,Electronics,10,89.99,0.0,899.9
+ORD5384,2024-11-16,C1056,Ananya Sharma,Central,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.1,31.49
+ORD5314,2024-06-23,C1032,Aarav Joshi,East,Small Business,P011,Whiteboard,Stationery,5,44.99,0.05,213.7
+ORD5085,2024-07-18,C1094,Varun Patel,,Corporate,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5137,2024-03-05,C1055,Uday Patel,North,Corporate,P005,Laptop Stand,Accessories,2,29.99,0.05,56.98
+ORD5112,2024-08-20,C1116,Vivaan Patel,West,Small Business,P007,Standing Desk,Furniture,2,349.99,0.1,629.98
+ORD5195,2024-03-31,C1016,Neha Joshi,North,Small Business,P007,Standing Desk,Furniture,2,349.99,0.0,699.98
+ORD5179,2024-07-08,C1091,Ishaan Pillai,WEST,Consumer,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5497,2024-12-29,C1069,Priya Pillai,East,Consumer,P013,Bluetooth Speaker,Electronics,20,39.99,0.0,799.8
+ORD5130,2024-01-16,C1115,Om Patel,South,Consumer,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5338,2024-11-01,C1087,Diya Gupta,South,Consumer,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5125,2024-04-24,C1047,Aditya Rao,South,Corporate,P003,USB-C Hub,Electronics,2,34.99,0.0,69.98
+ORD5820,2024-03-03,C1065,Ishaan Verma,,Consumer,P011,Whiteboard,Stationery,3,44.99,0.0,134.97
+ORD5227,2024-05-23,C1096,Kabir Gupta,East,Corporate,P003,USB-C Hub,Electronics,5,34.99,0.0,174.95
+ORD5269,2024-06-05,C1095,Om Das,South,Consumer,P002,Mechanical Keyboard,Electronics,5,59.99,0.0,299.95
+ORD5834,2024-04-15,C1091,Ishaan Pillai,West,Consumer,P006,Office Chair,Furniture,3,149.99,0.1,404.97
+ORD5104,2024-03-10,C1006,Neha Chatterjee,North,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5733,2024-08-27,C1055,Uday Patel,North,Corporate,P012,Webcam HD,Electronics,1,42.99,0.1,38.69
+ORD5689,2024-11-06,C1047,Aditya Rao,South,Corporate,P004,27in Monitor,Electronics,4,219.99,0.0,879.96
+ORD5228,2024-11-01,C1053,Ananya Patel,South,Consumer,P011,Whiteboard,Stationery,4,44.99,0.05,170.96
+ORD5759,2024-04-29,C1039,Diya Iyer,West,Small Business,P013,Bluetooth Speaker,Electronics,10,39.99,0.15,339.92
+ORD5302,2024-05-29,C1039,Diya Iyer,West,Small Business,P006,Office Chair,Furniture,20,149.99,0.0,2999.8
+ORD5276,2024-10-01,C1006,Neha Chatterjee,North,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5127,2024-02-05,C1063,Vivaan Sharma,Central,Corporate,P002,Mechanical Keyboard,Electronics,3,59.99,0.05,170.97
+ORD5406,2024-12-18,C1034,Yash Mehta,SOUTH,Consumer,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5831,2024-05-04,C1016,Neha Joshi,North,Small Business,P010,Pen Pack (12ct),Stationery,20,6.49,0.0,129.8
+ORD5037,2024-12-31,C1034,Yash Mehta,South,Consumer,P007,Standing Desk,Furniture,2,349.99,0.0,699.98
+ORD5140,2024-02-28,C1011,Om Das,Central,Corporate,P007,Standing Desk,Furniture,4,349.99,0.05,1329.96
+ORD5304,2024-03-05,C1115,Om Patel,South,Consumer,P006,Office Chair,Furniture,10,149.99,0.0,1499.9
+ORD5268,2024-05-18,C1071,Om Singh,East,Consumer,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5534,2024-01-02,C1028,Saanvi Gupta,Central,Corporate,P012,Webcam HD,Electronics,2,42.99,0.0,85.98
+ORD5546,2024-06-19,C1103,Aarav Rao,Central,Small Business,P012,Webcam HD,Electronics,2,42.99,0.0,85.98
+ORD5213,2024-10-18,C1013,Meera Chatterjee,East,Consumer,P002,Mechanical Keyboard,Electronics,5,59.99,0.2,239.96
+ORD5469,2024-09-20,C1009, Rohan Mehta  ,East,Consumer,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5199,2024-11-11,C1029,Neha Rao,North,Small Business,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5528,2024-02-05,C1092,Priya Chatterjee,West,Small Business,P002,Mechanical Keyboard,Electronics,2,59.99,0.05,113.98
+ORD5680,2024-05-31,C1118,Varun Gupta,South,Consumer,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5242,2024-08-31,C1046,Vivaan Patel,North,Consumer,P011,Whiteboard,Stationery,2,44.99,0.0,89.98
+ORD5343,2024-08-18,C1088,Rohan Pillai,North,Corporate,P010,Pen Pack (12ct),Stationery,10,6.49,0.05,61.66
+ORD5550,2024-08-21,C1105,Priya Mehta,East,Small Business,P012,Webcam HD,Electronics,5,42.99,0.05,204.2
+ORD5387,2024-04-11,C1089,Meera Kulkarni,North,Corporate,P012,Webcam HD,Electronics,1,42.99,0.05,40.84
+ORD5738,2024-12-11,C1115,Om Patel,South,Consumer,P009,Notebook Set,Stationery,2,8.99,0.2,14.38
+ORD5207,2024-05-05,C1047,Aditya Rao,South,Corporate,P014,External SSD 1TB,Electronics,1,89.99,0.1,80.99
+ORD5296,2024-09-30,C1023,Zara Rao,EAST,Small Business,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5658,2024-02-07,C1008,Ananya Verma,West,Consumer,P015,Ergonomic Footrest,Accessories,4,22.99,0.0,91.96
+ORD5074,2024-08-02,C1100,Nikhil Gupta,East,Small Business,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5105,2024-08-24,C1018,Saanvi Reddy,Central,Consumer,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5607,2024-05-27,C1004,Aarav Rao,South,Small Business,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5823,2024-12-05,C1071,Om Singh,East,Consumer,P010,Pen Pack (12ct),Stationery,4,6.49,0.05,24.66
+ORD5017,2024-08-14,C1040,Neha Rao,Central,Corporate,P004,27in Monitor,Electronics,4,219.99,0.0,879.96
+ORD5440,2024-10-26,C1062,Kiran Joshi,Central,Consumer,P006,Office Chair,Furniture,2,149.99,0.05,284.98
+ORD5092,2024-03-06,C1092,Priya Chatterjee,West,Small Business,P013,Bluetooth Speaker,Electronics,10,39.99,0.0,399.9
+ORD5089,2024-07-26,C1044,Priya Sharma,Central,Small Business,P007,Standing Desk,Furniture,2,349.99,0.05,664.98
+ORD5451,2024-02-23,C1069,Priya Pillai,East,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5103,2024-08-07,C1083,Priya Chatterjee,South,Small Business,P006,Office Chair,Furniture,2,149.99,0.1,269.98
+ORD5239,2024-10-11,C1066,Meera Gupta,North,Small Business,P013,Bluetooth Speaker,Electronics,1,39.99,0.15,33.99
+ORD5617,2024-12-21,C1025,Meera Iyer,Central,Corporate,P003,USB-C Hub,Electronics,4,34.99,0.0,139.96
+ORD5247,2024-01-09,C1097,Neha Nair,Central,Corporate,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5610,2024-08-10,C1026,Vivaan Das,North,Consumer,P007,Standing Desk,Furniture,4,349.99,0.0,1399.96
+ORD5158,2024-12-12,C1098,Zara Nair,North,Consumer,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5480,2024-09-12,C1075,Om Iyer,West,Small Business,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5725,2024-09-13,C1020,Neha Verma,South,Small Business,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5817,2024-07-22,C1021,Kabir Kulkarni,West,Corporate,P002,Mechanical Keyboard,Electronics,3,59.99,0.0,179.97
+ORD5019,2024-09-15,C1086,Zara Sharma,East,Small Business,P015,Ergonomic Footrest,Accessories,3,22.99,0.0,68.97
+ORD5813,2024-10-05,C1021,Kabir Kulkarni,West,Corporate,P009,Notebook Set,Stationery,3,8.99,0.05,25.62
+ORD5122,2024-10-03,C1032,Aarav Joshi,East,Small Business,P005,Laptop Stand,Accessories,2,29.99,0.05,56.98
+ORD5604,2024-04-30,C1109,Nikhil Mehta,East,Corporate,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5275,2024-03-02,C1008,Ananya Verma,West,Consumer,P009,Notebook Set,Stationery,5,8.99,0.0,44.95
+ORD5434,2024-08-28,C1073,Zara Patel,CENTRAL,Corporate,P008,Desk Lamp,Furniture,4,24.99,0.0,99.96
+ORD5768,2024-02-02,C1104,Kabir Nair,West,Consumer,P014,External SSD 1TB,Electronics,4,89.99,0.05,341.96
+ORD5312,2024-09-02,C1111,Kiran Mehta,East,Corporate,P012,Webcam HD,Electronics,3,42.99,0.05,122.52
+ORD5754,2024-07-14,C1033,Yash Pillai,North,Small Business,P006,Office Chair,Furniture,4,149.99,0.1,539.96
+ORD5715,2024-02-16,C1036,Priya Singh,North,Consumer,P013,Bluetooth Speaker,Electronics,1,39.99,0.1,35.99
+ORD5547,2024-10-09,C1108,Kabir Gupta,West,Small Business,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5182,2024-11-27,C1070,Priya Patel,East,Corporate,P001,Wireless Mouse,Electronics,2,19.99,0.15,33.98
+ORD5185,2024-08-03,C1045,Kiran Patel,North,Consumer,P011,Whiteboard,Stationery,4,44.99,0.0,179.96
+ORD5407,2024-06-04,C1076,Nikhil Chatterjee,Central,Consumer,P002,Mechanical Keyboard,Electronics,3,59.99,0.05,170.97
+ORD5521,2024-10-09,C1118,Varun Gupta,South,Consumer,P010,Pen Pack (12ct),Stationery,4,6.49,0.2,20.77
+ORD5381,2024-12-17,C1104,Kabir Nair,West,Consumer,P012,Webcam HD,Electronics,3,42.99,0.2,103.18
+ORD5411,2024-09-13,C1111,Kiran Mehta,East,Corporate,P015,Ergonomic Footrest,Accessories,4,22.99,0.0,91.96
+ORD5370,2024-10-31,C1090,Tara Mehta,South,Consumer,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5696,2024-11-21,C1002,Aditya Mehta,West,Consumer,P010,Pen Pack (12ct),Stationery,2,6.49,0.0,12.98
+ORD5713,2024-07-05,C1087,Diya Gupta,South,Consumer,P001,Wireless Mouse,Electronics,5,19.99,0.05,94.95
+ORD5644,2024-03-14,C1099,Ishaan Mehta,East,Consumer,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5079,2024-09-06,C1048,Varun Patel,Central,Consumer,P009,Notebook Set,Stationery,1,8.99,0.15,7.64
+ORD5574,2024-02-21,C1070,Priya Patel,East,Corporate,P006,Office Chair,Furniture,4,149.99,0.0,599.96
+ORD5608,2024-04-26,C1090,Tara Mehta,South,Consumer,P007,Standing Desk,Furniture,4,349.99,0.15,1189.97
+ORD5681,2024-01-12,C1030,Zara Chatterjee,East,Small Business,P014,External SSD 1TB,Electronics,3,89.99,0.2,215.98
+ORD5848,2024-10-03,C1089,Meera Kulkarni,North,Corporate,P002,Mechanical Keyboard,Electronics,2,59.99,0.05,113.98
+ORD5750,2024-12-10,C1050,Kabir Verma,North,Small Business,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5790,2024-12-22,C1007,Priya Reddy,,Consumer,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5417,2024-01-21,C1084,Ishaan Joshi,West,Small Business,P007,Standing Desk,Furniture,4,349.99,0.0,1399.96
+ORD5633,2024-04-02,C1101,Tara Mehta,Central,Consumer,P013,Bluetooth Speaker,Electronics,4,39.99,0.0,159.96
+ORD5562,2024-12-27,C1018,Saanvi Reddy,Central,Consumer,P005,Laptop Stand,Accessories,2,29.99,0.0,59.98
+ORD5068,2024-07-13,C1031,Ananya Reddy,WEST,Consumer,P002,Mechanical Keyboard,Electronics,3,59.99,,179.97
+ORD5537,2024-10-27,C1039,Diya Iyer,West,Small Business,P005,Laptop Stand,Accessories,2,29.99,0.0,59.98
+ORD5078,2024-04-22,C1098,Zara Nair,North,Consumer,P012,Webcam HD,Electronics,5,42.99,0.1,193.46
+ORD5106,2024-04-03,C1059,Saanvi Sharma,West,Corporate,P012,Webcam HD,Electronics,3,42.99,0.2,103.18
+ORD5248,2024-02-17,C1069,Priya Pillai,East,Consumer,P006,Office Chair,Furniture,5,149.99,0.2,599.96
+ORD5667,2024-08-21,C1114,Nikhil Nair,North,Consumer,P013,Bluetooth Speaker,Electronics,20,39.99,0.05,759.81
+ORD5560,2024-06-11,C1006,Neha Chatterjee,,Consumer,P014,External SSD 1TB,Electronics,1,89.99,0.1,80.99
+ORD5745,2024-05-15,C1014,Ananya Gupta,East,Corporate,P005,Laptop Stand,Accessories,2,29.99,0.0,59.98
+ORD5802,2024-01-17,C1006,Neha Chatterjee,North,Consumer,P004,27in Monitor,Electronics,3,219.99,0.05,626.97
+ORD5665,2024-12-19,C1020,Neha Verma,South,Small Business,P001,Wireless Mouse,Electronics,20,19.99,0.0,399.8
+ORD5491,2024-09-05,C1098,Zara Nair,NORTH,Consumer,P010,Pen Pack (12ct),Stationery,3,6.49,0.0,19.47
+ORD5459,2024-07-24,C1003,Aditya Patel,South,Small Business,P014,External SSD 1TB,Electronics,10,89.99,0.0,899.9
+ORD5724,2024-09-28,C1103,Aarav Rao,Central,Small Business,P007,Standing Desk,Furniture,1,349.99,0.15,297.49
+ORD5606,2024-12-16,C1088,Rohan Pillai,North,Corporate,P005,Laptop Stand,Accessories,1,29.99,0.05,28.49
+ORD5364,2024-02-08,C1060,Om Gupta,Central,Small Business,P002,Mechanical Keyboard,Electronics,2,59.99,0.0,119.98
+ORD5070,2024-01-04,C1071,Om Singh,East,Consumer,P013,Bluetooth Speaker,Electronics,2,39.99,0.0,79.98
+ORD5549,2024-07-12,C1048,Varun Patel,Central,Consumer,P004,27in Monitor,Electronics,4,219.99,0.2,703.97
+ORD5161,2024-04-11,C1117,Uday Gupta,Central,Consumer,P002,Mechanical Keyboard,Electronics,2,59.99,0.05,113.98
+ORD5012,2024-12-07,C1057, Meera Iyer  ,West,Corporate,P013,Bluetooth Speaker,Electronics,2,39.99,0.2,63.98
+ORD5145,2024-05-11,C1091,Ishaan Pillai,West,Consumer,P010,Pen Pack (12ct),Stationery,5,6.49,0.0,32.45
+ORD5518,2024-08-29,C1106,Om Rao,East,Small Business,P002,Mechanical Keyboard,Electronics,1,59.99,0.05,56.99
+ORD5428,2024-01-11,C1078,Ananya Pillai,North,Small Business,P012,Webcam HD,Electronics,1,42.99,0.05,40.84
+ORD5640,2024-12-15,C1058,Kabir Das,West,Consumer,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5177,2024-08-07,C1015, Rohan Iyer  ,East,Corporate,P001,Wireless Mouse,Electronics,4,19.99,0.0,79.96
+ORD5441,2024-08-11,C1060,Om Gupta,Central,Small Business,P007,Standing Desk,Furniture,2,349.99,0.0,699.98
+ORD5522,2024-03-15,C1041,Zara Chatterjee,South,Small Business,P005,Laptop Stand,Accessories,1,29.99,0.0,29.99
+ORD5748,2024-08-20,C1084,Ishaan Joshi,West,Small Business,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5806,2024-08-15,C1050,Kabir Verma,North,Small Business,P004,27in Monitor,Electronics,2,219.99,0.0,439.98
+ORD5232,2024-01-06,C1115,Om Patel,South,Consumer,P001,Wireless Mouse,Electronics,3,19.99,0.2,47.98
+ORD5211,2024-05-04,C1038,Aditya Verma,West,Consumer,P008,Desk Lamp,Furniture,3,24.99,0.0,74.97
+ORD5641,2024-05-03,C1025,Meera Iyer,CENTRAL,Corporate,P007,Standing Desk,Furniture,5,349.99,0.0,1749.95
+ORD5144,2024-12-24,C1058,Kabir Das,West,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5520,2024-08-21,C1036,Priya Singh,North,Consumer,P003,USB-C Hub,Electronics,2,34.99,0.0,69.98
+ORD5574,2024-02-21,C1070,Priya Patel,East,Corporate,P006,Office Chair,Furniture,4,149.99,0.0,599.96
+ORD5299,2024-01-24,C1081,Neha Pillai,,Consumer,P009,Notebook Set,Stationery,2,8.99,0.05,17.08
+ORD5429,2024-12-10,C1014,Ananya Gupta,East,Corporate,P013,Bluetooth Speaker,Electronics,1,39.99,0.15,33.99
+ORD5613,2024-12-26,C1038,Aditya Verma,West,Consumer,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5794,2024-03-20,C1076,Nikhil Chatterjee,Central,Consumer,P008,Desk Lamp,Furniture,5,24.99,0.05,118.7
+ORD5009,2024-08-21,C1048,Varun Patel,,Consumer,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5157,2024-10-21,C1095,Om Das,South,Consumer,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5540,2024-09-07,C1069,Priya Pillai,East,Consumer,P014,External SSD 1TB,Electronics,6,89.99,0.0,539.94
+ORD5507,2024-08-24,C1108,Kabir Gupta,West,Small Business,P010,Pen Pack (12ct),Stationery,3,6.49,0.0,19.47
+ORD5437,2024-08-14,C1000,Ananya Sharma,East,Consumer,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5267,2024-08-20,C1084, Ishaan Joshi  ,West,Small Business,P003,USB-C Hub,Electronics,4,34.99,0.2,111.97
+ORD5462,2024-08-20,C1087,Diya Gupta,South,Consumer,P012,Webcam HD,Electronics,1,42.99,0.0,42.99
+ORD5577,2024-09-26,C1098,Zara Nair,North,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5339,2024-11-12,C1085,Zara Sharma,North,Consumer,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5256,2024-10-24,C1105,Priya Mehta,East,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5691,2024-05-26,C1106,Om Rao,East,Small Business,P005,Laptop Stand,Accessories,1,29.99,0.0,29.99
+ORD5730,2024-05-31,C1079,Diya Reddy,East,Small Business,P011,Whiteboard,Stationery,10,44.99,0.0,449.9
+ORD5666,2024-05-08,C1011,Om Das,Central,Corporate,P015,Ergonomic Footrest,Accessories,5,22.99,0.0,114.95
+ORD5561,2024-08-30,C1064, Yash Iyer  ,North,Small Business,P015,Ergonomic Footrest,Accessories,4,22.99,0.1,82.76
+ORD5209,2024-05-22,C1036,Priya Singh,North,Consumer,P010,Pen Pack (12ct),Stationery,2,6.49,0.1,11.68
+ORD5288,2024-04-09,C1035,Ishaan Rao,Central,Consumer,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5002,2024-12-22,C1034,Yash Mehta,South,Consumer,P012,Webcam HD,Electronics,5,42.99,0.0,214.95
+ORD5342,2024-07-13,C1118,Varun Gupta,South,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5270,2024-05-08,C1118,Varun Gupta,South,Consumer,P012,Webcam HD,Electronics,2,42.99,0.0,85.98
+ORD5266,2024-12-25,C1005,Zara Gupta,South,Corporate,P002,Mechanical Keyboard,Electronics,5,59.99,0.0,299.95
+ORD5700,2024-12-13,C1096,Kabir Gupta,East,Corporate,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5837,2024-04-16,C1099,Ishaan Mehta,East,Consumer,P002,Mechanical Keyboard,Electronics,2,59.99,0.0,119.98
+ORD5096,2024-07-20,C1047,Aditya Rao,South,Corporate,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5829,2024-01-26,C1070,Priya Patel,East,Corporate,P015,Ergonomic Footrest,Accessories,1,22.99,0.1,20.69
+ORD5043,2024-10-03,C1019,Vivaan Patel,North,Corporate,P003,USB-C Hub,Electronics,3,34.99,0.0,104.97
+ORD5690,2024-09-11,C1079,Diya Reddy,East,Small Business,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5781,2024-02-29,C1053,Ananya Patel,South,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5714,2024-03-08,C1050,Kabir Verma,North,Small Business,P014,External SSD 1TB,Electronics,1,89.99,0.05,85.49
+ORD5629,2024-09-28,C1053,Ananya Patel,South,Consumer,P007,Standing Desk,Furniture,3,349.99,0.0,1049.97
+ORD5046,2024-03-18,C1046,Vivaan Patel,North,Consumer,P008,Desk Lamp,Furniture,6,24.99,0.1,134.95
+ORD5162,2024-02-08,C1025,Meera Iyer,Central,Corporate,P006,Office Chair,Furniture,2,149.99,0.1,269.98
+ORD5630,2024-07-29,C1112,Uday Kulkarni,South,Small Business,P007,Standing Desk,Furniture,2,349.99,0.0,699.98
+ORD5289,2024-05-31,C1099,Ishaan Mehta,East,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5590,2024-07-22,C1000,Ananya Sharma,East,Consumer,P003,USB-C Hub,Electronics,3,34.99,0.15,89.22
+ORD5766,2024-04-23,C1108,Kabir Gupta,West,Small Business,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5816,2024-02-01,C1017,Ishaan Rao,South,Consumer,P001,Wireless Mouse,Electronics,5,19.99,0.0,99.95
+ORD5576,2024-02-21,C1039,Diya Iyer,West,Small Business,P009,Notebook Set,Stationery,2,8.99,0.05,17.08
+ORD5316,2024-01-27,C1096,Kabir Gupta,East,Corporate,P013,Bluetooth Speaker,Electronics,4,39.99,0.05,151.96
+ORD5231,2024-10-11,C1012,Kabir Joshi,North,Consumer,P006,Office Chair,Furniture,2,149.99,,284.98
+ORD5699,2024-05-08,C1027,Ishaan Chatterjee,West,Small Business,P008,Desk Lamp,Furniture,2,24.99,0.05,47.48
+ORD5708,2024-01-21,C1038,Aditya Verma,West,Consumer,P010,Pen Pack (12ct),Stationery,2,6.49,0.0,12.98
+ORD5077,2024-11-04,C1109,Nikhil Mehta,EAST,Corporate,P008,Desk Lamp,Furniture,1,24.99,0.05,23.74
+ORD5634,2024-03-28,C1055,Uday Patel,North,Corporate,P006,Office Chair,Furniture,4,149.99,0.15,509.97
+ORD5833,2024-10-16,C1059,Saanvi Sharma,West,Corporate,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5248,2024-02-17,C1069,Priya Pillai,EAST,Consumer,P006,Office Chair,Furniture,5,149.99,0.2,599.96
+ORD5477,2024-09-22,C1068,Tara Kulkarni,Central,Small Business,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5671,2024-09-04,C1018,Saanvi Reddy,Central,Consumer,P010,Pen Pack (12ct),Stationery,3,6.49,0.0,19.47
+ORD5086,2024-06-21,C1082,Tara Das,East,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5470,2024-01-01,C1111,Kiran Mehta,East,Corporate,P001,Wireless Mouse,Electronics,5,19.99,0.0,99.95
+ORD5226,2024-06-23,C1050,Kabir Verma,North,Small Business,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5332,2024-02-13,C1017,Ishaan Rao,South,Consumer,P006,Office Chair,Furniture,10,149.99,0.0,1499.9
+ORD5234,2024-04-07,C1007,Priya Reddy,South,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,0.0,45.98
+ORD5589,2024-12-20,C1055,Uday Patel,NORTH,Corporate,P008,Desk Lamp,Furniture,1,24.99,0.05,23.74
+ORD5476,2024-04-06,C1031,Ananya Reddy,West,Consumer,P010,Pen Pack (12ct),Stationery,2,6.49,0.0,12.98
+ORD5812,2024-07-07,C1103,Aarav Rao,Central,Small Business,P015,Ergonomic Footrest,Accessories,1,22.99,0.05,21.84
+ORD5749,2024-07-07,C1016,Neha Joshi,North,Small Business,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5600,2024-10-04,C1064,Yash Iyer,North,Small Business,P005,Laptop Stand,Accessories,4,29.99,0.0,119.96
+ORD5422,2024-01-14,C1007,Priya Reddy,South,Consumer,P011,Whiteboard,Stationery,2,44.99,0.05,85.48
+ORD5688,2024-01-26,C1096,Kabir Gupta,East,Corporate,P012,Webcam HD,Electronics,4,42.99,0.0,171.96
+ORD5183,2024-06-23,C1047,Aditya Rao,South,Corporate,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5618,2024-06-02,C1091,Ishaan Pillai,West,Consumer,P006,Office Chair,Furniture,2,149.99,0.15,254.98
+ORD5333,2024-05-07,C1031,Ananya Reddy,West,Consumer,P012,Webcam HD,Electronics,1,42.99,0.05,40.84
+ORD5439,2024-04-02,C1001, Diya Joshi  ,North,Small Business,P008,Desk Lamp,Furniture,1,24.99,0.2,19.99
+ORD5050,2024-03-19,C1093,Neha Iyer,North,Corporate,P014,External SSD 1TB,Electronics,3,89.99,0.0,269.97
+ORD5006,2024-10-12,C1078,Ananya Pillai,North,Small Business,P013,Bluetooth Speaker,Electronics,2,39.99,0.05,75.98
+ORD5530,2024-07-31,C1006,Neha Chatterjee,North,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5235,2024-02-13,C1097,Neha Nair,Central,Corporate,P009,Notebook Set,Stationery,2,8.99,0.0,17.98
+ORD5487,2024-03-08,C1052,Ananya Sharma,,Small Business,P013,Bluetooth Speaker,Electronics,3,39.99,0.0,119.97
+ORD5775,2024-02-29,C1025,Meera Iyer,Central,Corporate,P015,Ergonomic Footrest,Accessories,10,22.99,0.05,218.4
+ORD5498,2024-03-22,C1097,Neha Nair,Central,Corporate,P007,Standing Desk,Furniture,4,349.99,0.0,1399.96
+ORD5771,2024-12-24,C1027,Ishaan Chatterjee,West,Small Business,P015,Ergonomic Footrest,Accessories,4,22.99,0.2,73.57
+ORD5107,2024-01-26,C1103,Aarav Rao,Central,Small Business,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5444,2024-02-16,C1005,Zara Gupta,South,Corporate,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5489,2024-08-12,C1059,Saanvi Sharma,West,Corporate,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5647,2024-11-22,C1079,Diya Reddy,East,Small Business,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5013,2024-09-28,C1090, Tara Mehta  ,South,Consumer,P013,Bluetooth Speaker,Electronics,2,39.99,0.0,79.98
+ORD5727,2024-03-25,C1102,Kiran Patel,East,Consumer,P008,Desk Lamp,Furniture,3,24.99,0.0,74.97
+ORD5191,2024-08-23,C1017,Ishaan Rao,South,Consumer,P012,Webcam HD,Electronics,2,42.99,0.2,68.78
+ORD5283,2024-10-28,C1021,Kabir Kulkarni,West,Corporate,P013,Bluetooth Speaker,Electronics,2,39.99,0.0,79.98
+ORD5030,2024-09-23,C1079,Diya Reddy,East,Small Business,P002,Mechanical Keyboard,Electronics,3,59.99,0.0,179.97
+ORD5170,2024-12-16,C1060,Om Gupta,Central,Small Business,P003,USB-C Hub,Electronics,3,34.99,0.0,104.97
+ORD5181,2024-09-16,C1021,Kabir Kulkarni,West,Corporate,P002,Mechanical Keyboard,Electronics,2,59.99,0.05,113.98
+ORD5101,2024-02-12,C1046,Vivaan Patel,North,Consumer,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5198,2024-05-18,C1083,Priya Chatterjee,South,Small Business,P013,Bluetooth Speaker,Electronics,2,39.99,0.0,79.98
+ORD5496,2024-05-02,C1083,Priya Chatterjee,South,Small Business,P014,External SSD 1TB,Electronics,4,89.99,0.0,359.96
+ORD5722,2024-10-03,C1094,Varun Patel,South,Corporate,P012,Webcam HD,Electronics,3,42.99,0.0,128.97
+ORD5648,2024-05-10,C1054,Uday Iyer,West,Consumer,P015,Ergonomic Footrest,Accessories,5,22.99,0.0,114.95
+ORD5838,2024-10-27,C1038,Aditya Verma,West,Consumer,P001,Wireless Mouse,Electronics,5,19.99,0.0,99.95
+ORD5799,2024-11-11,C1069,Priya Pillai,East,Consumer,P007,Standing Desk,Furniture,1,349.99,0.0,349.99
+ORD5711,2024-01-18,C1036,Priya Singh,North,Consumer,P001,Wireless Mouse,Electronics,10,19.99,0.05,189.9
+ORD5374,2024-04-28,C1058,Kabir Das,West,Consumer,P010,Pen Pack (12ct),Stationery,2,6.49,0.0,12.98
+ORD5679,2024-12-24,C1079,Diya Reddy,EAST,Small Business,P011,Whiteboard,Stationery,5,44.99,0.1,202.46
+ORD5762,2024-11-13,C1077,Zara Reddy,North,Consumer,P012,Webcam HD,Electronics,1,42.99,0.2,34.39
+ORD5649,2024-08-23,C1009,Rohan Mehta,East,Consumer,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5461,2024-01-19,C1026,Vivaan Das,North,Consumer,P001,Wireless Mouse,Electronics,4,19.99,0.2,63.97
+ORD5414,2024-08-12,C1039,Diya Iyer,West,Small Business,P012,Webcam HD,Electronics,4,42.99,0.0,171.96
+ORD5132,2024-04-12,C1026,Vivaan Das,North,Consumer,P002,Mechanical Keyboard,Electronics,4,59.99,0.0,239.96
+ORD5040,2024-05-19,C1004,Aarav Rao,South,Small Business,P004,27in Monitor,Electronics,4,219.99,0.0,879.96
+ORD5435,2024-09-22,C1091,Ishaan Pillai,West,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5216,2024-07-13,C1090,Tara Mehta,South,Consumer,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5556,2024-07-15,C1062,Kiran Joshi,Central,Consumer,P002,Mechanical Keyboard,Electronics,2,59.99,0.0,119.98
+ORD5567,2024-03-18,C1098,Zara Nair,North,Consumer,P008,Desk Lamp,Furniture,3,24.99,0.0,74.97
+ORD5475,2024-01-28,C1046,Vivaan Patel,North,Consumer,P005,Laptop Stand,Accessories,1,29.99,0.1,26.99
+ORD5457,2024-05-27,C1062,Kiran Joshi,Central,Consumer,P007,Standing Desk,Furniture,3,349.99,0.1,944.97
+ORD5261,2024-06-25,C1007,Priya Reddy,South,Consumer,P011,Whiteboard,Stationery,3,44.99,0.05,128.22
+ORD5036,2024-02-09,C1035,Ishaan Rao,Central,Consumer,P003,USB-C Hub,Electronics,2,34.99,0.0,69.98
+ORD5310,2024-05-25,C1081,Neha Pillai,North,Consumer,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5277,2024-12-19,C1079,Diya Reddy,East,Small Business,P004,27in Monitor,Electronics,2,219.99,0.2,351.98
+ORD5637,2024-11-08,C1091,Ishaan Pillai,West,Consumer,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5655,2024-12-12,C1096,Kabir Gupta,East,Corporate,P007,Standing Desk,Furniture,6,349.99,0.0,2099.94
+ORD5623,2024-05-30,C1005,Zara Gupta,South,Corporate,P015,Ergonomic Footrest,Accessories,6,22.99,0.05,131.04
+ORD5394,2024-05-16,C1113,Ishaan Kulkarni,North,Corporate,P003,USB-C Hub,Electronics,4,34.99,0.0,139.96
+ORD5808,2024-04-30,C1093,Neha Iyer,North,Corporate,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5108,2024-05-13,C1111,Kiran Mehta,East,Corporate,P015,Ergonomic Footrest,Accessories,1,22.99,0.0,22.99
+ORD5814,2024-11-26,C1022,Uday Iyer,East,Consumer,P013,Bluetooth Speaker,Electronics,3,39.99,0.0,119.97
+ORD5525,2024-11-02,C1056,Ananya Sharma,Central,Consumer,P003,USB-C Hub,Electronics,2,34.99,0.15,59.48
+ORD5048,2024-07-15,C1090,Tara Mehta,SOUTH,Consumer,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5204,2024-10-30,C1091,Ishaan Pillai,West,Consumer,P006,Office Chair,Furniture,1,149.99,0.0,149.99
+ORD5796,2024-12-01,C1093,Neha Iyer,North,Corporate,P001,Wireless Mouse,Electronics,2,19.99,0.0,39.98
+ORD5632,2024-12-15,C1011,Om Das,Central,Corporate,P014,External SSD 1TB,Electronics,5,89.99,0.05,427.45
+ORD5022,2024-08-16,C1040,Neha Rao,Central,Corporate,P013,Bluetooth Speaker,Electronics,4,39.99,0.0,159.96
+ORD5403,2024-08-12,C1020,Neha Verma,South,Small Business,P015,Ergonomic Footrest,Accessories,4,22.99,0.1,82.76
+ORD5084,2024-01-15,C1116,Vivaan Patel,West,Small Business,P015,Ergonomic Footrest,Accessories,2,22.99,0.05,43.68
+ORD5131,2024-05-06,C1028,Saanvi Gupta,Central,Corporate,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5416,2024-11-02,C1115,Om Patel,South,Consumer,P010,Pen Pack (12ct),Stationery,2,6.49,0.05,12.33
+ORD5742,2024-02-16,C1023,Zara Rao,East,Small Business,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5698,2024-11-13,C1032,Aarav Joshi,East,Small Business,P006,Office Chair,Furniture,20,149.99,0.0,2999.8
+ORD5287,2024-02-21,C1103,Aarav Rao,,Small Business,P006,Office Chair,Furniture,1,149.99,0.1,134.99
+ORD5124,2024-06-28,C1077,Zara Reddy,North,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5034,2024-05-20,C1103,Aarav Rao,Central,Small Business,P013,Bluetooth Speaker,Electronics,4,39.99,0.15,135.97
+ORD5840,2024-04-29,C1116,Vivaan Patel,West,Small Business,P002,Mechanical Keyboard,Electronics,3,59.99,0.0,179.97
+ORD5517,2024-09-04,C1067,Kiran Mehta,North,Small Business,P009,Notebook Set,Stationery,10,8.99,0.15,76.42
+ORD5020,2024-08-06,C1030,Zara Chatterjee,East,Small Business,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5797,2024-02-20,C1027,Ishaan Chatterjee,West,Small Business,P005,Laptop Stand,Accessories,2,29.99,0.05,56.98
+ORD5220,2024-06-15,C1086,Zara Sharma,East,Small Business,P003,USB-C Hub,Electronics,1,34.99,0.2,27.99
+ORD5809,2024-07-04,C1069,Priya Pillai,East,Consumer,P006,Office Chair,Furniture,1,149.99,0.1,134.99
+ORD5482,2024-08-14,C1070,Priya Patel,East,Corporate,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5357,2024-05-15,C1021,Kabir Kulkarni,West,Corporate,P014,External SSD 1TB,Electronics,5,89.99,0.0,449.95
+ORD5662,2024-06-02,C1067,Kiran Mehta,North,Small Business,P003,USB-C Hub,Electronics,1,34.99,0.2,27.99
+ORD5225,2024-05-12,C1103,Aarav Rao,Central,Small Business,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5760,2024-08-29,C1035,Ishaan Rao,Central,Consumer,P010,Pen Pack (12ct),Stationery,1,6.49,0.0,6.49
+ORD5093,2024-11-14,C1095,Om Das,South,Consumer,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5152,2024-06-08,C1034,Yash Mehta,South,Consumer,P010,Pen Pack (12ct),Stationery,2,6.49,0.0,12.98
+ORD5846,2024-03-15,C1034,Yash Mehta,South,Consumer,P014,External SSD 1TB,Electronics,4,89.99,0.0,359.96
+ORD5318,2024-09-01,C1070,Priya Patel,East,Corporate,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5449,2024-06-13,C1025,Meera Iyer,Central,Corporate,P004,27in Monitor,Electronics,4,219.99,0.05,835.96
+ORD5804,2024-07-08,C1084,Ishaan Joshi,West,Small Business,P007,Standing Desk,Furniture,3,349.99,0.05,997.47
+ORD5746,2024-10-01,C1047,Aditya Rao,South,Corporate,P001,Wireless Mouse,Electronics,3,19.99,0.05,56.97
+ORD5523,2024-07-15,C1083,Priya Chatterjee,South,Small Business,P010,Pen Pack (12ct),Stationery,1,6.49,0.2,5.19
+ORD5280,2024-04-20,C1112,Uday Kulkarni,South,Small Business,P004,27in Monitor,Electronics,2,219.99,,351.98
+ORD5584,2024-02-08,C1050,Kabir Verma,North,Small Business,P012,Webcam HD,Electronics,2,42.99,0.05,81.68
+ORD5765,2024-11-08,C1049,Kiran Singh,South,Corporate,P012,Webcam HD,Electronics,2,42.99,0.0,85.98
+ORD5605,2024-11-19,C1033,Yash Pillai,North,Small Business,P013,Bluetooth Speaker,Electronics,4,39.99,0.0,159.96
+ORD5350,2024-11-13,C1062,Kiran Joshi,Central,Consumer,P015,Ergonomic Footrest,Accessories,6,22.99,0.0,137.94
+ORD5375,2024-05-27,C1103,Aarav Rao,Central,Small Business,P005,Laptop Stand,Accessories,2,29.99,0.2,47.98
+ORD5401,2024-10-18,C1110,Aarav Reddy,East,Consumer,P009,Notebook Set,Stationery,1,8.99,0.0,8.99
+ORD5705,2024-02-19,C1032,Aarav Joshi,EAST,Small Business,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5258,2024-08-30,C1029,Neha Rao,North,Small Business,P014,External SSD 1TB,Electronics,1,89.99,,80.99
+ORD5073,2024-07-18,C1049,Kiran Singh,SOUTH,Corporate,P011,Whiteboard,Stationery,3,44.99,0.2,107.98
+ORD5196,2024-09-24,C1008,Ananya Verma,West,Consumer,P008,Desk Lamp,Furniture,1,24.99,0.0,24.99
+ORD5484,2024-04-14,C1092,Priya Chatterjee,,Small Business,P002,Mechanical Keyboard,Electronics,3,59.99,0.1,161.97
+ORD5138,2024-08-30,C1043,Uday Verma,South,Consumer,P005,Laptop Stand,Accessories,6,29.99,0.0,179.94
+ORD5495,2024-11-07,C1039,Diya Iyer,West,Small Business,P001,Wireless Mouse,Electronics,3,19.99,0.0,59.97
+ORD5773,2024-11-28,C1110,Aarav Reddy,East,Consumer,P004,27in Monitor,Electronics,1,219.99,0.15,186.99
+ORD5551,2024-06-13,C1002,Aditya Mehta,West,Consumer,P013,Bluetooth Speaker,Electronics,3,39.99,0.1,107.97
+ORD5463,2024-02-15,C1079,Diya Reddy,East,Small Business,P001,Wireless Mouse,Electronics,1,19.99,0.0,19.99
+ORD5202,2024-08-26,C1025,Meera Iyer,Central,Corporate,P013,Bluetooth Speaker,Electronics,1,39.99,0.0,39.99
+ORD5313,2024-08-13,C1030,Zara Chatterjee,East,Small Business,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5291,2024-07-03,C1043,Uday Verma,South,Consumer,P014,External SSD 1TB,Electronics,1,89.99,0.0,89.99
+ORD5190,2024-11-21,C1107,Priya Gupta,East,Small Business,P003,USB-C Hub,Electronics,5,34.99,0.0,174.95
+ORD5764,2024-06-16,C1018,Saanvi Reddy,Central,Consumer,P002,Mechanical Keyboard,Electronics,2,59.99,0.0,119.98
+ORD5113,2024-06-16,C1043,Uday Verma,South,Consumer,P007,Standing Desk,Furniture,2,349.99,0.05,664.98
+ORD5184,2024-01-07,C1116,Vivaan Patel,West,Small Business,P006,Office Chair,Furniture,3,149.99,0.1,404.97
+ORD5153,2024-02-25,C1001,Diya Joshi,North,Small Business,P005,Laptop Stand,Accessories,1,29.99,0.05,28.49
+ORD5825,2024-11-24,C1099,Ishaan Mehta,East,Consumer,P014,External SSD 1TB,Electronics,2,89.99,0.0,179.98
+ORD5326,2024-12-17,C1015,Rohan Iyer,East,Corporate,P009,Notebook Set,Stationery,3,8.99,0.1,24.27
+ORD5704,2024-11-17,C1068,Tara Kulkarni,Central,Small Business,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5045,2024-03-11,C1105,Priya Mehta,East,Small Business,P015,Ergonomic Footrest,Accessories,3,22.99,0.0,68.97
+ORD5445,2024-08-28,C1018,Saanvi Reddy,Central,Consumer,P001,Wireless Mouse,Electronics,2,19.99,0.05,37.98
+ORD5788,2024-07-08,C1090,Tara Mehta,South,Consumer,P004,27in Monitor,Electronics,1,219.99,0.0,219.99
+ORD5007,2024-05-07,C1044,Priya Sharma,Central,Small Business,P008,Desk Lamp,Furniture,2,24.99,0.0,49.98
+ORD5251,2024-07-26,C1029,Neha Rao,North,Small Business,P013,Bluetooth Speaker,Electronics,3,39.99,,119.97
+ORD5824,2024-04-18,C1062,Kiran Joshi,Central,Consumer,P015,Ergonomic Footrest,Accessories,5,22.99,0.05,109.2
+ORD5076,2024-10-06,C1089,Meera Kulkarni,North,Corporate,P013,Bluetooth Speaker,Electronics,3,39.99,0.0,119.97
+ORD5513,2024-09-17,C1115,Om Patel,South,Consumer,P005,Laptop Stand,Accessories,3,29.99,0.0,89.97
+ORD5392,2024-11-27,C1092,Priya Chatterjee,West,Small Business,P010,Pen Pack (12ct),Stationery,2,6.49,0.0,12.98
+ORD5433,2024-03-30,C1001,Diya Joshi,North,Small Business,P002,Mechanical Keyboard,Electronics,1,59.99,0.0,59.99
+ORD5069,2024-09-01,C1073,Zara Patel,Central,Corporate,P002,Mechanical Keyboard,Electronics,3,59.99,,161.97
+ORD5168,2024-12-22,C1093,Neha Iyer,North,Corporate,P009,Notebook Set,Stationery,10,8.99,0.05,85.4
+ORD5731,2024-06-22,C1103,Aarav Rao,Central,Small Business,P004,27in Monitor,Electronics,1,219.99,0.2,175.99
+ORD5555,2024-10-19,C1020,Neha Verma,South,Small Business,P011,Whiteboard,Stationery,1,44.99,0.0,44.99
+ORD5367,2024-07-28,C1023,Zara Rao,East,Small Business,P006,Office Chair,Furniture,2,149.99,0.0,299.98
+ORD5346,2024-10-28,C1077,Zara Reddy,North,Consumer,P006,Office Chair,Furniture,4,149.99,0.05,569.96
+ORD5585,2024-08-28,C1058,Kabir Das,West,Consumer,P003,USB-C Hub,Electronics,1,34.99,0.0,34.99
+ORD5536,2024-06-01,C1089,Meera Kulkarni,NORTH,Corporate,P008,Desk Lamp,Furniture,1,24.99,0.05,23.74
+ORD5399,2024-06-06,C1018,Saanvi Reddy,Central,Consumer,P005,Laptop Stand,Accessories,4,29.99,0.0,119.96
+ORD5186,2024-09-07,C1071,Om Singh,,Consumer,P015,Ergonomic Footrest,Accessories,2,22.99,,45.98
+ORD5349,2024-10-18,C1081,Neha Pillai,North,Consumer,P008,Desk Lamp,Furniture,1,24.99,0.1,22.49
+ORD5616,2024-03-26,C1040,Neha Rao,Central,Corporate,P013,Bluetooth Speaker,Electronics,2,39.99,,75.98
+ORD5212,2024-08-25,C1068,Tara Kulkarni,Central,Small Business,P010,Pen Pack (12ct),Stationery,3,6.49,0.2,15.58
+ORD5580,2024-03-14,C1101,Tara Mehta,Central,Consumer,P011,Whiteboard,Stationery,250,44.99,0.1,11247.5
+ORD5503,2024-07-27,C1028,Saanvi Gupta,Central,Corporate,P010,Pen Pack (12ct),Stationery,3,6.49,0.1,17.52
+ORD5538,2024-10-23,C1080,Priya Patel,East,Small Business,P014,External SSD 1TB,Electronics,10,89.99,0.1,809.91
+ORD5197,2024-11-29,C1105,Priya Mehta,East,Small Business,P015,Ergonomic Footrest,Accessories,4,22.99,0.0,91.96
+ORD5176,2024-09-29,C1073,Zara Patel,Central,Corporate,P003,USB-C Hub,Electronics,2,34.99,0.0,69.98

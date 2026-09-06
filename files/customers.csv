@@ -1,0 +1,121 @@
+CustomerID,CustomerName,Region,Segment,SignupDate
+C1000,Ananya Sharma,East,Consumer,2023-08-17
+C1001,Diya Joshi,North,Small Business,2024-07-12
+C1002,Aditya Mehta,West,Consumer,2023-01-31
+C1003,Aditya Patel,South,Small Business,2024-09-08
+C1004,Aarav Rao,South,Small Business,2024-10-27
+C1005,Zara Gupta,South,Corporate,2024-08-26
+C1006,Neha Chatterjee,North,Consumer,2024-03-08
+C1007,Priya Reddy,South,Consumer,2023-12-11
+C1008,Ananya Verma,West,Consumer,2024-01-03
+C1009,Rohan Mehta,East,Consumer,2024-04-15
+C1010,Zara Verma,West,Consumer,2024-07-19
+C1011,Om Das,Central,Corporate,2024-08-14
+C1012,Kabir Joshi,North,Consumer,2024-11-08
+C1013,Meera Chatterjee,East,Consumer,2023-08-27
+C1014,Ananya Gupta,East,Corporate,2024-10-12
+C1015,Rohan Iyer,East,Corporate,2023-08-03
+C1016,Neha Joshi,North,Small Business,2024-10-12
+C1017,Ishaan Rao,South,Consumer,2024-04-18
+C1018,Saanvi Reddy,Central,Consumer,2023-11-29
+C1019,Vivaan Patel,North,Corporate,2024-02-15
+C1020,Neha Verma,South,Small Business,2023-11-19
+C1021,Kabir Kulkarni,West,Corporate,2024-10-20
+C1022,Uday Iyer,East,Consumer,2023-09-10
+C1023,Zara Rao,East,Small Business,2024-08-21
+C1024,Tara Pillai,Central,Corporate,2024-01-06
+C1025,Meera Iyer,Central,Corporate,2023-04-04
+C1026,Vivaan Das,North,Consumer,2024-10-04
+C1027,Ishaan Chatterjee,West,Small Business,2023-03-07
+C1028,Saanvi Gupta,Central,Corporate,2024-06-25
+C1029,Neha Rao,North,Small Business,2023-04-28
+C1030,Zara Chatterjee,East,Small Business,2023-12-15
+C1031,Ananya Reddy,West,Consumer,2024-04-09
+C1032,Aarav Joshi,East,Small Business,2023-07-02
+C1033,Yash Pillai,North,Small Business,2023-11-02
+C1034,Yash Mehta,South,Consumer,2024-01-18
+C1035,Ishaan Rao,Central,Consumer,2024-09-05
+C1036,Priya Singh,North,Consumer,2024-01-07
+C1037,Om Patel,North,Consumer,2024-08-03
+C1038,Aditya Verma,West,Consumer,2024-06-29
+C1039,Diya Iyer,West,Small Business,2023-06-19
+C1040,Neha Rao,Central,Corporate,2023-08-05
+C1041,Zara Chatterjee,South,Small Business,2023-11-16
+C1042,Saanvi Kulkarni,East,Corporate,2024-06-13
+C1043,Uday Verma,South,Consumer,2023-03-07
+C1044,Priya Sharma,Central,Small Business,2023-08-24
+C1045,Kiran Patel,North,Consumer,2024-10-08
+C1046,Vivaan Patel,North,Consumer,2023-12-05
+C1047,Aditya Rao,South,Corporate,2024-11-16
+C1048,Varun Patel,Central,Consumer,2024-08-07
+C1049,Kiran Singh,South,Corporate,2024-02-21
+C1050,Kabir Verma,North,Small Business,2024-03-17
+C1051,Rohan Gupta,West,Corporate,2023-02-25
+C1052,Ananya Sharma,West,Small Business,2023-12-14
+C1053,Ananya Patel,South,Consumer,2024-07-03
+C1054,Uday Iyer,West,Consumer,2023-10-13
+C1055,Uday Patel,North,Corporate,2024-07-17
+C1056,Ananya Sharma,Central,Consumer,2023-04-06
+C1057,Meera Iyer,West,Corporate,2024-05-07
+C1058,Kabir Das,West,Consumer,2023-06-18
+C1059,Saanvi Sharma,West,Corporate,2024-04-10
+C1060,Om Gupta,Central,Small Business,2024-05-13
+C1061,Diya Patel,East,Consumer,2023-03-01
+C1062,Kiran Joshi,Central,Consumer,2023-11-18
+C1063,Vivaan Sharma,Central,Corporate,2024-05-29
+C1064,Yash Iyer,North,Small Business,2023-03-24
+C1065,Ishaan Verma,Central,Consumer,2024-11-22
+C1066,Meera Gupta,North,Small Business,2023-09-10
+C1067,Kiran Mehta,North,Small Business,2023-03-25
+C1068,Tara Kulkarni,Central,Small Business,2024-06-19
+C1069,Priya Pillai,East,Consumer,2024-11-16
+C1070,Priya Patel,East,Corporate,2023-05-15
+C1071,Om Singh,East,Consumer,2023-01-10
+C1072,Uday Mehta,Central,Consumer,2023-03-17
+C1073,Zara Patel,Central,Corporate,2023-05-16
+C1074,Rohan Pillai,North,Consumer,2024-01-14
+C1075,Om Iyer,West,Small Business,2023-11-06
+C1076,Nikhil Chatterjee,Central,Consumer,2024-11-14
+C1077,Zara Reddy,North,Consumer,2023-09-28
+C1078,Ananya Pillai,North,Small Business,2024-07-20
+C1079,Diya Reddy,East,Small Business,2023-08-04
+C1080,Priya Patel,East,Small Business,2024-05-15
+C1081,Neha Pillai,North,Consumer,2024-10-11
+C1082,Tara Das,East,Consumer,2023-01-04
+C1083,Priya Chatterjee,South,Small Business,2023-09-26
+C1084,Ishaan Joshi,West,Small Business,2024-03-13
+C1085,Zara Sharma,North,Consumer,2023-06-02
+C1086,Zara Sharma,East,Small Business,2024-07-19
+C1087,Diya Gupta,South,Consumer,2023-11-12
+C1088,Rohan Pillai,North,Corporate,2023-08-04
+C1089,Meera Kulkarni,North,Corporate,2024-07-27
+C1090,Tara Mehta,South,Consumer,2023-06-16
+C1091,Ishaan Pillai,West,Consumer,2023-07-03
+C1092,Priya Chatterjee,West,Small Business,2023-09-12
+C1093,Neha Iyer,North,Corporate,2023-02-09
+C1094,Varun Patel,South,Corporate,2023-12-25
+C1095,Om Das,South,Consumer,2023-01-25
+C1096,Kabir Gupta,East,Corporate,2023-03-13
+C1097,Neha Nair,Central,Corporate,2024-11-26
+C1098,Zara Nair,North,Consumer,2023-09-25
+C1099,Ishaan Mehta,East,Consumer,2023-04-22
+C1100,Nikhil Gupta,East,Small Business,2023-11-18
+C1101,Tara Mehta,Central,Consumer,2024-01-30
+C1102,Kiran Patel,East,Consumer,2024-03-22
+C1103,Aarav Rao,Central,Small Business,2024-11-17
+C1104,Kabir Nair,West,Consumer,2024-11-11
+C1105,Priya Mehta,East,Small Business,2023-05-08
+C1106,Om Rao,East,Small Business,2024-02-23
+C1107,Priya Gupta,East,Small Business,2023-05-11
+C1108,Kabir Gupta,West,Small Business,2023-06-28
+C1109,Nikhil Mehta,East,Corporate,2024-07-15
+C1110,Aarav Reddy,East,Consumer,2024-03-16
+C1111,Kiran Mehta,East,Corporate,2024-03-28
+C1112,Uday Kulkarni,South,Small Business,2024-04-29
+C1113,Ishaan Kulkarni,North,Corporate,2024-06-11
+C1114,Nikhil Nair,North,Consumer,2024-11-19
+C1115,Om Patel,South,Consumer,2023-01-26
+C1116,Vivaan Patel,West,Small Business,2023-03-16
+C1117,Uday Gupta,Central,Consumer,2024-01-29
+C1118,Varun Gupta,South,Consumer,2024-11-02
+C1119,Aarav Pillai,North,Corporate,2023-08-13
