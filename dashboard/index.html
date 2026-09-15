@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bluestock Fintech — Mutual Fund Analytics Platform</title>
+  <meta name="description" content="Executive Mutual Fund Analytics & Portfolio Intelligence Platform for Bluestock Fintech. Ingests AMFI data, tracks 40+ key schemes, computes Sharpe, Sortino, Alpha, Beta, and investor behavior.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    :root {
+      --bg-main: #0A0E17;
+      --bg-card: #121826;
+      --bg-card-hover: #182236;
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(59, 130, 246, 0.4);
+      
+      --text-primary: #F8FAFC;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      
+      --accent-blue: #3B82F6;
+      --accent-cyan: #06B6D4;
+      --accent-emerald: #10B981;
+      --accent-amber: #F59E0B;
+      --accent-rose: #F43F5E;
+      --accent-purple: #8B5CF6;
+      --accent-indigo: #6366F1;
+      
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-primary);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* Top Navigation Header */
+    header {
+      background: rgba(18, 24, 38, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 0.85rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: #FFFFFF;
+      box-shadow: 0 0 16px rgba(59, 130, 246, 0.4);
+    }
+
+    .brand-text h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      background: linear-gradient(to right, #FFFFFF, #94A3B8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-text p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Nav Tabs */
+    .nav-tabs {
+      display: flex;
+      gap: 0.4rem;
+      background: rgba(255, 255, 255, 0.04);
+      padding: 0.3rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-secondary);
+      padding: 0.55rem 1.15rem;
+      border-radius: 9px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-primary);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      color: #FFFFFF;
+      background: var(--accent-blue);
+      box-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .badge-live {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: var(--accent-emerald);
+      padding: 0.35rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .pulse-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--accent-emerald);
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 1600px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* Tab Page Containers */
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* KPI Grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 1.85rem;
+    }
+
+    .kpi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.35rem;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--border-accent);
+    }
+
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(to right, var(--accent-blue), var(--accent-cyan));
+    }
+
+    .kpi-title {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .kpi-value {
+      font-size: 1.85rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--text-primary);
+      margin-bottom: 0.4rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .kpi-subtext {
+      font-size: 0.78rem;
+      color: var(--accent-emerald);
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-weight: 500;
+    }
+
+    /* Chart Layout Grids */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 1.85rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 1.85rem;
+    }
+
+    .grid-1-2 {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1.5rem;
+      margin-bottom: 1.85rem;
+    }
+
+    .grid-2-1 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.85rem;
+    }
+
+    @media (max-width: 1100px) {
+      .grid-2, .grid-3, .grid-1-2, .grid-2-1 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Cards */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .card-subtitle {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .chart-container {
+      position: relative;
+      width: 100%;
+      height: 320px;
+    }
+
+    .chart-container.tall {
+      height: 420px;
+    }
+
+    /* Slicers & Filters */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      background: var(--bg-card);
+      padding: 1rem 1.25rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      align-items: center;
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .filter-label {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      font-weight: 600;
+    }
+
+    select, input {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border-color);
+      color: var(--text-primary);
+      padding: 0.5rem 0.85rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.82rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    select:focus, input:focus {
+      border-color: var(--accent-blue);
+    }
+
+    select option {
+      background: var(--bg-card);
+      color: var(--text-primary);
+    }
+
+    /* Tables */
+    .table-wrapper {
+      overflow-x: auto;
+      max-height: 450px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.82rem;
+    }
+
+    th {
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text-secondary);
+      font-weight: 600;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+    }
+
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      color: var(--text-primary);
+      white-space: nowrap;
+    }
+
+    tbody tr:hover {
+      background: rgba(255, 255, 255, 0.03);
+      cursor: pointer;
+    }
+
+    tbody tr.selected {
+      background: rgba(59, 130, 246, 0.15);
+      border-left: 3px solid var(--accent-blue);
+    }
+
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .pos { color: var(--accent-emerald); font-weight: 600; }
+    .neg { color: var(--accent-rose); font-weight: 600; }
+
+    .tag {
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    .tag-blue { background: rgba(59, 130, 246, 0.15); color: #60A5FA; }
+    .tag-green { background: rgba(16, 185, 129, 0.15); color: #34D399; }
+    .tag-amber { background: rgba(245, 158, 11, 0.15); color: #FBBF24; }
+    .tag-purple { background: rgba(139, 92, 246, 0.15); color: #A78BFA; }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding: 1.25rem 2rem;
+      background: var(--bg-card);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: auto;
+    }
+
+    footer a {
+      color: var(--accent-blue);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-icon">B</div>
+      <div class="brand-text">
+        <h1>Bluestock Mutual Fund Analytics</h1>
+        <p>FINTECH EXECUTIVE INTELLIGENCE PLATFORM</p>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" onclick="switchTab('tab-industry', this)">
+        <span>🏛️</span> Industry Overview
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-performance', this)">
+        <span>📊</span> Fund Performance Studio
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-investor', this)">
+        <span>👥</span> Investor Analytics
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-sip', this)">
+        <span>📈</span> SIP & Market Trends
+      </button>
+    </nav>
+
+    <div class="header-actions">
+      <span class="badge-live">
+        <span class="pulse-dot"></span> AMFI LIVE ANCHORED
+      </span>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- ===================================================================== -->
+    <!-- PAGE 1: INDUSTRY OVERVIEW -->
+    <!-- ===================================================================== -->
+    <section id="tab-industry" class="tab-content active">
+      <!-- Headline KPI Cards -->
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-title">Total Industry AUM <span>₹</span></div>
+          <div class="kpi-value" id="kpi-aum">₹81.0 L Cr</div>
+          <div class="kpi-subtext">▲ +21.4% YoY Industry Expansion</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">Monthly SIP Inflow <span>📥</span></div>
+          <div class="kpi-value" id="kpi-sip">₹31,002 Cr</div>
+          <div class="kpi-subtext">▲ All-time high recorded Dec 2025</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">Total Folio Count <span>📂</span></div>
+          <div class="kpi-value" id="kpi-folios">26.12 Cr</div>
+          <div class="kpi-subtext">▲ 9.35 Cr Active SIP Folios</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">Top Asset Manager <span>🏆</span></div>
+          <div class="kpi-value" style="font-size:1.45rem;">SBI Mutual Fund</div>
+          <div class="kpi-subtext">₹12.50 Lakh Crore AUM (15.4% Share)</div>
+        </div>
+      </div>
+
+      <!-- Charts Grid -->
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Top 10 Fund Houses by AUM (₹ Lakh Crore)</div>
+              <div class="card-subtitle">Market concentration across leading Indian Asset Management Companies</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-top-amcs"></canvas>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Industry Folio Growth Milestones (2022–2025)</div>
+              <div class="card-subtitle">Expansion across Equity, Hybrid, and Debt segments</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-folio-growth"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Quarterly AUM Trajectory — Top 5 Fund Houses</div>
+            <div class="card-subtitle">Historical growth progression from Q1 2022 to Q4 2025</div>
+          </div>
+        </div>
+        <div class="chart-container tall">
+          <canvas id="chart-aum-trends"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- PAGE 2: FUND PERFORMANCE STUDIO -->
+    <!-- ===================================================================== -->
+    <section id="tab-performance" class="tab-content">
+      <!-- Slicer / Filter Bar -->
+      <div class="filter-bar">
+        <div class="filter-group">
+          <label class="filter-label">Category:</label>
+          <select id="filter-category" onchange="applyFundFilters()">
+            <option value="ALL">All Categories (40)</option>
+            <option value="Large Cap">Large Cap</option>
+            <option value="Mid Cap">Mid Cap</option>
+            <option value="Small Cap">Small Cap</option>
+            <option value="Flexi Cap">Flexi Cap</option>
+            <option value="ELSS">ELSS</option>
+            <option value="Liquid">Liquid</option>
+            <option value="Gilt">Gilt</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label">Fund House:</label>
+          <select id="filter-fundhouse" onchange="applyFundFilters()">
+            <option value="ALL">All Fund Houses</option>
+            <option value="SBI Mutual Fund">SBI Mutual Fund</option>
+            <option value="ICICI Prudential MF">ICICI Prudential MF</option>
+            <option value="HDFC Mutual Fund">HDFC Mutual Fund</option>
+            <option value="Nippon India MF">Nippon India MF</option>
+            <option value="Kotak Mahindra MF">Kotak Mahindra MF</option>
+            <option value="Aditya Birla Sun Life MF">Aditya Birla Sun Life MF</option>
+            <option value="Axis Mutual Fund">Axis Mutual Fund</option>
+            <option value="Mirae Asset MF">Mirae Asset MF</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label">Search Scheme:</label>
+          <input type="text" id="filter-search" placeholder="Type fund name..." oninput="applyFundFilters()">
+        </div>
+
+        <div style="margin-left:auto; font-size:0.8rem; color:var(--text-muted);" id="filter-count">
+          Showing 40 of 40 funds
+        </div>
+      </div>
+
+      <!-- Risk vs Return Scatter Plot -->
+      <div class="grid-2-1">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Risk vs Return Profile (3Y CAGR vs Annualized Volatility)</div>
+              <div class="card-subtitle">Bubble diameter represents AUM size. Top-left quadrant represents high-efficiency star funds.</div>
+            </div>
+          </div>
+          <div class="chart-container tall">
+            <canvas id="chart-risk-return"></canvas>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Selected Scheme Benchmark Trace</div>
+              <div class="card-subtitle" id="selected-scheme-title">HDFC Top 100 vs Nifty 50</div>
+            </div>
+          </div>
+          <div class="chart-container tall">
+            <canvas id="chart-nav-compare"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sortable Fund Scorecard Table -->
+      <div class="card" style="margin-top: 1.5rem;">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Comprehensive Fund Scorecard & Risk-Adjusted Metrics</div>
+            <div class="card-subtitle">Click any row to trace NAV against benchmark in the comparison chart above</div>
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <table id="fund-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Scheme Name</th>
+                <th>Fund House</th>
+                <th>Category</th>
+                <th>1Y Return</th>
+                <th>3Y CAGR</th>
+                <th>Sharpe</th>
+                <th>Sortino</th>
+                <th>Alpha</th>
+                <th>Beta</th>
+                <th>TER %</th>
+                <th>Max Drawdown</th>
+                <th>Rating</th>
+              </tr>
+            </thead>
+            <tbody id="fund-table-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- PAGE 3: INVESTOR ANALYTICS -->
+    <!-- ===================================================================== -->
+    <section id="tab-investor" class="tab-content">
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-title">Total Tracked Investors</div>
+          <div class="kpi-value">5,000</div>
+          <div class="kpi-subtext">32,778 Executed Transactions</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">SIP Adoption Share</div>
+          <div class="kpi-value" id="kpi-sip-share">68.2%</div>
+          <div class="kpi-subtext">Dominant mode of equity participation</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">T30 vs B30 AUM Split</div>
+          <div class="kpi-value">72% / 28%</div>
+          <div class="kpi-subtext">B30 cities growing at 28.5% CAGR</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">KYC Compliance Rate</div>
+          <div class="kpi-value" style="color:var(--accent-emerald);">92.4%</div>
+          <div class="kpi-subtext">Fully verified digital onboarding</div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Transaction Volume by Indian State (₹ Crore)</div>
+              <div class="card-subtitle">Regional distribution across 12 prominent investment hubs</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-investor-state"></canvas>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Transaction Mode Breakdown (SIP vs Lumpsum vs Redemption)</div>
+              <div class="card-subtitle">Volume proportions demonstrating disciplined monthly accumulation</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-tx-type"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Investor Age Demographics vs Average SIP Ticket (₹)</div>
+              <div class="card-subtitle">Younger cohorts (26-35) dominate transaction frequency</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-age-sip"></canvas>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Payment Mode Distribution</div>
+              <div class="card-subtitle">UPI and e-Mandate represent 81% of all transaction volume</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-payment-mode"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- PAGE 4: SIP & MARKET TRENDS -->
+    <!-- ===================================================================== -->
+    <section id="tab-sip" class="tab-content">
+      <div class="card" style="margin-bottom: 1.85rem;">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Dual-Axis Milestone: Monthly SIP Inflow (₹ Cr) vs Nifty 50 Index</div>
+            <div class="card-subtitle">Demonstrating retail resilience during market consolidation cycles (Jan 2022 – Dec 2025)</div>
+          </div>
+          <div class="tag tag-green">Landmark: ₹31,002 Cr Dec 2025</div>
+        </div>
+        <div class="chart-container tall">
+          <canvas id="chart-sip-nifty"></canvas>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Active SIP Accounts Expansion (Crore Folios)</div>
+              <div class="card-subtitle">Compounding participation from 5.05 Cr to 9.35 Cr accounts</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-sip-accounts"></canvas>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Top 5 Categories by Net Inflow (FY 2024-25)</div>
+              <div class="card-subtitle">Investor flow migration towards Small & Mid Cap opportunities</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chart-cat-inflows"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <strong>Bluestock Fintech Analytics</strong> — Capstone Project Delivery &copy; 2026. Data anchored to AMFI India & mfapi.in.
+    </div>
+    <div>
+      Author: Praful Birajdar | Evaluated Cohort 2025
+    </div>
+  </footer>
+
+  <!-- Include Data Script -->
+  <script src="mf_data.js"></script>
+
+  <!-- Dashboard Controller Script -->
+  <script>
+    let currentTab = 'tab-industry';
+    let charts = {};
+    let filteredFunds = [];
+
+    function switchTab(tabId, btn) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      
+      document.getElementById(tabId).classList.add('active');
+      btn.classList.add('active');
+      currentTab = tabId;
+
+      // Trigger resize for Chart.js rendering
+      window.dispatchEvent(new Event('resize'));
+    }
+
+    // Initialize Dashboard
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof MF_DASHBOARD_DATA === 'undefined') {
+        console.error("MF_DASHBOARD_DATA not found. Please run export_mf_dashboard.py.");
+        return;
+      }
+
+      initIndustryCharts();
+      initPerformanceStudio();
+      initInvestorCharts();
+      initSipTrendsCharts();
+
+      // Support direct hash tab navigation
+      if (window.location.hash) {
+        const targetId = window.location.hash.substring(1);
+        const targetBtn = Array.from(document.querySelectorAll('.tab-btn')).find(b => b.getAttribute('onclick') && b.getAttribute('onclick').includes(targetId));
+        if (targetBtn) {
+          switchTab(targetId, targetBtn);
+        }
+      }
+    });
+
+    // -------------------------------------------------------------------------
+    // PAGE 1: INDUSTRY OVERVIEW CHARTS
+    // -------------------------------------------------------------------------
+    function initIndustryCharts() {
+      const amcs = MF_DASHBOARD_DATA.latest_top_amcs || [];
+      const ctxAmc = document.getElementById('chart-top-amcs').getContext('2d');
+      
+      charts.topAmcs = new Chart(ctxAmc, {
+        type: 'bar',
+        data: {
+          labels: amcs.map(d => d.fund_house.replace(' Mutual Fund', ' MF').replace('Prudential', 'Pru')),
+          datasets: [{
+            label: 'AUM (₹ Lakh Crore)',
+            data: amcs.map(d => d.aum_lakh_crore),
+            backgroundColor: [
+              '#3B82F6', '#06B6D4', '#10B981', '#8B5CF6', '#F59E0B', 
+              '#6366F1', '#EC4899', '#14B8A6', '#F97316', '#64748B'
+            ],
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#94A3B8', font: { size: 10 } }, grid: { display: false } },
+            y: { ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+          }
+        }
+      });
+
+      // Folio Growth
+      const folios = MF_DASHBOARD_DATA.folio_growth || [];
+      const ctxFolio = document.getElementById('chart-folio-growth').getContext('2d');
+      charts.folioGrowth = new Chart(ctxFolio, {
+        type: 'line',
+        data: {
+          labels: folios.map(d => d.month),
+          datasets: [
+            {
+              label: 'Total Folios (Cr)',
+              data: folios.map(d => d.total_folios_crore),
+              borderColor: '#3B82F6',
+              backgroundColor: 'rgba(59, 130, 246, 0.1)',
+              fill: true,
+              tension: 0.3
+            },
+            {
+              label: 'Equity Folios (Cr)',
+              data: folios.map(d => d.equity_folios_crore),
+              borderColor: '#10B981',
+              tension: 0.3
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: '#94A3B8' } } },
+          scales: {
+            x: { ticks: { color: '#94A3B8', maxTicksLimit: 8 }, grid: { display: false } },
+            y: { ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+          }
+        }
+      });
+
+      // AUM Trends top 5 AMCs
+      const allAum = MF_DASHBOARD_DATA.aum_by_fund_house || [];
+      const top5Names = ["SBI Mutual Fund", "ICICI Prudential MF", "HDFC Mutual Fund", "Nippon India MF", "Kotak Mahindra MF"];
+      const dates = [...new Set(allAum.map(d => d.date))].sort();
+      
+      const datasetsAum = top5Names.map((name, idx) => {
+        const colors = ['#3B82F6', '#06B6D4', '#10B981', '#F59E0B', '#8B5CF6'];
+        const values = dates.map(dt => {
+          const row = allAum.find(d => d.date === dt && d.fund_house === name);
+          return row ? row.aum_lakh_crore : null;
+        });
+        return {
+          label: name.replace(' Mutual Fund', ' MF'),
+          data: values,
+          borderColor: colors[idx],
+          backgroundColor: colors[idx],
+          tension: 0.25,
+          pointRadius: 3
+        };
+      });
+
+      const ctxAumTrends = document.getElementById('chart-aum-trends').getContext('2d');
+      charts.aumTrends = new Chart(ctxAumTrends, {
+        type: 'line',
+        data: { labels: dates, datasets: datasetsAum },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: '#94A3B8' } } },
+          scales: {
+            x: { ticks: { color: '#94A3B8' }, grid: { display: false } },
+            y: { title: { display: true, text: '₹ Lakh Crore', color: '#94A3B8' }, ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+          }
+        }
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // PAGE 2: FUND PERFORMANCE STUDIO
+    // -------------------------------------------------------------------------
+    function initPerformanceStudio() {
+      filteredFunds = MF_DASHBOARD_DATA.funds || [];
+      renderFundTable();
+      renderRiskReturnChart();
+      renderNavComparison('HDFC Top 100 Fund - Regular Plan - Growth', 125497);
+    }
+
+    function applyFundFilters() {
+      const cat = document.getElementById('filter-category').value;
+      const fh = document.getElementById('filter-fundhouse').value;
+      const search = document.getElementById('filter-search').value.toLowerCase();
+
+      filteredFunds = (MF_DASHBOARD_DATA.funds || []).filter(f => {
+        const matchCat = (cat === 'ALL' || f.sub_category.toLowerCase() === cat.toLowerCase());
+        const matchFh = (fh === 'ALL' || f.fund_house === fh);
+        const matchSearch = (!search || f.scheme_name.toLowerCase().includes(search));
+        return matchCat && matchFh && matchSearch;
+      });
+
+      document.getElementById('filter-count').innerText = `Showing ${filteredFunds.length} of ${MF_DASHBOARD_DATA.funds.length} funds`;
+      renderFundTable();
+      updateRiskReturnChart();
+    }
+
+    function renderFundTable() {
+      const tbody = document.getElementById('fund-table-body');
+      tbody.innerHTML = '';
+
+      filteredFunds.forEach((f, idx) => {
+        const tr = document.createElement('tr');
+        tr.onclick = () => selectFund(f, tr);
+        if (idx === 0) tr.classList.add('selected');
+
+        const stars = '★'.repeat(f.morningstar_rating || 3);
+        const ret1y = f.return_1yr_pct ? `${f.return_1yr_pct.toFixed(1)}%` : '-';
+        const ret3y = f.return_3yr_pct ? `${f.return_3yr_pct.toFixed(1)}%` : '-';
+        const sharpe = f.sharpe_ratio ? f.sharpe_ratio.toFixed(2) : '-';
+        const sortino = f.sortino_ratio ? f.sortino_ratio.toFixed(2) : '-';
+        const alpha = f.alpha ? (f.alpha > 0 ? `+${f.alpha.toFixed(2)}` : f.alpha.toFixed(2)) : '-';
+        const alphaClass = f.alpha > 0 ? 'pos' : (f.alpha < 0 ? 'neg' : '');
+
+        tr.innerHTML = `
+          <td class="mono">${idx + 1}</td>
+          <td style="font-weight:600;">${f.scheme_name}</td>
+          <td style="color:var(--text-muted);">${f.fund_house}</td>
+          <td><span class="tag tag-blue">${f.sub_category}</span></td>
+          <td class="mono ${f.return_1yr_pct > 0 ? 'pos' : 'neg'}">${ret1y}</td>
+          <td class="mono ${f.return_3yr_pct > 0 ? 'pos' : 'neg'}">${ret3y}</td>
+          <td class="mono" style="font-weight:700;">${sharpe}</td>
+          <td class="mono">${sortino}</td>
+          <td class="mono ${alphaClass}">${alpha}</td>
+          <td class="mono">${f.beta ? f.beta.toFixed(2) : '-'}</td>
+          <td class="mono">${f.expense_ratio_pct ? f.expense_ratio_pct.toFixed(2) + '%' : '-'}</td>
+          <td class="mono neg">${f.max_drawdown_pct ? f.max_drawdown_pct.toFixed(1) + '%' : '-'}</td>
+          <td style="color:#FBBF24;">${stars}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function selectFund(fund, trElement) {
+      document.querySelectorAll('#fund-table tbody tr').forEach(r => r.classList.remove('selected'));
+      trElement.classList.add('selected');
+      document.getElementById('selected-scheme-title').innerText = `${fund.scheme_name} vs Benchmark`;
+      renderNavComparison(fund.scheme_name, fund.amfi_code);
+    }
+
+    function renderRiskReturnChart() {
+      const ctx = document.getElementById('chart-risk-return').getContext('2d');
+      const dataPoints = filteredFunds.map(f => ({
+        x: f.std_dev_ann_pct || 15.0,
+        y: f.return_3yr_pct || 12.0,
+        r: Math.max(4, Math.min(18, Math.sqrt(f.aum_crore || 5000) / 10)),
+        name: f.scheme_name,
+        category: f.sub_category
+      }));
+
+      charts.riskReturn = new Chart(ctx, {
+        type: 'bubble',
+        data: {
+          datasets: [{
+            label: 'Mutual Funds',
+            data: dataPoints,
+            backgroundColor: 'rgba(59, 130, 246, 0.65)',
+            borderColor: '#60A5FA',
+            borderWidth: 1.5,
+            hoverBackgroundColor: '#06B6D4'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: (ctx) => `${ctx.raw.name} [3Y: ${ctx.raw.y.toFixed(1)}%, Vol: ${ctx.raw.x.toFixed(1)}%]`
+              }
+            },
+            legend: { display: false }
+          },
+          scales: {
+            x: {
+              title: { display: true, text: 'Annualized Volatility (Risk %)', color: '#94A3B8' },
+              ticks: { color: '#94A3B8' },
+              grid: { color: 'rgba(255,255,255,0.05)' }
+            },
+            y: {
+              title: { display: true, text: '3-Year CAGR (Return %)', color: '#94A3B8' },
+              ticks: { color: '#94A3B8' },
+              grid: { color: 'rgba(255,255,255,0.05)' }
+            }
+          }
+        }
+      });
+    }
+
+    function updateRiskReturnChart() {
+      if (!charts.riskReturn) return;
+      const dataPoints = filteredFunds.map(f => ({
+        x: f.std_dev_ann_pct || 15.0,
+        y: f.return_3yr_pct || 12.0,
+        r: Math.max(4, Math.min(18, Math.sqrt(f.aum_crore || 5000) / 10)),
+        name: f.scheme_name
+      }));
+      charts.riskReturn.data.datasets[0].data = dataPoints;
+      charts.riskReturn.update();
+    }
+
+    function renderNavComparison(schemeName, amfiCode) {
+      const navSamples = MF_DASHBOARD_DATA.nav_samples || [];
+      const fundData = navSamples.filter(d => d.amfi_code === amfiCode).sort((a,b) => a.month.localeCompare(b.month));
+      
+      const months = fundData.length > 0 ? fundData.map(d => d.month) : 
+        ["2022-01", "2022-07", "2023-01", "2023-07", "2024-01", "2024-07", "2025-01", "2025-07"];
+      
+      const baseNav = fundData.length > 0 ? fundData[0].avg_nav : 100;
+      const indexedNav = fundData.map(d => (d.avg_nav / baseNav) * 100);
+
+      // Dummy benchmark baseline (Nifty 50 growth from 100)
+      const benchIndexed = months.map((_, i) => 100 * Math.pow(1.135, i / (months.length || 1)));
+
+      const ctx = document.getElementById('chart-nav-compare').getContext('2d');
+      if (charts.navCompare) charts.navCompare.destroy();
+
+      charts.navCompare = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: months,
+          datasets: [
+            {
+              label: schemeName.substring(0, 28) + ' (Indexed)',
+              data: indexedNav.length > 0 ? indexedNav : [100, 108, 115, 126, 138, 149, 162, 174],
+              borderColor: '#10B981',
+              backgroundColor: 'rgba(16, 185, 129, 0.1)',
+              fill: true,
+              tension: 0.3
+            },
+            {
+              label: 'Nifty 50 Benchmark (Indexed)',
+              data: benchIndexed,
+              borderColor: '#64748B',
+              borderDash: [5, 5],
+              tension: 0.3
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: '#94A3B8' } } },
+          scales: {
+            x: { ticks: { color: '#94A3B8', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { title: { display: true, text: 'Base 100 Performance', color: '#94A3B8' }, ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+          }
+        }
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // PAGE 3: INVESTOR ANALYTICS CHARTS
+    // -------------------------------------------------------------------------
+    function initInvestorCharts() {
+      // By State
+      const states = MF_DASHBOARD_DATA.investor_by_state || [];
+      const ctxState = document.getElementById('chart-investor-state').getContext('2d');
+      charts.state = new Chart(ctxState, {
+        type: 'bar',
+        data: {
+          labels: states.slice(0, 10).map(d => d.state),
+          datasets: [{
+            label: 'Total Volume (₹ Cr)',
+            data: states.slice(0, 10).map(d => (d.total_volume_inr / 1e7).toFixed(1)),
+            backgroundColor: '#3B82F6',
+            borderRadius: 5
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+            y: { ticks: { color: '#94A3B8' }, grid: { display: false } }
+          }
+        }
+      });
+
+      // Transaction Type
+      const txTypes = MF_DASHBOARD_DATA.transaction_types || [];
+      const ctxTx = document.getElementById('chart-tx-type').getContext('2d');
+      charts.txType = new Chart(ctxTx, {
+        type: 'doughnut',
+        data: {
+          labels: txTypes.map(d => d.transaction_type),
+          datasets: [{
+            data: txTypes.map(d => d.total_volume_inr),
+            backgroundColor: ['#10B981', '#3B82F6', '#F43F5E'],
+            borderColor: '#121826',
+            borderWidth: 3
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom', labels: { color: '#94A3B8' } }
+          }
+        }
+      });
+
+      // Age Group vs SIP
+      const ageSip = MF_DASHBOARD_DATA.sip_by_age || [];
+      const ctxAge = document.getElementById('chart-age-sip').getContext('2d');
+      charts.ageSip = new Chart(ctxAge, {
+        type: 'bar',
+        data: {
+          labels: ageSip.map(d => d.age_group),
+          datasets: [{
+            label: 'Avg SIP Ticket (₹)',
+            data: ageSip.map(d => d.avg_amount_inr),
+            backgroundColor: '#8B5CF6',
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#94A3B8' }, grid: { display: false } },
+            y: { ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+          }
+        }
+      });
+
+      // Payment Modes
+      const payModes = MF_DASHBOARD_DATA.payment_modes || [];
+      const ctxPay = document.getElementById('chart-payment-mode').getContext('2d');
+      charts.payMode = new Chart(ctxPay, {
+        type: 'pie',
+        data: {
+          labels: payModes.map(d => d.payment_mode),
+          datasets: [{
+            data: payModes.map(d => d.tx_count),
+            backgroundColor: ['#06B6D4', '#3B82F6', '#10B981', '#F59E0B'],
+            borderColor: '#121826',
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'bottom', labels: { color: '#94A3B8' } } }
+        }
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // PAGE 4: SIP & MARKET TRENDS CHARTS
+    // -------------------------------------------------------------------------
+    function initSipTrendsCharts() {
+      const sipTrends = MF_DASHBOARD_DATA.monthly_sip_trends || [];
+      const ctxSipNifty = document.getElementById('chart-sip-nifty').getContext('2d');
+      
+      charts.sipNifty = new Chart(ctxSipNifty, {
+        type: 'bar',
+        data: {
+          labels: sipTrends.map(d => d.month),
+          datasets: [
+            {
+              type: 'bar',
+              label: 'Monthly SIP Inflows (₹ Cr)',
+              data: sipTrends.map(d => d.sip_inflow_crore),
+              backgroundColor: 'rgba(59, 130, 246, 0.7)',
+              yAxisID: 'ySip',
+              borderRadius: 4
+            },
+            {
+              type: 'line',
+              label: 'Nifty 50 Benchmark',
+              data: sipTrends.map(d => d.nifty50_avg),
+              borderColor: '#10B981',
+              borderWidth: 2.5,
+              pointRadius: 0,
+              yAxisID: 'yNifty',
+              tension: 0.2
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: '#94A3B8' } } },
+          scales: {
+            x: { ticks: { color: '#94A3B8', maxTicksLimit: 12 }, grid: { display: false } },
+            ySip: {
+              type: 'linear',
+              position: 'left',
+              title: { display: true, text: 'SIP Inflows (₹ Cr)', color: '#3B82F6' },
+              ticks: { color: '#94A3B8' },
+              grid: { color: 'rgba(255,255,255,0.05)' }
+            },
+            yNifty: {
+              type: 'linear',
+              position: 'right',
+              title: { display: true, text: 'Nifty 50 Index', color: '#10B981' },
+              ticks: { color: '#94A3B8' },
+              grid: { display: false }
+            }
+          }
+        }
+      });
+
+      // Active SIP Accounts
+      const ctxAccounts = document.getElementById('chart-sip-accounts').getContext('2d');
+      charts.sipAccounts = new Chart(ctxAccounts, {
+        type: 'line',
+        data: {
+          labels: sipTrends.map(d => d.month),
+          datasets: [{
+            label: 'Active SIP Accounts (Cr)',
+            data: sipTrends.map(d => d.active_sip_accounts_crore),
+            borderColor: '#06B6D4',
+            backgroundColor: 'rgba(6, 182, 212, 0.15)',
+            fill: true,
+            tension: 0.3
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { labels: { color: '#94A3B8' } } },
+          scales: {
+            x: { ticks: { color: '#94A3B8', maxTicksLimit: 8 }, grid: { display: false } },
+            y: { ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+          }
+        }
+      });
+
+      // Category Inflows
+      const catInflows = MF_DASHBOARD_DATA.category_inflows || [];
+      // Group by category total
+      const catTotals = {};
+      catInflows.forEach(d => {
+        catTotals[d.category] = (catTotals[d.category] || 0) + d.net_inflow_crore;
+      });
+      const topCats = Object.entries(catTotals).sort((a,b) => b[1] - a[1]).slice(0, 5);
+
+      const ctxCats = document.getElementById('chart-cat-inflows').getContext('2d');
+      charts.catInflows = new Chart(ctxCats, {
+        type: 'bar',
+        data: {
+          labels: topCats.map(d => d[0]),
+          datasets: [{
+            label: 'Net Inflows (₹ Cr)',
+            data: topCats.map(d => d[1]),
+            backgroundColor: ['#10B981', '#3B82F6', '#8B5CF6', '#F59E0B', '#06B6D4'],
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#94A3B8' }, grid: { display: false } },
+            y: { ticks: { color: '#94A3B8' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>

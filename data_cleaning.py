@@ -1,14 +1,8 @@
 """
 data_cleaning.py
-================
+
 Day 2 — Data Cleaning + SQLite Database Loading
 
-This script:
-  1. Cleans all 10 raw CSV datasets (nulls, types, duplicates, validation)
-  2. Saves cleaned CSVs to data/processed/
-  3. Creates SQLite database using schema.sql
-  4. Loads all cleaned data into bluestock_mf.db
-  5. Runs and prints results for 10 analytics queries
 """
 
 import os
@@ -18,7 +12,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
-# -- Paths -----------------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RAW_DIR = os.path.join(BASE_DIR, "data", "raw")
 PROC_DIR = os.path.join(BASE_DIR, "data", "processed")
@@ -29,9 +22,8 @@ os.makedirs(PROC_DIR, exist_ok=True)
 SEP = "=" * 70
 
 
-# ==========================================================================
 #  CLEANING FUNCTIONS
-# ==========================================================================
+
 
 def clean_fund_master() -> pd.DataFrame:
     """Clean 01_fund_master.csv — scheme metadata."""
@@ -304,10 +296,7 @@ def clean_benchmark() -> pd.DataFrame:
     df.to_csv(os.path.join(PROC_DIR, "clean_benchmark.csv"), index=False)
     return df
 
-
-# ==========================================================================
 #  DATABASE LOADING
-# ==========================================================================
 
 def create_database(cleaned: dict):
     """Create SQLite DB from schema.sql and load all cleaned data."""
@@ -409,9 +398,7 @@ def create_database(cleaned: dict):
     return DB_PATH
 
 
-# ==========================================================================
 #  RUN SQL QUERIES
-# ==========================================================================
 
 def run_queries():
     """Execute all 10 SQL queries and print results."""
@@ -469,9 +456,6 @@ def run_queries():
     conn.close()
 
 
-# ==========================================================================
-#  MAIN
-# ==========================================================================
 
 def main():
     print(f"\n{'#'*70}")

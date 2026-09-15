@@ -1,0 +1,250 @@
+Customer_ID,Customer_Name,City,State,Region
+CUST1228,Customer 1228,Margao,Goa,West
+CUST1114,Customer 1114,Amritsar,Punjab,North
+CUST1237,Customer 1237,Margao,Goa,West
+CUST1141,Customer 1141,Bengaluru,Karnataka,South
+CUST1174,Customer 1174,Kolhapur,Maharashtra,West
+CUST1210,Customer 1210,Durgapur,West Bengal,East
+CUST1161,Customer 1161,Mumbai,Maharashtra,West
+CUST1021,Customer 1021,Coimbatore,Tamil Nadu,South
+CUST1208,Customer 1208,Bhubaneswar,Odisha,East
+CUST1079,Customer 1079,Kanpur,Uttar Pradesh,North
+CUST1246,Customer 1246,Pune,Maharashtra,West
+CUST1185,Customer 1185,Lucknow,Uttar Pradesh,North
+CUST1069,Customer 1069,Vadodara,Gujarat,West
+CUST1070,Customer 1070,Mysuru,Karnataka,South
+CUST1230,Customer 1230,Kolhapur,Maharashtra,West
+CUST1067,Customer 1067,Vadodara,Gujarat,West
+CUST1048,Customer 1048,Ahmedabad,Gujarat,West
+CUST1204,Customer 1204,Bhubaneswar,Odisha,East
+CUST1036,Customer 1036,Bengaluru,Karnataka,South
+CUST1159,Customer 1159,Durgapur,West Bengal,East
+CUST1149,Customer 1149,Durgapur,West Bengal,East
+CUST1027,Customer 1027,Cuttack,Odisha,East
+CUST1219,Customer 1219,Amritsar,Punjab,North
+CUST1072,Customer 1072,Mumbai,Maharashtra,West
+CUST1248,Customer 1248,Ahmedabad,Gujarat,West
+CUST1101,Customer 1101,Coimbatore,Tamil Nadu,South
+CUST1190,Customer 1190,Chennai,Tamil Nadu,South
+CUST1096,Customer 1096,Jamshedpur,Jharkhand,East
+CUST1128,Customer 1128,Kolhapur,Maharashtra,West
+CUST1026,Customer 1026,Noida,Uttar Pradesh,North
+CUST1066,Customer 1066,Bhubaneswar,Odisha,East
+CUST1140,Customer 1140,Panaji,Goa,West
+CUST1022,Customer 1022,Surat,Gujarat,West
+CUST1017,Customer 1017,Noida,Uttar Pradesh,North
+CUST1007,Customer 1007,Amritsar,Punjab,North
+CUST1107,Customer 1107,Panaji,Goa,West
+CUST1068,Customer 1068,Margao,Goa,West
+CUST1037,Customer 1037,New Delhi,Delhi,North
+CUST1038,Customer 1038,Panaji,Goa,West
+CUST1139,Customer 1139,Coimbatore,Tamil Nadu,South
+CUST1001,Customer 1001,Margao,Goa,West
+CUST1153,Customer 1153,Amritsar,Punjab,North
+CUST1042,Customer 1042,Ahmedabad,Gujarat,West
+CUST1180,Customer 1180,Margao,Goa,West
+CUST1152,Customer 1152,Kolhapur,Maharashtra,West
+CUST1181,Customer 1181,Kanpur,Uttar Pradesh,North
+CUST1235,Customer 1235,Coimbatore,Tamil Nadu,South
+CUST1184,Customer 1184,Chennai,Tamil Nadu,South
+CUST1063,Customer 1063,Jamshedpur,Jharkhand,East
+CUST1081,Customer 1081,Delhi,Delhi,North
+CUST1008,Customer 1008,Mumbai,Maharashtra,West
+CUST1187,Customer 1187,Ahmedabad,Gujarat,West
+CUST1173,Customer 1173,Coimbatore,Tamil Nadu,South
+CUST1052,Customer 1052,Margao,Goa,West
+CUST1146,Customer 1146,Vadodara,Gujarat,West
+CUST1091,Customer 1091,Kolhapur,Maharashtra,West
+CUST1086,Customer 1086,Surat,Gujarat,West
+CUST1016,Customer 1016,Kanpur,Uttar Pradesh,North
+CUST1005,Customer 1005,Chennai,Tamil Nadu,South
+CUST1082,Customer 1082,Warangal,Telangana,South
+CUST1131,Customer 1131,Cuttack,Odisha,East
+CUST1118,Customer 1118,Ranchi,Jharkhand,East
+CUST1115,Customer 1115,Ranchi,Jharkhand,East
+CUST1050,Customer 1050,Durgapur,West Bengal,East
+CUST1142,Customer 1142,Panaji,Goa,West
+CUST1166,Customer 1166,Hyderabad,Telangana,South
+CUST1232,Customer 1232,Ludhiana,Punjab,North
+CUST1207,Customer 1207,Pune,Maharashtra,West
+CUST1111,Customer 1111,Bengaluru,Karnataka,South
+CUST1047,Customer 1047,Durgapur,West Bengal,East
+CUST1112,Customer 1112,Hyderabad,Telangana,South
+CUST1043,Customer 1043,Jamshedpur,Jharkhand,East
+CUST1029,Customer 1029,Surat,Gujarat,West
+CUST1229,Customer 1229,Vadodara,Gujarat,West
+CUST1133,Customer 1133,Ahmedabad,Gujarat,West
+CUST1221,Customer 1221,Warangal,Telangana,South
+CUST1188,Customer 1188,Kolkata,West Bengal,East
+CUST1117,Customer 1117,Panaji,Goa,West
+CUST1130,Customer 1130,Vadodara,Gujarat,West
+CUST1110,Customer 1110,Ahmedabad,Gujarat,West
+CUST1171,Customer 1171,Delhi,Delhi,North
+CUST1132,Customer 1132,Mumbai,Maharashtra,West
+CUST1056,Customer 1056,Lucknow,Uttar Pradesh,North
+CUST1089,Customer 1089,Pune,Maharashtra,West
+CUST1137,Customer 1137,Surat,Gujarat,West
+CUST1218,Customer 1218,Coimbatore,Tamil Nadu,South
+CUST1176,Customer 1176,Noida,Uttar Pradesh,North
+CUST1100,Customer 1100,Ahmedabad,Gujarat,West
+CUST1224,Customer 1224,Hyderabad,Telangana,South
+CUST1129,Customer 1129,Durgapur,West Bengal,East
+CUST1057,Customer 1057,Ranchi,Jharkhand,East
+CUST1144,Customer 1144,Pune,Maharashtra,West
+CUST1051,Customer 1051,New Delhi,Delhi,North
+CUST1203,Customer 1203,New Delhi,Delhi,North
+CUST1104,Customer 1104,Cuttack,Odisha,East
+CUST1127,Customer 1127,Vadodara,Gujarat,West
+CUST1055,Customer 1055,Ranchi,Jharkhand,East
+CUST1090,Customer 1090,Panaji,Goa,West
+CUST1156,Customer 1156,Noida,Uttar Pradesh,North
+CUST1053,Customer 1053,Durgapur,West Bengal,East
+CUST1186,Customer 1186,Delhi,Delhi,North
+CUST1073,Customer 1073,Warangal,Telangana,South
+CUST1108,Customer 1108,Ahmedabad,Gujarat,West
+CUST1150,Customer 1150,Vadodara,Gujarat,West
+CUST1250,Customer 1250,Surat,Gujarat,West
+CUST1177,Customer 1177,Kolkata,West Bengal,East
+CUST1155,Customer 1155,Durgapur,West Bengal,East
+CUST1167,Customer 1167,Bengaluru,Karnataka,South
+CUST1211,Customer 1211,Kolhapur,Maharashtra,West
+CUST1025,Customer 1025,Surat,Gujarat,West
+CUST1085,Customer 1085,Bhubaneswar,Odisha,East
+CUST1024,Customer 1024,Kolkata,West Bengal,East
+CUST1060,Customer 1060,Margao,Goa,West
+CUST1178,Customer 1178,Warangal,Telangana,South
+CUST1160,Customer 1160,Margao,Goa,West
+CUST1106,Customer 1106,Coimbatore,Tamil Nadu,South
+CUST1220,Customer 1220,Mysuru,Karnataka,South
+CUST1039,Customer 1039,Surat,Gujarat,West
+CUST1168,Customer 1168,Kolkata,West Bengal,East
+CUST1077,Customer 1077,Delhi,Delhi,North
+CUST1179,Customer 1179,Hyderabad,Telangana,South
+CUST1049,Customer 1049,Panaji,Goa,West
+CUST1247,Customer 1247,Coimbatore,Tamil Nadu,South
+CUST1065,Customer 1065,Ranchi,Jharkhand,East
+CUST1199,Customer 1199,Hyderabad,Telangana,South
+CUST1071,Customer 1071,Cuttack,Odisha,East
+CUST1244,Customer 1244,Mysuru,Karnataka,South
+CUST1200,Customer 1200,Noida,Uttar Pradesh,North
+CUST1080,Customer 1080,Panaji,Goa,West
+CUST1138,Customer 1138,Amritsar,Punjab,North
+CUST1242,Customer 1242,Kolkata,West Bengal,East
+CUST1213,Customer 1213,Vadodara,Gujarat,West
+CUST1095,Customer 1095,Bengaluru,Karnataka,South
+CUST1087,Customer 1087,Ranchi,Jharkhand,East
+CUST1214,Customer 1214,Ahmedabad,Gujarat,West
+CUST1103,Customer 1103,Ahmedabad,Gujarat,West
+CUST1249,Customer 1249,Bengaluru,Karnataka,South
+CUST1126,Customer 1126,Margao,Goa,West
+CUST1182,Customer 1182,Jamshedpur,Jharkhand,East
+CUST1113,Customer 1113,Mysuru,Karnataka,South
+CUST1004,Customer 1004,Hyderabad,Telangana,South
+CUST1088,Customer 1088,Chennai,Tamil Nadu,South
+CUST1151,Customer 1151,Ranchi,Jharkhand,East
+CUST1170,Customer 1170,Jamshedpur,Jharkhand,East
+CUST1003,Customer 1003,Noida,Uttar Pradesh,North
+CUST1191,Customer 1191,Bhubaneswar,Odisha,East
+CUST1094,Customer 1094,Panaji,Goa,West
+CUST1054,Customer 1054,Chennai,Tamil Nadu,South
+CUST1020,Customer 1020,Vadodara,Gujarat,West
+CUST1234,Customer 1234,Coimbatore,Tamil Nadu,South
+CUST1135,Customer 1135,Ranchi,Jharkhand,East
+CUST1013,Customer 1013,Kolhapur,Maharashtra,West
+CUST1002,Customer 1002,Lucknow,Uttar Pradesh,North
+CUST1102,Customer 1102,Pune,Maharashtra,West
+CUST1134,Customer 1134,Margao,Goa,West
+CUST1045,Customer 1045,Panaji,Goa,West
+CUST1226,Customer 1226,Chennai,Tamil Nadu,South
+CUST1032,Customer 1032,Bengaluru,Karnataka,South
+CUST1158,Customer 1158,Durgapur,West Bengal,East
+CUST1059,Customer 1059,Warangal,Telangana,South
+CUST1240,Customer 1240,Kolkata,West Bengal,East
+CUST1058,Customer 1058,Lucknow,Uttar Pradesh,North
+CUST1162,Customer 1162,Vadodara,Gujarat,West
+CUST1231,Customer 1231,Bengaluru,Karnataka,South
+CUST1209,Customer 1209,Margao,Goa,West
+CUST1084,Customer 1084,Cuttack,Odisha,East
+CUST1006,Customer 1006,Kolkata,West Bengal,East
+CUST1078,Customer 1078,Ranchi,Jharkhand,East
+CUST1023,Customer 1023,Delhi,Delhi,North
+CUST1044,Customer 1044,Hyderabad,Telangana,South
+CUST1105,Customer 1105,Bengaluru,Karnataka,South
+CUST1154,Customer 1154,Mysuru,Karnataka,South
+CUST1014,Customer 1014,Noida,Uttar Pradesh,North
+CUST1121,Customer 1121,Ahmedabad,Gujarat,West
+CUST1120,Customer 1120,Mumbai,Maharashtra,West
+CUST1010,Customer 1010,Kolkata,West Bengal,East
+CUST1031,Customer 1031,Panaji,Goa,West
+CUST1033,Customer 1033,Pune,Maharashtra,West
+CUST1193,Customer 1193,Mysuru,Karnataka,South
+CUST1241,Customer 1241,Coimbatore,Tamil Nadu,South
+CUST1009,Customer 1009,New Delhi,Delhi,North
+CUST1030,Customer 1030,Surat,Gujarat,West
+CUST1225,Customer 1225,Lucknow,Uttar Pradesh,North
+CUST1122,Customer 1122,Ludhiana,Punjab,North
+CUST1175,Customer 1175,Margao,Goa,West
+CUST1195,Customer 1195,Pune,Maharashtra,West
+CUST1205,Customer 1205,Panaji,Goa,West
+CUST1163,Customer 1163,Chennai,Tamil Nadu,South
+CUST1238,Customer 1238,Bengaluru,Karnataka,South
+CUST1040,Customer 1040,Margao,Goa,West
+CUST1216,Customer 1216,Warangal,Telangana,South
+CUST1239,Customer 1239,Durgapur,West Bengal,East
+CUST1197,Customer 1197,Mysuru,Karnataka,South
+CUST1012,Customer 1012,Durgapur,West Bengal,East
+CUST1165,Customer 1165,Noida,Uttar Pradesh,North
+CUST1143,Customer 1143,Cuttack,Odisha,East
+CUST1189,Customer 1189,Kolkata,West Bengal,East
+CUST1116,Customer 1116,Ahmedabad,Gujarat,West
+CUST1172,Customer 1172,Kanpur,Uttar Pradesh,North
+CUST1192,Customer 1192,Ahmedabad,Gujarat,West
+CUST1092,Customer 1092,Pune,Maharashtra,West
+CUST1034,Customer 1034,Hyderabad,Telangana,South
+CUST1215,Customer 1215,Ahmedabad,Gujarat,West
+CUST1157,Customer 1157,Cuttack,Odisha,East
+CUST1035,Customer 1035,Noida,Uttar Pradesh,North
+CUST1075,Customer 1075,Jamshedpur,Jharkhand,East
+CUST1164,Customer 1164,Ranchi,Jharkhand,East
+CUST1119,Customer 1119,Kolhapur,Maharashtra,West
+CUST1076,Customer 1076,Ludhiana,Punjab,North
+CUST1019,Customer 1019,Jamshedpur,Jharkhand,East
+CUST1093,Customer 1093,Ranchi,Jharkhand,East
+CUST1097,Customer 1097,Vadodara,Gujarat,West
+CUST1212,Customer 1212,Hyderabad,Telangana,South
+CUST1236,Customer 1236,Kolkata,West Bengal,East
+CUST1015,Customer 1015,Coimbatore,Tamil Nadu,South
+CUST1011,Customer 1011,Ranchi,Jharkhand,East
+CUST1223,Customer 1223,Bhubaneswar,Odisha,East
+CUST1227,Customer 1227,New Delhi,Delhi,North
+CUST1062,Customer 1062,Mysuru,Karnataka,South
+CUST1041,Customer 1041,Kolhapur,Maharashtra,West
+CUST1018,Customer 1018,Warangal,Telangana,South
+CUST1109,Customer 1109,Pune,Maharashtra,West
+CUST1074,Customer 1074,Mysuru,Karnataka,South
+CUST1196,Customer 1196,Mysuru,Karnataka,South
+CUST1125,Customer 1125,Delhi,Delhi,North
+CUST1061,Customer 1061,Mysuru,Karnataka,South
+CUST1169,Customer 1169,Noida,Uttar Pradesh,North
+CUST1245,Customer 1245,Amritsar,Punjab,North
+CUST1028,Customer 1028,Kanpur,Uttar Pradesh,North
+CUST1124,Customer 1124,Kolkata,West Bengal,East
+CUST1123,Customer 1123,Bhubaneswar,Odisha,East
+CUST1064,Customer 1064,Lucknow,Uttar Pradesh,North
+CUST1202,Customer 1202,Noida,Uttar Pradesh,North
+CUST1194,Customer 1194,Delhi,Delhi,North
+CUST1136,Customer 1136,Noida,Uttar Pradesh,North
+CUST1233,Customer 1233,Vadodara,Gujarat,West
+CUST1206,Customer 1206,Margao,Goa,West
+CUST1083,Customer 1083,Mumbai,Maharashtra,West
+CUST1198,Customer 1198,Lucknow,Uttar Pradesh,North
+CUST1148,Customer 1148,Jamshedpur,Jharkhand,East
+CUST1046,Customer 1046,Chennai,Tamil Nadu,South
+CUST1145,Customer 1145,Kolhapur,Maharashtra,West
+CUST1217,Customer 1217,Ranchi,Jharkhand,East
+CUST1201,Customer 1201,Kolkata,West Bengal,East
+CUST1183,Customer 1183,Warangal,Telangana,South
+CUST1099,Unknown Customer,Cuttack,Odisha,East
+CUST1147,Customer 1147,Lucknow,Uttar Pradesh,North
+CUST1222,Customer 1222,Mysuru,Karnataka,South
+CUST1243,Customer 1243,Amritsar,Punjab,North

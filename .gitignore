@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.egg-info/
 dist/
 build/
@@ -27,9 +28,15 @@ Thumbs.db
 desktop.ini
 ~$*
 
-# Data (keep raw, ignore large processed)
-data/processed/*.csv
-data/processed/*.parquet
+# Binary & Installer files
+*.exe
+*.msi
+*.zip
 
-# Logs
+# Database files (>100MB)
+*.db-shm
+*.db-wal
+
+# Temporary / Scratch
+capstone_specs.txt
 *.log

@@ -1,0 +1,142 @@
+BLUESTOCK MF CAPSTONE - DAY 3 FUND PERFORMANCE ANALYTICS REPORT
+Generated: 2026-09-16 00:34:09
+========================================================================
+
+DATA SUMMARY
+------------------------------------------------------------------------
+  Total funds analysed     : 40
+  Fund categories          : 2
+  Sub-categories           : 12
+  NAV data range           : Jan 2022 - May 2026
+  Benchmark indices used   : 6
+
+========================================================================
+SECTION 1: CATEGORY PERFORMANCE SUMMARY
+========================================================================
+
+   sub_category    avg_1y    avg_3y  avg_sharpe  avg_alpha  num_funds
+      Small Cap 22.258333 21.686667    0.870000   1.033333          6
+        Mid Cap 15.978571 16.590000    0.871429   1.172857          7
+      Flexi Cap 16.585000 15.495000    0.970000   1.820000          2
+          Value 16.670000 14.760000    0.980000   0.550000          1
+Large & Mid Cap 14.910000 14.560000    0.910000   1.700000          1
+           ELSS 11.160000 13.580000    0.800000   0.540000          1
+      Large Cap 13.724286 12.985714    0.927857   1.253571         14
+          Index 13.760000 12.100000    0.930000   0.930000          1
+      Index/ETF 10.140000 11.770000    0.910000   1.800000          1
+ Short Duration  6.830000  7.370000    1.840000   1.980000          1
+         Liquid  6.443333  6.333333    6.333333   1.516667          3
+           Gilt  5.765000  5.690000    1.425000   1.245000          2
+
+========================================================================
+SECTION 2: TOP 10 FUNDS BY SHARPE RATIO (EQUITY)
+========================================================================
+
+                                      scheme_name               fund_house sub_category  return_1yr_pct  return_3yr_pct  sharpe_ratio  sortino_ratio  alpha  max_drawdown_pct
+        HDFC Top 100 Fund - Regular Plan - Growth         HDFC Mutual Fund    Large Cap           10.94           14.84          1.06           1.70   0.78            -17.41
+    Mirae Asset Large Cap Fund - Regular - Growth           Mirae Asset MF    Large Cap           15.12           14.81          1.06           1.66   1.62            -17.07
+        ICICI Pru Bluechip Fund - Direct - Growth      ICICI Prudential MF    Large Cap           14.12           14.41          1.03           1.27   0.88            -26.59
+   Nippon India Large Cap Fund - Regular - Growth          Nippon India MF    Large Cap           15.84           14.00          1.00           1.68   0.86            -16.07
+ICICI Pru Value Discovery Fund - Regular - Growth      ICICI Prudential MF        Value           16.67           14.76          0.98           1.50   0.55            -21.89
+    ABSL Frontline Equity Fund - Regular - Growth Aditya Birla Sun Life MF    Large Cap           14.82           13.78          0.98           1.25   1.34            -15.07
+           Kotak Flexicap Fund - Regular - Growth        Kotak Mahindra MF    Flexi Cap           15.74           15.65          0.98           1.57   1.85            -19.50
+    Kotak Emerging Equity Fund - Regular - Growth        Kotak Mahindra MF      Mid Cap           17.12           18.23          0.96           1.27   1.91            -21.92
+            UTI Flexi Cap Fund - Regular - Growth          UTI Mutual Fund    Flexi Cap           17.43           15.34          0.96           1.37   1.79            -12.14
+         HDFC Top 100 Fund - Direct Plan - Growth         HDFC Mutual Fund    Large Cap           11.48           13.38          0.96           1.45   1.13            -33.50
+
+========================================================================
+SECTION 3: TOP 10 FUNDS BY 3-YEAR CAGR (EQUITY)
+========================================================================
+
+                                       scheme_name               fund_house sub_category  return_1yr_pct  return_3yr_pct  sharpe_ratio  alpha
+        SBI Small Cap Fund - Regular Plan - Growth          SBI Mutual Fund    Small Cap           24.56           23.39          0.94   1.23
+         SBI Small Cap Fund - Direct Plan - Growth          SBI Mutual Fund    Small Cap           20.59           23.14          0.93   1.13
+            ABSL Small Cap Fund - Regular - Growth Aditya Birla Sun Life MF    Small Cap           24.93           22.38          0.90   1.84
+            Axis Small Cap Fund - Regular - Growth         Axis Mutual Fund    Small Cap           21.97           20.98          0.84   0.51
+    Nippon India Small Cap Fund - Regular - Growth          Nippon India MF    Small Cap           21.30           20.15          0.81   0.80
+             DSP Small Cap Fund - Regular - Growth          DSP Mutual Fund    Small Cap           20.20           20.08          0.80   0.69
+     Kotak Emerging Equity Fund - Regular - Growth        Kotak Mahindra MF      Mid Cap           17.12           18.23          0.96   1.91
+          ICICI Pru Midcap Fund - Regular - Growth      ICICI Prudential MF      Mid Cap           14.02           18.08          0.95   0.89
+                DSP Midcap Fund - Regular - Growth          DSP Mutual Fund      Mid Cap           14.12           17.16          0.90   1.02
+HDFC Mid-Cap Opportunities Fund - Regular - Growth         HDFC Mutual Fund      Mid Cap           15.43           16.58          0.87   0.95
+
+========================================================================
+SECTION 4: BENCHMARK COMPARISON
+========================================================================
+
+  Funds beating benchmark  : 20 / 40
+  Funds lagging benchmark  : 20 / 40
+
+  TOP 5 OUTPERFORMERS (vs benchmark, 3Y):
+    ABSL Frontline Equity Fund - Regular - Growth    Fund: 132.77%  Bench:  21.94%  Excess: +110.83%
+    Mirae Asset Large Cap Fund - Regular - Growth    Fund: 126.25%  Bench:  21.94%  Excess: +104.31%
+    ICICI Pru Bluechip Fund - Direct - Growth        Fund: 111.54%  Bench:  21.94%  Excess: +89.60%
+    SBI Bluechip Fund - Regular Plan - Growth        Fund: 108.38%  Bench:  21.94%  Excess: +86.44%
+    UTI Nifty 50 Index Fund - Regular - Growth       Fund:  62.31%  Bench: -23.82%  Excess: +86.13%
+
+  BIGGEST UNDERPERFORMERS (vs benchmark, 3Y):
+    Axis Small Cap Fund - Regular - Growth           Fund: -29.66%  Bench: 101.35%  Excess: -131.01%
+    ABSL Small Cap Fund - Regular - Growth           Fund:  -7.87%  Bench: 101.35%  Excess: -109.22%
+    SBI Small Cap Fund - Direct Plan - Growth        Fund:  -2.05%  Bench: 101.35%  Excess: -103.40%
+    UTI Mid Cap Fund - Regular - Growth              Fund:  -5.40%  Bench:  90.20%  Excess: -95.60%
+    Nippon India Small Cap Fund - Regular - Growt    Fund:  24.51%  Bench: 101.35%  Excess: -76.84%
+
+========================================================================
+SECTION 5: DRAWDOWN ANALYSIS
+========================================================================
+
+  WORST MAX DRAWDOWNS (Top 10):
+    SBI Small Cap Fund - Direct Plan - Growth             -52.57%
+    Axis Small Cap Fund - Regular - Growth                -51.68%
+    ABSL Small Cap Fund - Regular - Growth                -35.45%
+    DSP Small Cap Fund - Regular - Growth                 -31.17%
+    SBI Small Cap Fund - Regular Plan - Growth            -28.71%
+    UTI Mid Cap Fund - Regular - Growth                   -28.00%
+    HDFC Top 100 Fund - Regular Plan - Growth             -24.73%
+    Kotak Emerging Equity Fund - Regular - Growth         -24.00%
+    Nippon India Small Cap Fund - Regular - Growth        -23.34%
+    Axis Bluechip Fund - Direct - Growth                  -21.75%
+
+  LEAST DRAWDOWN (Most Resilient, Top 5):
+    SBI Magnum Gilt Fund - Regular Plan - Growth          -4.33%
+    HDFC Short Term Debt Fund - Regular - Growth          -4.31%
+    ABSL Liquid Fund - Regular - Growth                   -0.16%
+    Kotak Liquid Fund - Regular - Growth                  -0.12%
+    ICICI Pru Liquid Fund - Regular - Growth              -0.10%
+
+========================================================================
+SECTION 6: RISK-ADJUSTED METRIC SUMMARY
+========================================================================
+
+  Equity Funds (n=34):
+    Avg Sharpe Ratio   : 0.91
+    Avg Sortino Ratio  : 1.39
+    Avg Alpha          : 1.21
+    Avg Beta           : 0.96
+    Avg Std Dev (ann)  : 17.21%
+    Avg Max Drawdown   : -21.98%
+
+  Debt Funds (n=6):
+    Avg Sharpe Ratio   : 3.95
+    Avg Sortino Ratio  : 6.02
+    Avg Alpha          : 1.50
+    Avg Beta           : 0.36
+    Avg Std Dev (ann)  : 2.25%
+    Avg Max Drawdown   : -3.44%
+
+========================================================================
+CHARTS GENERATED
+========================================================================
+
+  . 01_nav_growth.png
+  . 02_rolling_returns_heatmap.png
+  . 03_sharpe_vs_return.png
+  . 04_drawdown_chart.png
+  . 05_category_returns.png
+  . 06_aum_growth.png
+  . 07_benchmark_comparison.png
+  . 08_risk_return_bubble.png
+
+========================================================================
+  END OF REPORT
+========================================================================

@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bluestocks Fintech — Sales & Business Performance Dashboard</title>
+  <meta name="description" content="Executive Data Analyst Dashboard for Bluestocks Fintech. Real-time KPI scorecard, interactive multi-dimensional slicers, category profitability, regional breakdown, and DAX modeling.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    :root {
+      --bg-main: #0B0F19;
+      --bg-card: #131B2E;
+      --bg-card-hover: #1A243D;
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(59, 130, 246, 0.3);
+      
+      --text-primary: #F8FAFC;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      
+      --accent-blue: #3B82F6;
+      --accent-cyan: #06B6D4;
+      --accent-emerald: #10B981;
+      --accent-amber: #F59E0B;
+      --accent-rose: #F43F5E;
+      --accent-purple: #8B5CF6;
+      
+      --glow-blue: rgba(59, 130, 246, 0.15);
+      --glow-emerald: rgba(16, 185, 129, 0.15);
+      
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-primary);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* Top Navigation Header */
+    header {
+      background: rgba(19, 27, 46, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 0.85rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand-logo {
+      width: 42px;
+      height: 42px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: #FFFFFF;
+      box-shadow: 0 0 20px var(--glow-blue);
+    }
+
+    .brand-info h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+    }
+
+    .brand-info p {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .badge-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+
+    .badge-status .pulse-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent-emerald);
+      box-shadow: 0 0 8px var(--accent-emerald);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      max-width: 1600px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1.75rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    /* Filter / Slicers Bar */
+    .slicers-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.25rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-right: 0.3rem;
+    }
+
+    .filter-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      font-family: inherit;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 0.45rem 0.95rem;
+      border-radius: 9999px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .filter-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-primary);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .filter-btn.active {
+      background: linear-gradient(135deg, var(--accent-blue), #2563EB);
+      color: #FFFFFF;
+      border-color: transparent;
+      box-shadow: 0 0 14px var(--glow-blue);
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 0.4rem 0.85rem;
+      gap: 0.5rem;
+    }
+
+    .search-box input {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 0.82rem;
+      width: 180px;
+    }
+
+    .search-box input::placeholder {
+      color: var(--text-muted);
+    }
+
+    /* KPI Cards Grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .kpi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.35rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      position: relative;
+      overflow: hidden;
+      transition: var(--transition);
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--border-accent);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .kpi-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-blue), transparent);
+    }
+
+    .kpi-card.kpi-profit::after {
+      background: linear-gradient(90deg, var(--accent-emerald), transparent);
+    }
+
+    .kpi-card.kpi-margin::after {
+      background: linear-gradient(90deg, var(--accent-cyan), transparent);
+    }
+
+    .kpi-card.kpi-orders::after {
+      background: linear-gradient(90deg, var(--accent-purple), transparent);
+    }
+
+    .kpi-card.kpi-aov::after {
+      background: linear-gradient(90deg, var(--accent-amber), transparent);
+    }
+
+    .kpi-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .kpi-title {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .kpi-pill {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-secondary);
+    }
+
+    .kpi-pill.positive {
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--accent-emerald);
+    }
+
+    .kpi-value {
+      font-size: 1.85rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--text-primary);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .kpi-footer {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    /* Charts Section Layout */
+    .charts-grid-main {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1.25rem;
+    }
+
+    @media (max-width: 1100px) {
+      .charts-grid-main {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .chart-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .chart-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .chart-card-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+
+    .chart-card-subtitle {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .chart-canvas-container {
+      position: relative;
+      height: 290px;
+      width: 100%;
+    }
+
+    /* Secondary 3-Column Charts Grid */
+    .charts-grid-secondary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 1.25rem;
+    }
+
+    /* Data Table Section */
+    .table-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .table-container {
+      overflow-x: auto;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.85rem;
+    }
+
+    thead th {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 0.85rem 1rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    tbody tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      transition: var(--transition);
+    }
+
+    tbody tr:hover {
+      background: rgba(255, 255, 255, 0.025);
+    }
+
+    tbody td {
+      padding: 0.8rem 1rem;
+      color: var(--text-secondary);
+    }
+
+    tbody td.text-strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .badge-cell {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 9999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    .badge-electronics { background: rgba(59, 130, 246, 0.15); color: var(--accent-blue); }
+    .badge-furniture { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); }
+    .badge-accessories { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); }
+    .badge-stationery { background: rgba(139, 92, 246, 0.15); color: var(--accent-purple); }
+
+    .margin-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+    }
+    .margin-high { color: var(--accent-emerald); }
+    .margin-med { color: var(--accent-cyan); }
+    .margin-low { color: var(--accent-amber); }
+    .margin-neg { color: var(--accent-rose); }
+
+    /* Tabs Architecture for DAX & Architecture */
+    .tabs-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.5rem;
+    }
+
+    .tab-item {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      position: relative;
+      transition: var(--transition);
+    }
+
+    .tab-item:hover {
+      color: var(--text-primary);
+    }
+
+    .tab-item.active {
+      color: var(--accent-blue);
+    }
+
+    .tab-item.active::after {
+      content: '';
+      position: absolute;
+      bottom: -0.55rem;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--accent-blue);
+      box-shadow: 0 0 10px var(--accent-blue);
+    }
+
+    .tab-pane {
+      display: none;
+    }
+    .tab-pane.active {
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    /* Code Block / Guide Display */
+    .code-display {
+      background: #080C14;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 1.25rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.82rem;
+      color: #E2E8F0;
+      line-height: 1.6;
+      overflow-x: auto;
+    }
+
+    footer {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border-color);
+      padding: 1.25rem 2rem;
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header>
+    <div class="brand-group">
+      <div class="brand-logo">B</div>
+      <div class="brand-info">
+        <h1>Bluestocks Sales Intelligence Dashboard</h1>
+        <p>Fintech Analytics Division &bull; Intern Portfolio: Praful Birajdar</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="badge-status">
+        <span class="pulse-dot"></span>
+        <span>Data Model: Verified 100% Clean</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- View Switcher Tabs -->
+    <div class="tabs-bar">
+      <button class="tab-item active" id="tab-overview-btn" onclick="switchTab('overview')">Executive Dashboard</button>
+      <button class="tab-item" id="tab-dax-btn" onclick="switchTab('dax')">Power BI & DAX Library</button>
+      <button class="tab-item" id="tab-schema-btn" onclick="switchTab('schema')">Data Architecture (Star Schema)</button>
+    </div>
+
+    <!-- TAB 1: EXECUTIVE DASHBOARD -->
+    <div class="tab-pane active" id="pane-overview">
+      <!-- Slicers / Interactive Filters -->
+      <section class="slicers-bar" id="slicers-section">
+        <div class="filter-group">
+          <span class="filter-label">Region:</span>
+          <button class="filter-btn active" onclick="applyRegionFilter('All', this)" id="btn-reg-all">All Regions</button>
+          <button class="filter-btn" onclick="applyRegionFilter('North', this)" id="btn-reg-north">North</button>
+          <button class="filter-btn" onclick="applyRegionFilter('West', this)" id="btn-reg-west">West</button>
+          <button class="filter-btn" onclick="applyRegionFilter('Central', this)" id="btn-reg-central">Central</button>
+          <button class="filter-btn" onclick="applyRegionFilter('East', this)" id="btn-reg-east">East</button>
+          <button class="filter-btn" onclick="applyRegionFilter('South', this)" id="btn-reg-south">South</button>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Category:</span>
+          <button class="filter-btn active" onclick="applyCategoryFilter('All', this)" id="btn-cat-all">All</button>
+          <button class="filter-btn" onclick="applyCategoryFilter('Electronics', this)" id="btn-cat-electronics">Electronics</button>
+          <button class="filter-btn" onclick="applyCategoryFilter('Furniture', this)" id="btn-cat-furniture">Furniture</button>
+          <button class="filter-btn" onclick="applyCategoryFilter('Accessories', this)" id="btn-cat-accessories">Accessories</button>
+          <button class="filter-btn" onclick="applyCategoryFilter('Stationery', this)" id="btn-cat-stationery">Stationery</button>
+        </div>
+
+        <div class="search-box">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="tx-search" placeholder="Search orders or products..." onkeyup="filterTransactions()">
+        </div>
+      </section>
+
+      <!-- KPI Scorecards -->
+      <section class="kpi-grid">
+        <div class="kpi-card" id="card-revenue">
+          <div class="kpi-header">
+            <span class="kpi-title">Gross Revenue</span>
+            <span class="kpi-pill positive" id="kpi-rev-badge">+100% Target</span>
+          </div>
+          <div class="kpi-value" id="kpi-revenue">₹21,053,522</div>
+          <div class="kpi-footer">Across all executed transactions</div>
+        </div>
+
+        <div class="kpi-card kpi-profit" id="card-profit">
+          <div class="kpi-header">
+            <span class="kpi-title">Net Operating Profit</span>
+            <span class="kpi-pill positive" id="kpi-profit-badge">Healthy Yield</span>
+          </div>
+          <div class="kpi-value" id="kpi-profit">₹3,061,903</div>
+          <div class="kpi-footer">Net margin after discounts & cost</div>
+        </div>
+
+        <div class="kpi-card kpi-margin" id="card-margin">
+          <div class="kpi-header">
+            <span class="kpi-title">Profit Margin %</span>
+            <span class="kpi-pill positive" id="kpi-margin-badge">Benchmark Met</span>
+          </div>
+          <div class="kpi-value" id="kpi-margin">14.54%</div>
+          <div class="kpi-footer">Target range: 12% - 18%</div>
+        </div>
+
+        <div class="kpi-card kpi-orders" id="card-orders">
+          <div class="kpi-header">
+            <span class="kpi-title">Total Orders</span>
+            <span class="kpi-pill" id="kpi-orders-badge">1,200 Validated</span>
+          </div>
+          <div class="kpi-value" id="kpi-orders">1,200</div>
+          <div class="kpi-footer"><span id="kpi-units-sold">5,940</span> units sold</div>
+        </div>
+
+        <div class="kpi-card kpi-aov" id="card-aov">
+          <div class="kpi-header">
+            <span class="kpi-title">Avg Order Value (AOV)</span>
+            <span class="kpi-pill" id="kpi-aov-badge">Corporate B2B</span>
+          </div>
+          <div class="kpi-value" id="kpi-aov">₹17,545</div>
+          <div class="kpi-footer"><span id="kpi-customers-count">249</span> enterprise accounts</div>
+        </div>
+      </section>
+
+      <!-- Primary Charts (Monthly Trend + Regional Breakdown) -->
+      <section class="charts-grid-main">
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <div class="chart-card-title">Monthly Revenue & Profit Trajectory (2025)</div>
+              <div class="chart-card-subtitle">Aggregated transaction volumes with dual-axis margin trend</div>
+            </div>
+          </div>
+          <div class="chart-canvas-container">
+            <canvas id="chart-monthly"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <div class="chart-card-title">Regional Sales Share</div>
+              <div class="chart-card-subtitle">Geographic distribution across 5 zones</div>
+            </div>
+          </div>
+          <div class="chart-canvas-container">
+            <canvas id="chart-regional"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- Secondary Charts (Category Performance + Top Products) -->
+      <section class="charts-grid-secondary">
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <div class="chart-card-title">Revenue & Margin by Category</div>
+              <div class="chart-card-subtitle">Commercial profitability across product divisions</div>
+            </div>
+          </div>
+          <div class="chart-canvas-container">
+            <canvas id="chart-category"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <div class="chart-card-title">Top 5 Commercial Products</div>
+              <div class="chart-card-subtitle">Highest grossing enterprise items</div>
+            </div>
+          </div>
+          <div class="chart-canvas-container">
+            <canvas id="chart-products"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <div>
+              <div class="chart-card-title">Payment Mode Distribution</div>
+              <div class="chart-card-subtitle">Payment rails preference breakdown</div>
+            </div>
+          </div>
+          <div class="chart-canvas-container">
+            <canvas id="chart-payments"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Transactions Table -->
+      <section class="table-card">
+        <div class="chart-card-header">
+          <div>
+            <div class="chart-card-title">Recent Audited Transactions</div>
+            <div class="chart-card-subtitle">Showing latest order entries with computed unit economics</div>
+          </div>
+        </div>
+        <div class="table-container">
+          <table id="transactions-table">
+            <thead>
+              <tr>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Customer</th>
+                <th>Region</th>
+                <th>Category</th>
+                <th>Product</th>
+                <th>Qty</th>
+                <th>Sales (INR)</th>
+                <th>Profit (INR)</th>
+                <th>Margin %</th>
+                <th>Payment</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <!-- Dynamically Populated -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <!-- TAB 2: POWER BI & DAX LIBRARY -->
+    <div class="tab-pane" id="pane-dax">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <div>
+            <div class="chart-card-title">Power BI Enterprise DAX Measures Library</div>
+            <div class="chart-card-subtitle">Verified DAX formulas implemented for production BI deployment</div>
+          </div>
+        </div>
+        <pre class="code-display">
+-- ========================================================================
+-- BLUESTOCKS DATA ANALYST INTERNSHIP: POWER BI DAX MEASURES LIBRARY
+-- Author: Praful Birajdar | Table: _Measures
+-- ========================================================================
+
+-- 1. BASE OPERATIONAL MEASURES
+Total Sales = SUM(fact_sales[Sales])
+Total Profit = SUM(fact_sales[Profit])
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+Total Orders = DISTINCTCOUNT(fact_sales[Order_ID])
+Total Units Sold = SUM(fact_sales[Quantity])
+Average Order Value = DIVIDE([Total Sales], [Total Orders], 0)
+
+-- 2. TIME INTELLIGENCE & YOY COMPARISONS
+Sales YTD = TOTALYTD([Total Sales], dim_date[Date])
+Sales Prior Year = CALCULATE([Total Sales], SAMEPERIODLASTYEAR(dim_date[Date]))
+YoY Sales Growth % = 
+VAR PrevYear = [Sales Prior Year]
+VAR CurrYear = [Total Sales]
+RETURN
+    IF(ISBLANK(PrevYear), BLANK(), DIVIDE(CurrYear - PrevYear, PrevYear, 0))
+
+-- 3. MOVING AVERAGE
+Sales 3M Moving Avg = 
+AVERAGEX(
+    DATESINPERIOD(dim_date[Date], LASTDATE(dim_date[Date]), -3, MONTH),
+    [Total Sales]
+)
+
+-- 4. ADVANCED SEGMENTATION & TOP N
+Top 5 Products Sales = 
+CALCULATE(
+    [Total Sales],
+    KEEPFILTERS(TOPN(5, ALLSELECTED(dim_products[Product]), [Total Sales], DESC))
+)
+
+Margin Health Status = 
+SWITCH(
+    TRUE(),
+    [Profit Margin %] >= 0.20, "High Margin (>20%)",
+    [Profit Margin %] >= 0.10, "Target Margin (10-20%)",
+    [Profit Margin %] >= 0.00, "Low Margin (0-10%)",
+    "Negative Margin (Loss)"
+)
+        </pre>
+      </div>
+    </div>
+
+    <!-- TAB 3: DATA ARCHITECTURE (STAR SCHEMA) -->
+    <div class="tab-pane" id="pane-schema">
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <div>
+            <div class="chart-card-title">Dimensional Star Schema Architecture</div>
+            <div class="chart-card-subtitle">Normalized tables exported to data/power_bi/ for Power BI & SQL query engine</div>
+          </div>
+        </div>
+        <pre class="code-display">
+       +-----------------------+              +-----------------------+
+       |     dim_customers     |              |     dim_products      |
+       +-----------------------+              +-----------------------+
+       | Customer_ID (PK) <----+              +---> Product_ID (PK)   |
+       | Customer_Name         |              |     Product           |
+       | City                  |              |     Category          |
+       | State                 |              |     Sub_Category      |
+       | Region                |              |     Unit_Price        |
+       +-----------------------+              +-----------------------+
+                   |                                      |
+                   | 1                                    | 1
+                   |                                      |
+                   | *                                    | *
+       +--------------------------------------------------------------+
+       |                          fact_sales                          |
+       +--------------------------------------------------------------+
+       | Order_ID (PK)                                                |
+       | Order_Date (FK) --------+                                    |
+       | Customer_ID (FK)        |                                    |
+       | Product_ID (FK)         |                                    |
+       | Quantity                |                                    |
+       | Unit_Price              |                                    |
+       | Discount                |                                    |
+       | Sales                   |                                    |
+       | Profit                  |                                    |
+       | Profit_Margin_Pct       |                                    |
+       | Payment_Mode            |                                    |
+       +-------------------------|------------------------------------+
+                                 | *
+                                 |
+                                 | 1
+                      +-----------------------+
+                      |       dim_date        |
+                      +-----------------------+
+                      | Date (PK) <-----------+
+                      | Date_Key              |
+                      | Year                  |
+                      | Quarter               |
+                      | Month                 |
+                      | Month_Name            |
+                      | Day_of_Week           |
+                      +-----------------------+
+        </pre>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Bluestock&trade; Fintech &bull; Data Analyst Internship Program &bull; Prepared by Praful Birajdar &bull; Week 1 Deliverables Complete
+  </footer>
+
+  <!-- Script with Embedded Data & Logic -->
+  <script src="data.js"></script>
+  <script>
+    // State management
+    let activeRegion = 'All';
+    let activeCategory = 'All';
+    let chartMonthlyInstance = null;
+    let chartRegionalInstance = null;
+    let chartCategoryInstance = null;
+    let chartProductsInstance = null;
+    let chartPaymentsInstance = null;
+
+    // Tab Switching
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-item').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+
+      if (tabId === 'overview') {
+        document.getElementById('tab-overview-btn').classList.add('active');
+        document.getElementById('pane-overview').classList.add('active');
+      } else if (tabId === 'dax') {
+        document.getElementById('tab-dax-btn').classList.add('active');
+        document.getElementById('pane-dax').classList.add('active');
+      } else if (tabId === 'schema') {
+        document.getElementById('tab-schema-btn').classList.add('active');
+        document.getElementById('pane-schema').classList.add('active');
+      }
+    }
+
+    // Filter Handlers
+    function applyRegionFilter(region, btnElement) {
+      activeRegion = region;
+      document.querySelectorAll('#slicers-section .filter-group:first-child .filter-btn').forEach(b => b.classList.remove('active'));
+      btnElement.classList.add('active');
+      updateDashboard();
+    }
+
+    function applyCategoryFilter(cat, btnElement) {
+      activeCategory = cat;
+      document.querySelectorAll('#slicers-section .filter-group:nth-child(2) .filter-btn').forEach(b => b.classList.remove('active'));
+      btnElement.classList.add('active');
+      updateDashboard();
+    }
+
+    function filterTransactions() {
+      const q = document.getElementById('tx-search').value.toLowerCase();
+      const rows = document.querySelectorAll('#table-body tr');
+      rows.forEach(row => {
+        const text = row.innerText.toLowerCase();
+        row.style.display = text.includes(q) ? '' : 'none';
+      });
+    }
+
+    // Formatters
+    const fmtINR = num => '₹' + Math.round(num).toLocaleString('en-IN');
+    const fmtNum = num => Math.round(num).toLocaleString('en-IN');
+
+    // Update Dashboard Logic
+    function updateDashboard() {
+      // Filter transactions
+      let filtered = DASHBOARD_DATA.transactions.filter(t => {
+        const matchReg = (activeRegion === 'All' || t.region === activeRegion);
+        const matchCat = (activeCategory === 'All' || t.category === activeCategory);
+        return matchReg && matchCat;
+      });
+
+      // Calculate filtered KPIs
+      let totalSales = 0;
+      let totalProfit = 0;
+      let totalQty = 0;
+      let orderSet = new Set();
+      let custSet = new Set();
+
+      filtered.forEach(t => {
+        totalSales += t.sales;
+        totalProfit += t.profit;
+        totalQty += t.qty;
+        orderSet.add(t.order_id);
+        custSet.add(t.customer);
+      });
+
+      // If unfiltered, use full dataset KPIs from summary
+      if (activeRegion === 'All' && activeCategory === 'All') {
+        totalSales = DASHBOARD_DATA.summary.total_sales;
+        totalProfit = DASHBOARD_DATA.summary.total_profit;
+        totalQty = DASHBOARD_DATA.summary.units_sold;
+        orderSet = { size: DASHBOARD_DATA.summary.total_orders };
+        custSet = { size: DASHBOARD_DATA.summary.unique_customers };
+      }
+
+      const orderCount = orderSet.size || filtered.length;
+      const marginPct = totalSales > 0 ? (totalProfit / totalSales * 100).toFixed(2) : 0;
+      const aov = orderCount > 0 ? totalSales / orderCount : 0;
+
+      // Update KPI DOM
+      document.getElementById('kpi-revenue').innerText = fmtINR(totalSales);
+      document.getElementById('kpi-profit').innerText = fmtINR(totalProfit);
+      document.getElementById('kpi-margin').innerText = marginPct + '%';
+      document.getElementById('kpi-orders').innerText = fmtNum(orderCount);
+      document.getElementById('kpi-units-sold').innerText = fmtNum(totalQty);
+      document.getElementById('kpi-aov').innerText = fmtINR(aov);
+      document.getElementById('kpi-customers-count').innerText = fmtNum(custSet.size || 249);
+
+      // Render Table
+      renderTable(filtered);
+    }
+
+    function renderTable(transactions) {
+      const tbody = document.getElementById('table-body');
+      tbody.innerHTML = '';
+
+      transactions.slice(0, 50).forEach(t => {
+        const tr = document.createElement('tr');
+        
+        const catBadgeClass = 'badge-' + t.category.toLowerCase();
+        let marginClass = 'margin-high';
+        if (t.margin_pct < 0) marginClass = 'margin-neg';
+        else if (t.margin_pct < 10) marginClass = 'margin-low';
+        else if (t.margin_pct < 15) marginClass = 'margin-med';
+
+        tr.innerHTML = `
+          <td class="text-strong">${t.order_id}</td>
+          <td>${t.date}</td>
+          <td>${t.customer}</td>
+          <td>${t.region}</td>
+          <td><span class="badge-cell ${catBadgeClass}">${t.category}</span></td>
+          <td>${t.product}</td>
+          <td>${t.qty}</td>
+          <td class="text-strong">${fmtINR(t.sales)}</td>
+          <td>${fmtINR(t.profit)}</td>
+          <td class="margin-badge ${marginClass}">${t.margin_pct}%</td>
+          <td>${t.payment}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Chart Initializations
+    function initCharts() {
+      Chart.defaults.color = '#94A3B8';
+      Chart.defaults.font.family = "'Plus Jakarta Sans', sans-serif";
+
+      // 1. Monthly Trend
+      const ctxMonthly = document.getElementById('chart-monthly').getContext('2d');
+      chartMonthlyInstance = new Chart(ctxMonthly, {
+        type: 'line',
+        data: {
+          labels: DASHBOARD_DATA.monthly.map(m => m.month),
+          datasets: [
+            {
+              label: 'Sales (INR)',
+              data: DASHBOARD_DATA.monthly.map(m => m.sales),
+              borderColor: '#3B82F6',
+              backgroundColor: 'rgba(59, 130, 246, 0.15)',
+              borderWidth: 2.5,
+              fill: true,
+              tension: 0.35,
+              yAxisID: 'y'
+            },
+            {
+              label: 'Profit (INR)',
+              data: DASHBOARD_DATA.monthly.map(m => m.profit),
+              borderColor: '#10B981',
+              backgroundColor: 'transparent',
+              borderWidth: 2,
+              borderDash: [5, 5],
+              tension: 0.35,
+              yAxisID: 'y'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'top' },
+            tooltip: {
+              callbacks: {
+                label: ctx => ctx.dataset.label + ': ' + fmtINR(ctx.raw)
+              }
+            }
+          },
+          scales: {
+            x: { grid: { color: 'rgba(255, 255, 255, 0.05)' } },
+            y: {
+              grid: { color: 'rgba(255, 255, 255, 0.05)' },
+              ticks: { callback: v => '₹' + (v / 1e6).toFixed(1) + 'M' }
+            }
+          }
+        }
+      });
+
+      // 2. Regional Share Donut
+      const ctxReg = document.getElementById('chart-regional').getContext('2d');
+      chartRegionalInstance = new Chart(ctxReg, {
+        type: 'doughnut',
+        data: {
+          labels: DASHBOARD_DATA.regions.map(r => r.region),
+          datasets: [{
+            data: DASHBOARD_DATA.regions.map(r => r.sales),
+            backgroundColor: ['#3B82F6', '#06B6D4', '#10B981', '#8B5CF6', '#F59E0B'],
+            borderWidth: 2,
+            borderColor: '#131B2E'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'right' },
+            tooltip: {
+              callbacks: {
+                label: ctx => ctx.label + ': ' + fmtINR(ctx.raw)
+              }
+            }
+          },
+          cutout: '70%'
+        }
+      });
+
+      // 3. Category Bar
+      const ctxCat = document.getElementById('chart-category').getContext('2d');
+      chartCategoryInstance = new Chart(ctxCat, {
+        type: 'bar',
+        data: {
+          labels: DASHBOARD_DATA.categories.map(c => c.category),
+          datasets: [
+            {
+              label: 'Revenue (INR)',
+              data: DASHBOARD_DATA.categories.map(c => c.sales),
+              backgroundColor: '#3B82F6',
+              borderRadius: 6
+            },
+            {
+              label: 'Profit (INR)',
+              data: DASHBOARD_DATA.categories.map(c => c.profit),
+              backgroundColor: '#10B981',
+              borderRadius: 6
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: ctx => ctx.dataset.label + ': ' + fmtINR(ctx.raw)
+              }
+            }
+          },
+          scales: {
+            x: { grid: { display: false } },
+            y: {
+              grid: { color: 'rgba(255, 255, 255, 0.05)' },
+              ticks: { callback: v => '₹' + (v / 1e6).toFixed(1) + 'M' }
+            }
+          }
+        }
+      });
+
+      // 4. Top 5 Products Horizontal Bar
+      const ctxProd = document.getElementById('chart-products').getContext('2d');
+      const top5 = DASHBOARD_DATA.top_products.slice(0, 5);
+      chartProductsInstance = new Chart(ctxProd, {
+        type: 'bar',
+        indexAxis: 'y',
+        data: {
+          labels: top5.map(p => p.product.length > 18 ? p.product.slice(0, 18) + '...' : p.product),
+          datasets: [{
+            label: 'Sales (INR)',
+            data: top5.map(p => p.sales),
+            backgroundColor: '#06B6D4',
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: ctx => fmtINR(ctx.raw)
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: { color: 'rgba(255, 255, 255, 0.05)' },
+              ticks: { callback: v => '₹' + (v / 1e6).toFixed(1) + 'M' }
+            },
+            y: { grid: { display: false } }
+          }
+        }
+      });
+
+      // 5. Payment Modes
+      const ctxPay = document.getElementById('chart-payments').getContext('2d');
+      chartPaymentsInstance = new Chart(ctxPay, {
+        type: 'pie',
+        data: {
+          labels: DASHBOARD_DATA.payment_modes.map(p => p.mode),
+          datasets: [{
+            data: DASHBOARD_DATA.payment_modes.map(p => p.sales),
+            backgroundColor: ['#10B981', '#3B82F6', '#F59E0B', '#F43F5E'],
+            borderWidth: 2,
+            borderColor: '#131B2E'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'right' },
+            tooltip: {
+              callbacks: {
+                label: ctx => ctx.label + ': ' + fmtINR(ctx.raw)
+              }
+            }
+          }
+        }
+      });
+    }
+
+    // Initialize Dashboard on load
+    window.addEventListener('DOMContentLoaded', () => {
+      initCharts();
+      updateDashboard();
+    });
+  </script>
+</body>
+</html>

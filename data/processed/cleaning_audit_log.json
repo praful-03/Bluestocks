@@ -1,0 +1,70 @@
+{
+  "initial_rows": 1208,
+  "initial_cols": 16,
+  "null_counts_before": {
+    "Order_ID": 0,
+    "Order_Date": 0,
+    "Customer_ID": 0,
+    "Customer_Name": 3,
+    "Region": 0,
+    "State": 0,
+    "City": 5,
+    "Category": 0,
+    "Sub_Category": 0,
+    "Product": 0,
+    "Quantity": 0,
+    "Unit_Price": 0,
+    "Discount": 0,
+    "Sales": 0,
+    "Profit": 0,
+    "Payment_Mode": 4
+  },
+  "duplicate_rows_removed": 8,
+  "nulls_resolved": {},
+  "outliers_detected": {
+    "Sales": {
+      "Q1": 1684.36,
+      "Q3": 27964.81,
+      "IQR": 26280.46,
+      "lower_bound": -37736.33,
+      "upper_bound": 67385.49,
+      "outlier_count": 125
+    },
+    "Quantity": {
+      "Q1": 2.0,
+      "Q3": 4.0,
+      "IQR": 2.0,
+      "lower_bound": -1.0,
+      "upper_bound": 7.0,
+      "outlier_count": 33
+    },
+    "Profit": {
+      "Q1": 165.87,
+      "Q3": 3513.41,
+      "IQR": 3347.55,
+      "lower_bound": -4855.46,
+      "upper_bound": 8534.73,
+      "outlier_count": 132
+    }
+  },
+  "final_rows": 1200,
+  "final_cols": 18,
+  "null_counts_after": {
+    "Order_ID": 0,
+    "Order_Date": 0,
+    "Customer_ID": 0,
+    "Customer_Name": 0,
+    "Region": 0,
+    "State": 0,
+    "City": 0,
+    "Category": 0,
+    "Sub_Category": 0,
+    "Product": 0,
+    "Quantity": 0,
+    "Unit_Price": 0,
+    "Discount": 0,
+    "Sales": 0,
+    "Profit": 0,
+    "Payment_Mode": 0
+  }
+}
