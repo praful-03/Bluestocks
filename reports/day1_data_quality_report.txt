@@ -1,5 +1,5 @@
 BLUESTOCK MF CAPSTONE — DAY 1 DATA QUALITY REPORT
-Generated: 2026-09-06 23:50:17
+Generated: 2026-09-29 00:16:34
 ============================================================
 
 PER-DATASET SUMMARY
@@ -78,7 +78,7 @@ PER-DATASET SUMMARY
 
 ============================================================
   DATA QUALITY SUMMARY — Day 1 Ingestion
-  Generated: 2026-09-06 23:50:17
+  Generated: 2026-09-29 00:16:34
 ============================================================
 
   Datasets Loaded           : 10 / 10

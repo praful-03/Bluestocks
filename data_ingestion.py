@@ -211,7 +211,8 @@ def validate_amfi_codes(frames: dict[str, pd.DataFrame]) -> str:
     if in_master_not_nav:
         print(f"\n  ⚠ Codes in fund_master but MISSING from nav_history:")
         for code in sorted(in_master_not_nav):
-            name = fm[fm["amfi_code"] == code]["scheme_name"].values[0]
+            match = fm[fm["amfi_code"] == code]["scheme_name"]
+            name = match.values[0] if len(match) > 0 else "(name not found)"
             print(f"      {code} — {name}")
 
     if in_nav_not_master:
@@ -223,7 +224,8 @@ def validate_amfi_codes(frames: dict[str, pd.DataFrame]) -> str:
     print(f"\n  NAV Coverage per Matched Scheme:")
     for code in sorted(common):
         nav_rows = nh[nh["amfi_code"] == code]
-        name = fm[fm["amfi_code"] == code]["scheme_name"].values[0]
+        match = fm[fm["amfi_code"] == code]["scheme_name"]
+        name = match.values[0] if len(match) > 0 else "(name not found)"
         date_range = f"{nav_rows['date'].min()} → {nav_rows['date'].max()}"
         print(f"    {code}  {nav_rows.shape[0]:>6,} records  {date_range}  {name[:50]}")
 

@@ -27,8 +27,8 @@ if sys.platform == "win32":
     try:
         sys.stdout.reconfigure(encoding="utf-8")
         sys.stderr.reconfigure(encoding="utf-8")
-    except Exception:
-        pass
+    except AttributeError:
+        pass  # reconfigure() unavailable on some Python builds — safe to ignore
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "bluestock_mf.db")
@@ -66,7 +66,7 @@ def verify_database_integrity() -> dict:
     counts = {}
     for table in tables:
         try:
-            cursor.execute(f"SELECT count(*) FROM {table}")
+            cursor.execute("SELECT count(*) FROM " + table)  # nosec: table from hardcoded whitelist
             counts[table] = cursor.fetchone()[0]
         except sqlite3.OperationalError:
             counts[table] = 0

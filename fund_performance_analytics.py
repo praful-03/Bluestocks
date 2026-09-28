@@ -178,7 +178,7 @@ def compute_benchmark_comparison(funds, nav, bench, perf):
             "sub_category":   sub,
             "benchmark":      idx,
             "fund_3y_pct":    round(fund_3y * 100, 2),
-            "bench_3y_pct":   round(bench_3y * 100, 2) if not (bench_3y != bench_3y) else float("nan"),
+            "bench_3y_pct":   round(bench_3y * 100, 2) if not pd.isna(bench_3y) else float("nan"),
             "return_1yr_pct": ret_1y,
             "return_3yr_pct": ret_3y,
             "sharpe_ratio":   sharpe,
@@ -257,7 +257,8 @@ def chart_nav_growth(nav, funds):
             if grp.empty:
                 continue
             rebased = grp["nav"] / grp["nav"].iloc[0] * 100
-            label = funds[funds["amfi_code"] == code]["scheme_name"].values[0]
+            name_match = funds[funds["amfi_code"] == code]["scheme_name"]
+            label = name_match.values[0] if len(name_match) > 0 else str(code)
             label = label[:35] + "..." if len(label) > 35 else label
             ax.plot(grp["nav_date"], rebased, linewidth=1.2, alpha=0.85, label=label)
         ax.set_title(sub_cat, color=ACCENT, fontsize=10, fontweight="bold")
@@ -339,7 +340,8 @@ def chart_drawdown(nav_dd, funds, perf):
     colors = plt.cm.tab10.colors
     for i, code in enumerate(top8_codes):
         grp = nav_dd[nav_dd["amfi_code"] == code].sort_values("nav_date")
-        label = funds[funds["amfi_code"] == code]["scheme_name"].values[0]
+        name_match = funds[funds["amfi_code"] == code]["scheme_name"]
+        label = name_match.values[0] if len(name_match) > 0 else str(code)
         label = label[:30] + "..." if len(label) > 30 else label
         ax.plot(grp["nav_date"], grp["drawdown_pct"],
                 linewidth=1.1, alpha=0.85, label=label, color=colors[i % 10])
@@ -596,8 +598,9 @@ def export_alpha_beta_csv(funds: pd.DataFrame, nav: pd.DataFrame,
                     ss_tot = np.sum((Y - Y.mean()) ** 2)
                     r_squared = round(1 - ss_res / ss_tot, 4) if ss_tot > 0 else float("nan")
                     obs_count = len(combined)
-                except Exception:
-                    pass
+                except Exception as ols_err:
+                    import warnings
+                    warnings.warn(f"OLS regression failed for amfi_code={code}: {ols_err}")
 
         rows.append({
             "amfi_code":          code,

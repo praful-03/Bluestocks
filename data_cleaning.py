@@ -312,7 +312,7 @@ def create_database(cleaned: dict):
 
     # Execute schema
     schema_path = os.path.join(SQL_DIR, "schema.sql")
-    with open(schema_path, "r") as f:
+    with open(schema_path, "r", encoding="utf-8") as f:
         schema_sql = f.read()
     cursor.executescript(schema_sql)
     print(f"  Schema created from {schema_path}")
@@ -387,7 +387,9 @@ def create_database(cleaned: dict):
         "SELECT name FROM sqlite_master WHERE type='table' ORDER BY name"
     ).fetchall()
     for (table_name,) in tables:
-        count = cursor.execute(f"SELECT COUNT(*) FROM {table_name}").fetchone()[0]
+        count = cursor.execute(
+                "SELECT COUNT(*) FROM " + table_name  # nosec: table_name sourced from sqlite_master
+            ).fetchone()[0]
         print(f"    {table_name:<30s} {count:>10,} rows")
 
     db_size = os.path.getsize(DB_PATH) / 1024 / 1024
@@ -407,7 +409,7 @@ def run_queries():
     conn = sqlite3.connect(DB_PATH)
 
     queries_path = os.path.join(SQL_DIR, "queries.sql")
-    with open(queries_path, "r") as f:
+    with open(queries_path, "r", encoding="utf-8") as f:
         content = f.read()
 
     # Parse queries by finding '-- Q' title lines

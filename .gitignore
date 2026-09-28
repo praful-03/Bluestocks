@@ -34,9 +34,18 @@ desktop.ini
 *.zip
 
 # Database files (>100MB)
+*.db
 *.db-shm
 *.db-wal
 
 # Temporary / Scratch
 capstone_specs.txt
 *.log
+
+# Secrets
+.env
+
+# Extracted scratch files
+project_doc_extracted.txt
+sprint1_details.txt
+sprint1_and_dq_specs.txt
